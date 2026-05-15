@@ -1,0 +1,972 @@
+{
+  "duration": 9.610054731369019,
+  "job_id": "ddc2c534-18b9-421a-89d8-dfb230677bf5",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.08610451306413301,
+              "width": 0.33585222502099077,
+              "original_page": 1
+            },
+            "content": "TIØ4145 Corporate Finance Exam – Fall 2021",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8860370218753815
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.14133016627078385,
+              "width": 0.09655751469353484,
+              "original_page": 1
+            },
+            "content": "Question 2.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9235733866691589
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.17399049881235154,
+              "width": 0.6759026028547439,
+              "original_page": 1
+            },
+            "content": "As a financial consultant, you are given the following information about two companies.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.956502902507782
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.20605700712589073,
+              "width": 0.7615449202350966,
+              "original_page": 1
+            },
+            "content": "Fill in the missing figures given that the expected return of the market portfolio is 12% and the risk- free rate is 2%. Assume that there is no corporate tax rate and all cash flows are perpetual.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9765968143939971
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.12762384550797648,
+              "page": 1,
+              "top": 0.25771971496437057,
+              "width": 0.0041981528127623844,
+              "original_page": 1
+            },
+            "content": "",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.65
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.20190023752969122,
+              "left": 0.11754827875734676,
+              "page": 1,
+              "top": 0.2684085510688836,
+              "width": 0.5474391267842149,
+              "original_page": 1
+            },
+            "content": "<table><tr><th></th><th>Rearden Metal</th><th>Taggart Trans.</th></tr><tr><td>Before tax operating income</td><td></td><td>690 </td></tr><tr><td>Interest on debt</td><td></td><td>105 </td></tr><tr><td>Cost of capital (WACC)</td><td></td><td>8.625 %</td></tr><tr><td>Cost of equity capital</td><td></td><td></td></tr><tr><td>Cost of debt capital</td><td></td><td></td></tr><tr><td>Value of equity</td><td></td><td>4500 </td></tr><tr><td>Value of debt</td><td>3400 </td><td></td></tr><tr><td>Value of firm</td><td>7200 </td><td></td></tr><tr><td>Beta of equity</td><td>1.3 </td><td></td></tr><tr><td>Beta of debt</td><td>0.05 </td><td></td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.927247026833621
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.5261282660332541,
+              "width": 0.0948782535684299,
+              "original_page": 1
+            },
+            "content": "Question 2.c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9105578988790513
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5587885985748219,
+              "width": 0.4290512174643157,
+              "original_page": 1
+            },
+            "content": "Answer this question using the information given in 2.a.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9554339826107026
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5914489311163895,
+              "width": 0.7262804366078925,
+              "original_page": 1
+            },
+            "content": "Suppose that because of the large need for steel in building railroad infrastructure, Taggart Transcontinental and Rearden Metal decide to form into one large conglomerate. What is your estimate of the asset beta for this new conglomerate?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9797103583812714
+            },
+            "image_url": null
+          }
+        ],
+        "content": "TIØ4145 Corporate Finance Exam – Fall 2021\n\n## Question 2.a\n\nAs a financial consultant, you are given the following information about two companies.\n\nFill in the missing figures given that the expected return of the market portfolio is 12% and the risk- free rate is 2%. Assume that there is no corporate tax rate and all cash flows are perpetual.\n\n\n\n<table><tr><th></th><th>Rearden Metal</th><th>Taggart Trans.</th></tr><tr><td>Before tax operating income</td><td></td><td>690 </td></tr><tr><td>Interest on debt</td><td></td><td>105 </td></tr><tr><td>Cost of capital (WACC)</td><td></td><td>8.625 %</td></tr><tr><td>Cost of equity capital</td><td></td><td></td></tr><tr><td>Cost of debt capital</td><td></td><td></td></tr><tr><td>Value of equity</td><td></td><td>4500 </td></tr><tr><td>Value of debt</td><td>3400 </td><td></td></tr><tr><td>Value of firm</td><td>7200 </td><td></td></tr><tr><td>Beta of equity</td><td>1.3 </td><td></td></tr><tr><td>Beta of debt</td><td>0.05 </td><td></td></tr></table>\n\n## Question 2.c\n\nAnswer this question using the information given in 2.a.\n\nSuppose that because of the large need for steel in building railroad infrastructure, Taggart Transcontinental and Rearden Metal decide to form into one large conglomerate. What is your estimate of the asset beta for this new conglomerate?## Question 2.d\n\nTo form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at marke",
+        "embed": "TIØ4145 Corporate Finance Exam – Fall 2021\n\n## Question 2.a\n\nAs a financial consultant, you are given the following information about two companies.\n\nFill in the missing figures given that the expected return of the market portfolio is 12% and the risk- free rate is 2%. Assume that there is no corporate tax rate and all cash flows are perpetual.\n\n\n\nThis table presents financial data for Rearden Metal and Taggart Trans. Rearden Metal's value of debt is $3,400 and its firm value is $7,200, with an equity beta of 1.3 and debt beta of 0.05. Taggart Trans. has a before-tax operating income of $690, interest on debt of $105, a WACC of 8.625%, and a value of equity of $4,500.\n\n## Question 2.c\n\nAnswer this question using the information given in 2.a.\n\nSuppose that because of the large need for steel in building railroad infrastructure, Taggart Transcontinental and Rearden Metal decide to form into one large conglomerate. What is your estimate of the asset beta for this new conglomerate?## Question 2.d\n\nTo form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at marke",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.6828978622327792,
+              "width": 0.09655751469353484,
+              "original_page": 1
+            },
+            "content": "Question 2.d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.915812647342682
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7090261282660333,
+              "width": 0.7523089840470193,
+              "original_page": 1
+            },
+            "content": "To form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at market value.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9823785126209259
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08254156769596199,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7701900237529691,
+              "width": 0.7523089840470193,
+              "original_page": 1
+            },
+            "content": "After the merger, however, the Taggart's executives realize that the company will not be able to pay back the total debt. Bankruptcy costs amount to $415. How much would the creditors of Taggart receive in the event of a bankruptcy? If the company would offer its creditors a fraction of its equity, how big would this fraction have to be for this deal to be accepted? Assume that the continuation value for the company in this case is the sum of all equity.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9893705040216446
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.08788598574821853,
+              "width": 0.09739714525608732,
+              "original_page": 2
+            },
+            "content": "Question 2.e",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9360080510377884
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.11342042755344418,
+              "width": 0.760705289672544,
+              "original_page": 2
+            },
+            "content": "Assuming perfect capital markets Modigliani and Miller showed that whether firms are financed by equity and/or debt does not impact their value. Name 2 market imperfections that lead to the fact that the capital structure affects firm value and explain the impact on that value.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9827103465795517
+            },
+            "image_url": null
+          }
+        ],
+        "content": "for steel in building railroad infrastructure, Taggart Transcontinental and Rearden Metal decide to form into one large conglomerate. What is your estimate of the asset beta for this new conglomerate?## Question 2.d\n\nTo form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at market value.\n\nAfter the merger, however, the Taggart's executives realize that the company will not be able to pay back the total debt. Bankruptcy costs amount to $415. How much would the creditors of Taggart receive in the event of a bankruptcy? If the company would offer its creditors a fraction of its equity, how big would this fraction have to be for this deal to be accepted? Assume that the continuation value for the company in this case is the sum of all equity.\n\n## Question 2.e\n\nAssuming perfect capital markets Modigliani and Miller showed that whether firms are financed by equity and/or debt does not impact their value. Name 2 market imperfections that lead to the fact that the capital structure affects firm value and explain the impact on that value.## Question 3.a\n\nConsider the Pro Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.\n\n<table><tr><th></th><th>Year</th><th>2008</th><th>2009</th><th>2010</th></tr><tr><td colspan=\"5\">Bala",
+        "embed": "for steel in building railroad infrastructure, Taggart Transcontinental and Rearden Metal decide to form into one large conglomerate. What is your estimate of the asset beta for this new conglomerate?## Question 2.d\n\nTo form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at market value.\n\nAfter the merger, however, the Taggart's executives realize that the company will not be able to pay back the total debt. Bankruptcy costs amount to $415. How much would the creditors of Taggart receive in the event of a bankruptcy? If the company would offer its creditors a fraction of its equity, how big would this fraction have to be for this deal to be accepted? Assume that the continuation value for the company in this case is the sum of all equity.\n\n## Question 2.e\n\nAssuming perfect capital markets Modigliani and Miller showed that whether firms are financed by equity and/or debt does not impact their value. Name 2 market imperfections that lead to the fact that the capital structure affects firm value and explain the impact on that value.## Question 3.a\n\nConsider the Pro Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.\n\nThis table presents a balance sheet for a company from 2008 to 2010. Total assets showed consistent g",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.22921615201900236,
+              "width": 0.09571788413098237,
+              "original_page": 2
+            },
+            "content": "Question 3.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9353763610124588
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.26128266033254155,
+              "width": 0.6288832913518052,
+              "original_page": 2
+            },
+            "content": "Consider the Pro Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9544664531946182
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.40380047505938244,
+              "left": 0.11670864819479429,
+              "page": 2,
+              "top": 0.29038004750593827,
+              "width": 0.5457598656591099,
+              "original_page": 2
+            },
+            "content": "<table><tr><th></th><th>Year</th><th>2008</th><th>2009</th><th>2010</th></tr><tr><td colspan=\"5\">Balance Sheet ($ 000)</td></tr><tr><td>Assets</td><td></td><td></td><td></td><td></td></tr><tr><td>1 Cash and Cash Equivalents</td><td></td><td>9845 </td><td>11,355 </td><td>13,030 </td></tr><tr><td>2 Accounts Receivable</td><td></td><td>19,689 </td><td>22,709 </td><td>26,059 </td></tr><tr><td>3 Inventories</td><td></td><td>8854 </td><td>10,240 </td><td>11,784 </td></tr><tr><td>4 Total Current Assets</td><td></td><td>38,388 </td><td>44,304 </td><td>50,872 </td></tr><tr><td>5 Property, Plant, and Equipment</td><td></td><td>61,781 </td><td>69,102 </td><td>69,392 </td></tr><tr><td>6 Goodwill</td><td></td><td>72,332 </td><td>72,332 </td><td>72,332 </td></tr><tr><td>7 Total Assets</td><td></td><td>172,501</td><td>185,738</td><td>192,597</td></tr><tr><td colspan=\"5\">Liabilities</td></tr><tr><td>8 Wages Payable</td><td></td><td>1941 </td><td>2211 </td><td>2570 </td></tr><tr><td>9 Other Accounts Payable</td><td></td><td>5938 </td><td>6900 </td><td>7878 </td></tr><tr><td>10 Total Current Liabilities</td><td></td><td>7879</td><td>9110</td><td>10,448</td></tr><tr><td>11 Debt</td><td></td><td>115,000</td><td>120,000</td><td>120,000</td></tr><tr><td>11 Total Liabilities</td><td></td><td>122,879</td><td>129,110</td><td>130,448</td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9479419909417629
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.7143705463182898,
+              "width": 0.7120067170445005,
+              "original_page": 2
+            },
+            "content": "Calculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8641532599925995
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ms are financed by equity and/or debt does not impact their value. Name 2 market imperfections that lead to the fact that the capital structure affects firm value and explain the impact on that value.## Question 3.a\n\nConsider the Pro Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.\n\n<table><tr><th></th><th>Year</th><th>2008</th><th>2009</th><th>2010</th></tr><tr><td colspan=\"5\">Balance Sheet ($ 000)</td></tr><tr><td>Assets</td><td></td><td></td><td></td><td></td></tr><tr><td>1 Cash and Cash Equivalents</td><td></td><td>9845 </td><td>11,355 </td><td>13,030 </td></tr><tr><td>2 Accounts Receivable</td><td></td><td>19,689 </td><td>22,709 </td><td>26,059 </td></tr><tr><td>3 Inventories</td><td></td><td>8854 </td><td>10,240 </td><td>11,784 </td></tr><tr><td>4 Total Current Assets</td><td></td><td>38,388 </td><td>44,304 </td><td>50,872 </td></tr><tr><td>5 Property, Plant, and Equipment</td><td></td><td>61,781 </td><td>69,102 </td><td>69,392 </td></tr><tr><td>6 Goodwill</td><td></td><td>72,332 </td><td>72,332 </td><td>72,332 </td></tr><tr><td>7 Total Assets</td><td></td><td>172,501</td><td>185,738</td><td>192,597</td></tr><tr><td colspan=\"5\">Liabilities</td></tr><tr><td>8 Wages Payable</td><td></td><td>1941 </td><td>2211 </td><td>2570 </td></tr><tr><td>9 Other Accounts Payable</td><td></td><td>5938 </td><td>6900 </td><td>7878 </td></tr><tr><td>10 Total Current Liabilities</td><td></td><td>7879</td><td>9110</td><td>10,448</td></tr><tr><td>11 Debt</td><td></td><td>115,000</td><td>120,000</td><td>120,000</td></tr><tr><td>11 Total Liabilities</td><td></td><td>122,879</td><td>129,110</td><td>130,448</td></tr></table>\n\nCalculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.## Question 3.b\n\nUsing the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years",
+        "embed": "ms are financed by equity and/or debt does not impact their value. Name 2 market imperfections that lead to the fact that the capital structure affects firm value and explain the impact on that value.## Question 3.a\n\nConsider the Pro Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.\n\nThis table presents a balance sheet for a company from 2008 to 2010. Total assets showed consistent growth over the three years, increasing from $172,501,000 in 2008 to $192,597,000 in 2010. This growth was driven by increases in current assets, particularly accounts receivable and inventories, as well as property, plant, and equipment. Liabilities also grew, though at a slower pace, with total liabilities rising from $122,879,000 in 2008 to $130,448,000 in 2010, primarily due to an increase in debt.\n\nCalculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.## Question 3.b\n\nUsing the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 3,
+              "top": 0.11401425178147269,
+              "width": 0.09571788413098237,
+              "original_page": 3
+            },
+            "content": "Question 3.b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9295950651168823
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.14667458432304037,
+              "width": 0.7120067170445005,
+              "original_page": 3
+            },
+            "content": "Using the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9793644607067108
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.34560570071258906,
+              "left": 0.11670864819479429,
+              "page": 3,
+              "top": 0.19121140142517815,
+              "width": 0.4433249370277078,
+              "original_page": 3
+            },
+            "content": "<table><tr><th></th><th>Year</th><th>2009</th><th>2010</th></tr><tr><td colspan=\"4\">Income Statement($ 000)</td></tr><tr><td>1Sales</td><td></td><td>138,149</td><td>158,526</td></tr><tr><td colspan=\"4\">2 Cost of Goods Sold</td></tr><tr><td>3 Raw Materials</td><td></td><td>(28,333)</td><td>(32,193)</td></tr><tr><td>4 Direct Labor Costs</td><td></td><td>(35,834)</td><td>(41,925)</td></tr><tr><td>5 Gross Profit</td><td></td><td>73,982</td><td>84,407</td></tr><tr><td>6 Sales and Marketing</td><td></td><td>(27,630)</td><td>(31,705)</td></tr><tr><td>7 Administrative</td><td></td><td>(17,959)</td><td>(20,608)</td></tr><tr><td>8EBITDA</td><td></td><td>28,393</td><td>32,094</td></tr><tr><td>9 Depreciation</td><td></td><td>(7678)</td><td>(7710)</td></tr><tr><td>10EBIT</td><td></td><td>20,715</td><td>24,383</td></tr><tr><td>11 Interest Expense (net)</td><td></td><td>(7820)</td><td>(8160)</td></tr><tr><td>12 Pre-tax Income</td><td></td><td>12,895</td><td>16,223</td></tr><tr><td>13 Income Tax</td><td></td><td>(4513)</td><td>(5678)</td></tr><tr><td>14 Net Income</td><td></td><td>8382</td><td>10,545</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td></td><td>2009</td><td>2010</td></tr><tr><td>Capital Expenditures</td><td></td><td>15,000 </td><td>8000 </td></tr><tr><td>Net Borrowing</td><td></td><td>5000 </td><td>0 </td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9346808314323426
+            },
+            "image_url": null
+          }
+        ],
+        "content": "r><tr><td>11 Total Liabilities</td><td></td><td>122,879</td><td>129,110</td><td>130,448</td></tr></table>\n\nCalculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.## Question 3.b\n\nUsing the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years.\n\n<table><tr><th></th><th>Year</th><th>2009</th><th>2010</th></tr><tr><td colspan=\"4\">Income Statement($ 000)</td></tr><tr><td>1Sales</td><td></td><td>138,149</td><td>158,526</td></tr><tr><td colspan=\"4\">2 Cost of Goods Sold</td></tr><tr><td>3 Raw Materials</td><td></td><td>(28,333)</td><td>(32,193)</td></tr><tr><td>4 Direct Labor Costs</td><td></td><td>(35,834)</td><td>(41,925)</td></tr><tr><td>5 Gross Profit</td><td></td><td>73,982</td><td>84,407</td></tr><tr><td>6 Sales and Marketing</td><td></td><td>(27,630)</td><td>(31,705)</td></tr><tr><td>7 Administrative</td><td></td><td>(17,959)</td><td>(20,608)</td></tr><tr><td>8EBITDA</td><td></td><td>28,393</td><td>32,094</td></tr><tr><td>9 Depreciation</td><td></td><td>(7678)</td><td>(7710)</td></tr><tr><td>10EBIT</td><td></td><td>20,715</td><td>24,383</td></tr><tr><td>11 Interest Expense (net)</td><td></td><td>(7820)</td><td>(8160)</td></tr><tr><td>12 Pre-tax Income</td><td></td><td>12,895</td><td>16,223</td></tr><tr><td>13 Income Tax</td><td></td><td>(4513)</td><td>(5678)</td></tr><tr><td>14 Net Income</td><td></td><td>8382</td><td>10,545</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td></td><td>2009</td><td>2010</td></tr><tr><td>Capital Expenditures</td><td></td><td>15,000 </td><td>8000 </td></tr><tr><td>Net Borrowing</td><td></td><td>5000 </td><td>0 </td></tr></table>## Question 3.c\n\nThe following are financial ratios for three companies which are comparable to Ideko:\n\n| Ratio     | Oakley, Inc.   | Luxottica Group   | Nike, Inc.   |\n|-|-|-|-|\n| P/E       | 24.8x ",
+        "embed": "abilities rising from $122,879,000 in 2008 to $130,448,000 in 2010, primarily due to an increase in debt.\n\nCalculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.## Question 3.b\n\nUsing the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years.\n\nThis table presents the income statement and some capital financing information for a company in 2009 and 2010. Sales increased from $138,149,000 in 2009 to $158,526,000 in 2010, leading to growth in net income from $8,382,000 to $10,545,000 over the same period. The company also reported capital expenditures of $15,000,000 in 2009 and $8,000,000 in 2010, with net borrowing of $5,000,000 in 2009 and none in 2010.## Question 3.c\n\nThe following are financial ratios for three companies which are comparable to Ideko:\n\nThis table compares key valuation ratios for Oakley, Inc., Luxottica Group, and Nike, Inc. Luxot",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.5932304038004751,
+              "width": 0.09655751469353484,
+              "original_page": 3
+            },
+            "content": "Question 3.c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9065690159797669
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.6258907363420427,
+              "width": 0.6574307304785895,
+              "original_page": 3
+            },
+            "content": "The following are financial ratios for three companies which are comparable to Ideko:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.954806113243103
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06353919239904988,
+              "left": 0.11670864819479429,
+              "page": 3,
+              "top": 0.6567695961995249,
+              "width": 0.5037783375314862,
+              "original_page": 3
+            },
+            "content": "| Ratio     | Oakley, Inc.   | Luxottica Group   | Nike, Inc.   |\n|-|-|-|-|\n| P/E       | 24.8x          | 28x               | 18.2x        |\n| EV/Sales  | 2x             | 2.7x              | 1.5x         |\n| EV/EBITDA | 11.6x          | 14.4x             | 9.3x         |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9416872292757035
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.7387173396674585,
+              "width": 0.7455919395465995,
+              "original_page": 3
+            },
+            "content": "Based upon the average EV/EBITDA ratio of the comparable firms, and assuming that Ideko holds $6.5 million of cash in excess of its working capital needs, and has $4.5 million of debt in the year 2010, calculate Ideko's target market value of equity in 2010?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9784905344247818
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 3,
+              "top": 0.8307600950118765,
+              "width": 0.09655751469353484,
+              "original_page": 3
+            },
+            "content": "Question 3.d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9168388277292252
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.8568883610451307,
+              "width": 0.7212426532325776,
+              "original_page": 3
+            },
+            "content": "Assume that, given Ideko's future expected growth rate of 5%, the expected free cash flow for 2011 is $11 150 650.00.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9654005467891693
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.9008313539192399,
+              "width": 0.7170445004198153,
+              "original_page": 3
+            },
+            "content": "If the company's WACC is 9%, calculate the continuation value (expressed in $1000's) in 2010.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9670879989862442
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.08788598574821853,
+              "width": 0.09655751469353484,
+              "original_page": 4
+            },
+            "content": "Question 4.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9178231686353683
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.11342042755344418,
+              "width": 0.7346767422334173,
+              "original_page": 4
+            },
+            "content": "The current price of Ocean Corporation stock is $6. In each six-month period this stock price can either go up by $2.50 or go down by $2. The stock pays no dividends. The one-year risk-free interest rate is 5%. Fill in Ocean stock price movements in a two-period binomial tree below.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9813218742609024
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.21437054631828978,
+              "width": 0.09655751469353484,
+              "original_page": 4
+            },
+            "content": "Question 4.b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9259384661912917
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.24643705463182897,
+              "width": 0.7514693534844669,
+              "original_page": 4
+            },
+            "content": "i) Calculate the payoffs for a currently at the money one year call option on the Ocean stock in the last period below.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7701875686645507
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.29513064133016625,
+              "width": 0.7363560033585222,
+              "original_page": 4
+            },
+            "content": "ii) Sketch the payoff of a one year call option as a function of the strike price in the case that the price moved up during both six month periods.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.846155771613121
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.3984560570071259,
+              "width": 0.09655751469353484,
+              "original_page": 4
+            },
+            "content": "Question 4.c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9023823708295822
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.42399049881235157,
+              "width": 0.7237615449202351,
+              "original_page": 4
+            },
+            "content": "Using the Binomial Model, calculate the price of a one-year European put option on the Ocean stock with a strike price of $7.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9661750584840775
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.49584323040380046,
+              "width": 0.09655751469353484,
+              "original_page": 4
+            },
+            "content": "Question 4.d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9226654887199401
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.5213776722090261,
+              "width": 0.7556675062972292,
+              "original_page": 4
+            },
+            "content": "Compute the risk neutral probability that the stock price will increase over the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in the up state lower or larger than the actual probability in the upstate. Explain your answer.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9779003232717514
+            },
+            "image_url": null
+          }
+        ],
+        "content": ">Year</td><td></td><td>2009</td><td>2010</td></tr><tr><td>Capital Expenditures</td><td></td><td>15,000 </td><td>8000 </td></tr><tr><td>Net Borrowing</td><td></td><td>5000 </td><td>0 </td></tr></table>## Question 3.c\n\nThe following are financial ratios for three companies which are comparable to Ideko:\n\n| Ratio     | Oakley, Inc.   | Luxottica Group   | Nike, Inc.   |\n|-|-|-|-|\n| P/E       | 24.8x          | 28x               | 18.2x        |\n| EV/Sales  | 2x             | 2.7x              | 1.5x         |\n| EV/EBITDA | 11.6x          | 14.4x             | 9.3x         |\n\nBased upon the average EV/EBITDA ratio of the comparable firms, and assuming that Ideko holds $6.5 million of cash in excess of its working capital needs, and has $4.5 million of debt in the year 2010, calculate Ideko's target market value of equity in 2010?\n\n## Question 3.d\n\nAssume that, given Ideko's future expected growth rate of 5%, the expected free cash flow for 2011 is $11 150 650.00.\n\nIf the company's WACC is 9%, calculate the continuation value (expressed in $1000's) in 2010.\n\n## Question 4.a\n\nThe current price of Ocean Corporation stock is $6. In each six-month period this stock price can either go up by $2.50 or go down by $2. The stock pays no dividends. The one-year risk-free interest rate is 5%. Fill in Ocean stock price movements in a two-period binomial tree below.\n\n## Question 4.b\n\ni) Calculate the payoffs for a currently at the money one year call option on the Ocean stock in the last period below.\n\nii) Sketch the payoff of a one year call option as a function of the strike price in the case that the price moved up during both six month periods.\n\n## Question 4.c\n\nUsing the Binomial Model, calculate the price of a one-year European put option on the Ocean stock with a strike price of $7.\n\n## Question 4.d\n\nCompute the risk neutral probability that the stock price will increase over the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in the up state lower or larger than the actual probability in the upstate. Explain your answer.## Question 5.a\n\nYou are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).\n\nThe duration of the auto loans is three years ",
+        "embed": "$8,382,000 to $10,545,000 over the same period. The company also reported capital expenditures of $15,000,000 in 2009 and $8,000,000 in 2010, with net borrowing of $5,000,000 in 2009 and none in 2010.## Question 3.c\n\nThe following are financial ratios for three companies which are comparable to Ideko:\n\nThis table compares key valuation ratios for Oakley, Inc., Luxottica Group, and Nike, Inc. Luxottica Group generally shows higher valuation multiples across P/E, EV/Sales, and EV/EBITDA compared to both Oakley and Nike. Nike, Inc. exhibits the lowest P/E and EV/Sales ratios, suggesting it might be valued more attractively by these specific metrics.\n\nBased upon the average EV/EBITDA ratio of the comparable firms, and assuming that Ideko holds $6.5 million of cash in excess of its working capital needs, and has $4.5 million of debt in the year 2010, calculate Ideko's target market value of equity in 2010?\n\n## Question 3.d\n\nAssume that, given Ideko's future expected growth rate of 5%, the expected free cash flow for 2011 is $11 150 650.00.\n\nIf the company's WACC is 9%, calculate the continuation value (expressed in $1000's) in 2010.\n\n## Question 4.a\n\nThe current price of Ocean Corporation stock is $6. In each six-month period this stock price can either go up by $2.50 or go down by $2. The stock pays no dividends. The one-year risk-free interest rate is 5%. Fill in Ocean stock price movements in a two-period binomial tree below.\n\n## Question 4.b\n\ni) Calculate the payoffs for a currently at the money one year call option on the Ocean stock in the last period below.\n\nii) Sketch the payoff of a one year call option as a function of the strike price in the case that the price moved up during both six month periods.\n\n## Question 4.c\n\nUsing the Binomial Model, calculate the price of a one-year European put option on the Ocean stock with a strike price of $7.\n\n## Question 4.d\n\nCompute the risk neutral probability that the stock price will increase over the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in the up state lower or larger than the actual probability in the upstate. Explain your answer.## Question 5.a\n\nYou are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).\n\nThe duration of the auto loans is three years ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.6104513064133017,
+              "width": 0.09571788413098237,
+              "original_page": 4
+            },
+            "content": "Question 5.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9273728728294373
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.6431116389548693,
+              "width": 0.7539882451721243,
+              "original_page": 4
+            },
+            "content": "You are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9662808269262314
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.6912114014251781,
+              "width": 0.7590260285474392,
+              "original_page": 4
+            },
+            "content": "The duration of the auto loans is three years and the duration of the mortgages is eight years. Both cash reserves and checking and savings have zero duration. The CDs have a duration of two years and the long-term financing has a ten-year duration.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.97708660364151
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11342042755344418,
+              "left": 0.16120906801007556,
+              "page": 4,
+              "top": 0.753562945368171,
+              "width": 0.5986565910999161,
+              "original_page": 4
+            },
+            "content": "| Assets        |     | Liabilities                  |     |\n|-|-|-|-|\n| Cash Reserves | 100 | Checking & Savings           | 200 |\n| Auto Loans    | 200 | Certificates of Deposit      | 150 |\n| Mortgages     | 300 | Long-Term Financing          | 200 |\n| Total Assets  | 600 | |Total Liabilities           | 550 |\n|               |     | Owner's Equity               | 50  |\n|               |     | Total Liabilities and Equity | 600 |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9156086155346461
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.8842042755344418,
+              "width": 0.30730478589420657,
+              "original_page": 4
+            },
+            "content": "Calculate the duration of SFTSL's equity.",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.760956346988678
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010327930068518537,
+              "left": 0.11892964853163289,
+              "page": 5,
+              "top": 0.08678070298617593,
+              "width": 0.09744486430368553,
+              "original_page": 5
+            },
+            "content": "Question 5.b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9478292256593703
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0320663249190468,
+              "left": 0.11401400414350382,
+              "page": 5,
+              "top": 0.11077856264984594,
+              "width": 0.7448928776841303,
+              "original_page": 5
+            },
+            "content": "Assume the data in (5.a) holds for an interest rate of 5%. Calculate the percentage change in SFTL equity if the interest rate falls to 4%.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9758246660232544
+            },
+            "image_url": null
+          }
+        ],
+        "content": "er the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in the up state lower or larger than the actual probability in the upstate. Explain your answer.## Question 5.a\n\nYou are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).\n\nThe duration of the auto loans is three years and the duration of the mortgages is eight years. Both cash reserves and checking and savings have zero duration. The CDs have a duration of two years and the long-term financing has a ten-year duration.\n\n| Assets        |     | Liabilities                  |     |\n|-|-|-|-|\n| Cash Reserves | 100 | Checking & Savings           | 200 |\n| Auto Loans    | 200 | Certificates of Deposit      | 150 |\n| Mortgages     | 300 | Long-Term Financing          | 200 |\n| Total Assets  | 600 | |Total Liabilities           | 550 |\n|               |     | Owner's Equity               | 50  |\n|               |     | Total Liabilities and Equity | 600 |\n\nCalculate the duration of SFTSL's equity.\n\n## Question 5.b\n\nAssume the data in (5.a) holds for an interest rate of 5%. Calculate the percentage change in SFTL equity if the interest rate falls to 4%.",
+        "embed": "er the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in the up state lower or larger than the actual probability in the upstate. Explain your answer.## Question 5.a\n\nYou are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).\n\nThe duration of the auto loans is three years and the duration of the mortgages is eight years. Both cash reserves and checking and savings have zero duration. The CDs have a duration of two years and the long-term financing has a ten-year duration.\n\nThis table presents a company's financial position, showing total assets of $600. These assets are financed by total liabilities of $550 and owner's equity of $50, indicating a balanced financial structure. The breakdown highlights the composition of both assets and liabilities, offering insight into the company's resources and obligations.\n\nCalculate the duration of SFTSL's equity.\n\n## Question 5.b\n\nAssume the data in (5.a) holds for an interest rate of 5%. Calculate the percentage change in SFTL equity if the interest rate falls to 4%.",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 5,
+    "credit_breakdown": {
+      "page": 5.0,
+      "complex": 4.0
+    },
+    "credits": 9.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "complex",
+        "page"
+      ],
+      "5": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/5b6a17c7-9882-43ee-b5fc-26571bb142cb.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180733Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=7546568e4b366261798aac363a8e5ab4683c37a5d1140500c515ef20e5fe04a4",
+  "studio_link": "https://studio.reducto.ai/job/ddc2c534-18b9-421a-89d8-dfb230677bf5",
+  "response_type": "parse",
+  "parse_mode": null
+}

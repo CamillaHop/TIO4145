@@ -1,0 +1,1540 @@
+{
+  "duration": 11.255197048187256,
+  "job_id": "ad9af6a6-e1fa-4d99-9288-e5a717ebb070",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.039211870443941366,
+              "left": 0.11616741753871145,
+              "page": 1,
+              "top": 0.04312608699605922,
+              "width": 0.048139223086288555,
+              "original_page": 1
+            },
+            "content": "",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5917821049690247
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03598484848484849,
+              "left": 0.11601307189542484,
+              "page": 1,
+              "top": 0.04482323232323232,
+              "width": 0.24836601307189543,
+              "original_page": 1
+            },
+            "content": "ONTNU",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9105196505784989
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017045454545454544,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.11931818181818182,
+              "width": 0.5718954248366013,
+              "original_page": 1
+            },
+            "content": "Department of Industrial Economics and Technology Management",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8925583243370057
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.025252525252525252,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.1976010101010101,
+              "width": 0.7009803921568627,
+              "original_page": 1
+            },
+            "content": "Examination paper for TIØ4145 Corporate Finance",
+            "type": "Title",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8963007062673569
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.11601307189542484,
+              "page": 1,
+              "top": 0.26136363636363635,
+              "width": 0.511437908496732,
+              "original_page": 1
+            },
+            "content": "Academic contact during examination: Maria Lavrutich",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7707162290811539
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010732323232323232,
+              "left": 0.1184640522875817,
+              "page": 1,
+              "top": 0.2878787878787879,
+              "width": 0.1576797385620915,
+              "original_page": 1
+            },
+            "content": "Phone: 90402416",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8426084399223328
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09217171717171717,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.3402777777777778,
+              "width": 0.7377450980392157,
+              "original_page": 1
+            },
+            "content": "Examination date: 05.12.2017 Examination time (from-to): 09:00-13:00 Permitted examination support material: D - No printed or hand-written support material is allowed. A specific basic calculator is allowed.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7843349635601045
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.12536135586825284,
+              "left": 0.11553174685808568,
+              "page": 1,
+              "top": 0.4673429546934186,
+              "width": 0.3931642669478273,
+              "original_page": 1
+            },
+            "content": "Other information:\n\nLanguage: English\nNumber of pages (front page excluded): 3\nNumber of pages enclosed: 3",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7988263368606567
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1542386141690341,
+              "left": 0.1189068563623366,
+              "page": 1,
+              "top": 0.7447902795040247,
+              "width": 0.4265572043026195,
+              "original_page": 1
+            },
+            "content": "Informasjon om trykking av eksamensoppgave\nOriginalen er:\n1-sidig [ ] 2-sidig [ ]\nsort/hvit [ ] farger [ ]\nskal ha flervalgskjema [ ]",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.980602216720581
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10322925297900884,
+              "left": 0.5736089968213848,
+              "page": 1,
+              "top": 0.7519430295385495,
+              "width": 0.31197043026194854,
+              "original_page": 1
+            },
+            "content": "Checked by:\nDate: <empty>\nSignature: <empty>",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9537521600723267
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 1
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8093122839927673
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ONTNU\n\nDepartment of Industrial Economics and Technology Management\n\n# Examination paper for TIØ4145 Corporate Finance\n\nAcademic contact during examination: Maria Lavrutich\n\nPhone: 90402416\n\nExamination date: 05.12.2017 Examination time (from-to): 09:00-13:00 Permitted examination support material: D - No printed or hand-written support material is allowed. A specific basic calculator is allowed.\n\nOther information:\n\nLanguage: English\nNumber of pages (front page excluded): 3\nNumber of pages enclosed: 3\n\nInformasjon om trykking av eksamensoppgave\nOriginalen er:\n1-sidig [ ] 2-sidig [ ]\nsort/hvit [ ] farger [ ]\nskal ha flervalgskjema [ ]\n\nChecked by:\nDate: <empty>\nSignature: <empty>\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 1 - Stocks and Bonds [20%]\n\na. Suppose you are trying to determine the interest rate sensitivity of two bonds. Bond 1 is a 12% coupon",
+        "embed": "ONTNU\n\nDepartment of Industrial Economics and Technology Management\n\n# Examination paper for TIØ4145 Corporate Finance\n\nAcademic contact during examination: Maria Lavrutich\n\nPhone: 90402416\n\nExamination date: 05.12.2017 Examination time (from-to): 09:00-13:00 Permitted examination support material: D - No printed or hand-written support material is allowed. A specific basic calculator is allowed.\n\nOther information:\n\nLanguage: English\nNumber of pages (front page excluded): 3\nNumber of pages enclosed: 3\n\nInformasjon om trykking av eksamensoppgave\nOriginalen er:\n1-sidig [ ] 2-sidig [ ]\nsort/hvit [ ] farger [ ]\nskal ha flervalgskjema [ ]\n\nChecked by:\nDate: <empty>\nSignature: <empty>\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 1 - Stocks and Bonds [20%]\n\na. Suppose you are trying to determine the interest rate sensitivity of two bonds. Bond 1 is a 12% coupon",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 2,
+              "top": 0.07828282828282829,
+              "width": 0.2589869281045752,
+              "original_page": 2
+            },
+            "content": "Task 1 - Stocks and Bonds [20%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9201632291078568
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05744949494949495,
+              "left": 0.14624183006535948,
+              "page": 2,
+              "top": 0.10858585858585859,
+              "width": 0.7361111111111112,
+              "original_page": 2
+            },
+            "content": "a. Suppose you are trying to determine the interest rate sensitivity of two bonds. Bond 1 is a 12% coupon bond with yearly payouts, a 7-year maturity and a $1000 face value. Bond 2 is a ‘zero-coupon’ bond that pays $1000 after 7 year. The current interest rate is 12%.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9689565747976303
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.19362745098039216,
+              "page": 2,
+              "top": 0.17234848484848486,
+              "width": 0.34558823529411764,
+              "original_page": 2
+            },
+            "content": "\ti. Determine the duration of each bond.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9277832835912705
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.19117647058823528,
+              "page": 2,
+              "top": 0.19318181818181818,
+              "width": 0.5490196078431373,
+              "original_page": 2
+            },
+            "content": "\tii. Which bond is more sensitive to interest rate changes? Explain.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9355816721916199
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.14898989898989898,
+              "left": 0.18055555555555555,
+              "page": 2,
+              "top": 0.23926767676767677,
+              "width": 0.2965686274509804,
+              "original_page": 2
+            },
+            "content": "<table><tr><th colspan=\"3\">Cash Flow</th><th colspan=\"2\">PV (r=12%)</th></tr><tr><td>Year</td><td>Bond 1</td><td>Bond 2</td><td>Bond 1</td><td>Bond 2</td></tr><tr><td>1</td><td>120</td><td>0</td><td>107.14</td><td></td></tr><tr><td>2</td><td>120</td><td>0 [ ]</td><td>95.66</td><td></td></tr><tr><td>3</td><td>120</td><td>0</td><td>85.41</td><td></td></tr><tr><td>4</td><td>120</td><td>[ ] 0</td><td>76.26</td><td></td></tr><tr><td>5</td><td>120</td><td>0</td><td>68.09</td><td></td></tr><tr><td>6</td><td>120</td><td>0 [ ]</td><td>60.80</td><td></td></tr><tr><td>7</td><td>120</td><td>0 [ ]</td><td>54.28</td><td></td></tr><tr><td>7</td><td>1000</td><td>1000</td><td>452.34</td><td>452.34</td></tr><tr><td>Ро</td><td></td><td></td><td>1000.00</td><td>452.34</td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8782168221744624
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ure: <empty>\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 1 - Stocks and Bonds [20%]\n\na. Suppose you are trying to determine the interest rate sensitivity of two bonds. Bond 1 is a 12% coupon bond with yearly payouts, a 7-year maturity and a $1000 face value. Bond 2 is a ‘zero-coupon’ bond that pays $1000 after 7 year. The current interest rate is 12%.\n\n\ti. Determine the duration of each bond.\n\n\tii. Which bond is more sensitive to interest rate changes? Explain.\n\n<table><tr><th colspan=\"3\">Cash Flow</th><th colspan=\"2\">PV (r=12%)</th></tr><tr><td>Year</td><td>Bond 1</td><td>Bond 2</td><td>Bond 1</td><td>Bond 2</td></tr><tr><td>1</td><td>120</td><td>0</td><td>107.14</td><td></td></tr><tr><td>2</td><td>120</td><td>0 [ ]</td><td>95.66</td><td></td></tr><tr><td>3</td><td>120</td><td>0</td><td>85.41</td><td></td></tr><tr><td>4</td><td>120</td><td>[ ] 0</td><td>76.26</td><td></td></tr><tr><td>5</td><td>120</td><td>0</td><td>68.09</td><td></td></tr><tr><td>6</td><td>120</td><td>0 [ ]</td><td>60.80</td><td></td></tr><tr><td>7</td><td>120</td><td>0 [ ]</td><td>54.28</td><td></td></tr><tr><td>7</td><td>1000</td><td>1000</td><td>452.34</td><td>452.34</td></tr><tr><td>Ро</td><td></td><td></td><td>1000.00</td><td>452.34</td></tr></table># Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Duration bond 1:\n\n[107.1495.66 2+ 85.41-3+76.26.4+68.09.5+ 60.80-6+507.63.7]\n= 5.11139\n1000\n\nDuration bond 2:\n452.34.7\n= 7\n452.34\n\nBond 2 ",
+        "embed": "ure: <empty>\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 1 - Stocks and Bonds [20%]\n\na. Suppose you are trying to determine the interest rate sensitivity of two bonds. Bond 1 is a 12% coupon bond with yearly payouts, a 7-year maturity and a $1000 face value. Bond 2 is a ‘zero-coupon’ bond that pays $1000 after 7 year. The current interest rate is 12%.\n\n\ti. Determine the duration of each bond.\n\n\tii. Which bond is more sensitive to interest rate changes? Explain.\n\nThis table presents the cash flows and present values (PV) for two bonds at a discount rate of 12%. Bond 1 pays an annual coupon of $120 for seven years, with a principal repayment of $1000 in year 7, resulting in a total PV of $1000. Bond 2, however, has no cash flows until year 7 where it pays a principal of $1000, leading to a PV of $452.34.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Duration bond 1:\n\n[107.1495.66 2+ 85.41-3+76.26.4+68.09.5+ 60.80-6+507.63.7]\n= 5.11139\n1000\n\nDuration bond 2:\n452.34.7\n= 7\n452.34\n\nBond 2 ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.008838383838383838,
+              "left": 0.18137254901960784,
+              "page": 2,
+              "top": 0.4109848484848485,
+              "width": 0.12009803921568628,
+              "original_page": 2
+            },
+            "content": "Duration bond 1:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6654392540454864
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07323232323232323,
+              "left": 0.18137254901960784,
+              "page": 2,
+              "top": 0.4337121212121212,
+              "width": 0.6446078431372549,
+              "original_page": 2
+            },
+            "content": "[107.1495.66 2+ 85.41-3+76.26.4+68.09.5+ 60.80-6+507.63.7]\n= 5.11139\n1000\n\nDuration bond 2:\n452.34.7\n= 7\n452.34",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5996798306703568
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011994949494949494,
+              "left": 0.18137254901960784,
+              "page": 2,
+              "top": 0.5132575757575758,
+              "width": 0.3758169934640523,
+              "original_page": 2
+            },
+            "content": "Bond 2 will be more sensitive to interest rate changes.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8880763202905655
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05744949494949495,
+              "left": 0.14624183006535948,
+              "page": 2,
+              "top": 0.5965909090909091,
+              "width": 0.7361111111111112,
+              "original_page": 2
+            },
+            "content": "b. The total value of a firm is 100 ($ million). The dividend policy of the firm is a 5% divi- dend yield; its debt policy is to be 75% equity financed. Investors expect a 16% return on stocks of firm A, and ask 4% interest on firm A’s debt.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9739829391241074
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.036616161616161616,
+              "left": 0.19444444444444445,
+              "page": 2,
+              "top": 0.6603535353535354,
+              "width": 0.673202614379085,
+              "original_page": 2
+            },
+            "content": "\ti. What constant expected growth rate of the firm is in line with the numbers (as- suming no new equity will be issued)?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9649946361780166
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.19117647058823528,
+              "page": 2,
+              "top": 0.7032828282828283,
+              "width": 0.5310457516339869,
+              "original_page": 2
+            },
+            "content": "\tii. What then are the expected earnings in year 1 and in year 5?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9397217124700546
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.12373737373737374,
+              "left": 0.17565359477124182,
+              "page": 2,
+              "top": 0.740530303030303,
+              "width": 0.7058823529411765,
+              "original_page": 2
+            },
+            "content": "From data for equity we have: g = r - DIV₁/ P0 = 16%-5% = 11%. This must also be the growth rate of the firm if the D/E ratio is kept fixed (and no new equity is issued) Expected earnings in year 1 are 13 (as r₁ = 0.25 × 4%+ 0.75 × 16% = 13%); alternatively: for interest: 0.25 × 100 × 4% = 1, for dividends 0.75 x 100 x 5% = 3.75, for growth 0.75 x 100 x 11% = 8.25 from retained earnings (the rest of growth is by extending debt with 0.25 x 100 × 11% = 2.75). In year 5: ex- pected growth rate of everything is 11% annually, so expected earnings year 5 = 1.11ª × earnings year 1 19.735.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8168817677176915
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 2,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 2
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.901381078362465
+            },
+            "image_url": null
+          }
+        ],
+        "content": "0</td><td>0 [ ]</td><td>54.28</td><td></td></tr><tr><td>7</td><td>1000</td><td>1000</td><td>452.34</td><td>452.34</td></tr><tr><td>Ро</td><td></td><td></td><td>1000.00</td><td>452.34</td></tr></table># Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Duration bond 1:\n\n[107.1495.66 2+ 85.41-3+76.26.4+68.09.5+ 60.80-6+507.63.7]\n= 5.11139\n1000\n\nDuration bond 2:\n452.34.7\n= 7\n452.34\n\nBond 2 will be more sensitive to interest rate changes.\n\nb. The total value of a firm is 100 ($ million). The dividend policy of the firm is a 5% divi- dend yield; its debt policy is to be 75% equity financed. Investors expect a 16% return on stocks of firm A, and ask 4% interest on firm A’s debt.\n\n\ti. What constant expected growth rate of the firm is in line with the numbers (as- suming no new equity will be issued)?\n\n\tii. What then are the expected earnings in year 1 and in year 5?\n\nFrom data for equity we have: g = r - DIV₁/ P0 = 16%-5% = 11%. This must also be the growth rate of the firm if the D/E ratio is kept fixed (and no new equity is issued) Expected earnings in year 1 are 13 (as r₁ = 0.25 × 4%+ 0.75 × 16% = 13%); alternatively: for interest: 0.25 × 100 × 4% = 1, for dividends 0.75 x 100 x 5% = 3.75, for growth 0.75 x 100 x 11% = 8.25 from retained earnings (the rest of growth is by extending debt with 0.25 x 100 × 11% = 2.75). In year 5: ex- pected growth rate of everything is 11% annually, so expected earnings year 5 = 1.11ª × earnings year 1 19.735.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 - Financial Options [30%]\n\nConsider a two-year European call option on Pineapple Inc. stock. The current stock price is 100 USD. In",
+        "embed": " years, with a principal repayment of $1000 in year 7, resulting in a total PV of $1000. Bond 2, however, has no cash flows until year 7 where it pays a principal of $1000, leading to a PV of $452.34.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Duration bond 1:\n\n[107.1495.66 2+ 85.41-3+76.26.4+68.09.5+ 60.80-6+507.63.7]\n= 5.11139\n1000\n\nDuration bond 2:\n452.34.7\n= 7\n452.34\n\nBond 2 will be more sensitive to interest rate changes.\n\nb. The total value of a firm is 100 ($ million). The dividend policy of the firm is a 5% divi- dend yield; its debt policy is to be 75% equity financed. Investors expect a 16% return on stocks of firm A, and ask 4% interest on firm A’s debt.\n\n\ti. What constant expected growth rate of the firm is in line with the numbers (as- suming no new equity will be issued)?\n\n\tii. What then are the expected earnings in year 1 and in year 5?\n\nFrom data for equity we have: g = r - DIV₁/ P0 = 16%-5% = 11%. This must also be the growth rate of the firm if the D/E ratio is kept fixed (and no new equity is issued) Expected earnings in year 1 are 13 (as r₁ = 0.25 × 4%+ 0.75 × 16% = 13%); alternatively: for interest: 0.25 × 100 × 4% = 1, for dividends 0.75 x 100 x 5% = 3.75, for growth 0.75 x 100 x 11% = 8.25 from retained earnings (the rest of growth is by extending debt with 0.25 x 100 × 11% = 2.75). In year 5: ex- pected growth rate of everything is 11% annually, so expected earnings year 5 = 1.11ª × earnings year 1 19.735.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 - Financial Options [30%]\n\nConsider a two-year European call option on Pineapple Inc. stock. The current stock price is 100 USD. In",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.047979797979797977,
+              "width": 0.2581699346405229,
+              "original_page": 3
+            },
+            "content": "Task 2 - Financial Options [30%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9241976946592331
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07512626262626262,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.07828282828282829,
+              "width": 0.7598039215686274,
+              "original_page": 3
+            },
+            "content": "Consider a two-year European call option on Pineapple Inc. stock. The current stock price is 100 USD. In each of the next two years the stock price will either increase by 10% or decrease by 20%. The strike price of the call is 80 USD. The stock pays no dividends and the risk free inter- est rate is equal to 4%.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9865416824817658
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.14624183006535948,
+              "page": 3,
+              "top": 0.16792929292929293,
+              "width": 0.6405228758169934,
+              "original_page": 3
+            },
+            "content": "a. Using a two-period binomial model, calculate the price of this European call option.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9468639105558395
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011363636363636364,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.19696969696969696,
+              "width": 0.10702614379084967,
+              "original_page": 3
+            },
+            "content": "Binomial tree",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8846301585435867
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.17512209728510694,
+              "left": 0.12064084819718904,
+              "page": 3,
+              "top": 0.21048426387285946,
+              "width": 0.2710777980829376,
+              "original_page": 3
+            },
+            "content": "| Node | Value 1 | Value 2 |\n|---|---|---|\n| 0 | 100 | 26.63 |\n| 1 | 110 | 33.0769 |\n| 1 | 80 | 6.1487 |\n| 2 | 121 | 41 |\n| 2 | 88 | 8 |\n| 2 | 64 | 0 |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9270559459924698
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.034722222222222224,
+              "left": 0.14624183006535948,
+              "page": 3,
+              "top": 0.38825757575757575,
+              "width": 0.7246732026143791,
+              "original_page": 3
+            },
+            "content": "b. Calculate the price of the same European call option using risk-neutral valuation. Show the steps explicitly.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9074498236179351
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05415652496646149,
+              "left": 0.17397763370688446,
+              "page": 3,
+              "top": 0.4342081089212437,
+              "width": 0.4902733572168288,
+              "original_page": 3
+            },
+            "content": "Risk neutral probability of an up state is equal to 1.04*100-80 / 110-80 = 0.8\nCall option price is 0.8*0.8*41+2*0.2*0.8*8 / 1.04*1.04 = 26.63",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9022250652313233
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ar 1 19.735.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 - Financial Options [30%]\n\nConsider a two-year European call option on Pineapple Inc. stock. The current stock price is 100 USD. In each of the next two years the stock price will either increase by 10% or decrease by 20%. The strike price of the call is 80 USD. The stock pays no dividends and the risk free inter- est rate is equal to 4%.\n\na. Using a two-period binomial model, calculate the price of this European call option.\n\nBinomial tree\n\n| Node | Value 1 | Value 2 |\n|---|---|---|\n| 0 | 100 | 26.63 |\n| 1 | 110 | 33.0769 |\n| 1 | 80 | 6.1487 |\n| 2 | 121 | 41 |\n| 2 | 88 | 8 |\n| 2 | 64 | 0 |\n\nb. Calculate the price of the same European call option using risk-neutral valuation. Show the steps explicitly.\n\nRisk neutral probability of an up state is equal to 1.04*100-80 / 110-80 = 0.8\nCall option price is 0.8*0.8*41+2*0.2*0.8*8 / 1.04*1.04 = 26.63# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 - Financial Options [30%] (cont.)\n\nc. Compare the outcomes in a.andb. and comment on the result.\n\nThey are the same (differences ma",
+        "embed": "ar 1 19.735.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 - Financial Options [30%]\n\nConsider a two-year European call option on Pineapple Inc. stock. The current stock price is 100 USD. In each of the next two years the stock price will either increase by 10% or decrease by 20%. The strike price of the call is 80 USD. The stock pays no dividends and the risk free inter- est rate is equal to 4%.\n\na. Using a two-period binomial model, calculate the price of this European call option.\n\nBinomial tree\n\n| Node | Value 1 | Value 2 |\n|---|---|---|\n| 0 | 100 | 26.63 |\n| 1 | 110 | 33.0769 |\n| 1 | 80 | 6.1487 |\n| 2 | 121 | 41 |\n| 2 | 88 | 8 |\n| 2 | 64 | 0 |\n\nb. Calculate the price of the same European call option using risk-neutral valuation. Show the steps explicitly.\n\nRisk neutral probability of an up state is equal to 1.04*100-80 / 110-80 = 0.8\nCall option price is 0.8*0.8*41+2*0.2*0.8*8 / 1.04*1.04 = 26.63# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 - Financial Options [30%] (cont.)\n\nc. Compare the outcomes in a.andb. and comment on the result.\n\nThey are the same (differences ma",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.14624183006535948,
+              "page": 3,
+              "top": 0.5227272727272727,
+              "width": 0.5383986928104575,
+              "original_page": 3
+            },
+            "content": "c. Compare the outcomes in a.andb. and comment on the result.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9009228259325027
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.049873737373737376,
+              "left": 0.17647058823529413,
+              "page": 3,
+              "top": 0.5580808080808081,
+              "width": 0.6821895424836601,
+              "original_page": 3
+            },
+            "content": "They are the same (differences may arise due to rounding up error). Binomial model does not require assumptions on investor’s preferences to risk, so it should also work for risk-neutral preferences.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9714586764574051
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.034722222222222224,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.6407828282828283,
+              "width": 0.755718954248366,
+              "original_page": 3
+            },
+            "content": "Suppose that the Stock Exchange also listed an American call option with the same characteris- tics.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9726548284292221
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.034722222222222224,
+              "left": 0.14624183006535948,
+              "page": 3,
+              "top": 0.6906565656565656,
+              "width": 0.7303921568627451,
+              "original_page": 3
+            },
+            "content": "d. Did such a decision make sense if Pineapple Inc. was not expected to pay out dividends or repurchase shares in the foreseeable future? Explain your answer.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.972654402256012
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01452020202020202,
+              "left": 0.17647058823529413,
+              "page": 3,
+              "top": 0.7449494949494949,
+              "width": 0.6699346405228758,
+              "original_page": 3
+            },
+            "content": "No. It is never optimal to exercise early an American option on a non-dividend-paying stock.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9422032415866852
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.034722222222222224,
+              "left": 0.14624183006535948,
+              "page": 3,
+              "top": 0.7777777777777778,
+              "width": 0.7271241830065359,
+              "original_page": 3
+            },
+            "content": "e. What is the price for this American option, and how does it compare to the price of the European option? Explain.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9719502091407776
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.17647058823529413,
+              "page": 3,
+              "top": 0.8276515151515151,
+              "width": 0.5228758169934641,
+              "original_page": 3
+            },
+            "content": "The same as the price of European as there is no value in early exercise.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9485118836164474
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03535353535353535,
+              "left": 0.14624183006535948,
+              "page": 3,
+              "top": 0.8630050505050505,
+              "width": 0.7107843137254902,
+              "original_page": 3
+            },
+            "content": "f. How would your answer in e. change if Pineapple Inc. decided to pay out dividends? Explain intuitively.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9765955746173859
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 3
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9707854002714157
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.14705882352941177,
+              "page": 4,
+              "top": 0.045454545454545456,
+              "width": 0.7254901960784313,
+              "original_page": 4
+            },
+            "content": "Depends if it is valuable to exercise the option yearly, if there is value than American will be worth more than European.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.889395073056221
+            },
+            "image_url": null
+          }
+        ],
+        "content": "using risk-neutral valuation. Show the steps explicitly.\n\nRisk neutral probability of an up state is equal to 1.04*100-80 / 110-80 = 0.8\nCall option price is 0.8*0.8*41+2*0.2*0.8*8 / 1.04*1.04 = 26.63# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 - Financial Options [30%] (cont.)\n\nc. Compare the outcomes in a.andb. and comment on the result.\n\nThey are the same (differences may arise due to rounding up error). Binomial model does not require assumptions on investor’s preferences to risk, so it should also work for risk-neutral preferences.\n\nSuppose that the Stock Exchange also listed an American call option with the same characteris- tics.\n\nd. Did such a decision make sense if Pineapple Inc. was not expected to pay out dividends or repurchase shares in the foreseeable future? Explain your answer.\n\nNo. It is never optimal to exercise early an American option on a non-dividend-paying stock.\n\ne. What is the price for this American option, and how does it compare to the price of the European option? Explain.\n\nThe same as the price of European as there is no value in early exercise.\n\nf. How would your answer in e. change if Pineapple Inc. decided to pay out dividends? Explain intuitively.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.\n\nDepends if it is valuable to exercise the option yearly, if there is value than American will be worth more than European.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 3 - Capital Structure [10%]\n\nAs a financial consultant, you are given the following information about two companies, one levered and ",
+        "embed": "using risk-neutral valuation. Show the steps explicitly.\n\nRisk neutral probability of an up state is equal to 1.04*100-80 / 110-80 = 0.8\nCall option price is 0.8*0.8*41+2*0.2*0.8*8 / 1.04*1.04 = 26.63# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 - Financial Options [30%] (cont.)\n\nc. Compare the outcomes in a.andb. and comment on the result.\n\nThey are the same (differences may arise due to rounding up error). Binomial model does not require assumptions on investor’s preferences to risk, so it should also work for risk-neutral preferences.\n\nSuppose that the Stock Exchange also listed an American call option with the same characteris- tics.\n\nd. Did such a decision make sense if Pineapple Inc. was not expected to pay out dividends or repurchase shares in the foreseeable future? Explain your answer.\n\nNo. It is never optimal to exercise early an American option on a non-dividend-paying stock.\n\ne. What is the price for this American option, and how does it compare to the price of the European option? Explain.\n\nThe same as the price of European as there is no value in early exercise.\n\nf. How would your answer in e. change if Pineapple Inc. decided to pay out dividends? Explain intuitively.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.\n\nDepends if it is valuable to exercise the option yearly, if there is value than American will be worth more than European.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 3 - Capital Structure [10%]\n\nAs a financial consultant, you are given the following information about two companies, one levered and ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.19318181818181818,
+              "width": 0.2540849673202614,
+              "original_page": 4
+            },
+            "content": "Task 3 - Capital Structure [10%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9323317527770996
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.034722222222222224,
+              "left": 0.16993464052287582,
+              "page": 4,
+              "top": 0.22348484848484848,
+              "width": 0.6993464052287581,
+              "original_page": 4
+            },
+            "content": "As a financial consultant, you are given the following information about two companies, one levered and one unlevered:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9697189211845398
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.18623737373737373,
+              "left": 0.13970588235294118,
+              "page": 4,
+              "top": 0.2601010101010101,
+              "width": 0.7540849673202614,
+              "original_page": 4
+            },
+            "content": "|                             | Unlevered    | Levered    |\n|-|-|-|\n| Before tax operating income | $10 000      | $10 000    |\n| Interest on debt            | 0            | 2500       |\n| Cost of capital (WACC)      |              | 16%        |\n| Cost of Equity capital      |              |            |\n| Cost of Debt capital        |              |            |\n| Value of equity             |              | 22 500     |\n| Value of debt               |              |            |\n| Value of fim                |              |            |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9480372243457371
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03535353535353535,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.4690656565656566,
+              "width": 0.7483660130718954,
+              "original_page": 4
+            },
+            "content": "Copy the table to your answer sheet and fill in the missing figures. Show the steps you used to calculate them. Assume that the corporate tax rate is 40% and all cash flows are perpetual.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9811530709266663
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.13446969696969696,
+              "left": 0.1380718954248366,
+              "page": 4,
+              "top": 0.5208333333333334,
+              "width": 0.3684640522875817,
+              "original_page": 4
+            },
+            "content": "|                             | Firm U   | Firm L   |\n|-|-|-|\n| Before tax operating income | 10,000   | 10,000   |\n| Interest on debt            | 0        | 2,500    |\n| Cost of capital             | 19.05%   | 16.0%    |\n| Cost of Equity capital      | 19.05%   | 20.0%    |\n| Cost of Debt capital        | -        | 16.67%   |\n| Value of equity             | 31,500   | 22,500   |\n| Value of debt               | 0        | 15,000   |\n| Value of firm               | 31,500   | 37,500   |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8997507247659895
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 4
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.915064337849617
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.22032828282828282,
+              "left": 0.14215686274509803,
+              "page": 5,
+              "top": 0.049873737373737376,
+              "width": 0.34967320261437906,
+              "original_page": 5
+            },
+            "content": "$10,000(1 0.4)\nV₁ = = $37,500\n0.16\nDL VL-EL = $15,000\n$2,500\nDL $15,000 =\nTD\n=> TD = 16.67%\n(10,000 2,500) (10.40)\nEL $22,500 =\nTE\n=> TE = 20%\n22,500 15,000\nr 16% 0.20- +0.1667(10.4)\n37,500 37,500\nVU VL-7D = $37,500-0.4 $15,000 = $31,500\n10,000(1 0.4)\nVu=EU 31,500 =\nTE\n⇒ TET 19.05%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8004060387611389
+            },
+            "image_url": null
+          }
+        ],
+        "content": "about your results. The Examinations Office will not be able to answer this.\n\nDepends if it is valuable to exercise the option yearly, if there is value than American will be worth more than European.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 3 - Capital Structure [10%]\n\nAs a financial consultant, you are given the following information about two companies, one levered and one unlevered:\n\n|                             | Unlevered    | Levered    |\n|-|-|-|\n| Before tax operating income | $10 000      | $10 000    |\n| Interest on debt            | 0            | 2500       |\n| Cost of capital (WACC)      |              | 16%        |\n| Cost of Equity capital      |              |            |\n| Cost of Debt capital        |              |            |\n| Value of equity             |              | 22 500     |\n| Value of debt               |              |            |\n| Value of fim                |              |            |\n\nCopy the table to your answer sheet and fill in the missing figures. Show the steps you used to calculate them. Assume that the corporate tax rate is 40% and all cash flows are perpetual.\n\n|                             | Firm U   | Firm L   |\n|-|-|-|\n| Before tax operating income | 10,000   | 10,000   |\n| Interest on debt            | 0        | 2,500    |\n| Cost of capital             | 19.05%   | 16.0%    |\n| Cost of Equity capital      | 19.05%   | 20.0%    |\n| Cost of Debt capital        | -        | 16.67%   |\n| Value of equity             | 31,500   | 22,500   |\n| Value of debt               | 0        | 15,000   |\n| Value of firm               | 31,500   | 37,500   |\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.\n\n$10,000(1 0.4)\nV₁ = = $37,500\n0.16\nDL VL-EL = $15,000\n$2,500\nDL $15,000 =\nTD\n=> TD = 16.67%\n(10,000 2,500) (10.40)\nEL $22,500 =\nTE\n=> TE = 20%\n22,500 15,000\nr 16% 0.20- +0.1667(10.4)\n37,500 37,500\nVU VL-7D = $37,500-0.4 $15,000 = $31,500\n10,000(1 0.4)\nVu=EU 31,500 =\nTE\n⇒ TET 19.05%# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4- Portfolio Choice [25%]\n\nSuppose that there are two stocks available in the market: stock A and stock B. The expected returns of th",
+        "embed": "about your results. The Examinations Office will not be able to answer this.\n\nDepends if it is valuable to exercise the option yearly, if there is value than American will be worth more than European.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 3 - Capital Structure [10%]\n\nAs a financial consultant, you are given the following information about two companies, one levered and one unlevered:\n\nThis table presents a comparison of a firm's financial structure, both unlevered and levered. While both scenarios show an identical before-tax operating income of $10,000, the levered firm incurs $2,500 in interest expense. The levered firm's equity value is $22,500, and its cost of capital is 16%.\n\nCopy the table to your answer sheet and fill in the missing figures. Show the steps you used to calculate them. Assume that the corporate tax rate is 40% and all cash flows are perpetual.\n\nThis table compares two firms, U and L, which have identical before-tax operating income. Firm L, which uses debt financing, has a lower cost of capital and a higher firm value than Firm U, which is all-equity financed. This difference is explained by Firm L's higher cost of equity and the tax shield provided by its debt.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.\n\n$10,000(1 0.4)\nV₁ = = $37,500\n0.16\nDL VL-EL = $15,000\n$2,500\nDL $15,000 =\nTD\n=> TD = 16.67%\n(10,000 2,500) (10.40)\nEL $22,500 =\nTE\n=> TE = 20%\n22,500 15,000\nr 16% 0.20- +0.1667(10.4)\n37,500 37,500\nVU VL-7D = $37,500-0.4 $15,000 = $31,500\n10,000(1 0.4)\nVu=EU 31,500 =\nTE\n⇒ TET 19.05%# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4- Portfolio Choice [25%]\n\nSuppose that there are two stocks available in the market: stock A and stock B. The expected returns of th",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 5,
+              "top": 0.288510101010101,
+              "width": 0.2426470588235294,
+              "original_page": 5
+            },
+            "content": "Task 4- Portfolio Choice [25%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9297278344631195
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07512626262626262,
+              "left": 0.11683006535947713,
+              "page": 5,
+              "top": 0.3188131313131313,
+              "width": 0.7393790849673203,
+              "original_page": 5
+            },
+            "content": "Suppose that there are two stocks available in the market: stock A and stock B. The expected returns of these stocks are equal, and given by E[RA ]=E[RB ]=0.16. The standard deviation of stock A is equal to 0.4, and the standard deviation of stock B is 0.7. The stocks are positively correlated with the correlation coefficient equal to 0.18.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9824983835220337
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07386363636363637,
+              "left": 0.20506535947712418,
+              "page": 5,
+              "top": 0.4090909090909091,
+              "width": 0.6723856209150327,
+              "original_page": 5
+            },
+            "content": "a. Find the expected return and volatility of the portfolio consisting of 20% of stock A and 80% of stock B. Expected return 0.16 and variance is (1 −𝑥)2 s12 + 𝑥 2 s22 + 2𝑥(1 −𝑥)𝜌s1s = 0.3424. Volatility is 0.59",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9731715440750122
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05176767676767677,
+              "left": 0.20506535947712418,
+              "page": 5,
+              "top": 0.5044191919191919,
+              "width": 0.6715686274509803,
+              "original_page": 5
+            },
+            "content": "b. Is this portfolio efficient? Explain. No, you can achieve the same expected return and a smaller variance for example by just investing everything in stock A.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9539582997560501
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03535353535353535,
+              "left": 0.20506535947712418,
+              "page": 5,
+              "top": 0.5789141414141414,
+              "width": 0.6772875816993464,
+              "original_page": 5
+            },
+            "content": "c. Sketch the portfolios that one can create by combining stocks A and B for the fol- lowing weights:",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9727082937955857
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.125,
+              "left": 0.17565359477124182,
+              "page": 5,
+              "top": 0.615530303030303,
+              "width": 0.7066993464052288,
+              "original_page": 5
+            },
+            "content": "| Weight Stock A   | Weight Stock B   |\n|-|-|\n| 0%               | 100%             |\n| 20%              | 80%              |\n| 60%              | 40%              |\n| 80%              | 20%              |\n| 100%             | 0%               |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9547853499650956
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.049873737373737376,
+              "left": 0.23366013071895425,
+              "page": 5,
+              "top": 0.7449494949494949,
+              "width": 0.636437908496732,
+              "original_page": 5
+            },
+            "content": "Illustrate the efficient frontier. The portfolios will end up on the line, and the efficient frontier will be one point in this case.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8110511273145675
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05113636363636364,
+              "left": 0.20506535947712418,
+              "page": 5,
+              "top": 0.8181818181818182,
+              "width": 0.6650326797385621,
+              "original_page": 5
+            },
+            "content": "d. What is the optimal portfolio choice for a typical risk-averse investor? Risk averse investor will choose a minimum variance portfolio investing approx. 17,6% in stock B and 82,4% in stock A",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9785881280899048
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 5,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 5
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9022467523813248
+            },
+            "image_url": null
+          }
+        ],
+        "content": " = 16.67%\n(10,000 2,500) (10.40)\nEL $22,500 =\nTE\n=> TE = 20%\n22,500 15,000\nr 16% 0.20- +0.1667(10.4)\n37,500 37,500\nVU VL-7D = $37,500-0.4 $15,000 = $31,500\n10,000(1 0.4)\nVu=EU 31,500 =\nTE\n⇒ TET 19.05%# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4- Portfolio Choice [25%]\n\nSuppose that there are two stocks available in the market: stock A and stock B. The expected returns of these stocks are equal, and given by E[RA ]=E[RB ]=0.16. The standard deviation of stock A is equal to 0.4, and the standard deviation of stock B is 0.7. The stocks are positively correlated with the correlation coefficient equal to 0.18.\n\na. Find the expected return and volatility of the portfolio consisting of 20% of stock A and 80% of stock B. Expected return 0.16 and variance is (1 −𝑥)2 s12 + 𝑥 2 s22 + 2𝑥(1 −𝑥)𝜌s1s = 0.3424. Volatility is 0.59\n\nb. Is this portfolio efficient? Explain. No, you can achieve the same expected return and a smaller variance for example by just investing everything in stock A.\n\nc. Sketch the portfolios that one can create by combining stocks A and B for the fol- lowing weights:\n\n| Weight Stock A   | Weight Stock B   |\n|-|-|\n| 0%               | 100%             |\n| 20%              | 80%              |\n| 60%              | 40%              |\n| 80%              | 20%              |\n| 100%             | 0%               |\n\nIllustrate the efficient frontier. The portfolios will end up on the line, and the efficient frontier will be one point in this case.\n\nd. What is the optimal portfolio choice for a typical risk-averse investor? Risk averse investor will choose a minimum variance portfolio investing approx. 17,6% in stock B and 82,4% in stock A\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4- Portfolio Choice [25%] (cont.)\n\ne. Explain intuitively what correlation coefficient represents. The degree of co-movements in stoc",
+        "embed": " = 16.67%\n(10,000 2,500) (10.40)\nEL $22,500 =\nTE\n=> TE = 20%\n22,500 15,000\nr 16% 0.20- +0.1667(10.4)\n37,500 37,500\nVU VL-7D = $37,500-0.4 $15,000 = $31,500\n10,000(1 0.4)\nVu=EU 31,500 =\nTE\n⇒ TET 19.05%# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4- Portfolio Choice [25%]\n\nSuppose that there are two stocks available in the market: stock A and stock B. The expected returns of these stocks are equal, and given by E[RA ]=E[RB ]=0.16. The standard deviation of stock A is equal to 0.4, and the standard deviation of stock B is 0.7. The stocks are positively correlated with the correlation coefficient equal to 0.18.\n\na. Find the expected return and volatility of the portfolio consisting of 20% of stock A and 80% of stock B. Expected return 0.16 and variance is (1 −𝑥)2 s12 + 𝑥 2 s22 + 2𝑥(1 −𝑥)𝜌s1s = 0.3424. Volatility is 0.59\n\nb. Is this portfolio efficient? Explain. No, you can achieve the same expected return and a smaller variance for example by just investing everything in stock A.\n\nc. Sketch the portfolios that one can create by combining stocks A and B for the fol- lowing weights:\n\nThis table illustrates five different portfolio allocations between Stock A and Stock B. The allocations range from having 100% of the portfolio in Stock B and 0% in Stock A, to the opposite extreme of 100% in Stock A and 0% in Stock B. Intermediate allocations include scenarios with 20% in Stock A and 80% in Stock B, 60% in Stock A and 40% in Stock B, and 80% in Stock A and 20% in Stock B.\n\nIllustrate the efficient frontier. The portfolios will end up on the line, and the efficient frontier will be one point in this case.\n\nd. What is the optimal portfolio choice for a typical risk-averse investor? Risk averse investor will choose a minimum variance portfolio investing approx. 17,6% in stock B and 82,4% in stock A\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4- Portfolio Choice [25%] (cont.)\n\ne. Explain intuitively what correlation coefficient represents. The degree of co-movements in stoc",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.2042483660130719,
+              "page": 6,
+              "top": 0.047979797979797977,
+              "width": 0.4959150326797386,
+              "original_page": 6
+            },
+            "content": "e. Explain intuitively what correlation coefficient represents. The degree of co-movements in stock returns",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.933895343542099
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.12563131313131312,
+              "left": 0.2042483660130719,
+              "page": 6,
+              "top": 0.08585858585858586,
+              "width": 0.6495098039215687,
+              "original_page": 6
+            },
+            "content": "f. How would your answer to question d. change if the correlation coefficient changed? Consider two extreme examples: when stocks A and B are perfectly positively correlated and when they are perfectly negatively correlated. If perfectly positively, you invest everything is stock A because it has a smaller standard deviation. Is perfectly negatively the new optimal portfolio weights are 36.4% stock B and 63.6% in stock A, so you add more of stock B to benefit from diversification.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9632635205984116
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 6,
+              "top": 0.23484848484848486,
+              "width": 0.24673202614379086,
+              "original_page": 6
+            },
+            "content": "Task 5 - Pricing Theories [15%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.940793576836586
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.054924242424242424,
+              "left": 0.11764705882352941,
+              "page": 6,
+              "top": 0.26515151515151514,
+              "width": 0.7573529411764706,
+              "original_page": 6
+            },
+            "content": "In the discussions of some of the models in this course, we relied on the following type of argu- ment: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9783870905637742
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05366161616161616,
+              "left": 0.1454248366013072,
+              "page": 6,
+              "top": 0.3352272727272727,
+              "width": 0.7361111111111112,
+              "original_page": 6
+            },
+            "content": "a. What did we call this statement in the course? State the assumptions that are necessary for this statement to hold. Law of one price, no arbitrage argument",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9567381888628006
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03535353535353535,
+              "left": 0.1454248366013072,
+              "page": 6,
+              "top": 0.3939393939393939,
+              "width": 0.7328431372549019,
+              "original_page": 6
+            },
+            "content": "b. For which of the following theories, shortly explaining each theory and explain which of the following theories relies explicitly on no-arbitrage arguments.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9687246590852737
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.19362745098039216,
+              "page": 6,
+              "top": 0.4337121212121212,
+              "width": 0.33088235294117646,
+              "original_page": 6
+            },
+            "content": "\t\ti. The Put Call parity of option pricing.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9384346306324005
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.18872549019607843,
+              "page": 6,
+              "top": 0.45391414141414144,
+              "width": 0.4950980392156863,
+              "original_page": 6
+            },
+            "content": "\tii. The Miller Modigliani propositions for capital structure.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.940884816646576
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.1854575163398693,
+              "page": 6,
+              "top": 0.4734848484848485,
+              "width": 0.14215686274509803,
+              "original_page": 6
+            },
+            "content": "\tiii. The CAPM.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9184244036674499
+            },
+            "image_url": null
+          }
+        ],
+        "content": "% in stock A\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4- Portfolio Choice [25%] (cont.)\n\ne. Explain intuitively what correlation coefficient represents. The degree of co-movements in stock returns\n\nf. How would your answer to question d. change if the correlation coefficient changed? Consider two extreme examples: when stocks A and B are perfectly positively correlated and when they are perfectly negatively correlated. If perfectly positively, you invest everything is stock A because it has a smaller standard deviation. Is perfectly negatively the new optimal portfolio weights are 36.4% stock B and 63.6% in stock A, so you add more of stock B to benefit from diversification.\n\n## Task 5 - Pricing Theories [15%]\n\nIn the discussions of some of the models in this course, we relied on the following type of argu- ment: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”\n\na. What did we call this statement in the course? State the assumptions that are necessary for this statement to hold. Law of one price, no arbitrage argument\n\nb. For which of the following theories, shortly explaining each theory and explain which of the following theories relies explicitly on no-arbitrage arguments.\n\n\t\ti. The Put Call parity of option pricing.\n\n\tii. The Miller Modigliani propositions for capital structure.\n\n\tiii. The CAPM.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## For i and ii.\n\ni. The equation for Put Call parity comes from the fact that the combinations of stock with a put and bond with a call have",
+        "embed": "% in stock A\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4- Portfolio Choice [25%] (cont.)\n\ne. Explain intuitively what correlation coefficient represents. The degree of co-movements in stock returns\n\nf. How would your answer to question d. change if the correlation coefficient changed? Consider two extreme examples: when stocks A and B are perfectly positively correlated and when they are perfectly negatively correlated. If perfectly positively, you invest everything is stock A because it has a smaller standard deviation. Is perfectly negatively the new optimal portfolio weights are 36.4% stock B and 63.6% in stock A, so you add more of stock B to benefit from diversification.\n\n## Task 5 - Pricing Theories [15%]\n\nIn the discussions of some of the models in this course, we relied on the following type of argu- ment: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”\n\na. What did we call this statement in the course? State the assumptions that are necessary for this statement to hold. Law of one price, no arbitrage argument\n\nb. For which of the following theories, shortly explaining each theory and explain which of the following theories relies explicitly on no-arbitrage arguments.\n\n\t\ti. The Put Call parity of option pricing.\n\n\tii. The Miller Modigliani propositions for capital structure.\n\n\tiii. The CAPM.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## For i and ii.\n\ni. The equation for Put Call parity comes from the fact that the combinations of stock with a put and bond with a call have",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.016414141414141416,
+              "left": 0.11764705882352941,
+              "page": 6,
+              "top": 0.4911616161616162,
+              "width": 0.09068627450980392,
+              "original_page": 6
+            },
+            "content": "For i and ii.",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8069580256938934
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.050505050505050504,
+              "left": 0.2679738562091503,
+              "page": 6,
+              "top": 0.5107323232323232,
+              "width": 0.5955882352941176,
+              "original_page": 6
+            },
+            "content": "i. The equation for Put Call parity comes from the fact that the combinations of stock with a put and bond with a call have the same payoffs, thus, they must have to have the same price.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9703536480665207
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06881313131313131,
+              "left": 0.2647058823529412,
+              "page": 6,
+              "top": 0.5656565656565656,
+              "width": 0.6217320261437909,
+              "original_page": 6
+            },
+            "content": "ii. In the absence of taxes or other transaction costs, the total cashflow to all of the firm’s security holders is equal to the total cashflow generated by the firm’s as- sets. Thus, by law of one price securities and assets must have the same market value. (p.525 in the book)",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.975622969865799
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.26143790849673204,
+              "page": 6,
+              "top": 0.6388888888888888,
+              "width": 0.6184640522875817,
+              "original_page": 6
+            },
+            "content": "iii. CAMP does not explicitly rely on no arbitrage argument. It is an equilibrium the- ory, where it is required that all investors hold market portfolio.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9696818053722381
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 6,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 6
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9276187032461166
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ich of the following theories relies explicitly on no-arbitrage arguments.\n\n\t\ti. The Put Call parity of option pricing.\n\n\tii. The Miller Modigliani propositions for capital structure.\n\n\tiii. The CAPM.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## For i and ii.\n\ni. The equation for Put Call parity comes from the fact that the combinations of stock with a put and bond with a call have the same payoffs, thus, they must have to have the same price.\n\nii. In the absence of taxes or other transaction costs, the total cashflow to all of the firm’s security holders is equal to the total cashflow generated by the firm’s as- sets. Thus, by law of one price securities and assets must have the same market value. (p.525 in the book)\n\niii. CAMP does not explicitly rely on no arbitrage argument. It is an equilibrium the- ory, where it is required that all investors hold market portfolio.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+        "embed": "ich of the following theories relies explicitly on no-arbitrage arguments.\n\n\t\ti. The Put Call parity of option pricing.\n\n\tii. The Miller Modigliani propositions for capital structure.\n\n\tiii. The CAPM.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## For i and ii.\n\ni. The equation for Put Call parity comes from the fact that the combinations of stock with a put and bond with a call have the same payoffs, thus, they must have to have the same price.\n\nii. In the absence of taxes or other transaction costs, the total cashflow to all of the firm’s security holders is equal to the total cashflow generated by the firm’s as- sets. Thus, by law of one price securities and assets must have the same market value. (p.525 in the book)\n\niii. CAMP does not explicitly rely on no arbitrage argument. It is an equilibrium the- ory, where it is required that all investors hold market portfolio.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 6,
+    "credit_breakdown": {
+      "page": 6.0,
+      "complex": 5.0
+    },
+    "credits": 11.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "complex",
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/717a1ab6-1b70-47d1-9460-e1d05fbb86a4.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180608Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=cf40a3d3324661e82c4049208c0ade920979007403e86e6fce573d4251b6fd7a",
+  "studio_link": "https://studio.reducto.ai/job/ad9af6a6-e1fa-4d99-9288-e5a717ebb070",
+  "response_type": "parse",
+  "parse_mode": null
+}

@@ -1,0 +1,1319 @@
+{
+  "duration": 15.728140830993652,
+  "job_id": "e7ca912f-de6e-4705-9060-24c1f63db6cb",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.09159663865546218,
+              "page": 1,
+              "top": 0.03503562945368171,
+              "width": 0.8025210084033614,
+              "original_page": 1
+            },
+            "content": "Access to your answers: After the exam, you can find your answers in the archive in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8977710038423539
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.06638655462184874,
+              "page": 1,
+              "top": 0.14192399049881235,
+              "width": 0.32016806722689073,
+              "original_page": 1
+            },
+            "content": "1(a) Sustainable Finance",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9185308307409286
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11848739495798319,
+              "page": 1,
+              "top": 0.17992874109263657,
+              "width": 0.5117647058823529,
+              "original_page": 1
+            },
+            "content": "Regarding sustainability in finance, choose the correct answer.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9362840443849564
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.23698080973500593,
+              "left": 0.11793034657710741,
+              "page": 1,
+              "top": 0.21819060771878712,
+              "width": 0.7585812736960018,
+              "original_page": 1
+            },
+            "content": "Select one alternative:\n\n[ ] Traditional economic models were developed with consideration for sustainability concerns.\n\n[ ] Negative externalities can explain the positive correlation between sustainable investment and shareholder value, regardless of materiality.\n\n[ ] There is consensus among investors about the carbon risk, which is already reflected in asset prices.\n\n[ ] The two dimensions of sustainability reporting are a) the impact in shareholder assessment and decisions, and b) significance on economic, social and environmental impacts.",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9211958169937133
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7411764705882353,
+              "page": 1,
+              "top": 0.5195961995249406,
+              "width": 0.15630252100840336,
+              "original_page": 1
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7981568902730942
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.06638655462184874,
+              "page": 2,
+              "top": 0.04275534441805225,
+              "width": 0.3050420168067227,
+              "original_page": 2
+            },
+            "content": "1(b) Valuation of Bonds",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11932773109243698,
+              "page": 2,
+              "top": 0.08729216152019002,
+              "width": 0.5546218487394958,
+              "original_page": 2
+            },
+            "content": "Consider the following zero-coupon yields on default-free securities:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9566495448350907
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04156769596199525,
+              "left": 0.11848739495798319,
+              "page": 2,
+              "top": 0.12292161520190023,
+              "width": 0.611764705882353,
+              "original_page": 2
+            },
+            "content": "| Maturity (years)   | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Zero-Coupon YTM    | 5.80% | 5.50% | 5.20% | 5.00% | 4.80% |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7545147091150284
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.2009339864916586,
+              "left": 0.11585629246815914,
+              "page": 2,
+              "top": 0.18814480163139288,
+              "width": 0.7674667486623555,
+              "original_page": 2
+            },
+            "content": "A 4-year default-free security with a face value of $1000 and an annual coupon rate of 5.25%\nwill trade:\nSelect one alternative:\n[ ] at a discount.\n[ ] at par.\n[ ] at a premium.\n[ ] None of the above.",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9595987319946289
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7411764705882353,
+              "page": 2,
+              "top": 0.4519002375296912,
+              "width": 0.15630252100840336,
+              "original_page": 2
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8449019312858581
+            },
+            "image_url": null
+          }
+        ],
+        "content": "Access to your answers: After the exam, you can find your answers in the archive in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.\n\n## 1(a) Sustainable Finance\n\nRegarding sustainability in finance, choose the correct answer.\n\nSelect one alternative:\n\n[ ] Traditional economic models were developed with consideration for sustainability concerns.\n\n[ ] Negative externalities can explain the positive correlation between sustainable investment and shareholder value, regardless of materiality.\n\n[ ] There is consensus among investors about the carbon risk, which is already reflected in asset prices.\n\n[ ] The two dimensions of sustainability reporting are a) the impact in shareholder assessment and decisions, and b) significance on economic, social and environmental impacts.\n\nMaximum marks: 2\n\n1(b) Valuation of Bonds\n\nConsider the following zero-coupon yields on default-free securities:\n\n| Maturity (years)   | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Zero-Coupon YTM    | 5.80% | 5.50% | 5.20% | 5.00% | 4.80% |\n\nA 4-year default-free security with a face value of $1000 and an annual coupon rate of 5.25%\nwill trade:\nSelect one alternative:\n[ ] at a discount.\n[ ] at par.\n[ ] at a premium.\n[ ] None of the above.\n\nMaximum marks: 2## 1(c) Capital Budgeting\n\nReally Big Conglomerate (RBC) is considering acquiring POP, Inc., a smaller unsuccessful Internet firm. POP has outstanding tax loss carryforwards of $320 million from losse",
+        "embed": "Access to your answers: After the exam, you can find your answers in the archive in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.\n\n## 1(a) Sustainable Finance\n\nRegarding sustainability in finance, choose the correct answer.\n\nSelect one alternative:\n\n[ ] Traditional economic models were developed with consideration for sustainability concerns.\n\n[ ] Negative externalities can explain the positive correlation between sustainable investment and shareholder value, regardless of materiality.\n\n[ ] There is consensus among investors about the carbon risk, which is already reflected in asset prices.\n\n[ ] The two dimensions of sustainability reporting are a) the impact in shareholder assessment and decisions, and b) significance on economic, social and environmental impacts.\n\nMaximum marks: 2\n\n1(b) Valuation of Bonds\n\nConsider the following zero-coupon yields on default-free securities:\n\nThis table displays the Yield to Maturity (YTM) for zero-coupon bonds across different maturities. It shows that the YTM decreases as the maturity of the zero-coupon bond increases, indicating an inverted yield curve. Specifically, the YTM declines from 5.80% for a 1-year bond to 4.80% for a 5-year bond.\n\nA 4-year default-free security with a face value of $1000 and an annual coupon rate of 5.25%\nwill trade:\nSelect one alternative:\n[ ] at a discount.\n[ ] at par.\n[ ] at a premium.\n[ ] None of the above.\n\nMaximum marks: 2## 1(c) Capital Budgeting\n\nReally Big Conglomerate (RBC) is considering acquiring POP, Inc., a smaller unsuccessful Internet firm. POP has outstanding tax loss carryforwards of $320 million from losse",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.019596199524940617,
+              "left": 0.06638655462184874,
+              "page": 2,
+              "top": 0.503562945368171,
+              "width": 0.28907563025210087,
+              "original_page": 2
+            },
+            "content": "1(c) Capital Budgeting",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9041974693536758
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07957244655581948,
+              "left": 0.11848739495798319,
+              "page": 2,
+              "top": 0.5409738717339667,
+              "width": 0.7638655462184873,
+              "original_page": 2
+            },
+            "content": "Really Big Conglomerate (RBC) is considering acquiring POP, Inc., a smaller unsuccessful Internet firm. POP has outstanding tax loss carryforwards of $320 million from losses over the past six years. RBC has pre-tax income of $100 million per year, a cost of capital of 10%, and pays 21% in taxes. The Tax Cuts and Jobs Act of 2017 will limit RBC's ability to write off the carryforwards to 80% of RBC's annual pre-tax income.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9516915619373322
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11848739495798319,
+              "page": 2,
+              "top": 0.6247030878859857,
+              "width": 0.726890756302521,
+              "original_page": 2
+            },
+            "content": "If RBC acquires POP, in what year will RBC completely use up the tax loss carryforward? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6799111068248749
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.17320965474688244,
+              "left": 0.11692904945181197,
+              "page": 2,
+              "top": 0.6392469972442845,
+              "width": 0.738552676930147,
+              "original_page": 2
+            },
+            "content": "Select one alternative:\n\n[ ] 4 years.\n\n[ ] 3 years.\n\n[ ] 2 years.\n\n[ ] 5 years.",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8992522239685059
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7411764705882353,
+              "page": 2,
+              "top": 0.8735154394299287,
+              "width": 0.15630252100840336,
+              "original_page": 2
+            },
+            "content": "Maximum marks: 2",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9209015160799027
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ree security with a face value of $1000 and an annual coupon rate of 5.25%\nwill trade:\nSelect one alternative:\n[ ] at a discount.\n[ ] at par.\n[ ] at a premium.\n[ ] None of the above.\n\nMaximum marks: 2## 1(c) Capital Budgeting\n\nReally Big Conglomerate (RBC) is considering acquiring POP, Inc., a smaller unsuccessful Internet firm. POP has outstanding tax loss carryforwards of $320 million from losses over the past six years. RBC has pre-tax income of $100 million per year, a cost of capital of 10%, and pays 21% in taxes. The Tax Cuts and Jobs Act of 2017 will limit RBC's ability to write off the carryforwards to 80% of RBC's annual pre-tax income.\n\nIf RBC acquires POP, in what year will RBC completely use up the tax loss carryforward? Select one alternative:\n\nSelect one alternative:\n\n[ ] 4 years.\n\n[ ] 3 years.\n\n[ ] 2 years.\n\n[ ] 5 years.\n\nMaximum marks: 2## 1(c) Capital Budgeting (cont.)\n\n1(d) Debt Markets\n\nWith respect to debt markets, choose the correct answer.\n\nSelect one alternative:\n\n[ ] The expected loss of lending can be calculated by multiplyi",
+        "embed": "ree security with a face value of $1000 and an annual coupon rate of 5.25%\nwill trade:\nSelect one alternative:\n[ ] at a discount.\n[ ] at par.\n[ ] at a premium.\n[ ] None of the above.\n\nMaximum marks: 2## 1(c) Capital Budgeting\n\nReally Big Conglomerate (RBC) is considering acquiring POP, Inc., a smaller unsuccessful Internet firm. POP has outstanding tax loss carryforwards of $320 million from losses over the past six years. RBC has pre-tax income of $100 million per year, a cost of capital of 10%, and pays 21% in taxes. The Tax Cuts and Jobs Act of 2017 will limit RBC's ability to write off the carryforwards to 80% of RBC's annual pre-tax income.\n\nIf RBC acquires POP, in what year will RBC completely use up the tax loss carryforward? Select one alternative:\n\nSelect one alternative:\n\n[ ] 4 years.\n\n[ ] 3 years.\n\n[ ] 2 years.\n\n[ ] 5 years.\n\nMaximum marks: 2## 1(c) Capital Budgeting (cont.)\n\n1(d) Debt Markets\n\nWith respect to debt markets, choose the correct answer.\n\nSelect one alternative:\n\n[ ] The expected loss of lending can be calculated by multiplyi",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.06554621848739496,
+              "page": 3,
+              "top": 0.042161520190023755,
+              "width": 0.22857142857142856,
+              "original_page": 3
+            },
+            "content": "1(d) Debt Markets",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11932773109243698,
+              "page": 3,
+              "top": 0.08729216152019002,
+              "width": 0.46638655462184875,
+              "original_page": 3
+            },
+            "content": "With respect to debt markets, choose the correct answer.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9529073566198349
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.11932773109243698,
+              "page": 3,
+              "top": 0.12826603325415678,
+              "width": 0.1957983193277311,
+              "original_page": 3
+            },
+            "content": "Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8606651216745377
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.13445378151260504,
+              "page": 3,
+              "top": 0.15973871733966746,
+              "width": 0.7344537815126051,
+              "original_page": 3
+            },
+            "content": "[ ] The expected loss of lending can be calculated by multiplying the probability of default, the value of loss given a default and the exposure of the lender at default.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9673556166887284
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.13361344537815126,
+              "page": 3,
+              "top": 0.21140142517814728,
+              "width": 0.746218487394958,
+              "original_page": 3
+            },
+            "content": "[ ] High-yield bonds are preferable to investment-grade bonds due to the greater credit risk of the latter type when compared to the first.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9636228282814441
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.13361344537815126,
+              "page": 3,
+              "top": 0.26365795724465557,
+              "width": 0.7369747899159664,
+              "original_page": 3
+            },
+            "content": "[ ] The lending market in Norway is extremely liquid, almost a perfect market, and there is no revenue to be made due to thin margins.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9615647120475769
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.13361344537815126,
+              "page": 3,
+              "top": 0.3153206650831354,
+              "width": 0.6722689075630253,
+              "original_page": 3
+            },
+            "content": "[ ] Investors prefer \"callable\" bonds with no premium, which provide them with the opportunity of profiting from high interest rates.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.959325406998396
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7411764705882353,
+              "page": 3,
+              "top": 0.41152019002375295,
+              "width": 0.15630252100840336,
+              "original_page": 3
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8936623841524124
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.06638655462184874,
+              "page": 3,
+              "top": 0.45605700712589076,
+              "width": 0.36722689075630255,
+              "original_page": 3
+            },
+            "content": "1(e) Valuation of Companies",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11848739495798319,
+              "page": 3,
+              "top": 0.501187648456057,
+              "width": 0.7630252100840336,
+              "original_page": 3
+            },
+            "content": "Regarding the valuation methods using discounted cash flow and normalized earnings, select the correct answer.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9743973344564438
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.11848739495798319,
+              "page": 3,
+              "top": 0.5587885985748219,
+              "width": 0.1957983193277311,
+              "original_page": 3
+            },
+            "content": "Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7891447842121124
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.13277310924369748,
+              "page": 3,
+              "top": 0.5890736342042755,
+              "width": 0.7504201680672269,
+              "original_page": 3
+            },
+            "content": "[ ] If a company goes through a stable business cycle, the normalized earnings method is a common choice.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9606271437472766
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.1319327731092437,
+              "page": 3,
+              "top": 0.6419239904988123,
+              "width": 0.7327731092436974,
+              "original_page": 3
+            },
+            "content": "[ ] With the discounted cash flow it is difficult to incorporate specific information about the firm.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9562717052176595
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.027315914489311165,
+              "left": 0.13277310924369748,
+              "page": 3,
+              "top": 0.6959619952494062,
+              "width": 0.7319327731092437,
+              "original_page": 3
+            },
+            "content": "[ ] O The normalized earnings is a more useful method than the discounted cash flow when\nthe company is expected to grow in the future.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8528359994292259
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.13277310924369748,
+              "page": 3,
+              "top": 0.7458432304038005,
+              "width": 0.6747899159663866,
+              "original_page": 3
+            },
+            "content": "[ ] Discounted cash flow method takes into account the market valuation of similar companies.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.957850594818592
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7411764705882353,
+              "page": 3,
+              "top": 0.8420427553444181,
+              "width": 0.15630252100840336,
+              "original_page": 3
+            },
+            "content": "Maximum marks: 2",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9021436959505081
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.06554621848739496,
+              "page": 4,
+              "top": 0.042161520190023755,
+              "width": 0.22100840336134453,
+              "original_page": 4
+            },
+            "content": "1(f) Real Options",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11428571428571428,
+              "page": 4,
+              "top": 0.08729216152019002,
+              "width": 0.7050420168067227,
+              "original_page": 4
+            },
+            "content": "Which of the following is an example of a way in which companies can create value by exploiting real options?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9634900510311126
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.11428571428571428,
+              "page": 4,
+              "top": 0.14489311163895488,
+              "width": 0.1957983193277311,
+              "original_page": 4
+            },
+            "content": "Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8213054776191712
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.12941176470588237,
+              "page": 4,
+              "top": 0.17814726840855108,
+              "width": 0.3722689075630252,
+              "original_page": 4
+            },
+            "content": "○ Optimally delaying or abandoning projects",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5722863726317883
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.12941176470588237,
+              "page": 4,
+              "top": 0.21437054631828978,
+              "width": 0.43109243697478994,
+              "original_page": 4
+            },
+            "content": "[ ] Exercising in-the-money real options immediately",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8318698644638062
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.12941176470588237,
+              "page": 4,
+              "top": 0.251187648456057,
+              "width": 0.6142857142857143,
+              "original_page": 4
+            },
+            "content": "[ ] Acting quickly to take on new projects, even if there is no cost to waiting",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8797201784327626
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.12857142857142856,
+              "page": 4,
+              "top": 0.28978622327790976,
+              "width": 0.45546218487394957,
+              "original_page": 4
+            },
+            "content": "[ ] O Abandoning good projects in favor of newer projects",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8000117987394333
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7411764705882353,
+              "page": 4,
+              "top": 0.37054631828978624,
+              "width": 0.15630252100840336,
+              "original_page": 4
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8763929545879364
+            },
+            "image_url": null
+          }
+        ],
+        "content": "uires POP, in what year will RBC completely use up the tax loss carryforward? Select one alternative:\n\nSelect one alternative:\n\n[ ] 4 years.\n\n[ ] 3 years.\n\n[ ] 2 years.\n\n[ ] 5 years.\n\nMaximum marks: 2## 1(c) Capital Budgeting (cont.)\n\n1(d) Debt Markets\n\nWith respect to debt markets, choose the correct answer.\n\nSelect one alternative:\n\n[ ] The expected loss of lending can be calculated by multiplying the probability of default, the value of loss given a default and the exposure of the lender at default.\n\n[ ] High-yield bonds are preferable to investment-grade bonds due to the greater credit risk of the latter type when compared to the first.\n\n[ ] The lending market in Norway is extremely liquid, almost a perfect market, and there is no revenue to be made due to thin margins.\n\n[ ] Investors prefer \"callable\" bonds with no premium, which provide them with the opportunity of profiting from high interest rates.\n\nMaximum marks: 2\n\n1(e) Valuation of Companies\n\nRegarding the valuation methods using discounted cash flow and normalized earnings, select the correct answer.\n\nSelect one alternative:\n\n[ ] If a company goes through a stable business cycle, the normalized earnings method is a common choice.\n\n[ ] With the discounted cash flow it is difficult to incorporate specific information about the firm.\n\n[ ] O The normalized earnings is a more useful method than the discounted cash flow when\nthe company is expected to grow in the future.\n\n[ ] Discounted cash flow method takes into account the market valuation of similar companies.\n\nMaximum marks: 2\n\n1(f) Real Options\n\nWhich of the following is an example of a way in which companies can create value by exploiting real options?\n\nSelect one alternative:\n\n○ Optimally delaying or abandoning projects\n\n[ ] Exercising in-the-money real options immediately\n\n[ ] Acting quickly to take on new projects, even if there is no cost to waiting\n\n[ ] O Abandoning good projects in favor of newer projects\n\nMaximum marks: 2## 1(g) Real Options\n\nGiven the following decision tree and the cost of capital of 10%, what is the answer that most closely approximates the NPV of the project?\n\n| Event                     | Probabi",
+        "embed": "uires POP, in what year will RBC completely use up the tax loss carryforward? Select one alternative:\n\nSelect one alternative:\n\n[ ] 4 years.\n\n[ ] 3 years.\n\n[ ] 2 years.\n\n[ ] 5 years.\n\nMaximum marks: 2## 1(c) Capital Budgeting (cont.)\n\n1(d) Debt Markets\n\nWith respect to debt markets, choose the correct answer.\n\nSelect one alternative:\n\n[ ] The expected loss of lending can be calculated by multiplying the probability of default, the value of loss given a default and the exposure of the lender at default.\n\n[ ] High-yield bonds are preferable to investment-grade bonds due to the greater credit risk of the latter type when compared to the first.\n\n[ ] The lending market in Norway is extremely liquid, almost a perfect market, and there is no revenue to be made due to thin margins.\n\n[ ] Investors prefer \"callable\" bonds with no premium, which provide them with the opportunity of profiting from high interest rates.\n\nMaximum marks: 2\n\n1(e) Valuation of Companies\n\nRegarding the valuation methods using discounted cash flow and normalized earnings, select the correct answer.\n\nSelect one alternative:\n\n[ ] If a company goes through a stable business cycle, the normalized earnings method is a common choice.\n\n[ ] With the discounted cash flow it is difficult to incorporate specific information about the firm.\n\n[ ] O The normalized earnings is a more useful method than the discounted cash flow when\nthe company is expected to grow in the future.\n\n[ ] Discounted cash flow method takes into account the market valuation of similar companies.\n\nMaximum marks: 2\n\n1(f) Real Options\n\nWhich of the following is an example of a way in which companies can create value by exploiting real options?\n\nSelect one alternative:\n\n○ Optimally delaying or abandoning projects\n\n[ ] Exercising in-the-money real options immediately\n\n[ ] Acting quickly to take on new projects, even if there is no cost to waiting\n\n[ ] O Abandoning good projects in favor of newer projects\n\nMaximum marks: 2## 1(g) Real Options\n\nGiven the following decision tree and the cost of capital of 10%, what is the answer that most closely approximates the NPV of the project?\n\n| Event                     | Probabi",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.06554621848739496,
+              "page": 5,
+              "top": 0.042161520190023755,
+              "width": 0.22605042016806723,
+              "original_page": 5
+            },
+            "content": "1(g) Real Options",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9170824229717255
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11932773109243698,
+              "page": 5,
+              "top": 0.08729216152019002,
+              "width": 0.7579831932773109,
+              "original_page": 5
+            },
+            "content": "Given the following decision tree and the cost of capital of 10%, what is the answer that most closely approximates the NPV of the project?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9320682227611542
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.5622469433129825,
+              "left": 0.11544937005563945,
+              "page": 5,
+              "top": 0.12243529113624554,
+              "width": 0.784847496737953,
+              "original_page": 5
+            },
+            "content": "| Event                     | Probability | Cost/Revenue | Perpetuity Revenue |\n| :------------------------ | :---------- | :----------- | :----------------- |\n| Initial Investment        | 1           | -$500,000    |                    |\n| Successful Test           | 50%         |              |                    |\n| Build Plant (Success)     | 1           | -$3,000,000  | $400,000           |\n| Unsuccessful Test         | 50%         |              |                    |\n| Build Plant (Unsuccess)   | 1           | -$3,000,000  | $200,000           |\n| Sell Prototype            | 1           | $300,000     |                    |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8870142564177512
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7411764705882353,
+              "page": 5,
+              "top": 0.747624703087886,
+              "width": 0.15630252100840336,
+              "original_page": 5
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.773901242017746
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.06470588235294118,
+              "page": 6,
+              "top": 0.040380047505938245,
+              "width": 0.13865546218487396,
+              "original_page": 6
+            },
+            "content": "1(h) CAPM",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11932773109243698,
+              "page": 6,
+              "top": 0.08729216152019002,
+              "width": 0.7647058823529411,
+              "original_page": 6
+            },
+            "content": "Which of the following is NOT an assumption used in deriving the Capital Asset Pricing Model (CAPM)?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.949993571639061
+            },
+            "image_url": null
+          }
+        ],
+        "content": "sing in-the-money real options immediately\n\n[ ] Acting quickly to take on new projects, even if there is no cost to waiting\n\n[ ] O Abandoning good projects in favor of newer projects\n\nMaximum marks: 2## 1(g) Real Options\n\nGiven the following decision tree and the cost of capital of 10%, what is the answer that most closely approximates the NPV of the project?\n\n| Event                     | Probability | Cost/Revenue | Perpetuity Revenue |\n| :------------------------ | :---------- | :----------- | :----------------- |\n| Initial Investment        | 1           | -$500,000    |                    |\n| Successful Test           | 50%         |              |                    |\n| Build Plant (Success)     | 1           | -$3,000,000  | $400,000           |\n| Unsuccessful Test         | 50%         |              |                    |\n| Build Plant (Unsuccess)   | 1           | -$3,000,000  | $200,000           |\n| Sell Prototype            | 1           | $300,000     |                    |\n\nMaximum marks: 2\n\n1(h) CAPM\n\nWhich of the following is NOT an assumption used in deriving the Capital Asset Pricing Model (CAPM)?## Select one alternative:\n\n[ ] Investors hold only efficient portfolios of traded securities, that is portfolios that yield the maximum expected return for the given level of volatility.\n\n[ ] Investo",
+        "embed": "sing in-the-money real options immediately\n\n[ ] Acting quickly to take on new projects, even if there is no cost to waiting\n\n[ ] O Abandoning good projects in favor of newer projects\n\nMaximum marks: 2## 1(g) Real Options\n\nGiven the following decision tree and the cost of capital of 10%, what is the answer that most closely approximates the NPV of the project?\n\n| Event                     | Probability | Cost/Revenue | Perpetuity Revenue |\n| :------------------------ | :---------- | :----------- | :----------------- |\n| Initial Investment        | 1           | -$500,000    |                    |\n| Successful Test           | 50%         |              |                    |\n| Build Plant (Success)     | 1           | -$3,000,000  | $400,000           |\n| Unsuccessful Test         | 50%         |              |                    |\n| Build Plant (Unsuccess)   | 1           | -$3,000,000  | $200,000           |\n| Sell Prototype            | 1           | $300,000     |                    |\n\nMaximum marks: 2\n\n1(h) CAPM\n\nWhich of the following is NOT an assumption used in deriving the Capital Asset Pricing Model (CAPM)?## Select one alternative:\n\n[ ] Investors hold only efficient portfolios of traded securities, that is portfolios that yield the maximum expected return for the given level of volatility.\n\n[ ] Investo",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.11932773109243698,
+              "page": 6,
+              "top": 0.16389548693586697,
+              "width": 0.1949579831932773,
+              "original_page": 6
+            },
+            "content": "Select one alternative:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.804527661204338
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.13277310924369748,
+              "page": 6,
+              "top": 0.19418052256532067,
+              "width": 0.7428571428571429,
+              "original_page": 6
+            },
+            "content": "[ ] Investors hold only efficient portfolios of traded securities, that is portfolios that yield the maximum expected return for the given level of volatility.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8559581592679023
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.13361344537815126,
+              "page": 6,
+              "top": 0.24703087885985747,
+              "width": 0.6478991596638656,
+              "original_page": 6
+            },
+            "content": "[ ] Investors have homogeneous risk-averse preferences toward taking on risk.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7971275568008422
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.1319327731092437,
+              "page": 6,
+              "top": 0.2844418052256532,
+              "width": 0.7184873949579832,
+              "original_page": 6
+            },
+            "content": "- О Investors have homogeneous expectations regarding the volatilities, correlation, and expected returns of securities.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8260457828640937
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.13277310924369748,
+              "page": 6,
+              "top": 0.33669833729216153,
+              "width": 0.7243697478991596,
+              "original_page": 6
+            },
+            "content": "[ ] Investors can buy and sell all securities at competitive market prices without incurring taxes or transactions cost and can borrow and lend at the risk-free interest rate.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8046199716627598
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7411764705882353,
+              "page": 6,
+              "top": 0.4328978622327791,
+              "width": 0.15630252100840336,
+              "original_page": 6
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8587470203638077
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.06470588235294118,
+              "page": 6,
+              "top": 0.4744655581947744,
+              "width": 0.13277310924369748,
+              "original_page": 6
+            },
+            "content": "1(i) CAPM",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1134453781512605,
+              "page": 6,
+              "top": 0.5225653206650831,
+              "width": 0.6579831932773109,
+              "original_page": 6
+            },
+            "content": "Which of the following is consistent with the CAPM and efficient capital markets?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9270854830741883
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.22396089458692103,
+              "left": 0.11250442376657695,
+              "page": 6,
+              "top": 0.5591714818234115,
+              "width": 0.7624895240078453,
+              "original_page": 6
+            },
+            "content": "Select one alternative:\n\n[ ] A security with only diversifiable risk has an expected return that exceeds the risk-free interest rate.\n\n[ ] A security with a beta of 1 has a return last year of 8% when the market has a return of 12%.\n\n[ ] A security with only systematic risk has an expected return that exceeds the risk-free interest rate.\n\n[ ] Small stocks with a beta of 1.5 tend to have higher returns on average than large stocks with a beta of 1.5.",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8817831754684449
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7411764705882353,
+              "page": 6,
+              "top": 0.8467933491686461,
+              "width": 0.15630252100840336,
+              "original_page": 6
+            },
+            "content": "Maximum marks: 2",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8693720608949661
+            },
+            "image_url": null
+          }
+        ],
+        "content": "totype            | 1           | $300,000     |                    |\n\nMaximum marks: 2\n\n1(h) CAPM\n\nWhich of the following is NOT an assumption used in deriving the Capital Asset Pricing Model (CAPM)?## Select one alternative:\n\n[ ] Investors hold only efficient portfolios of traded securities, that is portfolios that yield the maximum expected return for the given level of volatility.\n\n[ ] Investors have homogeneous risk-averse preferences toward taking on risk.\n\n- О Investors have homogeneous expectations regarding the volatilities, correlation, and expected returns of securities.\n\n[ ] Investors can buy and sell all securities at competitive market prices without incurring taxes or transactions cost and can borrow and lend at the risk-free interest rate.\n\nMaximum marks: 2\n\n1(i) CAPM\n\nWhich of the following is consistent with the CAPM and efficient capital markets?\n\nSelect one alternative:\n\n[ ] A security with only diversifiable risk has an expected return that exceeds the risk-free interest rate.\n\n[ ] A security with a beta of 1 has a return last year of 8% when the market has a return of 12%.\n\n[ ] A security with only systematic risk has an expected return that exceeds the risk-free interest rate.\n\n[ ] Small stocks with a beta of 1.5 tend to have higher returns on average than large stocks with a beta of 1.5.\n\nMaximum marks: 2## 1(j) Fama-French-Carhart model\n\nConsider the following information regarding the Fama-French-Carhart four factor model:\n\n| Factor<br />Portfolio   | Average<br />Monthly<br />Return (%)   | IBM<br ",
+        "embed": "totype            | 1           | $300,000     |                    |\n\nMaximum marks: 2\n\n1(h) CAPM\n\nWhich of the following is NOT an assumption used in deriving the Capital Asset Pricing Model (CAPM)?## Select one alternative:\n\n[ ] Investors hold only efficient portfolios of traded securities, that is portfolios that yield the maximum expected return for the given level of volatility.\n\n[ ] Investors have homogeneous risk-averse preferences toward taking on risk.\n\n- О Investors have homogeneous expectations regarding the volatilities, correlation, and expected returns of securities.\n\n[ ] Investors can buy and sell all securities at competitive market prices without incurring taxes or transactions cost and can borrow and lend at the risk-free interest rate.\n\nMaximum marks: 2\n\n1(i) CAPM\n\nWhich of the following is consistent with the CAPM and efficient capital markets?\n\nSelect one alternative:\n\n[ ] A security with only diversifiable risk has an expected return that exceeds the risk-free interest rate.\n\n[ ] A security with a beta of 1 has a return last year of 8% when the market has a return of 12%.\n\n[ ] A security with only systematic risk has an expected return that exceeds the risk-free interest rate.\n\n[ ] Small stocks with a beta of 1.5 tend to have higher returns on average than large stocks with a beta of 1.5.\n\nMaximum marks: 2## 1(j) Fama-French-Carhart model\n\nConsider the following information regarding the Fama-French-Carhart four factor model:\n\nThis table presents the average monthly returns for a portfolio and the fact",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.0166270783847981,
+              "left": 0.06638655462184874,
+              "page": 7,
+              "top": 0.0498812351543943,
+              "width": 0.4176470588235294,
+              "original_page": 7
+            },
+            "content": "1(j) Fama-French-Carhart model",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.838417997956276
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.1134453781512605,
+              "page": 7,
+              "top": 0.08729216152019002,
+              "width": 0.7252100840336134,
+              "original_page": 7
+            },
+            "content": "Consider the following information regarding the Fama-French-Carhart four factor model:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9525436371564865
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1336104513064133,
+              "left": 0.11092436974789915,
+              "page": 7,
+              "top": 0.12292161520190023,
+              "width": 0.48067226890756304,
+              "original_page": 7
+            },
+            "content": "| Factor<br />Portfolio   | Average<br />Monthly<br />Return (%)   | IBM<br />Factor<br />Betas   | GE Factor<br />Betas   | Walmart<br />Factor<br />Betas   |\n|-|-|-|-|-|\n| Rm-rf                   | 0.64                                   | 0.712                        | 0.937                  | 0.782                            |\n| SMB                     | 0.17                                   | -0.103                       | -0.214                 | 0.224                            |\n| HML                     | 0.53                                   | 0.124                        | 0.154                  | 0.123                            |\n| PR1 YR                  | 0.76                                   | 0.276                        | -0.147                 | 0.247                            |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9635123014450073
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.1134453781512605,
+              "page": 7,
+              "top": 0.2862232779097387,
+              "width": 0.7285714285714285,
+              "original_page": 7
+            },
+            "content": "Using the FFC four factor model and the historical average monthly returns, the expected monthly return for GE is closest to:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9662088811397552
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.16691245036000593,
+              "left": 0.11026922915162159,
+              "page": 7,
+              "top": 0.33844708150469494,
+              "width": 0.2018192195090927,
+              "original_page": 7
+            },
+            "content": "Select one alternative:\n\n[ ] 0.53%\n[ ] 0.79%\n[ ] 0.73%\n[ ] 0.71%",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9527586221694946
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7411764705882353,
+              "page": 7,
+              "top": 0.5694774346793349,
+              "width": 0.15630252100840336,
+              "original_page": 7
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7667259573936462
+            },
+            "image_url": null
+          }
+        ],
+        "content": "isk has an expected return that exceeds the risk-free interest rate.\n\n[ ] Small stocks with a beta of 1.5 tend to have higher returns on average than large stocks with a beta of 1.5.\n\nMaximum marks: 2## 1(j) Fama-French-Carhart model\n\nConsider the following information regarding the Fama-French-Carhart four factor model:\n\n| Factor<br />Portfolio   | Average<br />Monthly<br />Return (%)   | IBM<br />Factor<br />Betas   | GE Factor<br />Betas   | Walmart<br />Factor<br />Betas   |\n|-|-|-|-|-|\n| Rm-rf                   | 0.64                                   | 0.712                        | 0.937                  | 0.782                            |\n| SMB                     | 0.17                                   | -0.103                       | -0.214                 | 0.224                            |\n| HML                     | 0.53                                   | 0.124                        | 0.154                  | 0.123                            |\n| PR1 YR                  | 0.76                                   | 0.276                        | -0.147                 | 0.247                            |\n\nUsing the FFC four factor model and the historical average monthly returns, the expected monthly return for GE is closest to:\n\nSelect one alternative:\n\n[ ] 0.53%\n[ ] 0.79%\n[ ] 0.73%\n[ ] 0.71%\n\nMaximum marks: 2",
+        "embed": "isk has an expected return that exceeds the risk-free interest rate.\n\n[ ] Small stocks with a beta of 1.5 tend to have higher returns on average than large stocks with a beta of 1.5.\n\nMaximum marks: 2## 1(j) Fama-French-Carhart model\n\nConsider the following information regarding the Fama-French-Carhart four factor model:\n\nThis table presents the average monthly returns for a portfolio and the factor betas for IBM, GE, and Walmart across four different factors: the market risk premium (Rm-rf), size (SMB), value (HML), and momentum (PR1 YR). The portfolio shows a positive average monthly return across all factors, while the individual stocks exhibit varying sensitivities to each factor. Notably, IBM and GE have negative betas for the SMB factor, indicating they tend to perform oppositely to small-cap stocks, and GE shows a negative beta for PR1 YR, suggesting a tendency to underperform stocks with prior year gains.\n\nUsing the FFC four factor model and the historical average monthly returns, the expected monthly return for GE is closest to:\n\nSelect one alternative:\n\n[ ] 0.53%\n[ ] 0.79%\n[ ] 0.73%\n[ ] 0.71%\n\nMaximum marks: 2",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 7,
+    "credit_breakdown": {
+      "page": 7.0,
+      "complex": 5.0
+    },
+    "credits": 12.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "page"
+      ],
+      "4": [
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "complex",
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/a1fe09d2-2871-4203-957b-7c76ad820ec7.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180752Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=924ebd29fd30c364d531515a192da7793b04a8ff21beab4673812170ee0f96c7",
+  "studio_link": "https://studio.reducto.ai/job/e7ca912f-de6e-4705-9060-24c1f63db6cb",
+  "response_type": "parse",
+  "parse_mode": null
+}

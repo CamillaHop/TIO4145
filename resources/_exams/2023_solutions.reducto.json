@@ -1,0 +1,1855 @@
+{
+  "duration": 13.006389856338501,
+  "job_id": "4ab1c921-0d7a-485c-8d30-ceb537ab1396",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.1021377672209026,
+              "width": 0.20654911838790932,
+              "original_page": 1
+            },
+            "content": "Question 2.1 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8097233086824417
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.14014251781472684,
+              "width": 0.20654911838790932,
+              "original_page": 1
+            },
+            "content": "Following data are given:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8668351292610168
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1377672209026128,
+              "left": 0.1847187237615449,
+              "page": 1,
+              "top": 0.17339667458432304,
+              "width": 0.6297229219143576,
+              "original_page": 1
+            },
+            "content": "|                     | Expected <br />return    | Variance of<br />Returns    | Covariance between stock<br />returns and market returns   |\n|-|-|-|-|\n| Stock 1             | 0.13                     | 0.01                        | 0.032                                                      |\n| Stock 2             | 0.22                     | 0.09                        | 0.036                                                      |\n| Market              | 0.18                     | 0.04                        | 0.040                                                      |\n| Risk Free<br />Rate | 0.06                     | 0                           | 0                                                          |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9636743664741516
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.36223277909738716,
+              "width": 0.7523089840470193,
+              "original_page": 1
+            },
+            "content": "i) Based on this data, write an equationof a Capital Market Line (CML) that follows from the CAPM and draw a diagram of CML.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9710547804832459
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032660332541567694,
+              "left": 0.11754827875734676,
+              "page": 1,
+              "top": 0.41152019002375295,
+              "width": 0.7422334172963896,
+              "original_page": 1
+            },
+            "content": "ii) Show the position of the two stocks, market portfolio and the risk free rate relative to the Capital Market Line in your drawing.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.973072400689125
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11754827875734676,
+              "page": 1,
+              "top": 0.46140142517814725,
+              "width": 0.7019311502938707,
+              "original_page": 1
+            },
+            "content": "iii) Comment on the position of the two stocks relative to the CML and explain what it implies.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9659240424633027
+            },
+            "image_url": null
+          }
+        ],
+        "content": "## Question 2.1 (10%)\n\nFollowing data are given:\n\n|                     | Expected <br />return    | Variance of<br />Returns    | Covariance between stock<br />returns and market returns   |\n|-|-|-|-|\n| Stock 1             | 0.13                     | 0.01                        | 0.032                                                      |\n| Stock 2             | 0.22                     | 0.09                        | 0.036                                                      |\n| Market              | 0.18                     | 0.04                        | 0.040                                                      |\n| Risk Free<br />Rate | 0.06                     | 0                           | 0                                                          |\n\ni) Based on this data, write an equationof a Capital Market Line (CML) that follows from the CAPM and draw a diagram of CML.\n\nii) Show the position of the two stocks, market portfolio and the risk free rate relative to the Capital Market Line in your drawing.\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.## Solution\n\nThe capital market line is define as\n\nICML rr+((rm-rf)/SD(TM)) SDCML\n\nICML 0.06+(0.18-0.06)/0.2 SDCML=0.06+0.6SDCML\n\nStock 1: TCML 0.06+0.6 0.1=0,12<0,13=r1\n\nStock 2: TCML 0.06+0.6 0.3=0,",
+        "embed": "## Question 2.1 (10%)\n\nFollowing data are given:\n\nThis table presents the expected returns, variances of returns, and covariances between stock and market returns for two individual stocks and the market itself, alongside the risk-free rate. Stock 2 has a higher expected return but also a much higher variance compared to Stock 1. Both stocks exhibit positive covariances with the market, indicating they tend to move in the same direction, though Stock 2's covariance is only slightly higher than Stock 1's.\n\ni) Based on this data, write an equationof a Capital Market Line (CML) that follows from the CAPM and draw a diagram of CML.\n\nii) Show the position of the two stocks, market portfolio and the risk free rate relative to the Capital Market Line in your drawing.\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.## Solution\n\nThe capital market line is define as\n\nICML rr+((rm-rf)/SD(TM)) SDCML\n\nICML 0.06+(0.18-0.06)/0.2 SDCML=0.06+0.6SDCML\n\nStock 1: TCML 0.06+0.6 0.1=0,12<0,13=r1\n\nStock 2: TCML 0.06+0.6 0.3=0,",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5160332541567696,
+              "width": 0.08648194794290512,
+              "original_page": 1
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9277587562799453
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5522565320665083,
+              "width": 0.28211586901763225,
+              "original_page": 1
+            },
+            "content": "The capital market line is define as",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9089983433485032
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.58729216152019,
+              "width": 0.2619647355163728,
+              "original_page": 1
+            },
+            "content": "ICML rr+((rm-rf)/SD(TM)) SDCML",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7482612878084183
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.6211401425178147,
+              "width": 0.4139378673383711,
+              "original_page": 1
+            },
+            "content": "ICML 0.06+(0.18-0.06)/0.2 SDCML=0.06+0.6SDCML",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8117493927478789
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.6870546318289786,
+              "width": 0.3408900083963056,
+              "original_page": 1
+            },
+            "content": "Stock 1: TCML 0.06+0.6 0.1=0,12<0,13=r1",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7728679150342941
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7203087885985748,
+              "width": 0.3425692695214106,
+              "original_page": 1
+            },
+            "content": "Stock 2: TCML 0.06+0.6 0.3=0,24>0,22=r2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7995594024658204
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.13014273719563393,
+              "page": 1,
+              "top": 0.7832541567695962,
+              "width": 0.7329974811083123,
+              "original_page": 1
+            },
+            "content": "Concerning the CML – All stocks should be on or to the right of the efficient frontier. If the portfolio is efficient, then there is no individual stock that can outperform this portfolio with a higher return for a given volatility, or with a lower volatility for a given return.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9808234840631485
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.13014273719563393,
+              "page": 1,
+              "top": 0.8491686460807601,
+              "width": 0.41141897565071367,
+              "original_page": 1
+            },
+            "content": "Stock 1 has a higher return then the efficient CML.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9319422304630279
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.13014273719563393,
+              "page": 2,
+              "top": 0.08432304038004751,
+              "width": 0.690176322418136,
+              "original_page": 2
+            },
+            "content": "However, the market portfolio is obviously not efficient since stock 1 seems not to be correctly (with an appropriate weight) participating in it. From the single investor viewpoint, we should buy the stock in order to construct a new efficient portfolio.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9830486118793488
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06472684085510688,
+              "left": 0.13014273719563393,
+              "page": 2,
+              "top": 0.1502375296912114,
+              "width": 0.7371956339210747,
+              "original_page": 2
+            },
+            "content": "From a market view point, we cannot conclude if the asset is under- or overpriced. Here we for example use the CAPM framework (SML). According to SML, this stock has underperformed the market 13 % < 15.6 %. According to the CAPM the stock is overpriced and should be sold. (See next question)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9872015148401261
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.13014273719563393,
+              "page": 2,
+              "top": 0.2654394299287411,
+              "width": 0.7338371116708649,
+              "original_page": 2
+            },
+            "content": "Stock 2 has a return of 22 %. With the information given we cannot draw final conclusions since we do not know if the stock is included correctly in the efficient portfolio. All stocks need to be below the efficient frontier.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9791840344667435
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.13014273719563393,
+              "page": 2,
+              "top": 0.331353919239905,
+              "width": 0.6876574307304786,
+              "original_page": 2
+            },
+            "content": "According to SML, this stock has outperformed the market 22 % > 16.8 %. (See next question)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9705841690301895
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.2449227013667236,
+              "left": 0.13238734222079004,
+              "page": 2,
+              "top": 0.38036819421763657,
+              "width": 0.5108019542934312,
+              "original_page": 2
+            },
+            "content": "| Asset/Line | Expected Return (r) | Standard Deviation (σ) |\n| :--------- | :------------------ | :--------------------- |\n| Stock 1    | 12%                 | $\\sqrt{1}\\%$           |\n| Stock 2    | 18%                 | $\\sqrt{9}\\%$           |\n| CML        | 6%                  | $\\sqrt{1}\\%$           |\n| Market     | 24%                 | 20%                    |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.78569655418396
+            },
+            "image_url": null
+          }
+        ],
+        "content": "wo stocks, market portfolio and the risk free rate relative to the Capital Market Line in your drawing.\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.## Solution\n\nThe capital market line is define as\n\nICML rr+((rm-rf)/SD(TM)) SDCML\n\nICML 0.06+(0.18-0.06)/0.2 SDCML=0.06+0.6SDCML\n\nStock 1: TCML 0.06+0.6 0.1=0,12<0,13=r1\n\nStock 2: TCML 0.06+0.6 0.3=0,24>0,22=r2\n\nConcerning the CML – All stocks should be on or to the right of the efficient frontier. If the portfolio is efficient, then there is no individual stock that can outperform this portfolio with a higher return for a given volatility, or with a lower volatility for a given return.\n\nStock 1 has a higher return then the efficient CML.\n\nHowever, the market portfolio is obviously not efficient since stock 1 seems not to be correctly (with an appropriate weight) participating in it. From the single investor viewpoint, we should buy the stock in order to construct a new efficient portfolio.\n\nFrom a market view point, we cannot conclude if the asset is under- or overpriced. Here we for example use the CAPM framework (SML). According to SML, this stock has underperformed the market 13 % < 15.6 %. According to the CAPM the stock is overpriced and should be sold. (See next question)\n\nStock 2 has a return of 22 %. With the information given we cannot draw final conclusions since we do not know if the stock is included correctly in the efficient portfolio. All stocks need to be below the efficient frontier.\n\nAccording to SML, this stock has outperformed the market 22 % > 16.8 %. (See next question)\n\n| Asset/Line | Expected Return (r) | Standard Deviation (σ) |\n| :--------- | :------------------ | :--------------------- |\n| Stock 1    | 12%                 | $\\sqrt{1}\\%$           |\n| Stock 2    | 18%                 | $\\sqrt{9}\\%$           |\n| CML        | 6%                  | $\\sqrt{1}\\%$           |\n| Market     | 24%                 | 20%                    |## Question 2.2 (10%)\n\ni) Based on the data from the table in Question 2,1 draw a diagram of a Security Market Line (SML).\n\nii) Show the position of the two stocks, market portfolio and the risk free ",
+        "embed": "wo stocks, market portfolio and the risk free rate relative to the Capital Market Line in your drawing.\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.## Solution\n\nThe capital market line is define as\n\nICML rr+((rm-rf)/SD(TM)) SDCML\n\nICML 0.06+(0.18-0.06)/0.2 SDCML=0.06+0.6SDCML\n\nStock 1: TCML 0.06+0.6 0.1=0,12<0,13=r1\n\nStock 2: TCML 0.06+0.6 0.3=0,24>0,22=r2\n\nConcerning the CML – All stocks should be on or to the right of the efficient frontier. If the portfolio is efficient, then there is no individual stock that can outperform this portfolio with a higher return for a given volatility, or with a lower volatility for a given return.\n\nStock 1 has a higher return then the efficient CML.\n\nHowever, the market portfolio is obviously not efficient since stock 1 seems not to be correctly (with an appropriate weight) participating in it. From the single investor viewpoint, we should buy the stock in order to construct a new efficient portfolio.\n\nFrom a market view point, we cannot conclude if the asset is under- or overpriced. Here we for example use the CAPM framework (SML). According to SML, this stock has underperformed the market 13 % < 15.6 %. According to the CAPM the stock is overpriced and should be sold. (See next question)\n\nStock 2 has a return of 22 %. With the information given we cannot draw final conclusions since we do not know if the stock is included correctly in the efficient portfolio. All stocks need to be below the efficient frontier.\n\nAccording to SML, this stock has outperformed the market 22 % > 16.8 %. (See next question)\n\n| Asset/Line | Expected Return (r) | Standard Deviation (σ) |\n| :--------- | :------------------ | :--------------------- |\n| Stock 1    | 12%                 | $\\sqrt{1}\\%$           |\n| Stock 2    | 18%                 | $\\sqrt{9}\\%$           |\n| CML        | 6%                  | $\\sqrt{1}\\%$           |\n| Market     | 24%                 | 20%                    |## Question 2.2 (10%)\n\ni) Based on the data from the table in Question 2,1 draw a diagram of a Security Market Line (SML).\n\nii) Show the position of the two stocks, market portfolio and the risk free ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.6811163895486936,
+              "width": 0.20654911838790932,
+              "original_page": 2
+            },
+            "content": "Question 2.2 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8605789452791214
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11754827875734676,
+              "page": 2,
+              "top": 0.7197149643705463,
+              "width": 0.7590260285474392,
+              "original_page": 2
+            },
+            "content": "i) Based on the data from the table in Question 2,1 draw a diagram of a Security Market Line (SML).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9760081142187118
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.7690023752969121,
+              "width": 0.7422334172963896,
+              "original_page": 2
+            },
+            "content": "ii) Show the position of the two stocks, market portfolio and the risk free rate relative to the SML in your drawing",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9779576629400253
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032660332541567694,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.8182897862232779,
+              "width": 0.7019311502938707,
+              "original_page": 2
+            },
+            "content": "iii) Comment on the position of the two stocks relative to the CML and explain what it implies.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9769470900297165
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.08966745843230403,
+              "width": 0.0873215785054576,
+              "original_page": 3
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8374441146850586
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.12589073634204276,
+              "width": 0.05961376994122586,
+              "original_page": 3
+            },
+            "content": "SML is",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8000453412532806
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.16152019002375298,
+              "width": 0.19395465994962216,
+              "original_page": 3
+            },
+            "content": "ISML=rf+(rM-rf) betaSML",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8025838881731033
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.19358669833729217,
+              "width": 0.19395465994962216,
+              "original_page": 3
+            },
+            "content": "ISML 0.06+0.12 betaSML",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7559902727603912
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.13350125944584382,
+              "page": 3,
+              "top": 0.22505938242280285,
+              "width": 0.061293031066330814,
+              "original_page": 3
+            },
+            "content": "Stock 1",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8334441483020782
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.021971496437054632,
+              "left": 0.12930310663308145,
+              "page": 3,
+              "top": 0.25712589073634207,
+              "width": 0.3131821998320739,
+              "original_page": 3
+            },
+            "content": "rSML =0.06+0.12 × 0.032/0.04 = 15.6%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.13014273719563393,
+              "page": 3,
+              "top": 0.29097387173396677,
+              "width": 0.5012594458438288,
+              "original_page": 3
+            },
+            "content": "This stock has underperformed the market 13 % < 15.6 %. According to the CAPM the stock is overpriced and should be sold.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9760950148105622
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.13014273719563393,
+              "page": 3,
+              "top": 0.35688836104513066,
+              "width": 0.060453400503778336,
+              "original_page": 3
+            },
+            "content": "Stock 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.848780882358551
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.12930310663308145,
+              "page": 3,
+              "top": 0.3913301662707839,
+              "width": 0.2963895885810244,
+              "original_page": 3
+            },
+            "content": "ISML 0.06+0.12 × 0.036/0.04=16.8%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6908536344766617
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.13014273719563393,
+              "page": 3,
+              "top": 0.42280285035629456,
+              "width": 0.4508816120906801,
+              "original_page": 3
+            },
+            "content": "This stock has outperformed the market 22 % > 16.8 %.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9504667401313782
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.28336263552414265,
+              "left": 0.1338955793532877,
+              "page": 3,
+              "top": 0.4571490797464185,
+              "width": 0.5699688121113429,
+              "original_page": 3
+            },
+            "content": "| Item      | Value   |\n|-----------|---------|\n| Rf        | 6%      |\n| Stock 1 β | 0.9     |\n| Stock 1 r | 15.6%   |\n| Stock 2 β | 0.8     |\n| Stock 2 r | 18%     |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8148015618324279
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.7992874109263658,
+              "width": 0.19311502938706968,
+              "original_page": 3
+            },
+            "content": "Question 2.3 (5%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.817459437251091
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11754827875734676,
+              "page": 3,
+              "top": 0.8378859857482185,
+              "width": 0.5012594458438288,
+              "original_page": 3
+            },
+            "content": "i) Is market portfolio always efficient in reality? Explain why.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9541872322559357
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032660332541567694,
+              "left": 0.11754827875734676,
+              "page": 3,
+              "top": 0.8705463182897862,
+              "width": 0.7422334172963896,
+              "original_page": 3
+            },
+            "content": "ii) Name one challenge associated with testing the efficiency of the market portfolio in real- world scenarios.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9822433769702912
+            },
+            "image_url": null
+          }
+        ],
+        "content": "%$           |\n| Stock 2    | 18%                 | $\\sqrt{9}\\%$           |\n| CML        | 6%                  | $\\sqrt{1}\\%$           |\n| Market     | 24%                 | 20%                    |## Question 2.2 (10%)\n\ni) Based on the data from the table in Question 2,1 draw a diagram of a Security Market Line (SML).\n\nii) Show the position of the two stocks, market portfolio and the risk free rate relative to the SML in your drawing\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.\n\n## Solution\n\nSML is\n\nISML=rf+(rM-rf) betaSML\n\nISML 0.06+0.12 betaSML\n\nStock 1\n\nrSML =0.06+0.12 × 0.032/0.04 = 15.6%\n\nThis stock has underperformed the market 13 % < 15.6 %. According to the CAPM the stock is overpriced and should be sold.\n\nStock 2\n\nISML 0.06+0.12 × 0.036/0.04=16.8%\n\nThis stock has outperformed the market 22 % > 16.8 %.\n\n| Item      | Value   |\n|-----------|---------|\n| Rf        | 6%      |\n| Stock 1 β | 0.9     |\n| Stock 1 r | 15.6%   |\n| Stock 2 β | 0.8     |\n| Stock 2 r | 18%     |\n\n## Question 2.3 (5%)\n\ni) Is market portfolio always efficient in reality? Explain why.\n\nii) Name one challenge associated with testing the efficiency of the market portfolio in real- world scenarios.## Solution\n\ni) In reality, a market portfolio is not always efficient. The concept of an efficient market portfolio comes from CAPM, which assumes that all investors have access to all available info",
+        "embed": "%$           |\n| Stock 2    | 18%                 | $\\sqrt{9}\\%$           |\n| CML        | 6%                  | $\\sqrt{1}\\%$           |\n| Market     | 24%                 | 20%                    |## Question 2.2 (10%)\n\ni) Based on the data from the table in Question 2,1 draw a diagram of a Security Market Line (SML).\n\nii) Show the position of the two stocks, market portfolio and the risk free rate relative to the SML in your drawing\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.\n\n## Solution\n\nSML is\n\nISML=rf+(rM-rf) betaSML\n\nISML 0.06+0.12 betaSML\n\nStock 1\n\nrSML =0.06+0.12 × 0.032/0.04 = 15.6%\n\nThis stock has underperformed the market 13 % < 15.6 %. According to the CAPM the stock is overpriced and should be sold.\n\nStock 2\n\nISML 0.06+0.12 × 0.036/0.04=16.8%\n\nThis stock has outperformed the market 22 % > 16.8 %.\n\n| Item      | Value   |\n|-----------|---------|\n| Rf        | 6%      |\n| Stock 1 β | 0.9     |\n| Stock 1 r | 15.6%   |\n| Stock 2 β | 0.8     |\n| Stock 2 r | 18%     |\n\n## Question 2.3 (5%)\n\ni) Is market portfolio always efficient in reality? Explain why.\n\nii) Name one challenge associated with testing the efficiency of the market portfolio in real- world scenarios.## Solution\n\ni) In reality, a market portfolio is not always efficient. The concept of an efficient market portfolio comes from CAPM, which assumes that all investors have access to all available info",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11754827875734676,
+              "page": 4,
+              "top": 0.08907363420427554,
+              "width": 0.08648194794290512,
+              "original_page": 4
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.916888552904129
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09798099762470308,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.12589073634204276,
+              "width": 0.760705289672544,
+              "original_page": 4
+            },
+            "content": "i) In reality, a market portfolio is not always efficient. The concept of an efficient market portfolio comes from CAPM, which assumes that all investors have access to all available information and they make rational investment decisions. However, in the real world, markets can be inefficient due to factors like information asymmetry, investor behavior, and market restrictions. Investors may not have equal access to information or may not always act rationally, leading to prices that do not always reflect the true value of securities.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9711163431406021
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08135391923990498,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.24109263657957244,
+              "width": 0.7556675062972292,
+              "original_page": 4
+            },
+            "content": "ii) One challenge in testing the efficiency of the market portfolio in real-world scenarios is that we typically test a proxy for the market portfolio, not the market portfolio itself. The true market portfolio, as conceptualized in theory, includes all types of assets. However, in practical tests of market efficiency, we often use stock indices as proxies for the market portfolio.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9531239688396453
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06532066508313539,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.40558194774346795,
+              "width": 0.7481108312342569,
+              "original_page": 4
+            },
+            "content": "Another argumet could be that any test of market efficiency is inherently a test of the model of market equilibrium (like CAPM) as well. If a market appears inefficient, it could be either because the market is truly inefficient or because the model used to assess efficiency is incorrect or incomplete.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9855762451887131
+            },
+            "image_url": null
+          }
+        ],
+        "content": "\n## Question 2.3 (5%)\n\ni) Is market portfolio always efficient in reality? Explain why.\n\nii) Name one challenge associated with testing the efficiency of the market portfolio in real- world scenarios.## Solution\n\ni) In reality, a market portfolio is not always efficient. The concept of an efficient market portfolio comes from CAPM, which assumes that all investors have access to all available information and they make rational investment decisions. However, in the real world, markets can be inefficient due to factors like information asymmetry, investor behavior, and market restrictions. Investors may not have equal access to information or may not always act rationally, leading to prices that do not always reflect the true value of securities.\n\nii) One challenge in testing the efficiency of the market portfolio in real-world scenarios is that we typically test a proxy for the market portfolio, not the market portfolio itself. The true market portfolio, as conceptualized in theory, includes all types of assets. However, in practical tests of market efficiency, we often use stock indices as proxies for the market portfolio.\n\nAnother argumet could be that any test of market efficiency is inherently a test of the model of market equilibrium (like CAPM) as well. If a market appears inefficient, it could be either because the market is truly inefficient or because the model used to assess efficiency is incorrect or incomplete.## Question 3.1 (10%)\n\nThe following table summarizes prices of various default-free zero-coupon bonds (expressed as a percentage of face value):\n\n| Maturity (years)                 | 1     | 2     | ",
+        "embed": "\n## Question 2.3 (5%)\n\ni) Is market portfolio always efficient in reality? Explain why.\n\nii) Name one challenge associated with testing the efficiency of the market portfolio in real- world scenarios.## Solution\n\ni) In reality, a market portfolio is not always efficient. The concept of an efficient market portfolio comes from CAPM, which assumes that all investors have access to all available information and they make rational investment decisions. However, in the real world, markets can be inefficient due to factors like information asymmetry, investor behavior, and market restrictions. Investors may not have equal access to information or may not always act rationally, leading to prices that do not always reflect the true value of securities.\n\nii) One challenge in testing the efficiency of the market portfolio in real-world scenarios is that we typically test a proxy for the market portfolio, not the market portfolio itself. The true market portfolio, as conceptualized in theory, includes all types of assets. However, in practical tests of market efficiency, we often use stock indices as proxies for the market portfolio.\n\nAnother argumet could be that any test of market efficiency is inherently a test of the model of market equilibrium (like CAPM) as well. If a market appears inefficient, it could be either because the market is truly inefficient or because the model used to assess efficiency is incorrect or incomplete.## Question 3.1 (10%)\n\nThe following table summarizes prices of various default-free zero-coupon bonds (expressed as a percentage of face value):\n\nThis table shows the prices of a bond with a face val",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.5308788598574822,
+              "width": 0.20654911838790932,
+              "original_page": 4
+            },
+            "content": "Question 3.1 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9375448197126388
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.5688836104513064,
+              "width": 0.7489504617968094,
+              "original_page": 4
+            },
+            "content": "The following table summarizes prices of various default-free zero-coupon bonds (expressed as a percentage of face value):",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9750878512859344
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05522565320665083,
+              "left": 0.11670864819479429,
+              "page": 4,
+              "top": 0.6490498812351544,
+              "width": 0.6465155331654072,
+              "original_page": 4
+            },
+            "content": "| Maturity (years)                 | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Price (per $100 face<br />value) | 94.52 | 89.85 | 85.89 | 82.27 | 79.10 |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8624230206012726
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.7529691211401425,
+              "width": 0.7237615449202351,
+              "original_page": 4
+            },
+            "content": "i) Find yield to maturity for each of these five bonds. For this question, please round your answers to two decimals.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9598561495542526
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.8022565320665083,
+              "width": 0.7523089840470193,
+              "original_page": 4
+            },
+            "content": "ii) What can you say about the slope of the zero-coupon yield curve? What does the shape of this yield curve indicate about the relationship between the bond maturities and their yields? Discuss the potential economic implications of such a yield curve.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.971805077791214
+            },
+            "image_url": null
+          }
+        ],
+        "content": " equilibrium (like CAPM) as well. If a market appears inefficient, it could be either because the market is truly inefficient or because the model used to assess efficiency is incorrect or incomplete.## Question 3.1 (10%)\n\nThe following table summarizes prices of various default-free zero-coupon bonds (expressed as a percentage of face value):\n\n| Maturity (years)                 | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Price (per $100 face<br />value) | 94.52 | 89.85 | 85.89 | 82.27 | 79.10 |\n\ni) Find yield to maturity for each of these five bonds. For this question, please round your answers to two decimals.\n\nii) What can you say about the slope of the zero-coupon yield curve? What does the shape of this yield curve indicate about the relationship between the bond maturities and their yields? Discuss the potential economic implications of such a yield curve.## Solution\n\ni)\n\n| Maturity (years)   | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Zero-Coupon YTM    | 5.80% | 5.50% | 5.20% | 5.00% | 4.80% |\n\nFormula P=100/(1+YTM)^n\n\nii) Yield curve i",
+        "embed": " equilibrium (like CAPM) as well. If a market appears inefficient, it could be either because the market is truly inefficient or because the model used to assess efficiency is incorrect or incomplete.## Question 3.1 (10%)\n\nThe following table summarizes prices of various default-free zero-coupon bonds (expressed as a percentage of face value):\n\nThis table shows the prices of a bond with a face value of $100 across different maturities. As the maturity of the bond increases from 1 to 5 years, its price decreases from $94.52 to $79.10. This indicates an inverse relationship between bond maturity and its price, suggesting it is a discount bond.\n\ni) Find yield to maturity for each of these five bonds. For this question, please round your answers to two decimals.\n\nii) What can you say about the slope of the zero-coupon yield curve? What does the shape of this yield curve indicate about the relationship between the bond maturities and their yields? Discuss the potential economic implications of such a yield curve.## Solution\n\ni)\n\nThis table presents the Yield to Maturity (YTM) for a zero-coupon bond across different maturities from 1 to 5 years. It illustrates an upward-sloping yield curve, as the YTM decrease",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.08966745843230403,
+              "width": 0.08816120906801007,
+              "original_page": 5
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8238259822130203
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.12885985748218529,
+              "width": 0.012594458438287154,
+              "original_page": 5
+            },
+            "content": "i)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7291270613670349
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.037410926365795724,
+              "left": 0.11586901763224182,
+              "page": 5,
+              "top": 0.15736342042755344,
+              "width": 0.6120906801007556,
+              "original_page": 5
+            },
+            "content": "| Maturity (years)   | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Zero-Coupon YTM    | 5.80% | 5.50% | 5.20% | 5.00% | 4.80% |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9264564245939255
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.24584323040380046,
+              "width": 0.2325776658270361,
+              "original_page": 5
+            },
+            "content": "Formula P=100/(1+YTM)^n",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8951132833957672
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.21199524940617578,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.31057007125890734,
+              "width": 0.7539882451721243,
+              "original_page": 5
+            },
+            "content": "ii) Yield curve is downward sloping. A downward-sloping yield curve for zero-coupon bonds indicates that longer-maturity bonds offer lower yields compared to shorter-maturity bonds. This is unusual as it typically suggests that investors expect future interest rates to be lower than current rates. This scenario might arise from economic pessimism, where investors anticipate an economic slowdown or recession. In such cases, they might expect the central bank to lower interest rates to stimulate the economy. Therefore, they are willing to accept lower yields for long-term bonds, anticipating that future rates will be even lower. Additionally, a downward-sloping yield curve can be a result of a \"flight to quality,\" where investors prefer the safety of long-term government bonds in times of uncertainty, despite their lower yields. It can also indicate the market's expectation of future monetary policy, especially if the central bank is expected to lower interest rates in response to slowing economic growth. Historically, an inverted yield curve has been considered a predictor of economic recessions, though it's not a guaranteed indicator.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9888406544923782
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.5433491686460807,
+              "width": 0.20654911838790932,
+              "original_page": 5
+            },
+            "content": "Question 3.2 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8742686748504639
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.5819477434679335,
+              "width": 0.25692695214105793,
+              "original_page": 5
+            },
+            "content": "Use the data from Question 3.1.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9510341703891754
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.6146080760095012,
+              "width": 0.7178841309823678,
+              "original_page": 5
+            },
+            "content": "i) Find the price today of a 3-year default-free security with a face value of $1000 and an annual coupon rate of 6%.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9782076716423035
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.663895486935867,
+              "width": 0.5180520570948782,
+              "original_page": 5
+            },
+            "content": "ii) Does this security trade at a premium, at a discount or at par?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9578436434268951
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.6971496437054632,
+              "width": 0.7556675062972292,
+              "original_page": 5
+            },
+            "content": "iii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9809049993753434
+            },
+            "image_url": null
+          }
+        ],
+        "content": "on yield curve? What does the shape of this yield curve indicate about the relationship between the bond maturities and their yields? Discuss the potential economic implications of such a yield curve.## Solution\n\ni)\n\n| Maturity (years)   | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Zero-Coupon YTM    | 5.80% | 5.50% | 5.20% | 5.00% | 4.80% |\n\nFormula P=100/(1+YTM)^n\n\nii) Yield curve is downward sloping. A downward-sloping yield curve for zero-coupon bonds indicates that longer-maturity bonds offer lower yields compared to shorter-maturity bonds. This is unusual as it typically suggests that investors expect future interest rates to be lower than current rates. This scenario might arise from economic pessimism, where investors anticipate an economic slowdown or recession. In such cases, they might expect the central bank to lower interest rates to stimulate the economy. Therefore, they are willing to accept lower yields for long-term bonds, anticipating that future rates will be even lower. Additionally, a downward-sloping yield curve can be a result of a \"flight to quality,\" where investors prefer the safety of long-term government bonds in times of uncertainty, despite their lower yields. It can also indicate the market's expectation of future monetary policy, especially if the central bank is expected to lower interest rates in response to slowing economic growth. Historically, an inverted yield curve has been considered a predictor of economic recessions, though it's not a guaranteed indicator.\n\n## Question 3.2 (10%)\n\nUse the data from Question 3.1.\n\ni) Find the price today of a 3-year default-free security with a face value of $1000 and an annual coupon rate of 6%.\n\nii) Does this security trade at a premium, at a discount or at par?\n\niii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.## Solution\n\ni) and ii) P = $60/1.058 + $60/1.0552 + $1060/1.0523 = $1021.07which is greater than $1000, so it trades at a premium.\n\nThe other way to answer this question is to simply note that the co",
+        "embed": "on yield curve? What does the shape of this yield curve indicate about the relationship between the bond maturities and their yields? Discuss the potential economic implications of such a yield curve.## Solution\n\ni)\n\nThis table presents the Yield to Maturity (YTM) for a zero-coupon bond across different maturities from 1 to 5 years. It illustrates an upward-sloping yield curve, as the YTM decreases with each subsequent year to maturity. Specifically, the YTM declines from 5.80% for a 1-year maturity to 4.80% for a 5-year maturity.\n\nFormula P=100/(1+YTM)^n\n\nii) Yield curve is downward sloping. A downward-sloping yield curve for zero-coupon bonds indicates that longer-maturity bonds offer lower yields compared to shorter-maturity bonds. This is unusual as it typically suggests that investors expect future interest rates to be lower than current rates. This scenario might arise from economic pessimism, where investors anticipate an economic slowdown or recession. In such cases, they might expect the central bank to lower interest rates to stimulate the economy. Therefore, they are willing to accept lower yields for long-term bonds, anticipating that future rates will be even lower. Additionally, a downward-sloping yield curve can be a result of a \"flight to quality,\" where investors prefer the safety of long-term government bonds in times of uncertainty, despite their lower yields. It can also indicate the market's expectation of future monetary policy, especially if the central bank is expected to lower interest rates in response to slowing economic growth. Historically, an inverted yield curve has been considered a predictor of economic recessions, though it's not a guaranteed indicator.\n\n## Question 3.2 (10%)\n\nUse the data from Question 3.1.\n\ni) Find the price today of a 3-year default-free security with a face value of $1000 and an annual coupon rate of 6%.\n\nii) Does this security trade at a premium, at a discount or at par?\n\niii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.## Solution\n\ni) and ii) P = $60/1.058 + $60/1.0552 + $1060/1.0523 = $1021.07which is greater than $1000, so it trades at a premium.\n\nThe other way to answer this question is to simply note that the co",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.011876484560570071,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.7517814726840855,
+              "width": 0.08816120906801007,
+              "original_page": 5
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9180935472249985
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032660332541567694,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.7880047505938242,
+              "width": 0.7019311502938707,
+              "original_page": 5
+            },
+            "content": "i) and ii) P = $60/1.058 + $60/1.0552 + $1060/1.0523 = $1021.07which is greater than $1000, so it trades at a premium.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9313619375228882
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.8378859857482185,
+              "width": 0.7346767422334173,
+              "original_page": 5
+            },
+            "content": "The other way to answer this question is to simply note that the coupon rate is greater than any of the zero coupon yields during the first three years so it must trade at a premium.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9834322065114975
+            },
+            "image_url": null
+          }
+        ],
+        "content": "\nii) Does this security trade at a premium, at a discount or at par?\n\niii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.## Solution\n\ni) and ii) P = $60/1.058 + $60/1.0552 + $1060/1.0523 = $1021.07which is greater than $1000, so it trades at a premium.\n\nThe other way to answer this question is to simply note that the coupon rate is greater than any of the zero coupon yields during the first three years so it must trade at a premium.## Solution (cont.)\n\nThis is not a chart. The image depicts a dashed curve, originating at approximately 1021.07 on the y-axis and decreasing over time, eventually reaching a value of 1000, which is m",
+        "embed": "\nii) Does this security trade at a premium, at a discount or at par?\n\niii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.## Solution\n\ni) and ii) P = $60/1.058 + $60/1.0552 + $1060/1.0523 = $1021.07which is greater than $1000, so it trades at a premium.\n\nThe other way to answer this question is to simply note that the coupon rate is greater than any of the zero coupon yields during the first three years so it must trade at a premium.## Solution (cont.)\n\nThis is not a chart. The image depicts a dashed curve, originating at approximately 1021.07 on the y-axis and decreasing over time, eventually reaching a value of 1000, which is m",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.21437946530059476,
+              "left": 0.12256614218855592,
+              "page": 6,
+              "top": 0.08613225652363549,
+              "width": 0.3711046152645604,
+              "original_page": 6
+            },
+            "content": "This is not a chart. The image depicts a dashed curve, originating at approximately 1021.07 on the y-axis and decreasing over time, eventually reaching a value of 1000, which is maintained thereafter. There is also a jagged solid line that starts at approximately 1021.07, increases, then drops sharply, repeating this pattern roughly three times before the end of the visible time axis. The x-axis is labeled \"time\" and has points marked at 1, 2, and 3.",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9600488156080246
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019163778803443762,
+              "left": 0.11728966496010788,
+              "page": 6,
+              "top": 0.33446060682740225,
+              "width": 0.20657868087007242,
+              "original_page": 6
+            },
+            "content": "Question 4.1 (10%)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7902246445417405
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.19655438717002566,
+              "left": 0.11734996988125196,
+              "page": 6,
+              "top": 0.3726280616408931,
+              "width": 0.7584920985719822,
+              "original_page": 6
+            },
+            "content": "Fabulosa Pizza is active in the fast food business. It currently has a book value of $80 million, with equal proportions on debt and equity. The firm has 10 million shares outstanding, which currently sell for $6 per share. The outstanding debt of Fabulosa is frequently renegotiated and adapted to the market conditions, so that capital structure remains constant. The firm has a tax rate of 40%. The risk-free rate is equal to 6%. The return on the market portfolio is 14%. Fabulosa wants to expand its business into offshore salmon farming. This will require an investment of $750 million and is expected to produce a perpetual yearly cashflow of $100 million. The company wants to finance the investment with 25% debt, for which the bank made an offer at 8% interest. At present, there is only one firm active in offshore salmon farming business, OffSea AS. OffSea As is financed with equal parts of debt and equity, its debt has a 9% interest rate and its equity has a beta of 1.4. Fabulosa will keep debt at 25% of the project value.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9939532220363617
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016614601218018197,
+              "left": 0.11768303859957074,
+              "page": 6,
+              "top": 0.5858219840614518,
+              "width": 0.7439372740130975,
+              "original_page": 6
+            },
+            "content": "i) Should Fabulosa Pizza accept the project or not? Use calculations to support your answer.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9263112425804139
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03263865936117507,
+              "left": 0.11773499360855641,
+              "page": 6,
+              "top": 0.6190853067556119,
+              "width": 0.7322075030499422,
+              "original_page": 6
+            },
+            "content": "ii) What effect will the decision under a) have on Fabulosa’s stock price? Explain why (no calculations are required)",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9662794321775436
+            },
+            "image_url": null
+          }
+        ],
+        "content": "es at a premium.\n\nThe other way to answer this question is to simply note that the coupon rate is greater than any of the zero coupon yields during the first three years so it must trade at a premium.## Solution (cont.)\n\nThis is not a chart. The image depicts a dashed curve, originating at approximately 1021.07 on the y-axis and decreasing over time, eventually reaching a value of 1000, which is maintained thereafter. There is also a jagged solid line that starts at approximately 1021.07, increases, then drops sharply, repeating this pattern roughly three times before the end of the visible time axis. The x-axis is labeled \"time\" and has points marked at 1, 2, and 3.\n\nQuestion 4.1 (10%)\n\nFabulosa Pizza is active in the fast food business. It currently has a book value of $80 million, with equal proportions on debt and equity. The firm has 10 million shares outstanding, which currently sell for $6 per share. The outstanding debt of Fabulosa is frequently renegotiated and adapted to the market conditions, so that capital structure remains constant. The firm has a tax rate of 40%. The risk-free rate is equal to 6%. The return on the market portfolio is 14%. Fabulosa wants to expand its business into offshore salmon farming. This will require an investment of $750 million and is expected to produce a perpetual yearly cashflow of $100 million. The company wants to finance the investment with 25% debt, for which the bank made an offer at 8% interest. At present, there is only one firm active in offshore salmon farming business, OffSea AS. OffSea As is financed with equal parts of debt and equity, its debt has a 9% interest rate and its equity has a beta of 1.4. Fabulosa will keep debt at 25% of the project value.\n\ni) Should Fabulosa Pizza accept the project or not? Use calculations to support your answer.\n\nii) What effect will the decision under a) have on Fabulosa’s stock price? Explain why (no calculations are required)## Solution\n\nFabulosa needs to accept the project if it has a positive NPV. To calculate it, we need the cash flow and the discount rate. The discount rate can be determined by the characteristics of ",
+        "embed": "es at a premium.\n\nThe other way to answer this question is to simply note that the coupon rate is greater than any of the zero coupon yields during the first three years so it must trade at a premium.## Solution (cont.)\n\nThis is not a chart. The image depicts a dashed curve, originating at approximately 1021.07 on the y-axis and decreasing over time, eventually reaching a value of 1000, which is maintained thereafter. There is also a jagged solid line that starts at approximately 1021.07, increases, then drops sharply, repeating this pattern roughly three times before the end of the visible time axis. The x-axis is labeled \"time\" and has points marked at 1, 2, and 3.\n\nQuestion 4.1 (10%)\n\nFabulosa Pizza is active in the fast food business. It currently has a book value of $80 million, with equal proportions on debt and equity. The firm has 10 million shares outstanding, which currently sell for $6 per share. The outstanding debt of Fabulosa is frequently renegotiated and adapted to the market conditions, so that capital structure remains constant. The firm has a tax rate of 40%. The risk-free rate is equal to 6%. The return on the market portfolio is 14%. Fabulosa wants to expand its business into offshore salmon farming. This will require an investment of $750 million and is expected to produce a perpetual yearly cashflow of $100 million. The company wants to finance the investment with 25% debt, for which the bank made an offer at 8% interest. At present, there is only one firm active in offshore salmon farming business, OffSea AS. OffSea As is financed with equal parts of debt and equity, its debt has a 9% interest rate and its equity has a beta of 1.4. Fabulosa will keep debt at 25% of the project value.\n\ni) Should Fabulosa Pizza accept the project or not? Use calculations to support your answer.\n\nii) What effect will the decision under a) have on Fabulosa’s stock price? Explain why (no calculations are required)## Solution\n\nFabulosa needs to accept the project if it has a positive NPV. To calculate it, we need the cash flow and the discount rate. The discount rate can be determined by the characteristics of ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.012537885549829726,
+              "left": 0.11870172787694146,
+              "page": 6,
+              "top": 0.7009431064210087,
+              "width": 0.08650137827565184,
+              "original_page": 6
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9159974753856659
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04928541236461263,
+              "left": 0.11791776390802385,
+              "page": 6,
+              "top": 0.7360489234918889,
+              "width": 0.7574223820536435,
+              "original_page": 6
+            },
+            "content": "Fabulosa needs to accept the project if it has a positive NPV. To calculate it, we need the cash flow and the discount rate. The discount rate can be determined by the characteristics of the project, the background data on Fabulosa is irrelevant.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9844532400369644
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03265834413033709,
+              "left": 0.11807270116696324,
+              "page": 6,
+              "top": 0.8352175090320326,
+              "width": 0.7573964045491508,
+              "original_page": 6
+            },
+            "content": "1. Calculate the cost of equity for OffSea AS from CAPM re=rf+beta*(rm-rf)=0.06+1.4(0.14- 0.06)=0.172",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9308462291955948
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.08432304038004751,
+              "width": 0.744752308984047,
+              "original_page": 7
+            },
+            "content": "2. The unlevered cost of equity can be found either from re=ru+(ru-rd)D/E or from ru=E/(E+D)re+D/(E+D)rd=0.5 0.172+0.5 0.09 (you look at OffSea AS here), either way we get ru=0.131",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9178062975406647
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.1502375296912114,
+              "width": 0.7455919395465995,
+              "original_page": 7
+            },
+            "content": "3. Now for Fabulosa, re=ru+(ru-rd)D/E=0.131+(0.131-0.08)0.25/0.75=0.148 and the project WACC is then - 0.148 0.75+0.08 0.25 (1-0.4)=0.123.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7947468072175979
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.1995249406175772,
+              "width": 0.6943744752308985,
+              "original_page": 7
+            },
+            "content": "4. With this WACC NPV is 100/0.123-750=63>0. Fabulosa should accept the project.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7677717089653016
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.2654394299287411,
+              "width": 0.5323257766582704,
+              "original_page": 7
+            },
+            "content": "ii) The stock price should increase, as it is a positive NPV project.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7737585514783859
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.334916864608076,
+              "width": 0.20654911838790932,
+              "original_page": 7
+            },
+            "content": "Question 4.2 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9128378927707672
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06472684085510688,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.37351543942992876,
+              "width": 0.7565071368597817,
+              "original_page": 7
+            },
+            "content": "Assume now that Fabulosa owners care about environment and want to incorporate environmental value in their analysis. They estimated that the offshore salmon farming facility will generate carbon emissions that amount to 30 000 tons of CO2 equivalent per year in perpetuity. Fabulosa assumes shadow carbon price of $200 per 1 ton of CO2 equivalent.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9853893101215363
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.48871733966745845,
+              "width": 0.7355163727959698,
+              "original_page": 7
+            },
+            "content": "i) Make your own reasonable assumption regarding the discount rate Fabulosa should use when calculating environmental value. Comment whether it should be the same, smaller or larger than the discount rate used in Question 4.1.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.837011992931366
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.5546318289786223,
+              "width": 0.382031905961377,
+              "original_page": 7
+            },
+            "content": "ii) Should Fabulosa undertake the project then?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7733073890209198
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.5926365795724465,
+              "width": 0.08816120906801007,
+              "original_page": 7
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9246098190546036
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04809976247030879,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.6294536817102138,
+              "width": 0.7573467674223342,
+              "original_page": 7
+            },
+            "content": "The discount rate for environmental value should be lower, as it needs to properly incorporate that the long-term social and environmental impacts. Social discount rate can be realistically assumed to be 1-2% (anything lower than rwacc would do)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9805464714765548
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.6947743467933492,
+              "width": 0.6717044500419815,
+              "original_page": 7
+            },
+            "content": "Assuming discount rate of 2% the total integrated value of the project in millions is 100/0.123-6/0.02-750=-236. Fabulosa should not undertake the project.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9745473861694336
+            },
+            "image_url": null
+          }
+        ],
+        "content": "abulosa Pizza accept the project or not? Use calculations to support your answer.\n\nii) What effect will the decision under a) have on Fabulosa’s stock price? Explain why (no calculations are required)## Solution\n\nFabulosa needs to accept the project if it has a positive NPV. To calculate it, we need the cash flow and the discount rate. The discount rate can be determined by the characteristics of the project, the background data on Fabulosa is irrelevant.\n\n1. Calculate the cost of equity for OffSea AS from CAPM re=rf+beta*(rm-rf)=0.06+1.4(0.14- 0.06)=0.172\n\n2. The unlevered cost of equity can be found either from re=ru+(ru-rd)D/E or from ru=E/(E+D)re+D/(E+D)rd=0.5 0.172+0.5 0.09 (you look at OffSea AS here), either way we get ru=0.131\n\n3. Now for Fabulosa, re=ru+(ru-rd)D/E=0.131+(0.131-0.08)0.25/0.75=0.148 and the project WACC is then - 0.148 0.75+0.08 0.25 (1-0.4)=0.123.\n\n4. With this WACC NPV is 100/0.123-750=63>0. Fabulosa should accept the project.\n\nii) The stock price should increase, as it is a positive NPV project.\n\n## Question 4.2 (10%)\n\nAssume now that Fabulosa owners care about environment and want to incorporate environmental value in their analysis. They estimated that the offshore salmon farming facility will generate carbon emissions that amount to 30 000 tons of CO2 equivalent per year in perpetuity. Fabulosa assumes shadow carbon price of $200 per 1 ton of CO2 equivalent.\n\ni) Make your own reasonable assumption regarding the discount rate Fabulosa should use when calculating environmental value. Comment whether it should be the same, smaller or larger than the discount rate used in Question 4.1.\n\nii) Should Fabulosa undertake the project then?\n\n## Solution\n\nThe discount rate for environmental value should be lower, as it needs to properly incorporate that the long-term social and environmental impacts. Social discount rate can be realistically assumed to be 1-2% (anything lower than rwacc would do)\n\nAssuming discount rate of 2% the total integrated value of the project in millions is 100/0.123-6/0.02-750=-236. Fabulosa should not undertake the project.## Question 4.3 (5%)\n\nName two reasons why sustainability considerations are traditionally excluded from financial analysis.\n\n## Solution\n\nAny two of those:\n\nHistorical Context: Developed during perio",
+        "embed": "abulosa Pizza accept the project or not? Use calculations to support your answer.\n\nii) What effect will the decision under a) have on Fabulosa’s stock price? Explain why (no calculations are required)## Solution\n\nFabulosa needs to accept the project if it has a positive NPV. To calculate it, we need the cash flow and the discount rate. The discount rate can be determined by the characteristics of the project, the background data on Fabulosa is irrelevant.\n\n1. Calculate the cost of equity for OffSea AS from CAPM re=rf+beta*(rm-rf)=0.06+1.4(0.14- 0.06)=0.172\n\n2. The unlevered cost of equity can be found either from re=ru+(ru-rd)D/E or from ru=E/(E+D)re+D/(E+D)rd=0.5 0.172+0.5 0.09 (you look at OffSea AS here), either way we get ru=0.131\n\n3. Now for Fabulosa, re=ru+(ru-rd)D/E=0.131+(0.131-0.08)0.25/0.75=0.148 and the project WACC is then - 0.148 0.75+0.08 0.25 (1-0.4)=0.123.\n\n4. With this WACC NPV is 100/0.123-750=63>0. Fabulosa should accept the project.\n\nii) The stock price should increase, as it is a positive NPV project.\n\n## Question 4.2 (10%)\n\nAssume now that Fabulosa owners care about environment and want to incorporate environmental value in their analysis. They estimated that the offshore salmon farming facility will generate carbon emissions that amount to 30 000 tons of CO2 equivalent per year in perpetuity. Fabulosa assumes shadow carbon price of $200 per 1 ton of CO2 equivalent.\n\ni) Make your own reasonable assumption regarding the discount rate Fabulosa should use when calculating environmental value. Comment whether it should be the same, smaller or larger than the discount rate used in Question 4.1.\n\nii) Should Fabulosa undertake the project then?\n\n## Solution\n\nThe discount rate for environmental value should be lower, as it needs to properly incorporate that the long-term social and environmental impacts. Social discount rate can be realistically assumed to be 1-2% (anything lower than rwacc would do)\n\nAssuming discount rate of 2% the total integrated value of the project in millions is 100/0.123-6/0.02-750=-236. Fabulosa should not undertake the project.## Question 4.3 (5%)\n\nName two reasons why sustainability considerations are traditionally excluded from financial analysis.\n\n## Solution\n\nAny two of those:\n\nHistorical Context: Developed during perio",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.747624703087886,
+              "width": 0.19311502938706968,
+              "original_page": 7
+            },
+            "content": "Question 4.3 (5%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8442460894584656
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.7790973871733967,
+              "width": 0.7531486146095718,
+              "original_page": 7
+            },
+            "content": "Name two reasons why sustainability considerations are traditionally excluded from financial analysis.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9780572324991226
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.833729216152019,
+              "width": 0.08816120906801007,
+              "original_page": 7
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9239098787307739
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.8806413301662708,
+              "width": 0.1452560873215785,
+              "original_page": 7
+            },
+            "content": "Any two of those:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9245403379201889
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.08432304038004751,
+              "width": 0.6851385390428212,
+              "original_page": 8
+            },
+            "content": "Historical Context: Developed during periods when environmental resources seemed abundant and the focus was on industrial growth",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9395408600568771
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0510688836104513,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.15676959619952494,
+              "width": 0.6994122586062133,
+              "original_page": 8
+            },
+            "content": "Lack of Intergenerational Accounting: Insufficient emphasis on the welfare of future generations. Future costs and benefits were often discounted heavily, diminishing their importance in decision-making.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9689875692129135
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.21912114014251782,
+              "width": 0.7455919395465995,
+              "original_page": 8
+            },
+            "content": "Inadequate Predictive Models: Lack of tools and data of predicting long-term environmental impact.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9471013665199279
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.2642517814726841,
+              "width": 0.7455919395465995,
+              "original_page": 8
+            },
+            "content": "Externalities: Environmental costs are externalities not accounted for in private transactions.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.924931138753891
+            },
+            "image_url": null
+          }
+        ],
+        "content": "e 1-2% (anything lower than rwacc would do)\n\nAssuming discount rate of 2% the total integrated value of the project in millions is 100/0.123-6/0.02-750=-236. Fabulosa should not undertake the project.## Question 4.3 (5%)\n\nName two reasons why sustainability considerations are traditionally excluded from financial analysis.\n\n## Solution\n\nAny two of those:\n\nHistorical Context: Developed during periods when environmental resources seemed abundant and the focus was on industrial growth\n\nLack of Intergenerational Accounting: Insufficient emphasis on the welfare of future generations. Future costs and benefits were often discounted heavily, diminishing their importance in decision-making.\n\nInadequate Predictive Models: Lack of tools and data of predicting long-term environmental impact.\n\nExternalities: Environmental costs are externalities not accounted for in private transactions.",
+        "embed": "e 1-2% (anything lower than rwacc would do)\n\nAssuming discount rate of 2% the total integrated value of the project in millions is 100/0.123-6/0.02-750=-236. Fabulosa should not undertake the project.## Question 4.3 (5%)\n\nName two reasons why sustainability considerations are traditionally excluded from financial analysis.\n\n## Solution\n\nAny two of those:\n\nHistorical Context: Developed during periods when environmental resources seemed abundant and the focus was on industrial growth\n\nLack of Intergenerational Accounting: Insufficient emphasis on the welfare of future generations. Future costs and benefits were often discounted heavily, diminishing their importance in decision-making.\n\nInadequate Predictive Models: Lack of tools and data of predicting long-term environmental impact.\n\nExternalities: Environmental costs are externalities not accounted for in private transactions.",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 8,
+    "credit_breakdown": {
+      "page": 8.0,
+      "complex": 6.0
+    },
+    "credits": 14.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "complex",
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "page"
+      ],
+      "8": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/85fbda98-8125-41f0-92f8-3e33b5df85cf.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T181008Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=ed651c00e4f6bb0b79b93dc589ca08d9c0c047a19746b50d3f2a452728122654",
+  "studio_link": "https://studio.reducto.ai/job/4ab1c921-0d7a-485c-8d30-ceb537ab1396",
+  "response_type": "parse",
+  "parse_mode": null
+}

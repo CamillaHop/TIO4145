@@ -1,0 +1,2499 @@
+{
+  "duration": 13.219953298568726,
+  "job_id": "f77f43b2-48b6-4f42-a38b-ff0820cf4aa9",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.02315914489311164,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.08491686460807601,
+              "width": 0.670864819479429,
+              "original_page": 1
+            },
+            "content": "Examination paper for TIØ4145 Corporate Finance",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8767825156450272
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011876484560570071,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.13657957244655583,
+              "width": 0.2325776658270361,
+              "original_page": 1
+            },
+            "content": "Exercise 1-Valuation (25%)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7989168614149094
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.16033254156769597,
+              "width": 0.7371956339210747,
+              "original_page": 1
+            },
+            "content": "For the following exercises 1.1 to 1.5, assume that Company A has yearly revenues of 1000 and the following start balance sheet:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9789153128862381
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09679334916864608,
+              "left": 0.11670864819479429,
+              "page": 1,
+              "top": 0.20249406175771972,
+              "width": 0.2947103274559194,
+              "original_page": 1
+            },
+            "content": "| Fixed assets                 | 1 000   |\n|-|-|\n| Cash                         | 100     |\n| = Total assets               | 1 100   |\n| Debt                         | 600     |\n| Equity                       | 500     |\n| = Total Equity & Liabilities | 1 100   |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9307884156703949
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.3254156769596199,
+              "width": 0.2073887489504618,
+              "original_page": 1
+            },
+            "content": "Also, assume the following:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9607532829046249
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.3509501187648456,
+              "width": 0.21158690176322417,
+              "original_page": 1
+            },
+            "content": "\t- Debt cost of capital: 5%",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.944302299618721
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.3681710213776722,
+              "width": 0.3979848866498741,
+              "original_page": 1
+            },
+            "content": "\t- Weighted average costs of capital (WACC): 10%",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9495282679796219
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011876484560570071,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.38836104513064135,
+              "width": 0.19311502938706968,
+              "original_page": 1
+            },
+            "content": "\t- Perpetual growth: 0%",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9349216997623443
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.40320665083135393,
+              "width": 0.09739714525608732,
+              "original_page": 1
+            },
+            "content": "\t- No costs",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9370394170284271
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.42042755344418054,
+              "width": 0.09907640638119228,
+              "original_page": 1
+            },
+            "content": "\t- No taxes",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9254088014364242
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.46318289786223277,
+              "width": 0.6683459277917716,
+              "original_page": 1
+            },
+            "content": "- 1.1 Calculate the equity value of Company A using the discounted free cash flow method.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9604003340005874
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.19059613769941225,
+              "page": 1,
+              "top": 0.4910926365795725,
+              "width": 0.6171284634760705,
+              "original_page": 1
+            },
+            "content": "V = FCF/(TWACC - g) - Net_Debt = 1000/(0.1 - 0) - (600 - 100) = 9500",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6749442726373672
+            },
+            "image_url": null
+          }
+        ],
+        "content": "## Examination paper for TIØ4145 Corporate Finance\n\nExercise 1-Valuation (25%)\n\nFor the following exercises 1.1 to 1.5, assume that Company A has yearly revenues of 1000 and the following start balance sheet:\n\n| Fixed assets                 | 1 000   |\n|-|-|\n| Cash                         | 100     |\n| = Total assets               | 1 100   |\n| Debt                         | 600     |\n| Equity                       | 500     |\n| = Total Equity & Liabilities | 1 100   |\n\nAlso, assume the following:\n\n\t- Debt cost of capital: 5%\n\n\t- Weighted average costs of capital (WACC): 10%\n\n\t- Perpetual growth: 0%\n\n\t- No costs\n\n\t- No taxes\n\n- 1.1 Calculate the equity value of Company A using the discounted free cash flow method.\n\nV = FCF/(TWACC - g) - Net_Debt = 1000/(0.1 - 0) - (600 - 100) = 9500## Examination paper for TIØ4145 Corporate Finance (cont.)\n\n- 1.2 Regarding the valuation of Company A, select the FALSE statement.\n\n\ta. If the perpetual growth was 2% yearly, and nothing else changed",
+        "embed": "## Examination paper for TIØ4145 Corporate Finance\n\nExercise 1-Valuation (25%)\n\nFor the following exercises 1.1 to 1.5, assume that Company A has yearly revenues of 1000 and the following start balance sheet:\n\nThis table shows a company's balance sheet, with total assets valued at 1,100. These assets are comprised of fixed assets worth 1,000 and cash totaling 100. The company finances these assets through 600 of debt and 500 of equity, resulting in total equity and liabilities of 1,100.\n\nAlso, assume the following:\n\n\t- Debt cost of capital: 5%\n\n\t- Weighted average costs of capital (WACC): 10%\n\n\t- Perpetual growth: 0%\n\n\t- No costs\n\n\t- No taxes\n\n- 1.1 Calculate the equity value of Company A using the discounted free cash flow method.\n\nV = FCF/(TWACC - g) - Net_Debt = 1000/(0.1 - 0) - (600 - 100) = 9500## Examination paper for TIØ4145 Corporate Finance (cont.)\n\n- 1.2 Regarding the valuation of Company A, select the FALSE statement.\n\n\ta. If the perpetual growth was 2% yearly, and nothing else changed",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5403800475059383,
+              "width": 0.5424013434089001,
+              "original_page": 1
+            },
+            "content": "- 1.2 Regarding the valuation of Company A, select the FALSE statement.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9649051010608674
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.5570071258907363,
+              "width": 0.7220822837951302,
+              "original_page": 1
+            },
+            "content": "\ta. If the perpetual growth was 2% yearly, and nothing else changed, then the value of Company A would increase.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9810423433780671
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.5896674584323041,
+              "width": 0.6700251889168766,
+              "original_page": 1
+            },
+            "content": "\tb. If the WACC was 8%, and nothing else changed, then the value of Company A would increase.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9745814800262451
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.6217339667458432,
+              "width": 0.7036104114189756,
+              "original_page": 1
+            },
+            "content": "\tc. If there were taxes of 20%, and nothing else changed, then the value of Company A would increase.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9750999003648758
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.6543942992874109,
+              "width": 0.7195633921074727,
+              "original_page": 1
+            },
+            "content": "\td. If the perpetual growth was 6% and the WACC was 6%, then the value of Company A could not be calculated by the discounted cash flow method.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9813666999340057
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.6959619952494062,
+              "width": 0.5650713685978169,
+              "original_page": 1
+            },
+            "content": "Explanation: taxes would remove value from the company, not the opposite.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9358168035745621
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7381235154394299,
+              "width": 0.7489504617968094,
+              "original_page": 1
+            },
+            "content": "- 1.3 Suppose that you will evaluate a project in the same industry as Company A, and this project has earnings of 500 per year. Using the same assumptions as before, choose the FALSE statement.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9830974280834198
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.14777497900923595,
+              "page": 1,
+              "top": 0.7701900237529691,
+              "width": 0.7195633921074727,
+              "original_page": 1
+            },
+            "content": "\ta. You should use the unlevered price-earnings multiple valuation method to estimate the value of this project using the data from Company A.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9800194501876831
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.8028503562945368,
+              "width": 0.7111670864819479,
+              "original_page": 1
+            },
+            "content": "\tb. If only an average price-earnings multiple for the industry is available, then it should not be used as it does not provide meaningful information.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9809099584817886
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.8355106888361045,
+              "width": 0.5197313182199832,
+              "original_page": 1
+            },
+            "content": "\tc. The unlevered P/E is greater than the levered P/E for Company A.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9567603886127471
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.8515439429928741,
+              "width": 0.7153652392947103,
+              "original_page": 1
+            },
+            "content": "\td. The introduction of taxes should not affect the valuation using the unlevered P/E as it would equally affect both Company A and the new project.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9848122328519822
+            },
+            "image_url": null
+          }
+        ],
+        "content": "al growth: 0%\n\n\t- No costs\n\n\t- No taxes\n\n- 1.1 Calculate the equity value of Company A using the discounted free cash flow method.\n\nV = FCF/(TWACC - g) - Net_Debt = 1000/(0.1 - 0) - (600 - 100) = 9500## Examination paper for TIØ4145 Corporate Finance (cont.)\n\n- 1.2 Regarding the valuation of Company A, select the FALSE statement.\n\n\ta. If the perpetual growth was 2% yearly, and nothing else changed, then the value of Company A would increase.\n\n\tb. If the WACC was 8%, and nothing else changed, then the value of Company A would increase.\n\n\tc. If there were taxes of 20%, and nothing else changed, then the value of Company A would increase.\n\n\td. If the perpetual growth was 6% and the WACC was 6%, then the value of Company A could not be calculated by the discounted cash flow method.\n\nExplanation: taxes would remove value from the company, not the opposite.\n\n- 1.3 Suppose that you will evaluate a project in the same industry as Company A, and this project has earnings of 500 per year. Using the same assumptions as before, choose the FALSE statement.\n\n\ta. You should use the unlevered price-earnings multiple valuation method to estimate the value of this project using the data from Company A.\n\n\tb. If only an average price-earnings multiple for the industry is available, then it should not be used as it does not provide meaningful information.\n\n\tc. The unlevered P/E is greater than the levered P/E for Company A.\n\n\td. The introduction of taxes should not affect the valuation using the unlevered P/E as it would equally affect both Company A and the new project.## Examination paper for TIØ4145 Corporate Finance (cont.)\n\nExplanation: using average multiples can provide a good estimate for the industry, often free of idiosyncratic risk. It can, in fact, provid",
+        "embed": "al growth: 0%\n\n\t- No costs\n\n\t- No taxes\n\n- 1.1 Calculate the equity value of Company A using the discounted free cash flow method.\n\nV = FCF/(TWACC - g) - Net_Debt = 1000/(0.1 - 0) - (600 - 100) = 9500## Examination paper for TIØ4145 Corporate Finance (cont.)\n\n- 1.2 Regarding the valuation of Company A, select the FALSE statement.\n\n\ta. If the perpetual growth was 2% yearly, and nothing else changed, then the value of Company A would increase.\n\n\tb. If the WACC was 8%, and nothing else changed, then the value of Company A would increase.\n\n\tc. If there were taxes of 20%, and nothing else changed, then the value of Company A would increase.\n\n\td. If the perpetual growth was 6% and the WACC was 6%, then the value of Company A could not be calculated by the discounted cash flow method.\n\nExplanation: taxes would remove value from the company, not the opposite.\n\n- 1.3 Suppose that you will evaluate a project in the same industry as Company A, and this project has earnings of 500 per year. Using the same assumptions as before, choose the FALSE statement.\n\n\ta. You should use the unlevered price-earnings multiple valuation method to estimate the value of this project using the data from Company A.\n\n\tb. If only an average price-earnings multiple for the industry is available, then it should not be used as it does not provide meaningful information.\n\n\tc. The unlevered P/E is greater than the levered P/E for Company A.\n\n\td. The introduction of taxes should not affect the valuation using the unlevered P/E as it would equally affect both Company A and the new project.## Examination paper for TIØ4145 Corporate Finance (cont.)\n\nExplanation: using average multiples can provide a good estimate for the industry, often free of idiosyncratic risk. It can, in fact, provid",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.08432304038004751,
+              "width": 0.7052896725440806,
+              "original_page": 2
+            },
+            "content": "Explanation: using average multiples can provide a good estimate for the industry, often free of idiosyncratic risk. It can, in fact, provide meaningful information.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.969315180182457
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.15201900237529692,
+              "width": 0.7279596977329975,
+              "original_page": 2
+            },
+            "content": "- 1.4 Estimate the value of Company B, which operates in the same industry as Company A, has no debt, and pays 500 in yearly dividends. Keep the same previous assumptions.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9532421350479126
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06947743467933491,
+              "left": 0.34424853064651556,
+              "page": 2,
+              "top": 0.19655581947743467,
+              "width": 0.31150293870696893,
+              "original_page": 2
+            },
+            "content": "TWACC = E/F × TEq + D/F × Debt Teq = 0.16 P = Div/(rɛq − g) = 500/0.16 = 3125",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5146918147802353
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.30344418052256533,
+              "width": 0.46767422334172964,
+              "original_page": 2
+            },
+            "content": "- 1.5 Regarding valuation methods, select the FALSE statement.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.959066566824913
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.336104513064133,
+              "width": 0.6851385390428212,
+              "original_page": 2
+            },
+            "content": "\ta. The Dividend Growth method is useful when the company has a clear dividend strategy.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9550770819187164
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.3521377672209026,
+              "width": 0.7061293031066331,
+              "original_page": 2
+            },
+            "content": "\tb. The Discounted Cash Flow method requires that the company presents a positive cash flow and a clear dividend strategy.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.973006072640419
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.3847980997624703,
+              "width": 0.7304785894206549,
+              "original_page": 2
+            },
+            "content": "\tc. Valuation methods based on multiples should be used when there is not enough information to use the Dividend Growth or the Discounted Cash Flow methods.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9694575995206833
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.417458432304038,
+              "width": 0.6272040302267002,
+              "original_page": 2
+            },
+            "content": "\td. Valuation methods can be helpful when there is a possible merger & acquisition.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9446943014860153
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.4685273159144893,
+              "width": 0.5961376994122586,
+              "original_page": 2
+            },
+            "content": "Explanation: A clear dividend strategy is not a requirement for the DCF method.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9109435141086578
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.5201900237529691,
+              "width": 0.28463476070528965,
+              "original_page": 2
+            },
+            "content": "Exercise 2 – Portfolio Theory (25%)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.887157353758812
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.5712589073634204,
+              "width": 0.2938706968933669,
+              "original_page": 2
+            },
+            "content": "Consider the following risky portfolios:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9260469377040863
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06947743467933491,
+              "left": 0.11670864819479429,
+              "page": 2,
+              "top": 0.6217339667458432,
+              "width": 0.6314021830394626,
+              "original_page": 2
+            },
+            "content": "| Portfolio             | A   | B      | C      | D   | E   | F   | G      | H Н   |\n|-|-|-|-|-|-|-|-|-|\n| Expected return, %    | 15  | 12.5   | 16     | 20  | 10  | 18  | 072 17 | 18    |\n| Standard deviation, % | 25  | 221 21 | 129 29 | 45  | 23  | 35  | 29     | 32    |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8676931500434876
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.7256532066508313,
+              "width": 0.5675902602854744,
+              "original_page": 2
+            },
+            "content": "For the answers below, assume that you cannot combine the risky portfolios.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9398039251565933
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.7517814726840855,
+              "width": 0.7153652392947103,
+              "original_page": 2
+            },
+            "content": "a. Five of these portfolios are efficient, and three are not. Which are inefficient ones, and why?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8015537232160568
+            },
+            "image_url": null
+          }
+        ],
+        "content": "P/E is greater than the levered P/E for Company A.\n\n\td. The introduction of taxes should not affect the valuation using the unlevered P/E as it would equally affect both Company A and the new project.## Examination paper for TIØ4145 Corporate Finance (cont.)\n\nExplanation: using average multiples can provide a good estimate for the industry, often free of idiosyncratic risk. It can, in fact, provide meaningful information.\n\n- 1.4 Estimate the value of Company B, which operates in the same industry as Company A, has no debt, and pays 500 in yearly dividends. Keep the same previous assumptions.\n\nTWACC = E/F × TEq + D/F × Debt Teq = 0.16 P = Div/(rɛq − g) = 500/0.16 = 3125\n\n- 1.5 Regarding valuation methods, select the FALSE statement.\n\n\ta. The Dividend Growth method is useful when the company has a clear dividend strategy.\n\n\tb. The Discounted Cash Flow method requires that the company presents a positive cash flow and a clear dividend strategy.\n\n\tc. Valuation methods based on multiples should be used when there is not enough information to use the Dividend Growth or the Discounted Cash Flow methods.\n\n\td. Valuation methods can be helpful when there is a possible merger & acquisition.\n\nExplanation: A clear dividend strategy is not a requirement for the DCF method.\n\nExercise 2 – Portfolio Theory (25%)\n\nConsider the following risky portfolios:\n\n| Portfolio             | A   | B      | C      | D   | E   | F   | G      | H Н   |\n|-|-|-|-|-|-|-|-|-|\n| Expected return, %    | 15  | 12.5   | 16     | 20  | 10  | 18  | 072 17 | 18    |\n| Standard deviation, % | 25  | 221 21 | 129 29 | 45  | 23  | 35  | 29     | 32    |\n\nFor the answers below, assume that you cannot combine the risky portfolios.\n\na. Five of these portfolios are efficient, and three are not. Which are inefficient ones, and why?## Answer:\n\nPoint E has a higher risk and a lower return when compared to point B, making it an inefficient choice if B is available. Point C has a lower return when compared to point G, both having t",
+        "embed": "P/E is greater than the levered P/E for Company A.\n\n\td. The introduction of taxes should not affect the valuation using the unlevered P/E as it would equally affect both Company A and the new project.## Examination paper for TIØ4145 Corporate Finance (cont.)\n\nExplanation: using average multiples can provide a good estimate for the industry, often free of idiosyncratic risk. It can, in fact, provide meaningful information.\n\n- 1.4 Estimate the value of Company B, which operates in the same industry as Company A, has no debt, and pays 500 in yearly dividends. Keep the same previous assumptions.\n\nTWACC = E/F × TEq + D/F × Debt Teq = 0.16 P = Div/(rɛq − g) = 500/0.16 = 3125\n\n- 1.5 Regarding valuation methods, select the FALSE statement.\n\n\ta. The Dividend Growth method is useful when the company has a clear dividend strategy.\n\n\tb. The Discounted Cash Flow method requires that the company presents a positive cash flow and a clear dividend strategy.\n\n\tc. Valuation methods based on multiples should be used when there is not enough information to use the Dividend Growth or the Discounted Cash Flow methods.\n\n\td. Valuation methods can be helpful when there is a possible merger & acquisition.\n\nExplanation: A clear dividend strategy is not a requirement for the DCF method.\n\nExercise 2 – Portfolio Theory (25%)\n\nConsider the following risky portfolios:\n\nThis table presents expected returns and standard deviations for eight different portfolios, labeled A through H. Portfolio C offers the highest expected return at 16%, while portfolio G has the lowest expected return at 17%. Portfolio B exhibits the highest standard deviation at 221%, indicating the greatest volatility, whereas portfolio C has the lowest standard deviation at 129%.\n\nFor the answers below, assume that you cannot combine the risky portfolios.\n\na. Five of these portfolios are efficient, and three are not. Which are inefficient ones, and why?## Answer:\n\nPoint E has a higher risk and a lower return when compared to point B, making it an inefficient choice if B is available. Point C has a lower return when compared to point G, both having t",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.7808788598574822,
+              "width": 0.06297229219143577,
+              "original_page": 2
+            },
+            "content": "Answer:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8349647104740143
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06353919239904988,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.8028503562945368,
+              "width": 0.7229219143576826,
+              "original_page": 2
+            },
+            "content": "Point E has a higher risk and a lower return when compared to point B, making it an inefficient choice if B is available. Point C has a lower return when compared to point G, both having the same level of risk. Finally, point F has a higher risk than point H while providing the same return. So, points C, E and F are all inefficient, having all other portfolios available.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9811945647001267
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.8776722090261283,
+              "width": 0.7313182199832073,
+              "original_page": 2
+            },
+            "content": "Examining the problem through the use of a chart, the blue dots are the efficient portfolios, and the orange dots are the inefficient ones.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9779714554548263
+            },
+            "image_url": null
+          }
+        ],
+        "content": " 35  | 29     | 32    |\n\nFor the answers below, assume that you cannot combine the risky portfolios.\n\na. Five of these portfolios are efficient, and three are not. Which are inefficient ones, and why?## Answer:\n\nPoint E has a higher risk and a lower return when compared to point B, making it an inefficient choice if B is available. Point C has a lower return when compared to point G, both having the same level of risk. Finally, point F has a higher risk than point H while providing the same return. So, points C, E and F are all inefficient, having all other portfolios available.\n\nExamining the problem through the use of a chart, the blue dots are the efficient portfolios, and the orange dots are the inefficient ones.## Answer: (cont.)\n\n| Point | Risk | Return |\n|---|---|---|\n| A | 26 | 15 |\n| B | 20 | 12 |\n| C | 29 | 15 |\n| D | 46 | 20 |\n| E | 23 | 9 |\n| F | 36 | 18 |\n| G | 28 | 16 |\n| H | 31 | 17 |\n\n\n\nb. Suppose",
+        "embed": "dard deviation at 129%.\n\nFor the answers below, assume that you cannot combine the risky portfolios.\n\na. Five of these portfolios are efficient, and three are not. Which are inefficient ones, and why?## Answer:\n\nPoint E has a higher risk and a lower return when compared to point B, making it an inefficient choice if B is available. Point C has a lower return when compared to point G, both having the same level of risk. Finally, point F has a higher risk than point H while providing the same return. So, points C, E and F are all inefficient, having all other portfolios available.\n\nExamining the problem through the use of a chart, the blue dots are the efficient portfolios, and the orange dots are the inefficient ones.## Answer: (cont.)\n\n| Point | Risk | Return |\n|---|---|---|\n| A | 26 | 15 |\n| B | 20 | 12 |\n| C | 29 | 15 |\n| D | 46 | 20 |\n| E | 23 | 9 |\n| F | 36 | 18 |\n| G | 28 | 16 |\n| H | 31 | 17 |\n\n\n\nb. Suppose",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.19685222120765236,
+              "left": 0.2924443202386933,
+              "page": 3,
+              "top": 0.08251718186802663,
+              "width": 0.41359789494451477,
+              "original_page": 3
+            },
+            "content": "| Point | Risk | Return |\n|---|---|---|\n| A | 26 | 15 |\n| B | 20 | 12 |\n| C | 29 | 15 |\n| D | 46 | 20 |\n| E | 23 | 9 |\n| F | 36 | 18 |\n| G | 28 | 16 |\n| H | 31 | 17 |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9438956797122955
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01484903223786755,
+              "left": 0.7048084970391566,
+              "page": 3,
+              "top": 0.2662007674753618,
+              "width": 0.004222444851625785,
+              "original_page": 3
+            },
+            "content": "",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.65
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047507281045225544,
+              "left": 0.14801719164155203,
+              "page": 3,
+              "top": 0.3049374629371734,
+              "width": 0.7271963518772293,
+              "original_page": 3
+            },
+            "content": "b. Suppose you can also borrow and lend at an interest rate of 11%. Which well-known measure of reward-to-volatility can be applied to identify which of the above portfolios is best to combine with riskless investment? Apply it and indicate which portfolio.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9813286155462265
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015328077643624077,
+              "left": 0.14797443270420274,
+              "page": 3,
+              "top": 0.36313219830537763,
+              "width": 0.5894445549713928,
+              "original_page": 3
+            },
+            "content": "Applying the Sharpe Ratio, we identify portfolio H as the most efficient choice.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9311410248279571
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030849285471114044,
+              "left": 0.14788016868322826,
+              "page": 3,
+              "top": 0.4052936902558113,
+              "width": 0.689385791636638,
+              "original_page": 3
+            },
+            "content": "c. Suppose you are prepared to tolerate a standard deviation of 25%. What is the maximum expected return you can achieve if you cannot borrow or lend?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.977498984336853
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.031470601146782406,
+              "left": 0.14781117130705104,
+              "page": 3,
+              "top": 0.4468613583759572,
+              "width": 0.722971963437542,
+              "original_page": 3
+            },
+            "content": "If we cannot borrow or lend, then we are limited by the selection of portfolios. Selecting portfolio A gives us the level of risk that we are comfortable with and a return of 15.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9592949569225311
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04750453186068752,
+              "left": 0.14767414834872722,
+              "page": 3,
+              "top": 0.5145572750287661,
+              "width": 0.7238378318765418,
+              "original_page": 3
+            },
+            "content": "d. What is your optimal strategy if you can borrow or lend at 11% and are prepared to tolerate a standard deviation of 25%? What is the maximum expected return that you can achieve with this risk?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.982625538110733
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047507968341360035,
+              "left": 0.14757891253372205,
+              "page": 3,
+              "top": 0.5727520103969703,
+              "width": 0.7280359818774012,
+              "original_page": 3
+            },
+            "content": "If we can lend money, we can allocate a part of our capital into the most efficient portfolio and the rest in a risk-free lending account. For a standard deviation of 25%, this would give us a return of 16.47.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9714850217103959
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015232543480926439,
+              "left": 0.14753615359637276,
+              "page": 3,
+              "top": 0.6309467457651746,
+              "width": 0.4727359849475081,
+              "original_page": 3
+            },
+            "content": "If plotted in a chart, point \"Opt25\" would be the correct answer.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.910709235072136
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.20736220399637154,
+              "left": 0.2955622682137129,
+              "page": 3,
+              "top": 0.6558450560357472,
+              "width": 0.4366066996073913,
+              "original_page": 3
+            },
+            "content": "| Point | Risk | Return |\n|---|---|---|\n| Rf | 0 | 10.5 |\n| Opt25 | 25 | 16.5 |\n| A | 26 | 14.5 |\n| B | 21 | 12.5 |\n| C | 28 | 15.5 |\n| D | 45 | 20 |\n| E | 22 | 9.5 |\n| F | 37 | 18 |\n| G | 29 | 16 |\n| H | 32 | 17.5 |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8870289981365205
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014255208407579772,
+              "left": 0.7307213835125113,
+              "page": 3,
+              "top": 0.8505454099548596,
+              "width": 0.004221473057595154,
+              "original_page": 3
+            },
+            "content": "",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.65
+            },
+            "image_url": null
+          }
+        ],
+        "content": "are all inefficient, having all other portfolios available.\n\nExamining the problem through the use of a chart, the blue dots are the efficient portfolios, and the orange dots are the inefficient ones.## Answer: (cont.)\n\n| Point | Risk | Return |\n|---|---|---|\n| A | 26 | 15 |\n| B | 20 | 12 |\n| C | 29 | 15 |\n| D | 46 | 20 |\n| E | 23 | 9 |\n| F | 36 | 18 |\n| G | 28 | 16 |\n| H | 31 | 17 |\n\n\n\nb. Suppose you can also borrow and lend at an interest rate of 11%. Which well-known measure of reward-to-volatility can be applied to identify which of the above portfolios is best to combine with riskless investment? Apply it and indicate which portfolio.\n\nApplying the Sharpe Ratio, we identify portfolio H as the most efficient choice.\n\nc. Suppose you are prepared to tolerate a standard deviation of 25%. What is the maximum expected return you can achieve if you cannot borrow or lend?\n\nIf we cannot borrow or lend, then we are limited by the selection of portfolios. Selecting portfolio A gives us the level of risk that we are comfortable with and a return of 15.\n\nd. What is your optimal strategy if you can borrow or lend at 11% and are prepared to tolerate a standard deviation of 25%? What is the maximum expected return that you can achieve with this risk?\n\nIf we can lend money, we can allocate a part of our capital into the most efficient portfolio and the rest in a risk-free lending account. For a standard deviation of 25%, this would give us a return of 16.47.\n\nIf plotted in a chart, point \"Opt25\" would be the correct answer.\n\n| Point | Risk | Return |\n|---|---|---|\n| Rf | 0 | 10.5 |\n| Opt25 | 25 | 16.5 |\n| A | 26 | 14.5 |\n| B | 21 | 12.5 |\n| C | 28 | 15.5 |\n| D | 45 | 20 |\n| E | 22 | 9.5 |\n| F | 37 | 18 |\n| G | 29 | 16 |\n| H | 32 | 17.5 |## Exam task 3 Real Options (25%)\n\nYou own a copper mine. The price of copper is currently $1.50 per pound. The mine produces 1 million pounds of copper per year and costs $2 million per year to opera",
+        "embed": "are all inefficient, having all other portfolios available.\n\nExamining the problem through the use of a chart, the blue dots are the efficient portfolios, and the orange dots are the inefficient ones.## Answer: (cont.)\n\n| Point | Risk | Return |\n|---|---|---|\n| A | 26 | 15 |\n| B | 20 | 12 |\n| C | 29 | 15 |\n| D | 46 | 20 |\n| E | 23 | 9 |\n| F | 36 | 18 |\n| G | 28 | 16 |\n| H | 31 | 17 |\n\n\n\nb. Suppose you can also borrow and lend at an interest rate of 11%. Which well-known measure of reward-to-volatility can be applied to identify which of the above portfolios is best to combine with riskless investment? Apply it and indicate which portfolio.\n\nApplying the Sharpe Ratio, we identify portfolio H as the most efficient choice.\n\nc. Suppose you are prepared to tolerate a standard deviation of 25%. What is the maximum expected return you can achieve if you cannot borrow or lend?\n\nIf we cannot borrow or lend, then we are limited by the selection of portfolios. Selecting portfolio A gives us the level of risk that we are comfortable with and a return of 15.\n\nd. What is your optimal strategy if you can borrow or lend at 11% and are prepared to tolerate a standard deviation of 25%? What is the maximum expected return that you can achieve with this risk?\n\nIf we can lend money, we can allocate a part of our capital into the most efficient portfolio and the rest in a risk-free lending account. For a standard deviation of 25%, this would give us a return of 16.47.\n\nIf plotted in a chart, point \"Opt25\" would be the correct answer.\n\n| Point | Risk | Return |\n|---|---|---|\n| Rf | 0 | 10.5 |\n| Opt25 | 25 | 16.5 |\n| A | 26 | 14.5 |\n| B | 21 | 12.5 |\n| C | 28 | 15.5 |\n| D | 45 | 20 |\n| E | 22 | 9.5 |\n| F | 37 | 18 |\n| G | 29 | 16 |\n| H | 32 | 17.5 |## Exam task 3 Real Options (25%)\n\nYou own a copper mine. The price of copper is currently $1.50 per pound. The mine produces 1 million pounds of copper per year and costs $2 million per year to opera",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015251972924144557,
+              "left": 0.11540411937272389,
+              "page": 4,
+              "top": 0.0833304096509253,
+              "width": 0.2594916985325394,
+              "original_page": 4
+            },
+            "content": "Exam task 3 Real Options (25%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9388239592313766
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11282632662407507,
+              "left": 0.11556590825834492,
+              "page": 4,
+              "top": 0.13421174883283066,
+              "width": 0.7585341511090814,
+              "original_page": 4
+            },
+            "content": "You own a copper mine. The price of copper is currently $1.50 per pound. The mine produces 1 million pounds of copper per year and costs $2 million per year to operate. It has enough copper to operate for 100 years. Shutting the mine down would entail bringing the land up to EPA standards and is expected to cost $5 million tomorrow or in 100 years. Reopening the mine once it is shut down would be impossible, given current environmental standards. The price of copper has an equal (and independent) probability of going up or down by 25% each year for the next two years and then will stay at that level forever.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9914238452911377
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01487318895276344,
+              "left": 0.11603081884920997,
+              "page": 4,
+              "top": 0.2838274676270212,
+              "width": 0.017678689625243507,
+              "original_page": 4
+            },
+            "content": "a.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01597797553595831,
+              "left": 0.11771007585551062,
+              "page": 4,
+              "top": 0.28272005059958066,
+              "width": 0.7229666322715232,
+              "original_page": 4
+            },
+            "content": "- Calculate the NPV of continuing to operate the mine if the cost of capital is fixed at 15%.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9530840635299682
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014280681403358904,
+              "left": 0.11611264311320221,
+              "page": 4,
+              "top": 0.3099543543521015,
+              "width": 0.018516458486030396,
+              "original_page": 4
+            },
+            "content": "b.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014977749128470021,
+              "left": 0.11863152862265322,
+              "page": 4,
+              "top": 0.30925334096062185,
+              "width": 0.4635195651557069,
+              "original_page": 4
+            },
+            "content": "- Is it optimal to abandon the mine or keep it operating?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9453746289014816
+            },
+            "image_url": null
+          }
+        ],
+        "content": " Return |\n|---|---|---|\n| Rf | 0 | 10.5 |\n| Opt25 | 25 | 16.5 |\n| A | 26 | 14.5 |\n| B | 21 | 12.5 |\n| C | 28 | 15.5 |\n| D | 45 | 20 |\n| E | 22 | 9.5 |\n| F | 37 | 18 |\n| G | 29 | 16 |\n| H | 32 | 17.5 |## Exam task 3 Real Options (25%)\n\nYou own a copper mine. The price of copper is currently $1.50 per pound. The mine produces 1 million pounds of copper per year and costs $2 million per year to operate. It has enough copper to operate for 100 years. Shutting the mine down would entail bringing the land up to EPA standards and is expected to cost $5 million tomorrow or in 100 years. Reopening the mine once it is shut down would be impossible, given current environmental standards. The price of copper has an equal (and independent) probability of going up or down by 25% each year for the next two years and then will stay at that level forever.\n\na.\n\n- Calculate the NPV of continuing to operate the mine if the cost of capital is fixed at 15%.\n\nb.\n\n- Is it optimal to abandon the mine or keep it operating?## Answer\n\nStart by creating distribution trees for the prices and the cash flows.\n\nThe image displays two binomial trees: one for copper price evolution and another for cash flows.\n\n**Copper Price Tr",
+        "embed": " Return |\n|---|---|---|\n| Rf | 0 | 10.5 |\n| Opt25 | 25 | 16.5 |\n| A | 26 | 14.5 |\n| B | 21 | 12.5 |\n| C | 28 | 15.5 |\n| D | 45 | 20 |\n| E | 22 | 9.5 |\n| F | 37 | 18 |\n| G | 29 | 16 |\n| H | 32 | 17.5 |## Exam task 3 Real Options (25%)\n\nYou own a copper mine. The price of copper is currently $1.50 per pound. The mine produces 1 million pounds of copper per year and costs $2 million per year to operate. It has enough copper to operate for 100 years. Shutting the mine down would entail bringing the land up to EPA standards and is expected to cost $5 million tomorrow or in 100 years. Reopening the mine once it is shut down would be impossible, given current environmental standards. The price of copper has an equal (and independent) probability of going up or down by 25% each year for the next two years and then will stay at that level forever.\n\na.\n\n- Calculate the NPV of continuing to operate the mine if the cost of capital is fixed at 15%.\n\nb.\n\n- Is it optimal to abandon the mine or keep it operating?## Answer\n\nStart by creating distribution trees for the prices and the cash flows.\n\nThe image displays two binomial trees: one for copper price evolution and another for cash flows.\n\n**Copper Price Tr",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.008404269127859566,
+              "left": 0.11880261572009156,
+              "page": 4,
+              "top": 0.3645202882264745,
+              "width": 0.05796040171046143,
+              "original_page": 4
+            },
+            "content": "Answer",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8970766484737397
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015628126451279967,
+              "left": 0.11635253697808859,
+              "page": 4,
+              "top": 0.38580386960273516,
+              "width": 0.4996254504335346,
+              "original_page": 4
+            },
+            "content": "Start by creating distribution trees for the prices and the cash flows.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7982177942991256
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.22897868024626444,
+              "left": 0.12089843729256709,
+              "page": 4,
+              "top": 0.43757701008651545,
+              "width": 0.7323007827298675,
+              "original_page": 4
+            },
+            "content": "The image displays two binomial trees: one for copper price evolution and another for cash flows.\n\n**Copper Price Tree:**\n\n| Time | Value |\n|---|---|\n| 0 | 1.50 |\n| 1 | 1.85 (50%), 1.125 (50%) |\n| 2 | 2.344 (50% of 1.85), 1.406 (50% of 1.85 and 50% of 1.125), 0.844 (50% of 1.125) |\n\n**Cash Flows Tree:**\n\n| Time | Path | Cash Flow |\n|---|---|---|\n| 0 | Start | (implied 0) |\n| 1 | Shut Down | (implied negative value) |\n| 1 | Operate | -0.125 |\n| 2 | From -0.125, Shut Down | (implied negative value) |\n| 2 | From -0.125, Operate | -0.594 |\n| 2 | From -0.875, Shut Down | (implied negative value) |\n| 2 | From -0.875, Operate | -1.156 |\n| 2 | From 2.344 (copper price), Operate | 0.344 |\n| 3 | From 0.344 (at time 2), Continue | 0.344 |\n| 3 | From -0.594 (at time 2), Continue | -0.594 |\n| 3 | From -1.156 (at time 2), Continue | -1.156 |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8667115658521652
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048098329305471824,
+              "left": 0.11726376173618411,
+              "page": 4,
+              "top": 0.6763732544594182,
+              "width": 0.757491821588314,
+              "original_page": 4
+            },
+            "content": "Then, determine whether the mine is operating or shut down in each possible state at time 2. When the copper price is $2.344, the mine's profits are $0.344 million/year for 98 years, and then it will cost $5 million to shut the mine down. The PV at time 2 of these cash flows is:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.979610750079155
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.023722003158146644,
+              "left": 0.12168134205082409,
+              "page": 4,
+              "top": 0.747061180675262,
+              "width": 0.35943352540051754,
+              "original_page": 4
+            },
+            "content": "0.344 1 5\nPV, = 2,0.344 0.15 $2.293 million.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8715061724185944
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03203223392116227,
+              "left": 0.1176208130699685,
+              "page": 4,
+              "top": 0.7904201071457395,
+              "width": 0.7364508986657421,
+              "original_page": 4
+            },
+            "content": "Since it will cost $5 million to shut the mine down, it is better to leave it operating. Similarly, when the copper price is $1.406:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9590837687253952
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0290664081018929,
+              "left": 0.12030148746504053,
+              "page": 4,
+              "top": 0.8426692773354099,
+              "width": 0.35945026218178866,
+              "original_page": 4
+            },
+            "content": "-0.594 1 5\nPV1.406 = =-3.96 million.\n015 (1.15)9.8 (1.15)9",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8691948026418685
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014853460620920697,
+              "left": 0.47888794579295385,
+              "page": 4,
+              "top": 0.8634464982282528,
+              "width": 0.0050842620779884785,
+              "original_page": 4
+            },
+            "content": "",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.65
+            },
+            "image_url": null
+          }
+        ],
+        "content": " then will stay at that level forever.\n\na.\n\n- Calculate the NPV of continuing to operate the mine if the cost of capital is fixed at 15%.\n\nb.\n\n- Is it optimal to abandon the mine or keep it operating?## Answer\n\nStart by creating distribution trees for the prices and the cash flows.\n\nThe image displays two binomial trees: one for copper price evolution and another for cash flows.\n\n**Copper Price Tree:**\n\n| Time | Value |\n|---|---|\n| 0 | 1.50 |\n| 1 | 1.85 (50%), 1.125 (50%) |\n| 2 | 2.344 (50% of 1.85), 1.406 (50% of 1.85 and 50% of 1.125), 0.844 (50% of 1.125) |\n\n**Cash Flows Tree:**\n\n| Time | Path | Cash Flow |\n|---|---|---|\n| 0 | Start | (implied 0) |\n| 1 | Shut Down | (implied negative value) |\n| 1 | Operate | -0.125 |\n| 2 | From -0.125, Shut Down | (implied negative value) |\n| 2 | From -0.125, Operate | -0.594 |\n| 2 | From -0.875, Shut Down | (implied negative value) |\n| 2 | From -0.875, Operate | -1.156 |\n| 2 | From 2.344 (copper price), Operate | 0.344 |\n| 3 | From 0.344 (at time 2), Continue | 0.344 |\n| 3 | From -0.594 (at time 2), Continue | -0.594 |\n| 3 | From -1.156 (at time 2), Continue | -1.156 |\n\nThen, determine whether the mine is operating or shut down in each possible state at time 2. When the copper price is $2.344, the mine's profits are $0.344 million/year for 98 years, and then it will cost $5 million to shut the mine down. The PV at time 2 of these cash flows is:\n\n0.344 1 5\nPV, = 2,0.344 0.15 $2.293 million.\n\nSince it will cost $5 million to shut the mine down, it is better to leave it operating. Similarly, when the copper price is $1.406:\n\n-0.594 1 5\nPV1.406 = =-3.96 million.\n015 (1.15)9.8 (1.15)9## Answer (cont.)\n\nAgain, since the value is greater than –$5 million, it is better to operate the mine. Finally, when the copper price is $0.844:\n\n-1.156 1 5\nPV0844= -$7.7 million.\n0.15 (1.15) (1.15)",
+        "embed": " then will stay at that level forever.\n\na.\n\n- Calculate the NPV of continuing to operate the mine if the cost of capital is fixed at 15%.\n\nb.\n\n- Is it optimal to abandon the mine or keep it operating?## Answer\n\nStart by creating distribution trees for the prices and the cash flows.\n\nThe image displays two binomial trees: one for copper price evolution and another for cash flows.\n\n**Copper Price Tree:**\n\n| Time | Value |\n|---|---|\n| 0 | 1.50 |\n| 1 | 1.85 (50%), 1.125 (50%) |\n| 2 | 2.344 (50% of 1.85), 1.406 (50% of 1.85 and 50% of 1.125), 0.844 (50% of 1.125) |\n\n**Cash Flows Tree:**\n\n| Time | Path | Cash Flow |\n|---|---|---|\n| 0 | Start | (implied 0) |\n| 1 | Shut Down | (implied negative value) |\n| 1 | Operate | -0.125 |\n| 2 | From -0.125, Shut Down | (implied negative value) |\n| 2 | From -0.125, Operate | -0.594 |\n| 2 | From -0.875, Shut Down | (implied negative value) |\n| 2 | From -0.875, Operate | -1.156 |\n| 2 | From 2.344 (copper price), Operate | 0.344 |\n| 3 | From 0.344 (at time 2), Continue | 0.344 |\n| 3 | From -0.594 (at time 2), Continue | -0.594 |\n| 3 | From -1.156 (at time 2), Continue | -1.156 |\n\nThen, determine whether the mine is operating or shut down in each possible state at time 2. When the copper price is $2.344, the mine's profits are $0.344 million/year for 98 years, and then it will cost $5 million to shut the mine down. The PV at time 2 of these cash flows is:\n\n0.344 1 5\nPV, = 2,0.344 0.15 $2.293 million.\n\nSince it will cost $5 million to shut the mine down, it is better to leave it operating. Similarly, when the copper price is $1.406:\n\n-0.594 1 5\nPV1.406 = =-3.96 million.\n015 (1.15)9.8 (1.15)9## Answer (cont.)\n\nAgain, since the value is greater than –$5 million, it is better to operate the mine. Finally, when the copper price is $0.844:\n\n-1.156 1 5\nPV0844= -$7.7 million.\n0.15 (1.15) (1.15)",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.08432304038004751,
+              "width": 0.7321578505457599,
+              "original_page": 5
+            },
+            "content": "Again, since the value is greater than –$5 million, it is better to operate the mine. Finally, when the copper price is $0.844:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9413636416196823
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.12174643157010916,
+              "page": 5,
+              "top": 0.1347980997624703,
+              "width": 0.35516372795969775,
+              "original_page": 5
+            },
+            "content": "-1.156 1 5\nPV0844= -$7.7 million.\n0.15 (1.15) (1.15)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7823469996452332
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.18052256532066507,
+              "width": 0.7455919395465995,
+              "original_page": 5
+            },
+            "content": "Since it is smaller than –$5 million, the mine should be shut down. Next, calculate the value of the mine if it is operating at time 1 when the copper price is $1.85. Putting the value of the mine plus the cash flow at time 2 on a decision tree:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.971787565946579
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.12657138344227842,
+              "left": 0.12102287542309509,
+              "page": 5,
+              "top": 0.24506827601344455,
+              "width": 0.25675524912593145,
+              "original_page": 5
+            },
+            "content": "The image displays a decision tree representing potential outcomes at time 1.\n\n*   **Branch 1:**\n    *   Probability: 50%\n    *   Outcome: $2.293 + 0.344\n*   **Branch 2:**\n    *   Probability: 50%\n    *   Outcome: -$3.96 - 0.594",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8973340332508086
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.38657957244655583,
+              "width": 0.44920235096557515,
+              "original_page": 5
+            },
+            "content": "The present value at time 1 of the expected value at time 2 is",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8311423867940902
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03622327790973872,
+              "left": 0.12090680100755667,
+              "page": 5,
+              "top": 0.413895486935867,
+              "width": 0.35768261964735515,
+              "original_page": 5
+            },
+            "content": "1\n(2.293+0.344)+(-3.96-0.594)\n-$0.8337 million.\n1.15",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9124848037958145
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.4661520190023753,
+              "width": 0.7539882451721243,
+              "original_page": 5
+            },
+            "content": "So, it is optimal to run the mine in this state. Next, calculate the value of the mine if it is operating at time 1 when the copper price is $1.125. Putting the value of the mine plus the cash flow at time 2 on a decision tree:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9581635057926178
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1082158394494136,
+              "left": 0.1230893075015743,
+              "page": 5,
+              "top": 0.5300711226293423,
+              "width": 0.21717725572818272,
+              "original_page": 5
+            },
+            "content": "This is a decision tree representing two possible outcomes at time 2, each with a 50% probability, branching from a decision point at time 1.\n\n| Outcome | Probability | Value |\n|---|---|---|\n| Outcome 1 | 50% | -$3.96 |\n| Outcome 2 | 50% | $5 |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9183411628007889
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.649643705463183,
+              "width": 0.44920235096557515,
+              "original_page": 5
+            },
+            "content": "The present value at time 1 of the expected value at time 2 is",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8625625878572464
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03800475059382423,
+              "left": 0.12090680100755667,
+              "page": 5,
+              "top": 0.6781472684085511,
+              "width": 0.2787573467674223,
+              "original_page": 5
+            },
+            "content": "-5x+(-3.96–1.594)\n-$4.154 million.\n1.15",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8479092866182327
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.7309976247030879,
+              "width": 0.7455919395465995,
+              "original_page": 5
+            },
+            "content": "So, it is optimal to run the mine in this state. Finally, we calculate the value of the mine at time 0 if it is operating. Putting the value of the mine plus the cash flow at time 1 on a decision tree:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9506156295537949
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10852768415509946,
+              "left": 0.11849451585540643,
+              "page": 5,
+              "top": 0.7738642386755864,
+              "width": 0.2281460958203781,
+              "original_page": 5
+            },
+            "content": "This is a decision tree representing the value of a mine at time 0 if operating. There are two possible outcomes, each with a 50% probability:\n\n*   **Outcome 1:** Value = $0.8337, Cash Flow = 0.125\n*   **Outcome 2:** Value = -$4.15, Cash Flow = -0.875",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9462730169296264
+            },
+            "image_url": null
+          }
+        ],
+        "content": "llion.\n\nSince it will cost $5 million to shut the mine down, it is better to leave it operating. Similarly, when the copper price is $1.406:\n\n-0.594 1 5\nPV1.406 = =-3.96 million.\n015 (1.15)9.8 (1.15)9## Answer (cont.)\n\nAgain, since the value is greater than –$5 million, it is better to operate the mine. Finally, when the copper price is $0.844:\n\n-1.156 1 5\nPV0844= -$7.7 million.\n0.15 (1.15) (1.15)\n\nSince it is smaller than –$5 million, the mine should be shut down. Next, calculate the value of the mine if it is operating at time 1 when the copper price is $1.85. Putting the value of the mine plus the cash flow at time 2 on a decision tree:\n\nThe image displays a decision tree representing potential outcomes at time 1.\n\n*   **Branch 1:**\n    *   Probability: 50%\n    *   Outcome: $2.293 + 0.344\n*   **Branch 2:**\n    *   Probability: 50%\n    *   Outcome: -$3.96 - 0.594\n\nThe present value at time 1 of the expected value at time 2 is\n\n1\n(2.293+0.344)+(-3.96-0.594)\n-$0.8337 million.\n1.15\n\nSo, it is optimal to run the mine in this state. Next, calculate the value of the mine if it is operating at time 1 when the copper price is $1.125. Putting the value of the mine plus the cash flow at time 2 on a decision tree:\n\nThis is a decision tree representing two possible outcomes at time 2, each with a 50% probability, branching from a decision point at time 1.\n\n| Outcome | Probability | Value |\n|---|---|---|\n| Outcome 1 | 50% | -$3.96 |\n| Outcome 2 | 50% | $5 |\n\nThe present value at time 1 of the expected value at time 2 is\n\n-5x+(-3.96–1.594)\n-$4.154 million.\n1.15\n\nSo, it is optimal to run the mine in this state. Finally, we calculate the value of the mine at time 0 if it is operating. Putting the value of the mine plus the cash flow at time 1 on a decision tree:\n\nThis is a decision tree representing the value of a mine at time 0 if operating. There are two possible outcomes, each with a 50% probability:\n\n*   **Outcome 1:** Value = $0.8337, Cash Flow = 0.125\n*   **Outcome 2:** Value = -$4.15, Cash Flow = -0.875## Answer (cont.)\n\nThe present value at time 0 of the expected value at time 1 is:\n\n(-0.8337 - 0.125) (1/2) + (-4.154 - 0.875) (1/2) / 1.15 = -$2.603 million.\n\nSo, the mine is worth –$2.603 million. E",
+        "embed": "llion.\n\nSince it will cost $5 million to shut the mine down, it is better to leave it operating. Similarly, when the copper price is $1.406:\n\n-0.594 1 5\nPV1.406 = =-3.96 million.\n015 (1.15)9.8 (1.15)9## Answer (cont.)\n\nAgain, since the value is greater than –$5 million, it is better to operate the mine. Finally, when the copper price is $0.844:\n\n-1.156 1 5\nPV0844= -$7.7 million.\n0.15 (1.15) (1.15)\n\nSince it is smaller than –$5 million, the mine should be shut down. Next, calculate the value of the mine if it is operating at time 1 when the copper price is $1.85. Putting the value of the mine plus the cash flow at time 2 on a decision tree:\n\nThe image displays a decision tree representing potential outcomes at time 1.\n\n*   **Branch 1:**\n    *   Probability: 50%\n    *   Outcome: $2.293 + 0.344\n*   **Branch 2:**\n    *   Probability: 50%\n    *   Outcome: -$3.96 - 0.594\n\nThe present value at time 1 of the expected value at time 2 is\n\n1\n(2.293+0.344)+(-3.96-0.594)\n-$0.8337 million.\n1.15\n\nSo, it is optimal to run the mine in this state. Next, calculate the value of the mine if it is operating at time 1 when the copper price is $1.125. Putting the value of the mine plus the cash flow at time 2 on a decision tree:\n\nThis is a decision tree representing two possible outcomes at time 2, each with a 50% probability, branching from a decision point at time 1.\n\n| Outcome | Probability | Value |\n|---|---|---|\n| Outcome 1 | 50% | -$3.96 |\n| Outcome 2 | 50% | $5 |\n\nThe present value at time 1 of the expected value at time 2 is\n\n-5x+(-3.96–1.594)\n-$4.154 million.\n1.15\n\nSo, it is optimal to run the mine in this state. Finally, we calculate the value of the mine at time 0 if it is operating. Putting the value of the mine plus the cash flow at time 1 on a decision tree:\n\nThis is a decision tree representing the value of a mine at time 0 if operating. There are two possible outcomes, each with a 50% probability:\n\n*   **Outcome 1:** Value = $0.8337, Cash Flow = 0.125\n*   **Outcome 2:** Value = -$4.15, Cash Flow = -0.875## Answer (cont.)\n\nThe present value at time 0 of the expected value at time 1 is:\n\n(-0.8337 - 0.125) (1/2) + (-4.154 - 0.875) (1/2) / 1.15 = -$2.603 million.\n\nSo, the mine is worth –$2.603 million. E",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.08432304038004751,
+              "width": 0.45424013434089,
+              "original_page": 6
+            },
+            "content": "The present value at time 0 of the expected value at time 1 is:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8056604444980622
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04287134383466634,
+              "left": 0.11534893762955237,
+              "page": 6,
+              "top": 0.11395160376034554,
+              "width": 0.3767413980914804,
+              "original_page": 6
+            },
+            "content": "(-0.8337 - 0.125) (1/2) + (-4.154 - 0.875) (1/2) / 1.15 = -$2.603 million.",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.93206787109375
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.167458432304038,
+              "width": 0.72544080604534,
+              "original_page": 6
+            },
+            "content": "So, the mine is worth –$2.603 million. Even though it is worth a negative amount because in most states it will lose money for the next 98 years, it is not optimal to shut down the mine at time 0 because the costs of shutting down are even greater.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9725942730903625
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.251187648456057,
+              "width": 0.38706968933669184,
+              "original_page": 6
+            },
+            "content": "Exam task 4 Corporate Risk Management (25%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9240087449550629
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.3022565320665083,
+              "width": 0.7472712006717045,
+              "original_page": 6
+            },
+            "content": "Consider an energy-intense company that produces chemicals from wood pulp, similar in all respects to Borregaard.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9766185492277145
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09560570071258907,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.34441805225653205,
+              "width": 0.7497900923593619,
+              "original_page": 6
+            },
+            "content": "On the one hand, this Norwegian company has growing operating revenues, EBITDA, earnings per share and dividends. On the other hand, both commodity income and cost prices are rising in 2022. The main share of its revenue comes from exported products to the USA and EUR. The company has debt amounting to half its enterprise value, composed mainly of short-term bonds in local currency and a long-term loan to an international company. Part of the cash reserve is invested in short-term treasury bills.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9897939264774323
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1486146095717884,
+              "page": 6,
+              "top": 0.4513064133016627,
+              "width": 0.6624685138539043,
+              "original_page": 6
+            },
+            "content": "a. Discuss key financial objectives and possible dividend policies for this company.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9498831540346145
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.1486146095717884,
+              "page": 6,
+              "top": 0.47684085510688834,
+              "width": 0.670864819479429,
+              "original_page": 6
+            },
+            "content": "The students should mention the following targets and discuss why they are important (see textbook):",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.922608146071434
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.5184085510688836,
+              "width": 0.12342569269521411,
+              "original_page": 6
+            },
+            "content": "\t• ROE targets",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9515881568193436
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.5350356294536817,
+              "width": 0.23929471032745592,
+              "original_page": 6
+            },
+            "content": "\t• IRR targets wrt investments",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9482199162244797
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.5528503562945368,
+              "width": 0.23341729638958858,
+              "original_page": 6
+            },
+            "content": "\t• Targets for working capital",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.951448991894722
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.5694774346793349,
+              "width": 0.27371956339210746,
+              "original_page": 6
+            },
+            "content": "\t• Replacement targets for CAPEX",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9510617166757583
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.5866983372921615,
+              "width": 0.4550797649034425,
+              "original_page": 6
+            },
+            "content": "\t• Financial ratios targets related to investment credit rating",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.948431995511055
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.6039192399049881,
+              "width": 0.23425692695214106,
+              "original_page": 6
+            },
+            "content": "\t• Targets for dividend policy",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9497501105070114
+            },
+            "image_url": null
+          }
+        ],
+        "content": " mine at time 0 if operating. There are two possible outcomes, each with a 50% probability:\n\n*   **Outcome 1:** Value = $0.8337, Cash Flow = 0.125\n*   **Outcome 2:** Value = -$4.15, Cash Flow = -0.875## Answer (cont.)\n\nThe present value at time 0 of the expected value at time 1 is:\n\n(-0.8337 - 0.125) (1/2) + (-4.154 - 0.875) (1/2) / 1.15 = -$2.603 million.\n\nSo, the mine is worth –$2.603 million. Even though it is worth a negative amount because in most states it will lose money for the next 98 years, it is not optimal to shut down the mine at time 0 because the costs of shutting down are even greater.\n\n## Exam task 4 Corporate Risk Management (25%)\n\nConsider an energy-intense company that produces chemicals from wood pulp, similar in all respects to Borregaard.\n\nOn the one hand, this Norwegian company has growing operating revenues, EBITDA, earnings per share and dividends. On the other hand, both commodity income and cost prices are rising in 2022. The main share of its revenue comes from exported products to the USA and EUR. The company has debt amounting to half its enterprise value, composed mainly of short-term bonds in local currency and a long-term loan to an international company. Part of the cash reserve is invested in short-term treasury bills.\n\na. Discuss key financial objectives and possible dividend policies for this company.\n\nThe students should mention the following targets and discuss why they are important (see textbook):\n\n\t• ROE targets\n\n\t• IRR targets wrt investments\n\n\t• Targets for working capital\n\n\t• Replacement targets for CAPEX\n\n\t• Financial ratios targets related to investment credit rating\n\n\t• Targets for dividend policy## Exam task 4 Corporate Risk Management (25%) (cont.)\n\nb. What kind of commodity price risk, currency price risk, and interest rate risk is this company exposed to? How do they affect the cash flow a",
+        "embed": " mine at time 0 if operating. There are two possible outcomes, each with a 50% probability:\n\n*   **Outcome 1:** Value = $0.8337, Cash Flow = 0.125\n*   **Outcome 2:** Value = -$4.15, Cash Flow = -0.875## Answer (cont.)\n\nThe present value at time 0 of the expected value at time 1 is:\n\n(-0.8337 - 0.125) (1/2) + (-4.154 - 0.875) (1/2) / 1.15 = -$2.603 million.\n\nSo, the mine is worth –$2.603 million. Even though it is worth a negative amount because in most states it will lose money for the next 98 years, it is not optimal to shut down the mine at time 0 because the costs of shutting down are even greater.\n\n## Exam task 4 Corporate Risk Management (25%)\n\nConsider an energy-intense company that produces chemicals from wood pulp, similar in all respects to Borregaard.\n\nOn the one hand, this Norwegian company has growing operating revenues, EBITDA, earnings per share and dividends. On the other hand, both commodity income and cost prices are rising in 2022. The main share of its revenue comes from exported products to the USA and EUR. The company has debt amounting to half its enterprise value, composed mainly of short-term bonds in local currency and a long-term loan to an international company. Part of the cash reserve is invested in short-term treasury bills.\n\na. Discuss key financial objectives and possible dividend policies for this company.\n\nThe students should mention the following targets and discuss why they are important (see textbook):\n\n\t• ROE targets\n\n\t• IRR targets wrt investments\n\n\t• Targets for working capital\n\n\t• Replacement targets for CAPEX\n\n\t• Financial ratios targets related to investment credit rating\n\n\t• Targets for dividend policy## Exam task 4 Corporate Risk Management (25%) (cont.)\n\nb. What kind of commodity price risk, currency price risk, and interest rate risk is this company exposed to? How do they affect the cash flow a",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.14777497900923595,
+              "page": 6,
+              "top": 0.6567695961995249,
+              "width": 0.7355163727959698,
+              "original_page": 6
+            },
+            "content": "b. What kind of commodity price risk, currency price risk, and interest rate risk is this company exposed to? How do they affect the cash flow and the valuation of the company?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9739227712154388
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.7054631828978623,
+              "width": 0.3148614609571788,
+              "original_page": 6
+            },
+            "content": "The students should discuss the following:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7816377967596053
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.20822837951301426,
+              "page": 6,
+              "top": 0.7375296912114014,
+              "width": 0.45004198152812763,
+              "original_page": 6
+            },
+            "content": "• Commodity price risk influences both costs and income.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9483598172664642
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.2695214105793451,
+              "page": 6,
+              "top": 0.7553444180522565,
+              "width": 0.5827036104114189,
+              "original_page": 6
+            },
+            "content": "\t- o On the cost side, the company's inputs are electricity, fuel, pulp, water etc. Rise in these prices increases the costs and decreases the cash flow.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9682337462902069
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.2686817800167926,
+              "page": 6,
+              "top": 0.7880047505938242,
+              "width": 0.5961376994122586,
+              "original_page": 6
+            },
+            "content": "\t- o On the income side, the company sells chemicals, biofuels etc. Rise in these prices increases the income and cash flow.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9735521167516709
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.2686817800167926,
+              "page": 6,
+              "top": 0.8200712589073634,
+              "width": 0.5852225020990764,
+              "original_page": 6
+            },
+            "content": "\t- o In 2022, commodity income and cost prices have risen, though costs most, putting pressure on future cash flows, all other things being equal.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9756460219621659
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.20906801007556675,
+              "page": 6,
+              "top": 0.8521377672209026,
+              "width": 0.4282115869017632,
+              "original_page": 6
+            },
+            "content": "• Currency price risk influences both costs and income.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9452312797307968
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.2695214105793451,
+              "page": 6,
+              "top": 0.8699524940617577,
+              "width": 0.5801847187237615,
+              "original_page": 6
+            },
+            "content": "\t- o The company sells products in EUR and USD. Higher currency rates give more income measured in NOK and vice versa",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9763517647981643
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.2695214105793451,
+              "page": 7,
+              "top": 0.08432304038004751,
+              "width": 0.6011754827875735,
+              "original_page": 7
+            },
+            "content": "\t- o The company's Norwegian operations have their costs in NOK. Higher NOK gives higher prices, and vice versa",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9684105694293976
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.20822837951301426,
+              "page": 7,
+              "top": 0.1163895486935867,
+              "width": 0.4072208228379513,
+              "original_page": 7
+            },
+            "content": "• Interest rate risk influences both costs and income.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9348487317562103
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.2686817800167926,
+              "page": 7,
+              "top": 0.1342042755344418,
+              "width": 0.5482787573467675,
+              "original_page": 7
+            },
+            "content": "\t- o On the cost side, the company has debt. Higher interest rates increase financial costs and decrease cash flow.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9669784337282181
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.2695214105793451,
+              "page": 7,
+              "top": 0.166270783847981,
+              "width": 0.6137699412258606,
+              "original_page": 7
+            },
+            "content": "\t- o On the income side, the company has short-term bills. Higher interest rates will increase the income on these. Bonds do the opposite in the short run if the duration (hence prices fall on these)",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9803970396518707
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1486146095717884,
+              "page": 7,
+              "top": 0.2505938242280285,
+              "width": 0.6473551637279596,
+              "original_page": 7
+            },
+            "content": "c. How does inflation risk influence the cash flow and valuation of this company?",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9020701229572297
+            },
+            "image_url": null
+          }
+        ],
+        "content": "rgets\n\n\t• IRR targets wrt investments\n\n\t• Targets for working capital\n\n\t• Replacement targets for CAPEX\n\n\t• Financial ratios targets related to investment credit rating\n\n\t• Targets for dividend policy## Exam task 4 Corporate Risk Management (25%) (cont.)\n\nb. What kind of commodity price risk, currency price risk, and interest rate risk is this company exposed to? How do they affect the cash flow and the valuation of the company?\n\nThe students should discuss the following:\n\n• Commodity price risk influences both costs and income.\n\n\t- o On the cost side, the company's inputs are electricity, fuel, pulp, water etc. Rise in these prices increases the costs and decreases the cash flow.\n\n\t- o On the income side, the company sells chemicals, biofuels etc. Rise in these prices increases the income and cash flow.\n\n\t- o In 2022, commodity income and cost prices have risen, though costs most, putting pressure on future cash flows, all other things being equal.\n\n• Currency price risk influences both costs and income.\n\n\t- o The company sells products in EUR and USD. Higher currency rates give more income measured in NOK and vice versa\n\n\t- o The company's Norwegian operations have their costs in NOK. Higher NOK gives higher prices, and vice versa\n\n• Interest rate risk influences both costs and income.\n\n\t- o On the cost side, the company has debt. Higher interest rates increase financial costs and decrease cash flow.\n\n\t- o On the income side, the company has short-term bills. Higher interest rates will increase the income on these. Bonds do the opposite in the short run if the duration (hence prices fall on these)\n\n## c. How does inflation risk influence the cash flow and valuation of this company?## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nFor the business, sustained inflation may cause a rise in direct costs and broad business costs. A devasta",
+        "embed": "rgets\n\n\t• IRR targets wrt investments\n\n\t• Targets for working capital\n\n\t• Replacement targets for CAPEX\n\n\t• Financial ratios targets related to investment credit rating\n\n\t• Targets for dividend policy## Exam task 4 Corporate Risk Management (25%) (cont.)\n\nb. What kind of commodity price risk, currency price risk, and interest rate risk is this company exposed to? How do they affect the cash flow and the valuation of the company?\n\nThe students should discuss the following:\n\n• Commodity price risk influences both costs and income.\n\n\t- o On the cost side, the company's inputs are electricity, fuel, pulp, water etc. Rise in these prices increases the costs and decreases the cash flow.\n\n\t- o On the income side, the company sells chemicals, biofuels etc. Rise in these prices increases the income and cash flow.\n\n\t- o In 2022, commodity income and cost prices have risen, though costs most, putting pressure on future cash flows, all other things being equal.\n\n• Currency price risk influences both costs and income.\n\n\t- o The company sells products in EUR and USD. Higher currency rates give more income measured in NOK and vice versa\n\n\t- o The company's Norwegian operations have their costs in NOK. Higher NOK gives higher prices, and vice versa\n\n• Interest rate risk influences both costs and income.\n\n\t- o On the cost side, the company has debt. Higher interest rates increase financial costs and decrease cash flow.\n\n\t- o On the income side, the company has short-term bills. Higher interest rates will increase the income on these. Bonds do the opposite in the short run if the duration (hence prices fall on these)\n\n## c. How does inflation risk influence the cash flow and valuation of this company?## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nFor the business, sustained inflation may cause a rise in direct costs and broad business costs. A devasta",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.08966745843230403,
+              "left": 0.1486146095717884,
+              "page": 7,
+              "top": 0.2832541567695962,
+              "width": 0.72544080604534,
+              "original_page": 7
+            },
+            "content": "For the business, sustained inflation may cause a rise in direct costs and broad business costs. A devastating effect of inflation is lower customer demand for products, leading to lower profits. Oftentimes, essential businesses can maintain their profits by passing these cost increases onto customers. In addition, companies may see a rise in overhead expenses, such as long-term lease agreements that contain escalation clauses tied to inflationary measures. Vendors and professional service providers to your business may also increase their prices during times of inflation.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9882397502660751
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05938242280285035,
+              "left": 0.1486146095717884,
+              "page": 7,
+              "top": 0.39014251781472686,
+              "width": 0.7262804366078925,
+              "original_page": 7
+            },
+            "content": "Furthermore, wage increase demand can create upward internal pressure to retain skilled labour in an extremely tight labour market. The rising cost of living for lower-wage employees could result in turnover for more expensive employee alternatives. The students can discuss all these risks regarding the company's operations.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.986816680431366
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.1486146095717884,
+              "page": 7,
+              "top": 0.4667458432304038,
+              "width": 0.4324097397145256,
+              "original_page": 7
+            },
+            "content": "How is inflation going to affect the value of the company?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8920171231031417
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.17800167926112512,
+              "page": 7,
+              "top": 0.497624703087886,
+              "width": 0.6784214945424013,
+              "original_page": 7
+            },
+            "content": "• There are two major pressures that impact a business's valuation as a result of inflation.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8855609476566315
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.23845507976490343,
+              "page": 7,
+              "top": 0.5142517814726841,
+              "width": 0.44164567590260284,
+              "original_page": 7
+            },
+            "content": "\t- o The first pressure is internal or company-specific costs.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8261886656284332
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.23929471032745592,
+              "page": 7,
+              "top": 0.5290973871733967,
+              "width": 0.36523929471032746,
+              "original_page": 7
+            },
+            "content": "\t- o The second pressure is macroeconomic risks.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.925762602686882
+            },
+            "image_url": null
+          }
+        ],
+        "content": " increase the income on these. Bonds do the opposite in the short run if the duration (hence prices fall on these)\n\n## c. How does inflation risk influence the cash flow and valuation of this company?## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nFor the business, sustained inflation may cause a rise in direct costs and broad business costs. A devastating effect of inflation is lower customer demand for products, leading to lower profits. Oftentimes, essential businesses can maintain their profits by passing these cost increases onto customers. In addition, companies may see a rise in overhead expenses, such as long-term lease agreements that contain escalation clauses tied to inflationary measures. Vendors and professional service providers to your business may also increase their prices during times of inflation.\n\nFurthermore, wage increase demand can create upward internal pressure to retain skilled labour in an extremely tight labour market. The rising cost of living for lower-wage employees could result in turnover for more expensive employee alternatives. The students can discuss all these risks regarding the company's operations.\n\nHow is inflation going to affect the value of the company?\n\n• There are two major pressures that impact a business's valuation as a result of inflation.\n\n\t- o The first pressure is internal or company-specific costs.\n\n\t- o The second pressure is macroeconomic risks.## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nInternal or company-specific inflationary pressures include increased costs, negative impacts specific to ",
+        "embed": " increase the income on these. Bonds do the opposite in the short run if the duration (hence prices fall on these)\n\n## c. How does inflation risk influence the cash flow and valuation of this company?## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nFor the business, sustained inflation may cause a rise in direct costs and broad business costs. A devastating effect of inflation is lower customer demand for products, leading to lower profits. Oftentimes, essential businesses can maintain their profits by passing these cost increases onto customers. In addition, companies may see a rise in overhead expenses, such as long-term lease agreements that contain escalation clauses tied to inflationary measures. Vendors and professional service providers to your business may also increase their prices during times of inflation.\n\nFurthermore, wage increase demand can create upward internal pressure to retain skilled labour in an extremely tight labour market. The rising cost of living for lower-wage employees could result in turnover for more expensive employee alternatives. The students can discuss all these risks regarding the company's operations.\n\nHow is inflation going to affect the value of the company?\n\n• There are two major pressures that impact a business's valuation as a result of inflation.\n\n\t- o The first pressure is internal or company-specific costs.\n\n\t- o The second pressure is macroeconomic risks.## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nInternal or company-specific inflationary pressures include increased costs, negative impacts specific to ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.13539192399049882,
+              "left": 0.1486146095717884,
+              "page": 7,
+              "top": 0.5605700712589073,
+              "width": 0.7229219143576826,
+              "original_page": 7
+            },
+            "content": "Internal or company-specific inflationary pressures include increased costs, negative impacts specific to the industry, and the company's ability to pass off price increases to its customers. In short, if inflation is impacting the profitability of a company and the business is unable to pass its increased costs to customers, the business is going to be worth less. For a business to maintain or increase its value, it must grow. When inflation slows the business's growth, it negatively affects the projected growth rate applied to the business (the projected growth rate is the most sensitive attribute of any valuation model). Additionally, a valuation expert may place a higher discount on a company that is more sensitive to inflation. Adding additional discounts associated with the risk of a company reduces the value.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9929919689893723
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07482185273159145,
+              "left": 0.1486146095717884,
+              "page": 7,
+              "top": 0.7125890736342043,
+              "width": 0.7170445004198153,
+              "original_page": 7
+            },
+            "content": "External or macroeconomic factors can also impact a company's valuation. Key factors include rising interest rates (cost of debt) on borrowings, labour scarcity, input costs, and supply chain bottlenecks. If a company's profitability can be greatly impacted by economic factors over which the company has no control, the risk profile and discount or capitalization rate are likely to increase—resulting in a lower valuation.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9886627465486526
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08966745843230403,
+              "left": 0.1486146095717884,
+              "page": 7,
+              "top": 0.8046318289786223,
+              "width": 0.7296389588581025,
+              "original_page": 7
+            },
+            "content": "From a valuation perspective, experts should be analyzing businesses based on forecasted data and thoroughly examining the levers of their models that are tied to economic conditions. Considerations should be made and incorporated into the valuation model for rising prices and the stabilization of inflation in the near term. When valuing a business using historical cash flows, the valuation should factor in the current economic conditions and address the likelihood of historical cash flows being sustainable in an inflationary environment.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9816445648670197
+            },
+            "image_url": null
+          }
+        ],
+        "content": "e are two major pressures that impact a business's valuation as a result of inflation.\n\n\t- o The first pressure is internal or company-specific costs.\n\n\t- o The second pressure is macroeconomic risks.## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nInternal or company-specific inflationary pressures include increased costs, negative impacts specific to the industry, and the company's ability to pass off price increases to its customers. In short, if inflation is impacting the profitability of a company and the business is unable to pass its increased costs to customers, the business is going to be worth less. For a business to maintain or increase its value, it must grow. When inflation slows the business's growth, it negatively affects the projected growth rate applied to the business (the projected growth rate is the most sensitive attribute of any valuation model). Additionally, a valuation expert may place a higher discount on a company that is more sensitive to inflation. Adding additional discounts associated with the risk of a company reduces the value.\n\nExternal or macroeconomic factors can also impact a company's valuation. Key factors include rising interest rates (cost of debt) on borrowings, labour scarcity, input costs, and supply chain bottlenecks. If a company's profitability can be greatly impacted by economic factors over which the company has no control, the risk profile and discount or capitalization rate are likely to increase—resulting in a lower valuation.\n\nFrom a valuation perspective, experts should be analyzing businesses based on forecasted data and thoroughly examining the levers of their models that are tied to economic conditions. Considerations should be made and incorporated into the valuation model for rising prices and the stabilization of inflation in the near term. When valuing a business using historical cash flows, the valuation should factor in the current economic conditions and address the likelihood of historical cash flows being sustainable in an inflationary environment.## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nd. Should this company hedge the risks mentioned in the previous questions? In that case, how?\n\nStudents s",
+        "embed": "e are two major pressures that impact a business's valuation as a result of inflation.\n\n\t- o The first pressure is internal or company-specific costs.\n\n\t- o The second pressure is macroeconomic risks.## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nInternal or company-specific inflationary pressures include increased costs, negative impacts specific to the industry, and the company's ability to pass off price increases to its customers. In short, if inflation is impacting the profitability of a company and the business is unable to pass its increased costs to customers, the business is going to be worth less. For a business to maintain or increase its value, it must grow. When inflation slows the business's growth, it negatively affects the projected growth rate applied to the business (the projected growth rate is the most sensitive attribute of any valuation model). Additionally, a valuation expert may place a higher discount on a company that is more sensitive to inflation. Adding additional discounts associated with the risk of a company reduces the value.\n\nExternal or macroeconomic factors can also impact a company's valuation. Key factors include rising interest rates (cost of debt) on borrowings, labour scarcity, input costs, and supply chain bottlenecks. If a company's profitability can be greatly impacted by economic factors over which the company has no control, the risk profile and discount or capitalization rate are likely to increase—resulting in a lower valuation.\n\nFrom a valuation perspective, experts should be analyzing businesses based on forecasted data and thoroughly examining the levers of their models that are tied to economic conditions. Considerations should be made and incorporated into the valuation model for rising prices and the stabilization of inflation in the near term. When valuing a business using historical cash flows, the valuation should factor in the current economic conditions and address the likelihood of historical cash flows being sustainable in an inflationary environment.## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nd. Should this company hedge the risks mentioned in the previous questions? In that case, how?\n\nStudents s",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.1486146095717884,
+              "page": 8,
+              "top": 0.11045130641330166,
+              "width": 0.7103274559193955,
+              "original_page": 8
+            },
+            "content": "d. Should this company hedge the risks mentioned in the previous questions? In that case, how?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9463588178157807
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.1486146095717884,
+              "page": 8,
+              "top": 0.1680522565320665,
+              "width": 0.7246011754827876,
+              "original_page": 8
+            },
+            "content": "Students should here use the learning from chapters 30 and 31 in the textbook and give arguments for and against hedging. Examples of hedging commodity, fx, or interest rate risk could be given.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9731664299964905
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1486146095717884,
+              "page": 8,
+              "top": 0.2173396674584323,
+              "width": 0.7195633921074727,
+              "original_page": 8
+            },
+            "content": "Many successful businesses use financial hedging to minimize risks. This is particularly common with international companies that deal in commodities such as this company.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9673855841159821
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1486146095717884,
+              "page": 8,
+              "top": 0.26365795724465557,
+              "width": 0.7145256087321579,
+              "original_page": 8
+            },
+            "content": "Hedging makes future expenses more predictable, which every business wants. It also makes the company focus on their core business (not taking commodity, fx, or interest rate risks).",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9630343943834305
+            },
+            "image_url": null
+          }
+        ],
+        "content": "siness using historical cash flows, the valuation should factor in the current economic conditions and address the likelihood of historical cash flows being sustainable in an inflationary environment.## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nd. Should this company hedge the risks mentioned in the previous questions? In that case, how?\n\nStudents should here use the learning from chapters 30 and 31 in the textbook and give arguments for and against hedging. Examples of hedging commodity, fx, or interest rate risk could be given.\n\nMany successful businesses use financial hedging to minimize risks. This is particularly common with international companies that deal in commodities such as this company.\n\nHedging makes future expenses more predictable, which every business wants. It also makes the company focus on their core business (not taking commodity, fx, or interest rate risks).",
+        "embed": "siness using historical cash flows, the valuation should factor in the current economic conditions and address the likelihood of historical cash flows being sustainable in an inflationary environment.## c. How does inflation risk influence the cash flow and valuation of this company? (cont.)\n\nd. Should this company hedge the risks mentioned in the previous questions? In that case, how?\n\nStudents should here use the learning from chapters 30 and 31 in the textbook and give arguments for and against hedging. Examples of hedging commodity, fx, or interest rate risk could be given.\n\nMany successful businesses use financial hedging to minimize risks. This is particularly common with international companies that deal in commodities such as this company.\n\nHedging makes future expenses more predictable, which every business wants. It also makes the company focus on their core business (not taking commodity, fx, or interest rate risks).",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 8,
+    "credit_breakdown": {
+      "page": 8.0,
+      "complex": 6.0
+    },
+    "credits": 14.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "complex",
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "page"
+      ],
+      "8": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/c055e9c8-da57-4e4f-a3ea-02185342a8d3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180835Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=cbc4640d7bb86d604232a9d9883537f9ccf9580449bff314e5455461a191621b",
+  "studio_link": "https://studio.reducto.ai/job/f77f43b2-48b6-4f42-a38b-ff0820cf4aa9",
+  "response_type": "parse",
+  "parse_mode": null
+}

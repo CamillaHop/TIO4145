@@ -1,0 +1,3302 @@
+{
+  "duration": 32.675437927246094,
+  "job_id": "d818732c-25f2-49de-99fa-5ee92e8b52e9",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 1,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 1
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9321319162845612
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.022565320665083134,
+              "left": 0.06386554621848739,
+              "page": 1,
+              "top": 0.04691211401425178,
+              "width": 0.27899159663865547,
+              "original_page": 1
+            },
+            "content": "i Front page TIØ4145",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8708559900522232
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.08729216152019002,
+              "width": 0.5806722689075631,
+              "original_page": 1
+            },
+            "content": "Department of Industrial Economics and Technology Management",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9265370756387711
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.12470308788598575,
+              "width": 0.4411764705882353,
+              "original_page": 1
+            },
+            "content": "Examination paper for TIØ4145 Corporate Finance",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9391763269901275
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.0907563025210084,
+              "page": 1,
+              "top": 0.16448931116389548,
+              "width": 0.253781512605042,
+              "original_page": 1
+            },
+            "content": "Examination date: 18.12.2023",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9446448564529419
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011876484560570071,
+              "left": 0.0907563025210084,
+              "page": 1,
+              "top": 0.2013064133016627,
+              "width": 0.34369747899159664,
+              "original_page": 1
+            },
+            "content": "Examination time (from-to): 15.00-19.00",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.936653533577919
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.23574821852731592,
+              "width": 0.7554621848739496,
+              "original_page": 1
+            },
+            "content": "Permitted examination support material: D / No printed or hand-written support material is allowed. A specific basic calculator is allowed. Formula sheet is provided in Inspera.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9764947652816772
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.28919239904988125,
+              "width": 0.4815126050420168,
+              "original_page": 1
+            },
+            "content": "Academic contact during examination: Maria Lavrutich Phone: 904 02 416",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8733207494020462
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.34263657957244653,
+              "width": 0.4470588235294118,
+              "original_page": 1
+            },
+            "content": "Academic contact present at the exam location: No",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9200304180383683
+            },
+            "image_url": null
+          }
+        ],
+        "content": "TIØ4145 2023 Høst\n\n## i Front page TIØ4145\n\nDepartment of Industrial Economics and Technology Management\n\nExamination paper for TIØ4145 Corporate Finance\n\nExamination date: 18.12.2023\n\nExamination time (from-to): 15.00-19.00\n\nPermitted examination support material: D / No printed or hand-written support material is allowed. A specific basic calculator is allowed. Formula sheet is provided in Inspera.\n\n## Academic contact during examination: Maria Lavrutich Phone: 904 02 416\n\nAcademic contact present at the exam location: No## OTHER INFORMATION\n\nGet an overview of the question set before you start answering the questions. You will find a formula sheet down to the left corner.\n\nRead the questions carefully and make your o",
+        "embed": "TIØ4145 2023 Høst\n\n## i Front page TIØ4145\n\nDepartment of Industrial Economics and Technology Management\n\nExamination paper for TIØ4145 Corporate Finance\n\nExamination date: 18.12.2023\n\nExamination time (from-to): 15.00-19.00\n\nPermitted examination support material: D / No printed or hand-written support material is allowed. A specific basic calculator is allowed. Formula sheet is provided in Inspera.\n\n## Academic contact during examination: Maria Lavrutich Phone: 904 02 416\n\nAcademic contact present at the exam location: No## OTHER INFORMATION\n\nGet an overview of the question set before you start answering the questions. You will find a formula sheet down to the left corner.\n\nRead the questions carefully and make your o",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.4014251781472684,
+              "width": 0.20336134453781513,
+              "original_page": 1
+            },
+            "content": "OTHER INFORMATION",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9382998198270798
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032660332541567694,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.45486935866983375,
+              "width": 0.6546218487394958,
+              "original_page": 1
+            },
+            "content": "Get an overview of the question set before you start answering the questions. You will find a formula sheet down to the left corner.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9297489494085311
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06294536817102138,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.5100950118764845,
+              "width": 0.7840336134453781,
+              "original_page": 1
+            },
+            "content": "Read the questions carefully and make your own assumptions. If a question is unclear/vague, make your own assumptions and specify them in your answer. The academic person is only contacted in case of errors or insufficiencies in the question set. Address an invigilator if you suspect errors or insufficiencies. Write down the question in advance.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9868458539247513
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06294536817102138,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.5956057007125891,
+              "width": 0.7966386554621848,
+              "original_page": 1
+            },
+            "content": "Hand drawings: For questions in Sections 2, 3 and 4, you may choose to answer on handwritten sheets. At the bottom of the question you will find a seven-digit code. Fill in this code in the top left corner of the sheets you wish to submit. We recommend that you do this during the exam. If you require access to the codes after the examination time ends, click “Show submission”.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9872069388628006
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06294536817102138,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.6811163895486936,
+              "width": 0.8016806722689076,
+              "original_page": 1
+            },
+            "content": "Weighting: Weighting is given in the question set. Section 1 consists of multiple choice questions. The multiple choice questions are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9848068475723266
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06294536817102138,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.7666270783847982,
+              "width": 0.8067226890756303,
+              "original_page": 1
+            },
+            "content": "Notifications:If there is a need to send a message to the candidates during the exam (e.g. if there is an error in the question set), this will be done by sending a notification in Inspera. A dialogue box will appear. You can re-read the notification by clicking the bell icon in the top right-hand corner of the screen.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9882555961608886
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.8521377672209026,
+              "width": 0.8058823529411765,
+              "original_page": 1
+            },
+            "content": "Withdrawing from the exam: If you become ill or wish to submit a blank test/withdraw from the exam for another reason, go to the menu in the top right-hand corner and click “Submit blank”. This cannot be undone, even if the test is still open.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9864243686199188
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9336134453781513,
+              "page": 1,
+              "top": 0.9709026128266033,
+              "width": 0.03361344537815126,
+              "original_page": 1
+            },
+            "content": "1/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8929795533418655
+            },
+            "image_url": null
+          }
+        ],
+        "content": "pecific basic calculator is allowed. Formula sheet is provided in Inspera.\n\n## Academic contact during examination: Maria Lavrutich Phone: 904 02 416\n\nAcademic contact present at the exam location: No## OTHER INFORMATION\n\nGet an overview of the question set before you start answering the questions. You will find a formula sheet down to the left corner.\n\nRead the questions carefully and make your own assumptions. If a question is unclear/vague, make your own assumptions and specify them in your answer. The academic person is only contacted in case of errors or insufficiencies in the question set. Address an invigilator if you suspect errors or insufficiencies. Write down the question in advance.\n\nHand drawings: For questions in Sections 2, 3 and 4, you may choose to answer on handwritten sheets. At the bottom of the question you will find a seven-digit code. Fill in this code in the top left corner of the sheets you wish to submit. We recommend that you do this during the exam. If you require access to the codes after the examination time ends, click “Show submission”.\n\nWeighting: Weighting is given in the question set. Section 1 consists of multiple choice questions. The multiple choice questions are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.\n\nNotifications:If there is a need to send a message to the candidates during the exam (e.g. if there is an error in the question set), this will be done by sending a notification in Inspera. A dialogue box will appear. You can re-read the notification by clicking the bell icon in the top right-hand corner of the screen.\n\nWithdrawing from the exam: If you become ill or wish to submit a blank test/withdraw from the exam for another reason, go to the menu in the top right-hand corner and click “Submit blank”. This cannot be undone, even if the test is still open.\n\n1/15## OTHER INFORMATION (cont.)\n\nTIØ4145 2023 Høst\n\nAccess to your answers: After the exam, you can find your answers in the archive in Inspera. Be aware that it may take a working day until any hand-wri",
+        "embed": "pecific basic calculator is allowed. Formula sheet is provided in Inspera.\n\n## Academic contact during examination: Maria Lavrutich Phone: 904 02 416\n\nAcademic contact present at the exam location: No## OTHER INFORMATION\n\nGet an overview of the question set before you start answering the questions. You will find a formula sheet down to the left corner.\n\nRead the questions carefully and make your own assumptions. If a question is unclear/vague, make your own assumptions and specify them in your answer. The academic person is only contacted in case of errors or insufficiencies in the question set. Address an invigilator if you suspect errors or insufficiencies. Write down the question in advance.\n\nHand drawings: For questions in Sections 2, 3 and 4, you may choose to answer on handwritten sheets. At the bottom of the question you will find a seven-digit code. Fill in this code in the top left corner of the sheets you wish to submit. We recommend that you do this during the exam. If you require access to the codes after the examination time ends, click “Show submission”.\n\nWeighting: Weighting is given in the question set. Section 1 consists of multiple choice questions. The multiple choice questions are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.\n\nNotifications:If there is a need to send a message to the candidates during the exam (e.g. if there is an error in the question set), this will be done by sending a notification in Inspera. A dialogue box will appear. You can re-read the notification by clicking the bell icon in the top right-hand corner of the screen.\n\nWithdrawing from the exam: If you become ill or wish to submit a blank test/withdraw from the exam for another reason, go to the menu in the top right-hand corner and click “Submit blank”. This cannot be undone, even if the test is still open.\n\n1/15## OTHER INFORMATION (cont.)\n\nTIØ4145 2023 Høst\n\nAccess to your answers: After the exam, you can find your answers in the archive in Inspera. Be aware that it may take a working day until any hand-wri",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 2,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 2
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8777291625738144
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08991596638655462,
+              "page": 2,
+              "top": 0.033847980997624705,
+              "width": 0.8042016806722689,
+              "original_page": 2
+            },
+            "content": "Access to your answers: After the exam, you can find your answers in the archive in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9604080051183701
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.027909738717339667,
+              "left": 0.06470588235294118,
+              "page": 2,
+              "top": 0.19477434679334918,
+              "width": 0.704201680672269,
+              "original_page": 2
+            },
+            "content": "1 Optimal Capital Structure with Market Imperfections",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.947114035487175
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.09327731092436975,
+              "page": 2,
+              "top": 0.2375296912114014,
+              "width": 0.36722689075630255,
+              "original_page": 2
+            },
+            "content": "Which of the following statements is FALSE? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8021296381950378
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.10756302521008404,
+              "page": 2,
+              "top": 0.29097387173396677,
+              "width": 0.7235294117647059,
+              "original_page": 2
+            },
+            "content": "- With perfect capital markets, the risk of bankruptcy is not a disadvantage of debt—\n[ ] bankruptcy simply shifts the ownership of the firm from equity holders to debt holders\nwithout changing the total value available to all investors.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8809585461491033
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.10840336134453782,
+              "page": 2,
+              "top": 0.36045130641330164,
+              "width": 0.7773109243697479,
+              "original_page": 2
+            },
+            "content": "- Aside from taxes, another important difference between debt and equity financing is that\n[ ] debt payments must be made to avoid bankruptcy, whereas firms have no similar obligation\nto pay dividends or realize capital gains.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9022809237241745
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 2,
+              "top": 0.42933491686460806,
+              "width": 0.7344537815126051,
+              "original_page": 2
+            },
+            "content": "[ ] In general, as a firm's interest expense approaches its expected taxable earnings, the marginal tax advantage of debt increases.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9350237204134464
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.10840336134453782,
+              "page": 2,
+              "top": 0.4827790973871734,
+              "width": 0.5722689075630252,
+              "original_page": 2
+            },
+            "content": "[ ] Increasing the level of debt increases the probability of bankruptcy.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.926613845337521
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 2,
+              "top": 0.5682897862232779,
+              "width": 0.16134453781512606,
+              "original_page": 2
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8881822615861893
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.9327731092436975,
+              "page": 2,
+              "top": 0.9703087885985748,
+              "width": 0.034453781512605045,
+              "original_page": 2
+            },
+            "content": "2/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8731486737728119
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 3,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 3
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9143565416336059
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ish to submit a blank test/withdraw from the exam for another reason, go to the menu in the top right-hand corner and click “Submit blank”. This cannot be undone, even if the test is still open.\n\n1/15## OTHER INFORMATION (cont.)\n\nTIØ4145 2023 Høst\n\nAccess to your answers: After the exam, you can find your answers in the archive in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.\n\n## 1 Optimal Capital Structure with Market Imperfections\n\nWhich of the following statements is FALSE? Select one alternative:\n\n- With perfect capital markets, the risk of bankruptcy is not a disadvantage of debt—\n[ ] bankruptcy simply shifts the ownership of the firm from equity holders to debt holders\nwithout changing the total value available to all investors.\n\n- Aside from taxes, another important difference between debt and equity financing is that\n[ ] debt payments must be made to avoid bankruptcy, whereas firms have no similar obligation\nto pay dividends or realize capital gains.\n\n[ ] In general, as a firm's interest expense approaches its expected taxable earnings, the marginal tax advantage of debt increases.\n\n[ ] Increasing the level of debt increases the probability of bankruptcy.\n\nMaximum marks: 2\n\n2/15\n\nTIØ4145 2023 Høst## 2 The Flow-to-Equity Method\n\nWhich of the following is NOT a step in the valuation process using the flow to equity method? Select one alternative:\n\n[ ] Compute the equity value, E, by discounting ",
+        "embed": "ish to submit a blank test/withdraw from the exam for another reason, go to the menu in the top right-hand corner and click “Submit blank”. This cannot be undone, even if the test is still open.\n\n1/15## OTHER INFORMATION (cont.)\n\nTIØ4145 2023 Høst\n\nAccess to your answers: After the exam, you can find your answers in the archive in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.\n\n## 1 Optimal Capital Structure with Market Imperfections\n\nWhich of the following statements is FALSE? Select one alternative:\n\n- With perfect capital markets, the risk of bankruptcy is not a disadvantage of debt—\n[ ] bankruptcy simply shifts the ownership of the firm from equity holders to debt holders\nwithout changing the total value available to all investors.\n\n- Aside from taxes, another important difference between debt and equity financing is that\n[ ] debt payments must be made to avoid bankruptcy, whereas firms have no similar obligation\nto pay dividends or realize capital gains.\n\n[ ] In general, as a firm's interest expense approaches its expected taxable earnings, the marginal tax advantage of debt increases.\n\n[ ] Increasing the level of debt increases the probability of bankruptcy.\n\nMaximum marks: 2\n\n2/15\n\nTIØ4145 2023 Høst## 2 The Flow-to-Equity Method\n\nWhich of the following is NOT a step in the valuation process using the flow to equity method? Select one alternative:\n\n[ ] Compute the equity value, E, by discounting ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.06470588235294118,
+              "page": 3,
+              "top": 0.043942992874109264,
+              "width": 0.3764705882352941,
+              "original_page": 3
+            },
+            "content": "2 The Flow-to-Equity Method",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9464046120643616
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.09327731092436975,
+              "page": 3,
+              "top": 0.08729216152019002,
+              "width": 0.7655462184873949,
+              "original_page": 3
+            },
+            "content": "Which of the following is NOT a step in the valuation process using the flow to equity method? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9513488799333573
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 3,
+              "top": 0.14073634204275534,
+              "width": 0.7478991596638656,
+              "original_page": 3
+            },
+            "content": "[ ] Compute the equity value, E, by discounting the free cash flow to equity using the equity cost of capital.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.738935828357935
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.10756302521008404,
+              "page": 3,
+              "top": 0.19596199524940616,
+              "width": 0.3840336134453782,
+              "original_page": 3
+            },
+            "content": "○ Determine the before-tax cost of capital, ru.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.3995938681066036
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10756302521008404,
+              "page": 3,
+              "top": 0.2339667458432304,
+              "width": 0.3495798319327731,
+              "original_page": 3
+            },
+            "content": "○ Determine the equity cost of capital, rε.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.4567607380449772
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10672268907563025,
+              "page": 3,
+              "top": 0.27137767220902614,
+              "width": 0.49159663865546216,
+              "original_page": 3
+            },
+            "content": "[ ] Determine the free cash flow to equity of the investment.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7216182589530944
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 3,
+              "top": 0.35688836104513066,
+              "width": 0.16134453781512606,
+              "original_page": 3
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7989481389522552
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032660332541567694,
+              "left": 0.06218487394957983,
+              "page": 3,
+              "top": 0.3996437054631829,
+              "width": 0.09411764705882353,
+              "original_page": 3
+            },
+            "content": "3 Beta",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.22039794921875,
+              "left": 0.09397804837266938,
+              "page": 3,
+              "top": 0.44670043365406026,
+              "width": 0.7896007249335281,
+              "original_page": 3
+            },
+            "content": "Which of the following statements about the beta is FALSE?\nSelect one alternative:\n\n[ ] One difficulty when trying to estimate beta for a security is that beta depends on the correlation and volatilities of the future returns of the security and the market.\n\n[ ] It is common practice to estimate beta based on the expectations of future correlation and volatilities.\n\n[ ] Beta is a measure of systematic risk\n\n[ ] Securities that tend to move less than the market have betas below 1.",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8505762815475464
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 3,
+              "top": 0.732185273159145,
+              "width": 0.16134453781512606,
+              "original_page": 3
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7507712721824646
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9336134453781513,
+              "page": 3,
+              "top": 0.9703087885985748,
+              "width": 0.03361344537815126,
+              "original_page": 3
+            },
+            "content": "3/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8753348141908646
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 4,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 4
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9146803557872772
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.06470588235294118,
+              "page": 4,
+              "top": 0.043942992874109264,
+              "width": 0.4722689075630252,
+              "original_page": 4
+            },
+            "content": "4 Discounted Free Cash Flow Model",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9505505412817001
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.09327731092436975,
+              "page": 4,
+              "top": 0.08729216152019002,
+              "width": 0.7378151260504202,
+              "original_page": 4
+            },
+            "content": "Which of the following statements about the Discounted Free Cash Flow model is FALSE? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9016240492463111
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 4,
+              "top": 0.14073634204275534,
+              "width": 0.7571428571428571,
+              "original_page": 4
+            },
+            "content": "[ ] Free cash flow measures the cash generated by the firm after payments to debt or equity holders are considered.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8509431751072407
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 4,
+              "top": 0.19418052256532067,
+              "width": 0.7596638655462185,
+              "original_page": 4
+            },
+            "content": "[ ] We estimate a firm's current enterprise value by computing the present value of the firm's free cash flow.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8558729283119503
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.10840336134453782,
+              "page": 4,
+              "top": 0.24821852731591448,
+              "width": 0.7764705882352941,
+              "original_page": 4
+            },
+            "content": "- Because the firm's free cash flow is equal to the sum of the free cash flows from the firm's\n[ ] current and future investments, we can interpret the firm's enterprise value as the total NPV\nthat the firm will earn from continuing its existing projects and initiating new ones.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8756050199270249
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 4,
+              "top": 0.3171021377672209,
+              "width": 0.7781512605042017,
+              "original_page": 4
+            },
+            "content": "[ ] When using the discounted free cash flow model, we forecast the firm's free cash flow up to some horizon, together with some terminal (continuation) value of the enterprise.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9164296175899176
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 4,
+              "top": 0.417458432304038,
+              "width": 0.16134453781512606,
+              "original_page": 4
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8957362592220306
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.06470588235294118,
+              "page": 4,
+              "top": 0.46199524940617576,
+              "width": 0.2571428571428571,
+              "original_page": 4
+            },
+            "content": "5 Financial Options",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9443602204322815
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.09327731092436975,
+              "page": 4,
+              "top": 0.5077197149643705,
+              "width": 0.5310924369747899,
+              "original_page": 4
+            },
+            "content": "Which of the following statements about option pricing is FALSE?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8056154638528823
+            },
+            "image_url": null
+          }
+        ],
+        "content": "aches its expected taxable earnings, the marginal tax advantage of debt increases.\n\n[ ] Increasing the level of debt increases the probability of bankruptcy.\n\nMaximum marks: 2\n\n2/15\n\nTIØ4145 2023 Høst## 2 The Flow-to-Equity Method\n\nWhich of the following is NOT a step in the valuation process using the flow to equity method? Select one alternative:\n\n[ ] Compute the equity value, E, by discounting the free cash flow to equity using the equity cost of capital.\n\n○ Determine the before-tax cost of capital, ru.\n\n○ Determine the equity cost of capital, rε.\n\n[ ] Determine the free cash flow to equity of the investment.\n\nMaximum marks: 2\n\n3 Beta\n\nWhich of the following statements about the beta is FALSE?\nSelect one alternative:\n\n[ ] One difficulty when trying to estimate beta for a security is that beta depends on the correlation and volatilities of the future returns of the security and the market.\n\n[ ] It is common practice to estimate beta based on the expectations of future correlation and volatilities.\n\n[ ] Beta is a measure of systematic risk\n\n[ ] Securities that tend to move less than the market have betas below 1.\n\nMaximum marks: 2\n\n3/15\n\nTIØ4145 2023 Høst\n\n## 4 Discounted Free Cash Flow Model\n\nWhich of the following statements about the Discounted Free Cash Flow model is FALSE? Select one alternative:\n\n[ ] Free cash flow measures the cash generated by the firm after payments to debt or equity holders are considered.\n\n[ ] We estimate a firm's current enterprise value by computing the present value of the firm's free cash flow.\n\n- Because the firm's free cash flow is equal to the sum of the free cash flows from the firm's\n[ ] current and future investments, we can interpret the firm's enterprise value as the total NPV\nthat the firm will earn from continuing its existing projects and initiating new ones.\n\n[ ] When using the discounted free cash flow model, we forecast the firm's free cash flow up to some horizon, together with some terminal (continuation) value of the enterprise.\n\nMaximum marks: 2\n\n## 5 Financial Options\n\nWhich of the following statements about option pricing is FALSE?## Select one alternative:\n\n- Because a leveraged position in a stock is riskier than the stock itself, this implies that call\n[ ] options on a positive beta stock are more risky than the underlying s",
+        "embed": "aches its expected taxable earnings, the marginal tax advantage of debt increases.\n\n[ ] Increasing the level of debt increases the probability of bankruptcy.\n\nMaximum marks: 2\n\n2/15\n\nTIØ4145 2023 Høst## 2 The Flow-to-Equity Method\n\nWhich of the following is NOT a step in the valuation process using the flow to equity method? Select one alternative:\n\n[ ] Compute the equity value, E, by discounting the free cash flow to equity using the equity cost of capital.\n\n○ Determine the before-tax cost of capital, ru.\n\n○ Determine the equity cost of capital, rε.\n\n[ ] Determine the free cash flow to equity of the investment.\n\nMaximum marks: 2\n\n3 Beta\n\nWhich of the following statements about the beta is FALSE?\nSelect one alternative:\n\n[ ] One difficulty when trying to estimate beta for a security is that beta depends on the correlation and volatilities of the future returns of the security and the market.\n\n[ ] It is common practice to estimate beta based on the expectations of future correlation and volatilities.\n\n[ ] Beta is a measure of systematic risk\n\n[ ] Securities that tend to move less than the market have betas below 1.\n\nMaximum marks: 2\n\n3/15\n\nTIØ4145 2023 Høst\n\n## 4 Discounted Free Cash Flow Model\n\nWhich of the following statements about the Discounted Free Cash Flow model is FALSE? Select one alternative:\n\n[ ] Free cash flow measures the cash generated by the firm after payments to debt or equity holders are considered.\n\n[ ] We estimate a firm's current enterprise value by computing the present value of the firm's free cash flow.\n\n- Because the firm's free cash flow is equal to the sum of the free cash flows from the firm's\n[ ] current and future investments, we can interpret the firm's enterprise value as the total NPV\nthat the firm will earn from continuing its existing projects and initiating new ones.\n\n[ ] When using the discounted free cash flow model, we forecast the firm's free cash flow up to some horizon, together with some terminal (continuation) value of the enterprise.\n\nMaximum marks: 2\n\n## 5 Financial Options\n\nWhich of the following statements about option pricing is FALSE?## Select one alternative:\n\n- Because a leveraged position in a stock is riskier than the stock itself, this implies that call\n[ ] options on a positive beta stock are more risky than the underlying s",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.09327731092436975,
+              "page": 4,
+              "top": 0.5296912114014252,
+              "width": 0.1949579831932773,
+              "original_page": 4
+            },
+            "content": "Select one alternative:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7445595532655715
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04453681710213777,
+              "left": 0.10840336134453782,
+              "page": 4,
+              "top": 0.5611638954869359,
+              "width": 0.780672268907563,
+              "original_page": 4
+            },
+            "content": "- Because a leveraged position in a stock is riskier than the stock itself, this implies that call\n[ ] options on a positive beta stock are more risky than the underlying stock and therefore have\nhigher returns and higher betas.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9467094915799605
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 4,
+              "top": 0.6294536817102138,
+              "width": 0.7352941176470589,
+              "original_page": 4
+            },
+            "content": "[ ] The option delta, Δ, has a natural interpretation: It is the change in the price of the stock given a $1 change in the price of the option.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9594950722209339
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10840336134453782,
+              "page": 4,
+              "top": 0.684085510688836,
+              "width": 0.7605042016806722,
+              "original_page": 4
+            },
+            "content": "[ ] Only one parameter input for the Black-Scholes formula, the volatility of the stock price, is not observable directly.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9593302751842299
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 4,
+              "top": 0.7375296912114014,
+              "width": 0.7747899159663866,
+              "original_page": 4
+            },
+            "content": "[ ] We do not need to know the expected return on the stock to calculate the option price in the Black-Scholes Option Pricing Model.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9590379009644191
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 4,
+              "top": 0.8378859857482185,
+              "width": 0.16134453781512606,
+              "original_page": 4
+            },
+            "content": "Maximum marks: 2",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8462194263935089
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.9319327731092437,
+              "page": 4,
+              "top": 0.9714964370546318,
+              "width": 0.03529411764705882,
+              "original_page": 4
+            },
+            "content": "4/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8819336384534836
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 5,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 5
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.925361379981041
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.06302521008403361,
+              "page": 5,
+              "top": 0.040380047505938245,
+              "width": 0.11596638655462185,
+              "original_page": 5
+            },
+            "content": "6 CAPM",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.20483871423716782,
+              "left": 0.09121310450449711,
+              "page": 5,
+              "top": 0.08636099482375482,
+              "width": 0.7854144312754399,
+              "original_page": 5
+            },
+            "content": "In the capital asset pricing model, if the expected market return is below the risk-free rate, what implication does this have for the security market line (SML)?\nSelect one alternative:\n\n[ ] SML becomes irrelevant\n\n[ ] SML will have a positive slope\n\n[ ] SML will have a negative slope\n\n[ ] SML will be horizontal",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.914949369430542
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 5,
+              "top": 0.3580760095011877,
+              "width": 0.16134453781512606,
+              "original_page": 5
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8314500451087952
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.06470588235294118,
+              "page": 5,
+              "top": 0.40380047505938244,
+              "width": 0.46974789915966386,
+              "original_page": 5
+            },
+            "content": "7 Dynamic Behavior of Bond Prices",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9291175156831741
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.09327731092436975,
+              "page": 5,
+              "top": 0.4477434679334917,
+              "width": 0.4672268907563025,
+              "original_page": 5
+            },
+            "content": "Which of the following statements about bonds is TRUE? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8046005904674529
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10672268907563025,
+              "page": 5,
+              "top": 0.501187648456057,
+              "width": 0.7445378151260504,
+              "original_page": 5
+            },
+            "content": "[ ] When a bond is trading at a discount, the price drop when a coupon is paid will be larger than the price increase between coupons.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8772926918589152
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10756302521008404,
+              "page": 5,
+              "top": 0.5546318289786223,
+              "width": 0.49411764705882355,
+              "original_page": 5
+            },
+            "content": "[ ] As interest rates and bond yields fall, bond prices will fall.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8712857107321421
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.10672268907563025,
+              "page": 5,
+              "top": 0.5932304038004751,
+              "width": 0.7344537815126051,
+              "original_page": 5
+            },
+            "content": "[ ] If a bond trades at a discount, its yield to maturity will exceed its coupon rate.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.853622024900773
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.10756302521008404,
+              "page": 5,
+              "top": 0.6324228028503563,
+              "width": 0.6478991596638656,
+              "original_page": 5
+            },
+            "content": "[ ] Bonds with higher coupon rates are more sensitive to interest rate changes.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8546626705389757
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 5,
+              "top": 0.7179334916864608,
+              "width": 0.16134453781512606,
+              "original_page": 5
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7920953899621963
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.9327731092436975,
+              "page": 5,
+              "top": 0.9703087885985748,
+              "width": 0.03529411764705882,
+              "original_page": 5
+            },
+            "content": "5/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8956710994243622
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 6,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 6
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.918039259314537
+            },
+            "image_url": null
+          }
+        ],
+        "content": "flow up to some horizon, together with some terminal (continuation) value of the enterprise.\n\nMaximum marks: 2\n\n## 5 Financial Options\n\nWhich of the following statements about option pricing is FALSE?## Select one alternative:\n\n- Because a leveraged position in a stock is riskier than the stock itself, this implies that call\n[ ] options on a positive beta stock are more risky than the underlying stock and therefore have\nhigher returns and higher betas.\n\n[ ] The option delta, Δ, has a natural interpretation: It is the change in the price of the stock given a $1 change in the price of the option.\n\n[ ] Only one parameter input for the Black-Scholes formula, the volatility of the stock price, is not observable directly.\n\n[ ] We do not need to know the expected return on the stock to calculate the option price in the Black-Scholes Option Pricing Model.\n\nMaximum marks: 2\n\n4/15\n\nTIØ4145 2023 Høst\n\n6 CAPM\n\nIn the capital asset pricing model, if the expected market return is below the risk-free rate, what implication does this have for the security market line (SML)?\nSelect one alternative:\n\n[ ] SML becomes irrelevant\n\n[ ] SML will have a positive slope\n\n[ ] SML will have a negative slope\n\n[ ] SML will be horizontal\n\nMaximum marks: 2\n\n## 7 Dynamic Behavior of Bond Prices\n\nWhich of the following statements about bonds is TRUE? Select one alternative:\n\n[ ] When a bond is trading at a discount, the price drop when a coupon is paid will be larger than the price increase between coupons.\n\n[ ] As interest rates and bond yields fall, bond prices will fall.\n\n[ ] If a bond trades at a discount, its yield to maturity will exceed its coupon rate.\n\n[ ] Bonds with higher coupon rates are more sensitive to interest rate changes.\n\nMaximum marks: 2\n\n5/15\n\nTIØ4145 2023 Høst## 8 Sovereign bonds\n\nA key difference between sovereign default and corporate default is:\nSelect one alternative:\n\n[ ] Unlike corporate debt, sovereign debt prices are not inverse to yields.\n\n[ ] Unl",
+        "embed": "flow up to some horizon, together with some terminal (continuation) value of the enterprise.\n\nMaximum marks: 2\n\n## 5 Financial Options\n\nWhich of the following statements about option pricing is FALSE?## Select one alternative:\n\n- Because a leveraged position in a stock is riskier than the stock itself, this implies that call\n[ ] options on a positive beta stock are more risky than the underlying stock and therefore have\nhigher returns and higher betas.\n\n[ ] The option delta, Δ, has a natural interpretation: It is the change in the price of the stock given a $1 change in the price of the option.\n\n[ ] Only one parameter input for the Black-Scholes formula, the volatility of the stock price, is not observable directly.\n\n[ ] We do not need to know the expected return on the stock to calculate the option price in the Black-Scholes Option Pricing Model.\n\nMaximum marks: 2\n\n4/15\n\nTIØ4145 2023 Høst\n\n6 CAPM\n\nIn the capital asset pricing model, if the expected market return is below the risk-free rate, what implication does this have for the security market line (SML)?\nSelect one alternative:\n\n[ ] SML becomes irrelevant\n\n[ ] SML will have a positive slope\n\n[ ] SML will have a negative slope\n\n[ ] SML will be horizontal\n\nMaximum marks: 2\n\n## 7 Dynamic Behavior of Bond Prices\n\nWhich of the following statements about bonds is TRUE? Select one alternative:\n\n[ ] When a bond is trading at a discount, the price drop when a coupon is paid will be larger than the price increase between coupons.\n\n[ ] As interest rates and bond yields fall, bond prices will fall.\n\n[ ] If a bond trades at a discount, its yield to maturity will exceed its coupon rate.\n\n[ ] Bonds with higher coupon rates are more sensitive to interest rate changes.\n\nMaximum marks: 2\n\n5/15\n\nTIØ4145 2023 Høst## 8 Sovereign bonds\n\nA key difference between sovereign default and corporate default is:\nSelect one alternative:\n\n[ ] Unlike corporate debt, sovereign debt prices are not inverse to yields.\n\n[ ] Unl",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.06470588235294118,
+              "page": 6,
+              "top": 0.04275534441805225,
+              "width": 0.2504201680672269,
+              "original_page": 6
+            },
+            "content": "8 Sovereign bonds",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9397068351507187
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.23389724767689468,
+              "left": 0.08983075438427324,
+              "page": 6,
+              "top": 0.10527565926667347,
+              "width": 0.794884196049025,
+              "original_page": 6
+            },
+            "content": "A key difference between sovereign default and corporate default is:\nSelect one alternative:\n\n[ ] Unlike corporate debt, sovereign debt prices are not inverse to yields.\n\n[ ] Unlike a corporation, any country can turn to the European Monetary Union to pay off its debts.\n\n[ ] Unlike a corporation, a country facing difficulty meeting its financial obligations cannot default.\n\n[ ] Unlike a corporation, a country facing difficulty meeting its financial obligations typice” has the option to print more currency.",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9587388753890991
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 6,
+              "top": 0.40617577197149646,
+              "width": 0.16134453781512606,
+              "original_page": 6
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8940705806016922
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.020190023752969122,
+              "left": 0.06302521008403361,
+              "page": 6,
+              "top": 0.45665083135391926,
+              "width": 0.2571428571428571,
+              "original_page": 6
+            },
+            "content": "9 Efficient portfolio",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8697468489408493
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.09327731092436975,
+              "page": 6,
+              "top": 0.49584323040380046,
+              "width": 0.5857142857142857,
+              "original_page": 6
+            },
+            "content": "Which of the following statements about the efficient portfolio is FALSE? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8002358794212341
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 6,
+              "top": 0.5486935866983373,
+              "width": 0.7781512605042017,
+              "original_page": 6
+            },
+            "content": "[ ] If all investors demand the efficient portfolio, and since the supply of securities is the market portfolio, then two portfolios must coincide.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9330415308475495
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.10756302521008404,
+              "page": 6,
+              "top": 0.6027315914489311,
+              "width": 0.7764705882352941,
+              "original_page": 6
+            },
+            "content": "- If some security were not part of the efficient portfolio, then every investor would want to\n[ ] own it, and demand for this security would increase causing its expected return to fall until it\nis no longer an attractive investment.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9211621887236834
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 6,
+              "top": 0.672209026128266,
+              "width": 0.7605042016806722,
+              "original_page": 6
+            },
+            "content": "[ ] According to CAPM, the efficient portfolio, the portfolio that all investors should hold, must be the same portfolio as the market portfolio of all risky securities.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9279527553805598
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.10756302521008404,
+              "page": 6,
+              "top": 0.7256532066508313,
+              "width": 0.7411764705882353,
+              "original_page": 6
+            },
+            "content": "[ ] Because every security is owned by someone, the sum of all investors' portfolios must equal the portfolio of all risky securities available in the market.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9273062317417218
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 6,
+              "top": 0.8266033254156769,
+              "width": 0.16134453781512606,
+              "original_page": 6
+            },
+            "content": "Maximum marks: 2",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7878875106573104
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9327731092436975,
+              "page": 6,
+              "top": 0.9703087885985748,
+              "width": 0.034453781512605045,
+              "original_page": 6
+            },
+            "content": "6/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8881157875061035
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 7,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 7
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9397536754608155
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.027315914489311165,
+              "left": 0.06470588235294118,
+              "page": 7,
+              "top": 0.04453681710213777,
+              "width": 0.5941176470588235,
+              "original_page": 7
+            },
+            "content": "10 Project Risk Characteristics and Financing",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9583791494369507
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.2036547898679901,
+              "left": 0.10143155009806656,
+              "page": 7,
+              "top": 0.08982619876816267,
+              "width": 0.7718057135573956,
+              "original_page": 7
+            },
+            "content": "In a world with taxes, which of the following is the rate we should use to evaluate a project with the same risk and the same financing as the firm itself?\nSelect one alternative:\n\n[ ] The cost of debt\n\n[ ] The cost of equity\n\n[ ] The weighted-average cost of capital\n\n[ ] The pre-tax WACC",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9309176206588745
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 7,
+              "top": 0.3580760095011877,
+              "width": 0.16134453781512606,
+              "original_page": 7
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7792175590991974
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.9327731092436975,
+              "page": 7,
+              "top": 0.9709026128266033,
+              "width": 0.03361344537815126,
+              "original_page": 7
+            },
+            "content": "7/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9224434405565263
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 8,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 8
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9194693028926849
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ond trades at a discount, its yield to maturity will exceed its coupon rate.\n\n[ ] Bonds with higher coupon rates are more sensitive to interest rate changes.\n\nMaximum marks: 2\n\n5/15\n\nTIØ4145 2023 Høst## 8 Sovereign bonds\n\nA key difference between sovereign default and corporate default is:\nSelect one alternative:\n\n[ ] Unlike corporate debt, sovereign debt prices are not inverse to yields.\n\n[ ] Unlike a corporation, any country can turn to the European Monetary Union to pay off its debts.\n\n[ ] Unlike a corporation, a country facing difficulty meeting its financial obligations cannot default.\n\n[ ] Unlike a corporation, a country facing difficulty meeting its financial obligations typice” has the option to print more currency.\n\nMaximum marks: 2\n\n## 9 Efficient portfolio\n\nWhich of the following statements about the efficient portfolio is FALSE? Select one alternative:\n\n[ ] If all investors demand the efficient portfolio, and since the supply of securities is the market portfolio, then two portfolios must coincide.\n\n- If some security were not part of the efficient portfolio, then every investor would want to\n[ ] own it, and demand for this security would increase causing its expected return to fall until it\nis no longer an attractive investment.\n\n[ ] According to CAPM, the efficient portfolio, the portfolio that all investors should hold, must be the same portfolio as the market portfolio of all risky securities.\n\n[ ] Because every security is owned by someone, the sum of all investors' portfolios must equal the portfolio of all risky securities available in the market.\n\nMaximum marks: 2\n\n6/15\n\nTIØ4145 2023 Høst\n\n## 10 Project Risk Characteristics and Financing\n\nIn a world with taxes, which of the following is the rate we should use to evaluate a project with the same risk and the same financing as the firm itself?\nSelect one alternative:\n\n[ ] The cost of debt\n\n[ ] The cost of equity\n\n[ ] The weighted-average cost of capital\n\n[ ] The pre-tax WACC\n\nMaximum marks: 2\n\n7/15\n\nTIØ4145 2023 Høst## 11 Question 2.1 (10%)\n\nFollowing data are given:\n\n|                     | Expected<br />return   | Variance of<br />Returns   | Covariance between stock returns<br />and market returns   |\n|-|-|-|-",
+        "embed": "ond trades at a discount, its yield to maturity will exceed its coupon rate.\n\n[ ] Bonds with higher coupon rates are more sensitive to interest rate changes.\n\nMaximum marks: 2\n\n5/15\n\nTIØ4145 2023 Høst## 8 Sovereign bonds\n\nA key difference between sovereign default and corporate default is:\nSelect one alternative:\n\n[ ] Unlike corporate debt, sovereign debt prices are not inverse to yields.\n\n[ ] Unlike a corporation, any country can turn to the European Monetary Union to pay off its debts.\n\n[ ] Unlike a corporation, a country facing difficulty meeting its financial obligations cannot default.\n\n[ ] Unlike a corporation, a country facing difficulty meeting its financial obligations typice” has the option to print more currency.\n\nMaximum marks: 2\n\n## 9 Efficient portfolio\n\nWhich of the following statements about the efficient portfolio is FALSE? Select one alternative:\n\n[ ] If all investors demand the efficient portfolio, and since the supply of securities is the market portfolio, then two portfolios must coincide.\n\n- If some security were not part of the efficient portfolio, then every investor would want to\n[ ] own it, and demand for this security would increase causing its expected return to fall until it\nis no longer an attractive investment.\n\n[ ] According to CAPM, the efficient portfolio, the portfolio that all investors should hold, must be the same portfolio as the market portfolio of all risky securities.\n\n[ ] Because every security is owned by someone, the sum of all investors' portfolios must equal the portfolio of all risky securities available in the market.\n\nMaximum marks: 2\n\n6/15\n\nTIØ4145 2023 Høst\n\n## 10 Project Risk Characteristics and Financing\n\nIn a world with taxes, which of the following is the rate we should use to evaluate a project with the same risk and the same financing as the firm itself?\nSelect one alternative:\n\n[ ] The cost of debt\n\n[ ] The cost of equity\n\n[ ] The weighted-average cost of capital\n\n[ ] The pre-tax WACC\n\nMaximum marks: 2\n\n7/15\n\nTIØ4145 2023 Høst## 11 Question 2.1 (10%)\n\nFollowing data are given:\n\nThis table presents financial data for two stocks and the market, including their expected returns, variances of returns, and covariances with mark",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.06470588235294118,
+              "page": 8,
+              "top": 0.04275534441805225,
+              "width": 0.2823529411764706,
+              "original_page": 8
+            },
+            "content": "11 Question 2.1 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8756552100181579
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.10252100840336134,
+              "page": 8,
+              "top": 0.08729216152019002,
+              "width": 0.20336134453781513,
+              "original_page": 8
+            },
+            "content": "Following data are given:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.867584303021431
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.12767220902612827,
+              "left": 0.18487394957983194,
+              "page": 8,
+              "top": 0.10451306413301663,
+              "width": 0.6310924369747899,
+              "original_page": 8
+            },
+            "content": "|                     | Expected<br />return   | Variance of<br />Returns   | Covariance between stock returns<br />and market returns   |\n|-|-|-|-|\n| Stock 1             | 0.13                   | 0.01                       | 0.032                                                      |\n| Stock 2             | 0.22                   | 0.09                       | 0.036                                                      |\n| Market              | 0.18                   | 0.04                       | 0.040                                                      |\n| Risk Free<br />Rate | 0.06                   | 0                          | 0                                                          |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9443085968494416
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.10168067226890756,
+              "page": 8,
+              "top": 0.25356294536817103,
+              "width": 0.746218487394958,
+              "original_page": 8
+            },
+            "content": "i) Based on this data, write an equation of a Capital Market Line (CML) that follows from the CAPM and draw a diagram of CML.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8980911374092102
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.10168067226890756,
+              "page": 8,
+              "top": 0.28859857482185275,
+              "width": 0.7369747899159664,
+              "original_page": 8
+            },
+            "content": "ii) Show the position of the two stocks, market portfolio and the risk free rate relative to the Capital Market Line in your drawing.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9240655422210693
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10168067226890756,
+              "page": 8,
+              "top": 0.32304038004750596,
+              "width": 0.7588235294117647,
+              "original_page": 8
+            },
+            "content": "iii) Comment on the position of the two stocks relative to the CML and explain what it implies.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8895312160253525
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10252100840336134,
+              "page": 8,
+              "top": 0.34085510688836107,
+              "width": 0.20672268907563024,
+              "original_page": 8
+            },
+            "content": "Fill in your answer here",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7411375105381012
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.43690632074858965,
+              "left": 0.10253620307986476,
+              "page": 8,
+              "top": 0.3588642473741835,
+              "width": 0.7965052885167739,
+              "original_page": 8
+            },
+            "content": "Format:\nB: [ ]\nI: [ ]\nU: [ ]\n$x_2$: [ ]\n$I_x$: [ ]\n$\\Sigma$: [ ]\n$X$: [ ]\nWords: 0",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9504345655441284
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7277310924369748,
+              "page": 8,
+              "top": 0.8378859857482185,
+              "width": 0.17142857142857143,
+              "original_page": 8
+            },
+            "content": "Maximum marks: 10",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7703223943710327
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9319327731092437,
+              "page": 8,
+              "top": 0.9703087885985748,
+              "width": 0.034453781512605045,
+              "original_page": 8
+            },
+            "content": "8/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8951021194458009
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 9,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 9
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.919924533367157
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.06470588235294118,
+              "page": 9,
+              "top": 0.04275534441805225,
+              "width": 0.28319327731092436,
+              "original_page": 9
+            },
+            "content": "12 Question 2.2 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8752442628145218
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.10168067226890756,
+              "page": 9,
+              "top": 0.08729216152019002,
+              "width": 0.7789915966386555,
+              "original_page": 9
+            },
+            "content": "i) Based on the data from the table in Question 2,1, write an equation of a Security Market Line (SML) that follows from the CAPM and draw a diagram of SML.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8947419196367263
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.10168067226890756,
+              "page": 9,
+              "top": 0.12173396674584323,
+              "width": 0.7823529411764706,
+              "original_page": 9
+            },
+            "content": "ii) Show the position of the two stocks, market portfolio and the risk free rate relative to the SML in your drawing",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8930049151182174
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.10168067226890756,
+              "page": 9,
+              "top": 0.15676959619952494,
+              "width": 0.761344537815126,
+              "original_page": 9
+            },
+            "content": "iii) Comment on the position of the two stocks relative to the CML and explain what it implies.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.882673391699791
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.4544068107695591,
+              "left": 0.10293680399405856,
+              "page": 9,
+              "top": 0.19433166068976396,
+              "width": 0.7974480765206473,
+              "original_page": 9
+            },
+            "content": "Fill in your answer here\nFormat\nB I U x² x⁴ I x\nΣ\nWords: 0",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9670791625976562
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7277310924369748,
+              "page": 9,
+              "top": 0.6900237529691211,
+              "width": 0.17142857142857143,
+              "original_page": 9
+            },
+            "content": "Maximum marks: 10",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7824250161647797
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9327731092436975,
+              "page": 9,
+              "top": 0.9709026128266033,
+              "width": 0.034453781512605045,
+              "original_page": 9
+            },
+            "content": "9/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.877978727221489
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.8142857142857143,
+              "page": 10,
+              "top": 0.021377672209026127,
+              "width": 0.1546218487394958,
+              "original_page": 10
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.884511262178421
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ing as the firm itself?\nSelect one alternative:\n\n[ ] The cost of debt\n\n[ ] The cost of equity\n\n[ ] The weighted-average cost of capital\n\n[ ] The pre-tax WACC\n\nMaximum marks: 2\n\n7/15\n\nTIØ4145 2023 Høst## 11 Question 2.1 (10%)\n\nFollowing data are given:\n\n|                     | Expected<br />return   | Variance of<br />Returns   | Covariance between stock returns<br />and market returns   |\n|-|-|-|-|\n| Stock 1             | 0.13                   | 0.01                       | 0.032                                                      |\n| Stock 2             | 0.22                   | 0.09                       | 0.036                                                      |\n| Market              | 0.18                   | 0.04                       | 0.040                                                      |\n| Risk Free<br />Rate | 0.06                   | 0                          | 0                                                          |\n\ni) Based on this data, write an equation of a Capital Market Line (CML) that follows from the CAPM and draw a diagram of CML.\n\nii) Show the position of the two stocks, market portfolio and the risk free rate relative to the Capital Market Line in your drawing.\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.\n\n## Fill in your answer here\n\nFormat:\nB: [ ]\nI: [ ]\nU: [ ]\n$x_2$: [ ]\n$I_x$: [ ]\n$\\Sigma$: [ ]\n$X$: [ ]\nWords: 0\n\nMaximum marks: 10\n\n8/15\n\nTIØ4145 2023 Høst\n\n## 12 Question 2.2 (10%)\n\ni) Based on the data from the table in Question 2,1, write an equation of a Security Market Line (SML) that follows from the CAPM and draw a diagram of SML.\n\nii) Show the position of the two stocks, market portfolio and the risk free rate relative to the SML in your drawing\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.\n\nFill in your answer here\nFormat\nB I U x² x⁴ I x\nΣ\nWords: 0\n\nMaximum marks: 10\n\n9/15\n\nTIØ4145 2023 Høst## 13 Question 2.3 (5%)\n\ni) Is market portfolio always efficient in reality? Explain why.\n\nii) Name one challenge associated with testing the efficiency of the market portfolio in real-world scenarios",
+        "embed": "ing as the firm itself?\nSelect one alternative:\n\n[ ] The cost of debt\n\n[ ] The cost of equity\n\n[ ] The weighted-average cost of capital\n\n[ ] The pre-tax WACC\n\nMaximum marks: 2\n\n7/15\n\nTIØ4145 2023 Høst## 11 Question 2.1 (10%)\n\nFollowing data are given:\n\nThis table presents financial data for two stocks and the market, including their expected returns, variances of returns, and covariances with market returns. It also shows the risk-free rate. Stock 2 has the highest expected return at 0.22, while Stock 1 has a lower expected return of 0.13. The market's expected return is 0.18, and the risk-free rate is 0.06.\n\ni) Based on this data, write an equation of a Capital Market Line (CML) that follows from the CAPM and draw a diagram of CML.\n\nii) Show the position of the two stocks, market portfolio and the risk free rate relative to the Capital Market Line in your drawing.\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.\n\n## Fill in your answer here\n\nFormat:\nB: [ ]\nI: [ ]\nU: [ ]\n$x_2$: [ ]\n$I_x$: [ ]\n$\\Sigma$: [ ]\n$X$: [ ]\nWords: 0\n\nMaximum marks: 10\n\n8/15\n\nTIØ4145 2023 Høst\n\n## 12 Question 2.2 (10%)\n\ni) Based on the data from the table in Question 2,1, write an equation of a Security Market Line (SML) that follows from the CAPM and draw a diagram of SML.\n\nii) Show the position of the two stocks, market portfolio and the risk free rate relative to the SML in your drawing\n\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.\n\nFill in your answer here\nFormat\nB I U x² x⁴ I x\nΣ\nWords: 0\n\nMaximum marks: 10\n\n9/15\n\nTIØ4145 2023 Høst## 13 Question 2.3 (5%)\n\ni) Is market portfolio always efficient in reality? Explain why.\n\nii) Name one challenge associated with testing the efficiency of the market portfolio in real-world scenarios",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.06638655462184874,
+              "page": 10,
+              "top": 0.0498812351543943,
+              "width": 0.26638655462184874,
+              "original_page": 10
+            },
+            "content": "13 Question 2.3 (5%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8785720318555832
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.10252100840336134,
+              "page": 10,
+              "top": 0.08966745843230403,
+              "width": 0.4865546218487395,
+              "original_page": 10
+            },
+            "content": "i) Is market portfolio always efficient in reality? Explain why.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8361671447753907
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.026128266033254157,
+              "left": 0.10252100840336134,
+              "page": 10,
+              "top": 0.10866983372921615,
+              "width": 0.7840336134453781,
+              "original_page": 10
+            },
+            "content": "ii) Name one challenge associated with testing the efficiency of the market portfolio in real-world scenarios.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8458959102630615
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.10420168067226891,
+              "page": 10,
+              "top": 0.14311163895486936,
+              "width": 0.20672268907563024,
+              "original_page": 10
+            },
+            "content": "Fill in your answer here",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.853544145822525
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.4358672552040807,
+              "left": 0.10297739365521599,
+              "page": 10,
+              "top": 0.15908474593717525,
+              "width": 0.7971631410743009,
+              "original_page": 10
+            },
+            "content": "Format | B I U x^e x^e | I_x | | | | | | | |\nΣ | |\n<empty>\nWords: 0",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9776899814605713
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.7378151260504202,
+              "page": 10,
+              "top": 0.6395486935866983,
+              "width": 0.16218487394957984,
+              "original_page": 10
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6862409561872482
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.9243697478991597,
+              "page": 10,
+              "top": 0.9709026128266033,
+              "width": 0.04201680672268908,
+              "original_page": 10
+            },
+            "content": "10/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9072490483522415
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 11,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 11
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9240359425544739
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.06470588235294118,
+              "page": 11,
+              "top": 0.04275534441805225,
+              "width": 0.28319327731092436,
+              "original_page": 11
+            },
+            "content": "14 Question 3.1 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8841182351112366
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.10336134453781512,
+              "page": 11,
+              "top": 0.08729216152019002,
+              "width": 0.7848739495798319,
+              "original_page": 11
+            },
+            "content": "The following table summarizes prices of various default-free zero-coupon bonds (expressed as a percentage of face value):",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.966351106762886
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05641330166270784,
+              "left": 0.10084033613445378,
+              "page": 11,
+              "top": 0.13836104513064132,
+              "width": 0.6478991596638656,
+              "original_page": 11
+            },
+            "content": "| Maturity (years)                 | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Price (per $100 face<br />value) | 94.52 | 89.85 | 85.89 | 82.27 | 79.10 |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8757670849561692
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.10168067226890756,
+              "page": 11,
+              "top": 0.2179334916864608,
+              "width": 0.7243697478991596,
+              "original_page": 11
+            },
+            "content": "i) Find yield to maturity for each of these five bonds. For this question, please round your answers to two decimals.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8995057225227356
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04631828978622328,
+              "left": 0.10168067226890756,
+              "page": 11,
+              "top": 0.2529691211401425,
+              "width": 0.7974789915966387,
+              "original_page": 11
+            },
+            "content": "ii) What can you say about the slope of the zero-coupon yield curve? What does the shape of this yield curve indicate about the relationship between the bond maturities and their yields? Discuss the potential economic implications of such a yield curve.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9435477018356323
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.10336134453781512,
+              "page": 11,
+              "top": 0.34026128266033256,
+              "width": 0.20756302521008405,
+              "original_page": 11
+            },
+            "content": "Fill in your answer here",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7513586938381195
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.44000008553620473,
+              "left": 0.10315888989873293,
+              "page": 11,
+              "top": 0.3557786737654951,
+              "width": 0.7970364226012671,
+              "original_page": 11
+            },
+            "content": "Format:\nBold: [ ]\nItalic: [ ]\nUnderline: [ ]\nStrikethrough: [ ]\nSuperscript: [ ]\nSubscript: [ ]\nAlign left: [ ]\nAlign center: [ ]\nAlign right: [ ]\nJustify: [ ]\nInsert image: [ ]\nInsert link: [ ]\nUndo: [ ]\nRedo: [ ]\nBulleted list: [ ]\nNumbered list: [ ]\nCode block: [ ]\nTable: [ ]\nEdit: [ ]\nSigma: [ ]\nExpand: [ ]\nWords: 0",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9690274000167847
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7277310924369748,
+              "page": 11,
+              "top": 0.836104513064133,
+              "width": 0.17142857142857143,
+              "original_page": 11
+            },
+            "content": "Maximum marks: 10",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7283847808837891
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9260504201680673,
+              "page": 11,
+              "top": 0.9709026128266033,
+              "width": 0.040336134453781515,
+              "original_page": 11
+            },
+            "content": "11/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8900190681219101
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 12,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 12
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9273184835910797
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.06470588235294118,
+              "page": 12,
+              "top": 0.04275534441805225,
+              "width": 0.28319327731092436,
+              "original_page": 12
+            },
+            "content": "15 Question 3.2 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9089076459407807
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.10336134453781512,
+              "page": 12,
+              "top": 0.08729216152019002,
+              "width": 0.2630252100840336,
+              "original_page": 12
+            },
+            "content": "Use the data from Question 3.1.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9043162882328033
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.10168067226890756,
+              "page": 12,
+              "top": 0.12470308788598575,
+              "width": 0.7798319327731092,
+              "original_page": 12
+            },
+            "content": "i) Find the price today of a 3-year default-free security with a face value of $1000 and an annual coupon rate of 6%.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9220616370439529
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10252100840336134,
+              "page": 12,
+              "top": 0.15914489311163896,
+              "width": 0.5277310924369748,
+              "original_page": 12
+            },
+            "content": "ii) Does this security trade at a premium, at a discount or at par?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9040809243917465
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.10252100840336134,
+              "page": 12,
+              "top": 0.17814726840855108,
+              "width": 0.7563025210084033,
+              "original_page": 12
+            },
+            "content": "iii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9104736387729645
+            },
+            "image_url": null
+          }
+        ],
+        "content": "\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.\n\nFill in your answer here\nFormat\nB I U x² x⁴ I x\nΣ\nWords: 0\n\nMaximum marks: 10\n\n9/15\n\nTIØ4145 2023 Høst## 13 Question 2.3 (5%)\n\ni) Is market portfolio always efficient in reality? Explain why.\n\nii) Name one challenge associated with testing the efficiency of the market portfolio in real-world scenarios.\n\n## Fill in your answer here\n\nFormat | B I U x^e x^e | I_x | | | | | | | |\nΣ | |\n<empty>\nWords: 0\n\nMaximum marks: 5\n\n10/15\n\nTIØ4145 2023 Høst\n\n## 14 Question 3.1 (10%)\n\nThe following table summarizes prices of various default-free zero-coupon bonds (expressed as a percentage of face value):\n\n| Maturity (years)                 | 1     | 2     | 3     | 4     | 5     |\n|-|-|-|-|-|-|\n| Price (per $100 face<br />value) | 94.52 | 89.85 | 85.89 | 82.27 | 79.10 |\n\ni) Find yield to maturity for each of these five bonds. For this question, please round your answers to two decimals.\n\nii) What can you say about the slope of the zero-coupon yield curve? What does the shape of this yield curve indicate about the relationship between the bond maturities and their yields? Discuss the potential economic implications of such a yield curve.\n\n## Fill in your answer here\n\nFormat:\nBold: [ ]\nItalic: [ ]\nUnderline: [ ]\nStrikethrough: [ ]\nSuperscript: [ ]\nSubscript: [ ]\nAlign left: [ ]\nAlign center: [ ]\nAlign right: [ ]\nJustify: [ ]\nInsert image: [ ]\nInsert link: [ ]\nUndo: [ ]\nRedo: [ ]\nBulleted list: [ ]\nNumbered list: [ ]\nCode block: [ ]\nTable: [ ]\nEdit: [ ]\nSigma: [ ]\nExpand: [ ]\nWords: 0\n\nMaximum marks: 10\n\n11/15\n\nTIØ4145 2023 Høst\n\n## 15 Question 3.2 (10%)\n\nUse the data from Question 3.1.\n\ni) Find the price today of a 3-year default-free security with a face value of $1000 and an annual coupon rate of 6%.\n\nii) Does this security trade at a premium, at a discount or at par?\n\niii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.## Fill in your answer here\n\nFormat | B I U x^b x^2 | I_x | copy | undo | redo | format paint | Σ | |\nWords: 0\n\nMaximum marks: 10\n\n12/15\n\nTIØ4145 2023 Høst\n\n## 16 Question 4.1 (20%)\n\nFabulosa Pizza is",
+        "embed": "\niii) Comment on the position of the two stocks relative to the CML and explain what it implies.\n\nFill in your answer here\nFormat\nB I U x² x⁴ I x\nΣ\nWords: 0\n\nMaximum marks: 10\n\n9/15\n\nTIØ4145 2023 Høst## 13 Question 2.3 (5%)\n\ni) Is market portfolio always efficient in reality? Explain why.\n\nii) Name one challenge associated with testing the efficiency of the market portfolio in real-world scenarios.\n\n## Fill in your answer here\n\nFormat | B I U x^e x^e | I_x | | | | | | | |\nΣ | |\n<empty>\nWords: 0\n\nMaximum marks: 5\n\n10/15\n\nTIØ4145 2023 Høst\n\n## 14 Question 3.1 (10%)\n\nThe following table summarizes prices of various default-free zero-coupon bonds (expressed as a percentage of face value):\n\nThis table presents the prices of bonds with varying maturities, from 1 to 5 years, based on a face value of $100. As the maturity of the bond increases, its price decreases. For instance, a 1-year bond is priced at $94.52, while a 5-year bond is priced at $79.10.\n\ni) Find yield to maturity for each of these five bonds. For this question, please round your answers to two decimals.\n\nii) What can you say about the slope of the zero-coupon yield curve? What does the shape of this yield curve indicate about the relationship between the bond maturities and their yields? Discuss the potential economic implications of such a yield curve.\n\n## Fill in your answer here\n\nFormat:\nBold: [ ]\nItalic: [ ]\nUnderline: [ ]\nStrikethrough: [ ]\nSuperscript: [ ]\nSubscript: [ ]\nAlign left: [ ]\nAlign center: [ ]\nAlign right: [ ]\nJustify: [ ]\nInsert image: [ ]\nInsert link: [ ]\nUndo: [ ]\nRedo: [ ]\nBulleted list: [ ]\nNumbered list: [ ]\nCode block: [ ]\nTable: [ ]\nEdit: [ ]\nSigma: [ ]\nExpand: [ ]\nWords: 0\n\nMaximum marks: 10\n\n11/15\n\nTIØ4145 2023 Høst\n\n## 15 Question 3.2 (10%)\n\nUse the data from Question 3.1.\n\ni) Find the price today of a 3-year default-free security with a face value of $1000 and an annual coupon rate of 6%.\n\nii) Does this security trade at a premium, at a discount or at par?\n\niii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.## Fill in your answer here\n\nFormat | B I U x^b x^2 | I_x | copy | undo | redo | format paint | Σ | |\nWords: 0\n\nMaximum marks: 10\n\n12/15\n\nTIØ4145 2023 Høst\n\n## 16 Question 4.1 (20%)\n\nFabulosa Pizza is",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10336134453781512,
+              "page": 12,
+              "top": 0.23040380047505937,
+              "width": 0.20756302521008405,
+              "original_page": 12
+            },
+            "content": "Fill in your answer here",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7839755117893219
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.4430982177444422,
+              "left": 0.10318684297449449,
+              "page": 12,
+              "top": 0.24334620749865463,
+              "width": 0.797260713977974,
+              "original_page": 12
+            },
+            "content": "Format | B I U x^b x^2 | I_x | copy | undo | redo | format paint | Σ | |\nWords: 0",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9735183238983154
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7277310924369748,
+              "page": 12,
+              "top": 0.7274346793349169,
+              "width": 0.17142857142857143,
+              "original_page": 12
+            },
+            "content": "Maximum marks: 10",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7770580619573593
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.9235294117647059,
+              "page": 12,
+              "top": 0.9703087885985748,
+              "width": 0.04201680672268908,
+              "original_page": 12
+            },
+            "content": "12/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9061602711677551
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 13,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 13
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9179263234138488
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.06470588235294118,
+              "page": 13,
+              "top": 0.04275534441805225,
+              "width": 0.28319327731092436,
+              "original_page": 13
+            },
+            "content": "16 Question 4.1 (20%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8387745678424835
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.19061757719714964,
+              "left": 0.10336134453781512,
+              "page": 13,
+              "top": 0.08729216152019002,
+              "width": 0.7747899159663866,
+              "original_page": 13
+            },
+            "content": "Fabulosa Pizza is active in the fast food business. It currently has a book value of $80 million, with equal proportions on debt and equity. The firm has 10 million shares outstanding, which currently sell for $6 per share. The outstanding debt of Fabulosa is frequently renegotiated and adapted to the market conditions, so that capital structure remains constant. The firm has a tax rate of 40%. The risk-free rate is equal to 6%. The return on the market portfolio is 14%. Fabulosa wants to expand its business into offshore salmon farming. This will require an investment of $750 million and is expected to produce a perpetual yearly cashflow of $100 million. The company wants to finance the investment with 25% debt, for which the bank made an offer at 8% interest. At present, there is only one firm active in offshore salmon farming business, OffSea AS. OffSea As is financed with equal parts of debt and equity, its debt has a 9% interest rate and its equity has a beta of 1.4. Fabulosa will keep debt at 25% of the project value.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9882847309112549
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10168067226890756,
+              "page": 13,
+              "top": 0.28919239904988125,
+              "width": 0.7596638655462185,
+              "original_page": 13
+            },
+            "content": "i) Should Fabulosa Pizza accept the project or not? Use calculations to support your answer.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9232267946004867
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.10168067226890756,
+              "page": 13,
+              "top": 0.3153206650831354,
+              "width": 0.7310924369747899,
+              "original_page": 13
+            },
+            "content": "ii) What effect will the decision under a) have on Fabulosa’s stock price? Explain why (no calculations are required)",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9513544589281082
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10336134453781512,
+              "page": 13,
+              "top": 0.35688836104513066,
+              "width": 0.20756302521008405,
+              "original_page": 13
+            },
+            "content": "Fill in your answer here",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7325971931219101
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.4398626477021786,
+              "left": 0.10294407435825893,
+              "page": 13,
+              "top": 0.3733222943303704,
+              "width": 0.797356690478926,
+              "original_page": 13
+            },
+            "content": "Format:\n<empty>\nB: <empty>\nI: <empty>\nU: <empty>\nx2: <empty>\nx2: <empty>\nIx: <empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\nWords: 0",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9822452068328857
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7277310924369748,
+              "page": 13,
+              "top": 0.8533254156769596,
+              "width": 0.17142857142857143,
+              "original_page": 13
+            },
+            "content": "Maximum marks: 20",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7264071822166442
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.9243697478991597,
+              "page": 13,
+              "top": 0.9709026128266033,
+              "width": 0.04201680672268908,
+              "original_page": 13
+            },
+            "content": "13/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8980522990226746
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 14,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 14
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9209805518388748
+            },
+            "image_url": null
+          }
+        ],
+        "content": "\nii) Does this security trade at a premium, at a discount or at par?\n\niii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.## Fill in your answer here\n\nFormat | B I U x^b x^2 | I_x | copy | undo | redo | format paint | Σ | |\nWords: 0\n\nMaximum marks: 10\n\n12/15\n\nTIØ4145 2023 Høst\n\n## 16 Question 4.1 (20%)\n\nFabulosa Pizza is active in the fast food business. It currently has a book value of $80 million, with equal proportions on debt and equity. The firm has 10 million shares outstanding, which currently sell for $6 per share. The outstanding debt of Fabulosa is frequently renegotiated and adapted to the market conditions, so that capital structure remains constant. The firm has a tax rate of 40%. The risk-free rate is equal to 6%. The return on the market portfolio is 14%. Fabulosa wants to expand its business into offshore salmon farming. This will require an investment of $750 million and is expected to produce a perpetual yearly cashflow of $100 million. The company wants to finance the investment with 25% debt, for which the bank made an offer at 8% interest. At present, there is only one firm active in offshore salmon farming business, OffSea AS. OffSea As is financed with equal parts of debt and equity, its debt has a 9% interest rate and its equity has a beta of 1.4. Fabulosa will keep debt at 25% of the project value.\n\ni) Should Fabulosa Pizza accept the project or not? Use calculations to support your answer.\n\nii) What effect will the decision under a) have on Fabulosa’s stock price? Explain why (no calculations are required)\n\n## Fill in your answer here\n\nFormat:\n<empty>\nB: <empty>\nI: <empty>\nU: <empty>\nx2: <empty>\nx2: <empty>\nIx: <empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\nWords: 0\n\nMaximum marks: 20\n\n13/15\n\nTIØ4145 2023 Høst## 17 Question 4.2 (10%)\n\nAssume now that Fabulosa owners care about environment and want to incorporate environmental value in their analysis. They estimated that the offshore salmon farming facility",
+        "embed": "\nii) Does this security trade at a premium, at a discount or at par?\n\niii) Illustrate in a graph the effect of the passage of time on bond price for this bond assuming that the yield remains constant.## Fill in your answer here\n\nFormat | B I U x^b x^2 | I_x | copy | undo | redo | format paint | Σ | |\nWords: 0\n\nMaximum marks: 10\n\n12/15\n\nTIØ4145 2023 Høst\n\n## 16 Question 4.1 (20%)\n\nFabulosa Pizza is active in the fast food business. It currently has a book value of $80 million, with equal proportions on debt and equity. The firm has 10 million shares outstanding, which currently sell for $6 per share. The outstanding debt of Fabulosa is frequently renegotiated and adapted to the market conditions, so that capital structure remains constant. The firm has a tax rate of 40%. The risk-free rate is equal to 6%. The return on the market portfolio is 14%. Fabulosa wants to expand its business into offshore salmon farming. This will require an investment of $750 million and is expected to produce a perpetual yearly cashflow of $100 million. The company wants to finance the investment with 25% debt, for which the bank made an offer at 8% interest. At present, there is only one firm active in offshore salmon farming business, OffSea AS. OffSea As is financed with equal parts of debt and equity, its debt has a 9% interest rate and its equity has a beta of 1.4. Fabulosa will keep debt at 25% of the project value.\n\ni) Should Fabulosa Pizza accept the project or not? Use calculations to support your answer.\n\nii) What effect will the decision under a) have on Fabulosa’s stock price? Explain why (no calculations are required)\n\n## Fill in your answer here\n\nFormat:\n<empty>\nB: <empty>\nI: <empty>\nU: <empty>\nx2: <empty>\nx2: <empty>\nIx: <empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\nWords: 0\n\nMaximum marks: 20\n\n13/15\n\nTIØ4145 2023 Høst## 17 Question 4.2 (10%)\n\nAssume now that Fabulosa owners care about environment and want to incorporate environmental value in their analysis. They estimated that the offshore salmon farming facility",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.06470588235294118,
+              "page": 14,
+              "top": 0.04275534441805225,
+              "width": 0.28319327731092436,
+              "original_page": 14
+            },
+            "content": "17 Question 4.2 (10%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8433497697114944
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.062351543942992874,
+              "left": 0.10336134453781512,
+              "page": 14,
+              "top": 0.08729216152019002,
+              "width": 0.7924369747899159,
+              "original_page": 14
+            },
+            "content": "Assume now that Fabulosa owners care about environment and want to incorporate environmental value in their analysis. They estimated that the offshore salmon farming facility will generate carbon emissions that amount to 30 000 tons of CO2 equivalent per year in perpetuity. Fabulosa assumes shadow carbon price of $200 per 1 ton of CO2 equivalent.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9356515645980835
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04631828978622328,
+              "left": 0.10336134453781512,
+              "page": 14,
+              "top": 0.17280285035629453,
+              "width": 0.7873949579831933,
+              "original_page": 14
+            },
+            "content": "i) Make your own reasonable assumption regarding the discount rate Fabulosa should use when calculating environmental value. Comment whether it should be the same, smaller or larger than the discount rate used in Question 4.1.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8536741644144058
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10336134453781512,
+              "page": 14,
+              "top": 0.22327790973871733,
+              "width": 0.38487394957983195,
+              "original_page": 14
+            },
+            "content": "ii) Should Fabulosa undertake the project then?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6691934287548065
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08216082285249035,
+              "left": 0.10404550888959099,
+              "page": 14,
+              "top": 0.24487119842311833,
+              "width": 0.7954721595058922,
+              "original_page": 14
+            },
+            "content": "Fill in your answer here:\n<empty>\nFormat:\nB:\nI:\nU:\nX₂:\nX²:\nTx:\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\nΣ:\nX:\n---",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8165390253067016
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.3685968901935496,
+              "left": 0.10334372640657825,
+              "page": 14,
+              "top": 0.327498556032883,
+              "width": 0.7960246879513524,
+              "original_page": 14
+            },
+            "content": "Words: 0",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7803024053573608
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7277310924369748,
+              "page": 14,
+              "top": 0.7381235154394299,
+              "width": 0.17142857142857143,
+              "original_page": 14
+            },
+            "content": "Maximum marks: 10",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8362950921058654
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9243697478991597,
+              "page": 14,
+              "top": 0.9709026128266033,
+              "width": 0.04285714285714286,
+              "original_page": 14
+            },
+            "content": "14/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8873980939388275
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.8142857142857143,
+              "page": 15,
+              "top": 0.021377672209026127,
+              "width": 0.15546218487394958,
+              "original_page": 15
+            },
+            "content": "TIØ4145 2023 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8801491469144821
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019596199524940617,
+              "left": 0.06554621848739496,
+              "page": 15,
+              "top": 0.04928741092636579,
+              "width": 0.2672268907563025,
+              "original_page": 15
+            },
+            "content": "18 Question 4.3 (5%)",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9024150341749191
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.027315914489311165,
+              "left": 0.10336134453781512,
+              "page": 15,
+              "top": 0.08907363420427554,
+              "width": 0.753781512605042,
+              "original_page": 15
+            },
+            "content": "Name two reasons why sustainability considerations are traditionally excluded from financial analysis.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9336953788995743
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011876484560570071,
+              "left": 0.10420168067226891,
+              "page": 15,
+              "top": 0.12410926365795724,
+              "width": 0.20504201680672268,
+              "original_page": 15
+            },
+            "content": "Fill in your answer here",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6894322514533997
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.4405493928814161,
+              "left": 0.1033049831871225,
+              "page": 15,
+              "top": 0.13637864391480942,
+              "width": 0.7972156107926569,
+              "original_page": 15
+            },
+            "content": "Format:\n<empty>\n<empty> | [x] B | [x] I | [x] U | [x] x2 | [x] x2 | [x] Ix | [x] | [x] | [x] | [x] | [x] | [x] | [x]\n$\\Sigma$ | [x]\nWords: 0",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9549543619155884
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.7378151260504202,
+              "page": 15,
+              "top": 0.6205463182897862,
+              "width": 0.16218487394957984,
+              "original_page": 15
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7948795884847641
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9235294117647059,
+              "page": 15,
+              "top": 0.9709026128266033,
+              "width": 0.04201680672268908,
+              "original_page": 15
+            },
+            "content": "15/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9106720358133316
+            },
+            "image_url": null
+          }
+        ],
+        "content": " <empty>\nI: <empty>\nU: <empty>\nx2: <empty>\nx2: <empty>\nIx: <empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\nWords: 0\n\nMaximum marks: 20\n\n13/15\n\nTIØ4145 2023 Høst## 17 Question 4.2 (10%)\n\nAssume now that Fabulosa owners care about environment and want to incorporate environmental value in their analysis. They estimated that the offshore salmon farming facility will generate carbon emissions that amount to 30 000 tons of CO2 equivalent per year in perpetuity. Fabulosa assumes shadow carbon price of $200 per 1 ton of CO2 equivalent.\n\ni) Make your own reasonable assumption regarding the discount rate Fabulosa should use when calculating environmental value. Comment whether it should be the same, smaller or larger than the discount rate used in Question 4.1.\n\nii) Should Fabulosa undertake the project then?\n\nFill in your answer here:\n<empty>\nFormat:\nB:\nI:\nU:\nX₂:\nX²:\nTx:\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\nΣ:\nX:\n---\n\nWords: 0\n\nMaximum marks: 10\n\n14/15\n\nTIØ4145 2023 Høst\n\n## 18 Question 4.3 (5%)\n\nName two reasons why sustainability considerations are traditionally excluded from financial analysis.\n\n## Fill in your answer here\n\nFormat:\n<empty>\n<empty> | [x] B | [x] I | [x] U | [x] x2 | [x] x2 | [x] Ix | [x] | [x] | [x] | [x] | [x] | [x] | [x]\n$\\Sigma$ | [x]\nWords: 0\n\nMaximum marks: 5\n\n15/15",
+        "embed": " <empty>\nI: <empty>\nU: <empty>\nx2: <empty>\nx2: <empty>\nIx: <empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\nWords: 0\n\nMaximum marks: 20\n\n13/15\n\nTIØ4145 2023 Høst## 17 Question 4.2 (10%)\n\nAssume now that Fabulosa owners care about environment and want to incorporate environmental value in their analysis. They estimated that the offshore salmon farming facility will generate carbon emissions that amount to 30 000 tons of CO2 equivalent per year in perpetuity. Fabulosa assumes shadow carbon price of $200 per 1 ton of CO2 equivalent.\n\ni) Make your own reasonable assumption regarding the discount rate Fabulosa should use when calculating environmental value. Comment whether it should be the same, smaller or larger than the discount rate used in Question 4.1.\n\nii) Should Fabulosa undertake the project then?\n\nFill in your answer here:\n<empty>\nFormat:\nB:\nI:\nU:\nX₂:\nX²:\nTx:\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\n<empty>\nΣ:\nX:\n---\n\nWords: 0\n\nMaximum marks: 10\n\n14/15\n\nTIØ4145 2023 Høst\n\n## 18 Question 4.3 (5%)\n\nName two reasons why sustainability considerations are traditionally excluded from financial analysis.\n\n## Fill in your answer here\n\nFormat:\n<empty>\n<empty> | [x] B | [x] I | [x] U | [x] x2 | [x] x2 | [x] Ix | [x] | [x] | [x] | [x] | [x] | [x] | [x]\n$\\Sigma$ | [x]\nWords: 0\n\nMaximum marks: 5\n\n15/15",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 15,
+    "credit_breakdown": {
+      "page": 15.0,
+      "complex": 12.0
+    },
+    "credits": 27.0,
+    "page_billing_breakdown": {
+      "1": [
+        "page"
+      ],
+      "2": [
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "complex",
+        "page"
+      ],
+      "8": [
+        "complex",
+        "page"
+      ],
+      "9": [
+        "complex",
+        "page"
+      ],
+      "10": [
+        "complex",
+        "page"
+      ],
+      "11": [
+        "complex",
+        "page"
+      ],
+      "12": [
+        "complex",
+        "page"
+      ],
+      "13": [
+        "complex",
+        "page"
+      ],
+      "14": [
+        "complex",
+        "page"
+      ],
+      "15": [
+        "complex",
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/4418d8bd-0af3-4efa-a7eb-056c5694c0ae.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180951Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=2222d5b38c2ca508300048960a2c1479519e2ef2a66dbc7e3403e7bc43e6c62e",
+  "studio_link": "https://studio.reducto.ai/job/d818732c-25f2-49de-99fa-5ee92e8b52e9",
+  "response_type": "parse",
+  "parse_mode": null
+}

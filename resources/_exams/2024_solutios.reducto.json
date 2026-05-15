@@ -1,0 +1,2671 @@
+{
+  "duration": 12.788455486297607,
+  "job_id": "dcc38fcd-d7e2-47a4-8b98-abee7eadcaf0",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.08847980997624703,
+              "width": 0.10663308144416457,
+              "original_page": 1
+            },
+            "content": "Question 2.1",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9204257518053055
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.14693534844668346,
+              "page": 1,
+              "top": 0.12054631828978622,
+              "width": 0.4147774979009236,
+              "original_page": 1
+            },
+            "content": "i) The risk-neutral probability, p, is calculated as:",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6911774963140487
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.1200671704450042,
+              "page": 1,
+              "top": 0.1543942992874109,
+              "width": 0.5088161209068011,
+              "original_page": 1
+            },
+            "content": "p = (1+r-d)/(u - d)=(1.05 - 0.90) / (1.15 - 0.90) = 0.15 / 0.25 = 0.60",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7807398408651351
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.18586698337292162,
+              "width": 0.4282115869017632,
+              "original_page": 1
+            },
+            "content": "Construct the Binomial Tree for Stock Prices Over 2 Years",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9039992928504944
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.2179334916864608,
+              "width": 0.23845507976490343,
+              "original_page": 1
+            },
+            "content": "The resulting stock price tree is:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9416639775037765
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.15320665083135393,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.251187648456057,
+              "width": 0.23089840470193115,
+              "original_page": 1
+            },
+            "content": "| Year    | Path      | Stock Price   |\n|-|-|-|\n| 0       | Initial   | 100           |\n| 1       | Up        | 115           |\n| 1       | Down      | 90            |\n| 2       | Up-Up     | 132.25        |\n| 2       | Up-Down   | 103.5         |\n| 2       | Down-Up   | 103.5         |\n| 2       | Down-Down | 81            |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8879805773496627
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.4251781472684085,
+              "width": 0.7170445004198153,
+              "original_page": 1
+            },
+            "content": "The payoff for a European put option at maturity is max(K - S, 0). So, the payoffs at maturity are",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8746251881122589
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09501187648456057,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.4578384798099763,
+              "width": 0.2779177162048699,
+              "original_page": 1
+            },
+            "content": "| Path      | Stock Price   | Put Payoff   |\n|-|-|-|\n| Up-Up     | 132.25        | 0            |\n| Up-Down   | 103.5         | 0            |\n| Down-Up   | 103.5         | 0            |\n| Down-Down | 81            | 19           |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.869810837507248
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5736342042755345,
+              "width": 0.6826196473551638,
+              "original_page": 1
+            },
+            "content": "Thus the value of the put options is ((1 - p) (1 - p) x 19)/ (1+rf)^2=0.4 0.4 19/1.1025=2.757",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9251281082630157
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09263657957244656,
+              "left": 0.14693534844668346,
+              "page": 1,
+              "top": 0.6146080760095012,
+              "width": 0.7346767422334173,
+              "original_page": 1
+            },
+            "content": "i) One possibility is to go long in a Straddle. A straddle is the combination of a long position in a put and a call with the same strike price and expiration date. The profit of a long position in a straddle is positive when the stock price is far away from the strike price. If you expect the stock to end up near the strike price you could choose to sell a straddle. Another strategy could be to go long in a butterfly spread. This combination of two long call and two short call options pays off when the stock price is close to the strike price.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9573732644319535
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.744061757719715,
+              "width": 0.09655751469353484,
+              "original_page": 1
+            },
+            "content": "Question 2.2",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8991181135177613
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7755344418052257,
+              "width": 0.056255247691015954,
+              "original_page": 1
+            },
+            "content": "i) NPV",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7221271246671677
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.8093824228028503,
+              "width": 0.24937027707808565,
+              "original_page": 1
+            },
+            "content": "NPV = 300 - 250 = 50 million NOK",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9136112034320831
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.8420427553444181,
+              "width": 0.24433249370277077,
+              "original_page": 1
+            },
+            "content": "Decision Based on the NPV Rule:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6820058614015578
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.8580760095011877,
+              "width": 0.7321578505457599,
+              "original_page": 1
+            },
+            "content": "The project has a positive NPV of 50 million NOK, indicating that it is profitable. Based on the NPV rule, you should proceed with the project.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7837659120559692
+            },
+            "image_url": null
+          }
+        ],
+        "content": "## Question 2.1\n\ni) The risk-neutral probability, p, is calculated as:\n\np = (1+r-d)/(u - d)=(1.05 - 0.90) / (1.15 - 0.90) = 0.15 / 0.25 = 0.60\n\nConstruct the Binomial Tree for Stock Prices Over 2 Years\n\nThe resulting stock price tree is:\n\n| Year    | Path      | Stock Price   |\n|-|-|-|\n| 0       | Initial   | 100           |\n| 1       | Up        | 115           |\n| 1       | Down      | 90            |\n| 2       | Up-Up     | 132.25        |\n| 2       | Up-Down   | 103.5         |\n| 2       | Down-Up   | 103.5         |\n| 2       | Down-Down | 81            |\n\nThe payoff for a European put option at maturity is max(K - S, 0). So, the payoffs at maturity are\n\n| Path      | Stock Price   | Put Payoff   |\n|-|-|-|\n| Up-Up     | 132.25        | 0            |\n| Up-Down   | 103.5         | 0            |\n| Down-Up   | 103.5         | 0            |\n| Down-Down | 81            | 19           |\n\nThus the value of the put options is ((1 - p) (1 - p) x 19)/ (1+rf)^2=0.4 0.4 19/1.1025=2.757\n\ni) One possibility is to go long in a Straddle. A straddle is the combination of a long position in a put and a call with the same strike price and expiration date. The profit of a long position in a straddle is positive when the stock price is far away from the strike price. If you expect the stock to end up near the strike price you could choose to sell a straddle. Another strategy could be to go long in a butterfly spread. This combination of two long call and two short call options pays off when the stock price is close to the strike price.\n\n## Question 2.2\n\ni) NPV\n\nNPV = 300 - 250 = 50 million NOK\n\n## Decision Based on the NPV Rule:\n\nThe project has a positive NPV of 50 million NOK, indicating that it is profitable. Based on the NPV rule, you should proceed with the project.## ii) Value of the Project as an Option Using the Black-Scholes Model\n\nThe project is interpreted as a European-style call option. The parameters are:\n\n• S = 300 million NOK (value of cash inflows).\n",
+        "embed": "## Question 2.1\n\ni) The risk-neutral probability, p, is calculated as:\n\np = (1+r-d)/(u - d)=(1.05 - 0.90) / (1.15 - 0.90) = 0.15 / 0.25 = 0.60\n\nConstruct the Binomial Tree for Stock Prices Over 2 Years\n\nThe resulting stock price tree is:\n\nThis table illustrates the potential stock price movements over two years from an initial price of 100. In year one, the stock could either increase to 115 or decrease to 90. By year two, the possible prices further diversify based on the sequence of movements, with prices ranging from 81 (Down-Down) to 132.25 (Up-Up).\n\nThe payoff for a European put option at maturity is max(K - S, 0). So, the payoffs at maturity are\n\nThis table shows potential stock prices and the corresponding put option payoffs under four different scenarios. In three of the scenarios (Up-Up, Up-Down, Down-Up), the stock price remains above the strike price, resulting in a put payoff of zero. However, in the Down-Down scenario, the stock price falls significantly below the strike price, leading to a put payoff of 19.\n\nThus the value of the put options is ((1 - p) (1 - p) x 19)/ (1+rf)^2=0.4 0.4 19/1.1025=2.757\n\ni) One possibility is to go long in a Straddle. A straddle is the combination of a long position in a put and a call with the same strike price and expiration date. The profit of a long position in a straddle is positive when the stock price is far away from the strike price. If you expect the stock to end up near the strike price you could choose to sell a straddle. Another strategy could be to go long in a butterfly spread. This combination of two long call and two short call options pays off when the stock price is close to the strike price.\n\n## Question 2.2\n\ni) NPV\n\nNPV = 300 - 250 = 50 million NOK\n\n## Decision Based on the NPV Rule:\n\nThe project has a positive NPV of 50 million NOK, indicating that it is profitable. Based on the NPV rule, you should proceed with the project.## ii) Value of the Project as an Option Using the Black-Scholes Model\n\nThe project is interpreted as a European-style call option. The parameters are:\n\n• S = 300 million NOK (value of cash inflows).\n",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.08610451306413301,
+              "width": 0.5113350125944585,
+              "original_page": 2
+            },
+            "content": "ii) Value of the Project as an Option Using the Black-Scholes Model",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9474888741970062
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.1187648456057007,
+              "width": 0.5869017632241813,
+              "original_page": 2
+            },
+            "content": "The project is interpreted as a European-style call option. The parameters are:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9574609786272049
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.1496437054631829,
+              "width": 0.35768261964735515,
+              "original_page": 2
+            },
+            "content": "• S = 300 million NOK (value of cash inflows).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9535881489515304
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.1656769596199525,
+              "width": 0.3064651553316541,
+              "original_page": 2
+            },
+            "content": "• K = 250 million NOK (exercise price).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9504760384559632
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.18111638954869358,
+              "width": 0.27120067170445006,
+              "original_page": 2
+            },
+            "content": "• T = 3 years (time to expiration).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9516300767660141
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.19714964370546317,
+              "width": 0.3518052057094878,
+              "original_page": 2
+            },
+            "content": "• σ = 15% or 0.15 (volatility of cash inflows).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9525805205106735
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.21318289786223277,
+              "width": 0.25692695214105793,
+              "original_page": 2
+            },
+            "content": "• r = 5% or 0.05 (risk-free rate).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9467499673366546
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.24821852731591448,
+              "width": 0.2225020990764064,
+              "original_page": 2
+            },
+            "content": "To calculate the option value:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.956584495306015
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.28028503562945367,
+              "width": 0.672544080604534,
+              "original_page": 2
+            },
+            "content": "1. The discounted exercise price is K × 1 / (1 + r)^T = 250 × 0.8638 = 215.95 million NOK.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9521140933036805
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.29631828978622327,
+              "width": 0.5969773299748111,
+              "original_page": 2
+            },
+            "content": "2. The log term is ln(S / K_discounted) = ln(300 / 215.95) = ln(1.388) ≈ 0.3286.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9466939449310303
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.14777497900923595,
+              "page": 2,
+              "top": 0.31235154394299286,
+              "width": 0.3979848866498741,
+              "original_page": 2
+            },
+            "content": "3. The volatility term is σ × √T = 0.15 × √3 ≈ 0.2598.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9435786575078964
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.14777497900923595,
+              "page": 2,
+              "top": 0.32957244655581946,
+              "width": 0.6935348446683459,
+              "original_page": 2
+            },
+            "content": "4. d1 = (In(S/K_discounted) + o^2 × T/2)/(σ × VT) = (0.3286 + 0.03375)/0.2598 = 1.393.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6907013062387705
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.34441805225653205,
+              "width": 0.34005037783375314,
+              "original_page": 2
+            },
+            "content": "5. d2 = d1 - σ × √T = 1.393 - 0.2598 ≈ 1.133.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9434197336435318
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.37826603325415675,
+              "width": 0.3811922753988245,
+              "original_page": 2
+            },
+            "content": "Using cumulative normal distribution probabilities:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9427247822284699
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.41033254156769594,
+              "width": 0.1376994122586062,
+              "original_page": 2
+            },
+            "content": "• N(d1) 0.918",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.763311544060707
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.14777497900923595,
+              "page": 2,
+              "top": 0.42695961995249404,
+              "width": 0.1376994122586062,
+              "original_page": 2
+            },
+            "content": "- N(d2) = 0.872",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7272933289408684
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.4578384798099763,
+              "width": 0.707808564231738,
+              "original_page": 2
+            },
+            "content": "The option value is C = S × N(d1) - K_discounted × N(d2) = 300 × 0.918 - 215.95 × 0.872 ≈ 87.26 million NOK.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9720237046480179
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.5403800475059383,
+              "width": 0.3232577665827036,
+              "original_page": 2
+            },
+            "content": "iii) Comparison of Results and Explanation",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9328432381153107
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.5730403800475059,
+              "width": 0.7229219143576826,
+              "original_page": 2
+            },
+            "content": "The value of the project as an option (87.26 million NOK) is higher than its NPV (50 million NOK).",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9537680327892304
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.6057007125890737,
+              "width": 0.20235096557514692,
+              "original_page": 2
+            },
+            "content": "Reason for the Difference:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9313982009887696
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.060570071258907364,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.6217339667458432,
+              "width": 0.7489504617968094,
+              "original_page": 2
+            },
+            "content": "The Black-Scholes option pricing model accounts for the flexibility to wait before committing to the project. In this case, the 3-year government permit gives the company the ability to delay the investment until market conditions are more favorable. The NPV method does not capture this flexibility, while the option value reflects the additional value of this strategic choice.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9844330936670304
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.7030878859857482,
+              "width": 0.09655751469353484,
+              "original_page": 2
+            },
+            "content": "Question 3.1",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9162338495254516
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.7345605700712589,
+              "width": 0.23929471032745592,
+              "original_page": 2
+            },
+            "content": "EcoNor's current stock price:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8428416162729263
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.20906801007556675,
+              "page": 2,
+              "top": 0.7690023752969121,
+              "width": 0.38371116708648195,
+              "original_page": 2
+            },
+            "content": "- o Total market value of assets = $600 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.715172828733921
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.20906801007556675,
+              "page": 2,
+              "top": 0.7862232779097387,
+              "width": 0.23845507976490343,
+              "original_page": 2
+            },
+            "content": "- o Total debt = $250 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7590175345540047
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.20906801007556675,
+              "page": 2,
+              "top": 0.8034441805225653,
+              "width": 0.5373635600335852,
+              "original_page": 2
+            },
+            "content": "- o Total equity value = $600 million - $250 million = $350 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7844692885875701
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.20906801007556675,
+              "page": 2,
+              "top": 0.8206650831353919,
+              "width": 0.28127623845507976,
+              "original_page": 2
+            },
+            "content": "- o Shares outstanding = 7 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.743442539870739
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.17884130982367757,
+              "page": 2,
+              "top": 0.8551068883610451,
+              "width": 0.49538203190596136,
+              "original_page": 2
+            },
+            "content": "Current stock price = Total equity value / Shares outstanding",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8018234133720398
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.17884130982367757,
+              "page": 2,
+              "top": 0.8723277909738717,
+              "width": 0.3350125944584383,
+              "original_page": 2
+            },
+            "content": "= $350 million / 7 million = $50 per share",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.729704213142395
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.08669833729216152,
+              "width": 0.3694374475230898,
+              "original_page": 3
+            },
+            "content": "EcoNor's current stock price is $50 per share.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9507403433322906
+            },
+            "image_url": null
+          }
+        ],
+        "content": "50 = 50 million NOK\n\n## Decision Based on the NPV Rule:\n\nThe project has a positive NPV of 50 million NOK, indicating that it is profitable. Based on the NPV rule, you should proceed with the project.## ii) Value of the Project as an Option Using the Black-Scholes Model\n\nThe project is interpreted as a European-style call option. The parameters are:\n\n• S = 300 million NOK (value of cash inflows).\n\n• K = 250 million NOK (exercise price).\n\n• T = 3 years (time to expiration).\n\n• σ = 15% or 0.15 (volatility of cash inflows).\n\n• r = 5% or 0.05 (risk-free rate).\n\nTo calculate the option value:\n\n1. The discounted exercise price is K × 1 / (1 + r)^T = 250 × 0.8638 = 215.95 million NOK.\n\n2. The log term is ln(S / K_discounted) = ln(300 / 215.95) = ln(1.388) ≈ 0.3286.\n\n3. The volatility term is σ × √T = 0.15 × √3 ≈ 0.2598.\n\n4. d1 = (In(S/K_discounted) + o^2 × T/2)/(σ × VT) = (0.3286 + 0.03375)/0.2598 = 1.393.\n\n5. d2 = d1 - σ × √T = 1.393 - 0.2598 ≈ 1.133.\n\nUsing cumulative normal distribution probabilities:\n\n• N(d1) 0.918\n\n- N(d2) = 0.872\n\nThe option value is C = S × N(d1) - K_discounted × N(d2) = 300 × 0.918 - 215.95 × 0.872 ≈ 87.26 million NOK.\n\n## iii) Comparison of Results and Explanation\n\nThe value of the project as an option (87.26 million NOK) is higher than its NPV (50 million NOK).\n\n## Reason for the Difference:\n\nThe Black-Scholes option pricing model accounts for the flexibility to wait before committing to the project. In this case, the 3-year government permit gives the company the ability to delay the investment until market conditions are more favorable. The NPV method does not capture this flexibility, while the option value reflects the additional value of this strategic choice.\n\n## Question 3.1\n\n## EcoNor's current stock price:\n\n- o Total market value of assets = $600 million [ ]\n\n- o Total debt = $250 million [ ]\n\n- o Total equity value = $600 million - $250 million = $350 million [ ]\n\n- o Shares outstanding = 7 million [ ]\n\nCurrent stock price = Total equity value / Shares outstanding\n\n= $350 million / 7 million = $50 per share\n\nEcoNor's current stock price is $50 per share.## Stock price after the share repurchase:\n\n- o Cash distributed = $70 million [ ]\n\n- o New total market value of assets = $600 million - $70 million = $530 million [ ]\n\n- o New equity value after rep",
+        "embed": "50 = 50 million NOK\n\n## Decision Based on the NPV Rule:\n\nThe project has a positive NPV of 50 million NOK, indicating that it is profitable. Based on the NPV rule, you should proceed with the project.## ii) Value of the Project as an Option Using the Black-Scholes Model\n\nThe project is interpreted as a European-style call option. The parameters are:\n\n• S = 300 million NOK (value of cash inflows).\n\n• K = 250 million NOK (exercise price).\n\n• T = 3 years (time to expiration).\n\n• σ = 15% or 0.15 (volatility of cash inflows).\n\n• r = 5% or 0.05 (risk-free rate).\n\nTo calculate the option value:\n\n1. The discounted exercise price is K × 1 / (1 + r)^T = 250 × 0.8638 = 215.95 million NOK.\n\n2. The log term is ln(S / K_discounted) = ln(300 / 215.95) = ln(1.388) ≈ 0.3286.\n\n3. The volatility term is σ × √T = 0.15 × √3 ≈ 0.2598.\n\n4. d1 = (In(S/K_discounted) + o^2 × T/2)/(σ × VT) = (0.3286 + 0.03375)/0.2598 = 1.393.\n\n5. d2 = d1 - σ × √T = 1.393 - 0.2598 ≈ 1.133.\n\nUsing cumulative normal distribution probabilities:\n\n• N(d1) 0.918\n\n- N(d2) = 0.872\n\nThe option value is C = S × N(d1) - K_discounted × N(d2) = 300 × 0.918 - 215.95 × 0.872 ≈ 87.26 million NOK.\n\n## iii) Comparison of Results and Explanation\n\nThe value of the project as an option (87.26 million NOK) is higher than its NPV (50 million NOK).\n\n## Reason for the Difference:\n\nThe Black-Scholes option pricing model accounts for the flexibility to wait before committing to the project. In this case, the 3-year government permit gives the company the ability to delay the investment until market conditions are more favorable. The NPV method does not capture this flexibility, while the option value reflects the additional value of this strategic choice.\n\n## Question 3.1\n\n## EcoNor's current stock price:\n\n- o Total market value of assets = $600 million [ ]\n\n- o Total debt = $250 million [ ]\n\n- o Total equity value = $600 million - $250 million = $350 million [ ]\n\n- o Shares outstanding = 7 million [ ]\n\nCurrent stock price = Total equity value / Shares outstanding\n\n= $350 million / 7 million = $50 per share\n\nEcoNor's current stock price is $50 per share.## Stock price after the share repurchase:\n\n- o Cash distributed = $70 million [ ]\n\n- o New total market value of assets = $600 million - $70 million = $530 million [ ]\n\n- o New equity value after rep",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.12054631828978622,
+              "width": 0.3232577665827036,
+              "original_page": 3
+            },
+            "content": "Stock price after the share repurchase:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8932645320892334
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.1543942992874109,
+              "width": 0.2787573467674223,
+              "original_page": 3
+            },
+            "content": "- o Cash distributed = $70 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8459321230649948
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.17220902612826602,
+              "width": 0.6515533165407221,
+              "original_page": 3
+            },
+            "content": "- o New total market value of assets = $600 million - $70 million = $530 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8344247847795486
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.18942992874109263,
+              "width": 0.6759026028547439,
+              "original_page": 3
+            },
+            "content": "- o New equity value after repurchase = $530 million - $250 million = $280 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8171093821525575
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.20665083135391923,
+              "width": 0.5146935348446684,
+              "original_page": 3
+            },
+            "content": "- o Shares remaining (before calculating reduction) = 7 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8545327335596085
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.24109263657957244,
+              "width": 0.4508816120906801,
+              "original_page": 3
+            },
+            "content": "New stock price = New equity value / Shares remaining = $280 million / 7 million = $50 per share",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.874478080868721
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.29275534441805223,
+              "width": 0.5659109991603695,
+              "original_page": 3
+            },
+            "content": "EcoNor’s stock price after the repurchase will remain $50 per share.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9043640196323395
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.32660332541567694,
+              "width": 0.434928631402183,
+              "original_page": 3
+            },
+            "content": "Number of shares outstanding after the repurchase:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9090201944112778
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.36045130641330164,
+              "width": 0.3526448362720403,
+              "original_page": 3
+            },
+            "content": "- o Cash used for repurchase = $70 million [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7714895308017731
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.37767220902612825,
+              "width": 0.30982367758186397,
+              "original_page": 3
+            },
+            "content": "- o Repurchase price per share = $50 [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7694117799401283
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.39489311163895485,
+              "width": 0.6095717884130982,
+              "original_page": 3
+            },
+            "content": "- o Number of shares repurchased = $70 million / $50 = 1.4 million shares [ ]",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8242534130811692
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.42933491686460806,
+              "width": 0.6515533165407221,
+              "original_page": 3
+            },
+            "content": "Shares outstanding after repurchase = 7 million - 1.4 million = 5.6 million shares",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9568000227212906
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.46318289786223277,
+              "width": 0.6070528967254408,
+              "original_page": 3
+            },
+            "content": "The number of shares outstanding after the repurchase will be 5.6 million.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9613535672426223
+            },
+            "image_url": null
+          }
+        ],
+        "content": "n [ ]\n\n- o Shares outstanding = 7 million [ ]\n\nCurrent stock price = Total equity value / Shares outstanding\n\n= $350 million / 7 million = $50 per share\n\nEcoNor's current stock price is $50 per share.## Stock price after the share repurchase:\n\n- o Cash distributed = $70 million [ ]\n\n- o New total market value of assets = $600 million - $70 million = $530 million [ ]\n\n- o New equity value after repurchase = $530 million - $250 million = $280 million [ ]\n\n- o Shares remaining (before calculating reduction) = 7 million [ ]\n\nNew stock price = New equity value / Shares remaining = $280 million / 7 million = $50 per share\n\nEcoNor’s stock price after the repurchase will remain $50 per share.\n\n## Number of shares outstanding after the repurchase:\n\n- o Cash used for repurchase = $70 million [ ]\n\n- o Repurchase price per share = $50 [ ]\n\n- o Number of shares repurchased = $70 million / $50 = 1.4 million shares [ ]\n\nShares outstanding after repurchase = 7 million - 1.4 million = 5.6 million shares\n\nThe number of shares outstanding after the repurchase will be 5.6 million.## Quesiton 3.2\n\n• On the ex-dividend date, what should happen to EcoNor’s share price, and why?\n\n\t- o Since EcoNor is distributing $70 million as a dividend, the company’s market [ ]\nvalue will decre",
+        "embed": "n [ ]\n\n- o Shares outstanding = 7 million [ ]\n\nCurrent stock price = Total equity value / Shares outstanding\n\n= $350 million / 7 million = $50 per share\n\nEcoNor's current stock price is $50 per share.## Stock price after the share repurchase:\n\n- o Cash distributed = $70 million [ ]\n\n- o New total market value of assets = $600 million - $70 million = $530 million [ ]\n\n- o New equity value after repurchase = $530 million - $250 million = $280 million [ ]\n\n- o Shares remaining (before calculating reduction) = 7 million [ ]\n\nNew stock price = New equity value / Shares remaining = $280 million / 7 million = $50 per share\n\nEcoNor’s stock price after the repurchase will remain $50 per share.\n\n## Number of shares outstanding after the repurchase:\n\n- o Cash used for repurchase = $70 million [ ]\n\n- o Repurchase price per share = $50 [ ]\n\n- o Number of shares repurchased = $70 million / $50 = 1.4 million shares [ ]\n\nShares outstanding after repurchase = 7 million - 1.4 million = 5.6 million shares\n\nThe number of shares outstanding after the repurchase will be 5.6 million.## Quesiton 3.2\n\n• On the ex-dividend date, what should happen to EcoNor’s share price, and why?\n\n\t- o Since EcoNor is distributing $70 million as a dividend, the company’s market [ ]\nvalue will decre",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.11922753988245172,
+              "page": 3,
+              "top": 0.5302850356294537,
+              "width": 0.09655751469353484,
+              "original_page": 3
+            },
+            "content": "Quesiton 3.2",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9338548362255097
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.5611638954869359,
+              "width": 0.7061293031066331,
+              "original_page": 3
+            },
+            "content": "• On the ex-dividend date, what should happen to EcoNor’s share price, and why?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9513712346553802
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.580166270783848,
+              "width": 0.6591099916036943,
+              "original_page": 3
+            },
+            "content": "\t- o Since EcoNor is distributing $70 million as a dividend, the company’s market [ ]\nvalue will decrease by the amount of the dividend payout. With 7 million\nshares outstanding, the dividend per share is calculated as follows:",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9741565162413999
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.23929471032745592,
+              "page": 3,
+              "top": 0.6490498812351544,
+              "width": 0.4643157010915197,
+              "original_page": 3
+            },
+            "content": "Dividend per share = Total dividend / Shares outstanding = $70 million / 7 million = $10 per share",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9602151423692703
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04928741092636579,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.7001187648456056,
+              "width": 0.6515533165407221,
+              "original_page": 3
+            },
+            "content": "- o On the ex-dividend date, EcoNor's share price should decrease by $10 per share to reflect this payout, as shareholders lose claim to the $10 per share dividend once the stock trades ex-dividend.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9857963442802429
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.7690023752969121,
+              "width": 0.6616288832913518,
+              "original_page": 3
+            },
+            "content": "Therefore, EcoNor’s share price should drop by $10 per share on the ex-dividend date.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9795949041843415
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.8194774346793349,
+              "width": 0.47691015952980687,
+              "original_page": 3
+            },
+            "content": "• How an investor could earn a profit in two scenarios:",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9367276906967164
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.20906801007556675,
+              "page": 3,
+              "top": 0.8378859857482185,
+              "width": 0.5558354324097398,
+              "original_page": 3
+            },
+            "content": "\t- o If the stock price changes by less than the amount found in (i):",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9580875694751739
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.23929471032745592,
+              "page": 3,
+              "top": 0.8717339667458432,
+              "width": 0.6255247691015953,
+              "original_page": 3
+            },
+            "content": "If EcoNor’s stock price decreases by less than $10 per share on the ex- dividend date, an investor could earn a profit by buying the stock just before",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.977054950594902
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.23929471032745592,
+              "page": 4,
+              "top": 0.08669833729216152,
+              "width": 0.6204869857262805,
+              "original_page": 4
+            },
+            "content": "it goes ex-dividend and selling it just after, as the dividend would more than cover the capital loss on the stock.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9691860109567643
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.20906801007556675,
+              "page": 4,
+              "top": 0.1377672209026128,
+              "width": 0.563392107472712,
+              "original_page": 4
+            },
+            "content": "o If the stock price changes by more than the amount found in (i):",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7668719410896301
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04928741092636579,
+              "left": 0.23929471032745592,
+              "page": 4,
+              "top": 0.17220902612826602,
+              "width": 0.6389588581024349,
+              "original_page": 4
+            },
+            "content": "If EcoNor’s stock price decreases by more than $10 per share, the stock would be priced lower than expected. An investor could earn a profit by selling the stock just before it goes ex-dividend and buying it just after.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.946254676580429
+            },
+            "image_url": null
+          }
+        ],
+        "content": "0 million / $50 = 1.4 million shares [ ]\n\nShares outstanding after repurchase = 7 million - 1.4 million = 5.6 million shares\n\nThe number of shares outstanding after the repurchase will be 5.6 million.## Quesiton 3.2\n\n• On the ex-dividend date, what should happen to EcoNor’s share price, and why?\n\n\t- o Since EcoNor is distributing $70 million as a dividend, the company’s market [ ]\nvalue will decrease by the amount of the dividend payout. With 7 million\nshares outstanding, the dividend per share is calculated as follows:\n\nDividend per share = Total dividend / Shares outstanding = $70 million / 7 million = $10 per share\n\n- o On the ex-dividend date, EcoNor's share price should decrease by $10 per share to reflect this payout, as shareholders lose claim to the $10 per share dividend once the stock trades ex-dividend.\n\nTherefore, EcoNor’s share price should drop by $10 per share on the ex-dividend date.\n\n• How an investor could earn a profit in two scenarios:\n\n\t- o If the stock price changes by less than the amount found in (i):\n\nIf EcoNor’s stock price decreases by less than $10 per share on the ex- dividend date, an investor could earn a profit by buying the stock just before\n\nit goes ex-dividend and selling it just after, as the dividend would more than cover the capital loss on the stock.\n\n## o If the stock price changes by more than the amount found in (i):\n\nIf EcoNor’s stock price decreases by more than $10 per share, the stock would be priced lower than expected. An investor could earn a profit by selling the stock just before it goes ex-dividend and buying it just after.## Question 3.3\n\nThe investor would be indifferent between dividends and share repurchases if they prioritize cash, as either method allows them to achieve the same total wealth.\n\nScenario 1: EcoNor D",
+        "embed": "0 million / $50 = 1.4 million shares [ ]\n\nShares outstanding after repurchase = 7 million - 1.4 million = 5.6 million shares\n\nThe number of shares outstanding after the repurchase will be 5.6 million.## Quesiton 3.2\n\n• On the ex-dividend date, what should happen to EcoNor’s share price, and why?\n\n\t- o Since EcoNor is distributing $70 million as a dividend, the company’s market [ ]\nvalue will decrease by the amount of the dividend payout. With 7 million\nshares outstanding, the dividend per share is calculated as follows:\n\nDividend per share = Total dividend / Shares outstanding = $70 million / 7 million = $10 per share\n\n- o On the ex-dividend date, EcoNor's share price should decrease by $10 per share to reflect this payout, as shareholders lose claim to the $10 per share dividend once the stock trades ex-dividend.\n\nTherefore, EcoNor’s share price should drop by $10 per share on the ex-dividend date.\n\n• How an investor could earn a profit in two scenarios:\n\n\t- o If the stock price changes by less than the amount found in (i):\n\nIf EcoNor’s stock price decreases by less than $10 per share on the ex- dividend date, an investor could earn a profit by buying the stock just before\n\nit goes ex-dividend and selling it just after, as the dividend would more than cover the capital loss on the stock.\n\n## o If the stock price changes by more than the amount found in (i):\n\nIf EcoNor’s stock price decreases by more than $10 per share, the stock would be priced lower than expected. An investor could earn a profit by selling the stock just before it goes ex-dividend and buying it just after.## Question 3.3\n\nThe investor would be indifferent between dividends and share repurchases if they prioritize cash, as either method allows them to achieve the same total wealth.\n\nScenario 1: EcoNor D",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.27434679334916867,
+              "width": 0.09739714525608732,
+              "original_page": 4
+            },
+            "content": "Question 3.3",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9311351180076599
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.30581947743467935,
+              "width": 0.7581863979848866,
+              "original_page": 4
+            },
+            "content": "The investor would be indifferent between dividends and share repurchases if they prioritize cash, as either method allows them to achieve the same total wealth.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9608461111783981
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.35451306413301664,
+              "width": 0.42233417296389586,
+              "original_page": 4
+            },
+            "content": "Scenario 1: EcoNor Distributes $70 Million as a Dividend",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9476276129484177
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.38717339667458434,
+              "width": 0.4945424013434089,
+              "original_page": 4
+            },
+            "content": "Dividend per Share: $70 million / 7 million shares = $10 per share.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9536901980638504
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.41983372921615203,
+              "width": 0.4332493702770781,
+              "original_page": 4
+            },
+            "content": "Investor’s Cash from Dividend: 100 shares x $10 = $1,000.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9548445075750351
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.4519002375296912,
+              "width": 0.36859781696053734,
+              "original_page": 4
+            },
+            "content": "Stock Price on Ex-Dividend Date: $50 - $10 = $40.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9527934521436692
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.4845605700712589,
+              "width": 0.6910159529806885,
+              "original_page": 4
+            },
+            "content": "Total Wealth: The investor holds $1,000 in cash and 100 shares at $40 each, totaling $5,000.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9461411207914352
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.5172209026128266,
+              "width": 0.4659949622166247,
+              "original_page": 4
+            },
+            "content": "Scenario 2: EcoNor Uses the $70 Million for Share Repurchase",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9372650176286698
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.5498812351543944,
+              "width": 0.41141897565071367,
+              "original_page": 4
+            },
+            "content": "Repurchase Price: Shares are repurchased at $50 each.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9523853331804275
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.582541567695962,
+              "width": 0.7380352644836272,
+              "original_page": 4
+            },
+            "content": "Investor’s Cash by Selling Shares: The investor can sell 20 shares at $50, generating $1,000 in cash.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9477656930685043
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.6152019002375297,
+              "width": 0.45591939546599497,
+              "original_page": 4
+            },
+            "content": "Remaining Shares: The investor keeps 80 shares at $50 each.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9516866028308868
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.6478622327790974,
+              "width": 0.7103274559193955,
+              "original_page": 4
+            },
+            "content": "Total Wealth: The investor holds $1,000 in cash and 80 shares valued at $50 each, also totaling $5,000.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9608902782201767
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.6965558194774347,
+              "width": 0.09655751469353484,
+              "original_page": 4
+            },
+            "content": "Quesiton 4.1",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8975699812173843
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.018950908597461402,
+              "left": 0.1466709652635653,
+              "page": 4,
+              "top": 0.7252041415760466,
+              "width": 0.01833337740573835,
+              "original_page": 4
+            },
+            "content": "i)",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6979598850011826
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.7612826603325415,
+              "width": 0.6868178001679262,
+              "original_page": 4
+            },
+            "content": "Using Decker's P/E, we would estimate a share price for RCKY of Po = $2.30 × 13.3 = $30.59.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.930412694811821
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.7939429928741093,
+              "width": 0.7556675062972292,
+              "original_page": 4
+            },
+            "content": "Using the enterprise value to EBITDA multiple, we would estimate RCKY's enterprise value to be Vo = $30.7 million x 7.4 = $227.2 million.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9448284685611725
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.8426365795724465,
+              "width": 0.7170445004198153,
+              "original_page": 4
+            },
+            "content": "We then subtract debt and divide by the number of shares to estimate RCKY's share price: Po = (227.2 - 125)/5.4 = $18.93.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9604759991168976
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.08610451306413301,
+              "width": 0.7044500419815282,
+              "original_page": 5
+            },
+            "content": "ii)Because of the large difference in leverage between the firms, we would expect the second estimate, which is based on enterprise value, to be more reliable.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9584421455860138
+            },
+            "image_url": null
+          }
+        ],
+        "content": "rice decreases by more than $10 per share, the stock would be priced lower than expected. An investor could earn a profit by selling the stock just before it goes ex-dividend and buying it just after.## Question 3.3\n\nThe investor would be indifferent between dividends and share repurchases if they prioritize cash, as either method allows them to achieve the same total wealth.\n\nScenario 1: EcoNor Distributes $70 Million as a Dividend\n\nDividend per Share: $70 million / 7 million shares = $10 per share.\n\nInvestor’s Cash from Dividend: 100 shares x $10 = $1,000.\n\nStock Price on Ex-Dividend Date: $50 - $10 = $40.\n\nTotal Wealth: The investor holds $1,000 in cash and 100 shares at $40 each, totaling $5,000.\n\nScenario 2: EcoNor Uses the $70 Million for Share Repurchase\n\nRepurchase Price: Shares are repurchased at $50 each.\n\nInvestor’s Cash by Selling Shares: The investor can sell 20 shares at $50, generating $1,000 in cash.\n\nRemaining Shares: The investor keeps 80 shares at $50 each.\n\nTotal Wealth: The investor holds $1,000 in cash and 80 shares valued at $50 each, also totaling $5,000.\n\n## Quesiton 4.1\n\ni)\n\nUsing Decker's P/E, we would estimate a share price for RCKY of Po = $2.30 × 13.3 = $30.59.\n\nUsing the enterprise value to EBITDA multiple, we would estimate RCKY's enterprise value to be Vo = $30.7 million x 7.4 = $227.2 million.\n\nWe then subtract debt and divide by the number of shares to estimate RCKY's share price: Po = (227.2 - 125)/5.4 = $18.93.\n\nii)Because of the large difference in leverage between the firms, we would expect the second estimate, which is based on enterprise value, to be more reliable.## iii) Some example here. Any 2 reasonable arguments would work.\n\nDependence on Peer Group Selection: The reliability of multiples depends on selecting truly comparable companies. If the peer group d",
+        "embed": "rice decreases by more than $10 per share, the stock would be priced lower than expected. An investor could earn a profit by selling the stock just before it goes ex-dividend and buying it just after.## Question 3.3\n\nThe investor would be indifferent between dividends and share repurchases if they prioritize cash, as either method allows them to achieve the same total wealth.\n\nScenario 1: EcoNor Distributes $70 Million as a Dividend\n\nDividend per Share: $70 million / 7 million shares = $10 per share.\n\nInvestor’s Cash from Dividend: 100 shares x $10 = $1,000.\n\nStock Price on Ex-Dividend Date: $50 - $10 = $40.\n\nTotal Wealth: The investor holds $1,000 in cash and 100 shares at $40 each, totaling $5,000.\n\nScenario 2: EcoNor Uses the $70 Million for Share Repurchase\n\nRepurchase Price: Shares are repurchased at $50 each.\n\nInvestor’s Cash by Selling Shares: The investor can sell 20 shares at $50, generating $1,000 in cash.\n\nRemaining Shares: The investor keeps 80 shares at $50 each.\n\nTotal Wealth: The investor holds $1,000 in cash and 80 shares valued at $50 each, also totaling $5,000.\n\n## Quesiton 4.1\n\ni)\n\nUsing Decker's P/E, we would estimate a share price for RCKY of Po = $2.30 × 13.3 = $30.59.\n\nUsing the enterprise value to EBITDA multiple, we would estimate RCKY's enterprise value to be Vo = $30.7 million x 7.4 = $227.2 million.\n\nWe then subtract debt and divide by the number of shares to estimate RCKY's share price: Po = (227.2 - 125)/5.4 = $18.93.\n\nii)Because of the large difference in leverage between the firms, we would expect the second estimate, which is based on enterprise value, to be more reliable.## iii) Some example here. Any 2 reasonable arguments would work.\n\nDependence on Peer Group Selection: The reliability of multiples depends on selecting truly comparable companies. If the peer group d",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.1347980997624703,
+              "width": 0.5046179680940386,
+              "original_page": 5
+            },
+            "content": "iii) Some example here. Any 2 reasonable arguments would work.",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8897172600030899
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.167458432304038,
+              "width": 0.746431570109152,
+              "original_page": 5
+            },
+            "content": "Dependence on Peer Group Selection: The reliability of multiples depends on selecting truly comparable companies. If the peer group differs in terms of size, growth stage, or business mix, the resulting valuation might not accurately reflect the target company's fair value.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.979499363899231
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.060570071258907364,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.2321852731591449,
+              "width": 0.746431570109152,
+              "original_page": 5
+            },
+            "content": "Lack of Company-Specific Detail: Multiples provide a broad, market-based valuation without accounting for unique factors of the specific company, such as its growth potential, risk profile, or operational efficiencies. This can lead to over- or undervaluation if the company differs significantly from its peers in these aspects.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9808624982833862
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06116389548693587,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.31235154394299286,
+              "width": 0.7296389588581025,
+              "original_page": 5
+            },
+            "content": "Influence of Accounting Differences: Variations in accounting practices across companies, such as differing depreciation methods, inventory valuations, or revenue recognition policies, can distort multiples. This makes it difficult to compare companies accurately, as reported earnings or book values may not reflect true economic value consistently.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9780833065509796
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.42755344418052255,
+              "width": 0.09739714525608732,
+              "original_page": 5
+            },
+            "content": "Question 4.2",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9275744765996933
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.4578384798099763,
+              "width": 0.40470193115029385,
+              "original_page": 5
+            },
+            "content": "i) Sensitivity Analysis on GKB’s Estimated Share Price",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8433637171983719
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.49049881235154397,
+              "width": 0.44836272040302266,
+              "original_page": 5
+            },
+            "content": "Original P/E Multiple of 13.3 Estimated share price = $30.59",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9439664363861084
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.5231591448931117,
+              "width": 0.5306465155331654,
+              "original_page": 5
+            },
+            "content": "P/E Multiple Increased by 10% to 14.63 Estimated share price = $33.65",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9440492689609528
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.5558194774346793,
+              "width": 0.5365239294710328,
+              "original_page": 5
+            },
+            "content": "P/E Multiple Decreased by 10% to 11.97 Estimated share price = $27.53",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9521894872188568
+            },
+            "image_url": null
+          }
+        ],
+        "content": "price: Po = (227.2 - 125)/5.4 = $18.93.\n\nii)Because of the large difference in leverage between the firms, we would expect the second estimate, which is based on enterprise value, to be more reliable.## iii) Some example here. Any 2 reasonable arguments would work.\n\nDependence on Peer Group Selection: The reliability of multiples depends on selecting truly comparable companies. If the peer group differs in terms of size, growth stage, or business mix, the resulting valuation might not accurately reflect the target company's fair value.\n\nLack of Company-Specific Detail: Multiples provide a broad, market-based valuation without accounting for unique factors of the specific company, such as its growth potential, risk profile, or operational efficiencies. This can lead to over- or undervaluation if the company differs significantly from its peers in these aspects.\n\nInfluence of Accounting Differences: Variations in accounting practices across companies, such as differing depreciation methods, inventory valuations, or revenue recognition policies, can distort multiples. This makes it difficult to compare companies accurately, as reported earnings or book values may not reflect true economic value consistently.\n\n## Question 4.2\n\n## i) Sensitivity Analysis on GKB’s Estimated Share Price\n\nOriginal P/E Multiple of 13.3 Estimated share price = $30.59\n\nP/E Multiple Increased by 10% to 14.63 Estimated share price = $33.65\n\nP/E Multiple Decreased by 10% to 11.97 Estimated share price = $27.53## ii) Discus the Sensitivity and Reliability of the P/E-Based Valuation\n\nThe sensitivity analysis shows that a 10% change in the P/E multiple leads to a range of GKB’s estimated share price from $27.",
+        "embed": "price: Po = (227.2 - 125)/5.4 = $18.93.\n\nii)Because of the large difference in leverage between the firms, we would expect the second estimate, which is based on enterprise value, to be more reliable.## iii) Some example here. Any 2 reasonable arguments would work.\n\nDependence on Peer Group Selection: The reliability of multiples depends on selecting truly comparable companies. If the peer group differs in terms of size, growth stage, or business mix, the resulting valuation might not accurately reflect the target company's fair value.\n\nLack of Company-Specific Detail: Multiples provide a broad, market-based valuation without accounting for unique factors of the specific company, such as its growth potential, risk profile, or operational efficiencies. This can lead to over- or undervaluation if the company differs significantly from its peers in these aspects.\n\nInfluence of Accounting Differences: Variations in accounting practices across companies, such as differing depreciation methods, inventory valuations, or revenue recognition policies, can distort multiples. This makes it difficult to compare companies accurately, as reported earnings or book values may not reflect true economic value consistently.\n\n## Question 4.2\n\n## i) Sensitivity Analysis on GKB’s Estimated Share Price\n\nOriginal P/E Multiple of 13.3 Estimated share price = $30.59\n\nP/E Multiple Increased by 10% to 14.63 Estimated share price = $33.65\n\nP/E Multiple Decreased by 10% to 11.97 Estimated share price = $27.53## ii) Discus the Sensitivity and Reliability of the P/E-Based Valuation\n\nThe sensitivity analysis shows that a 10% change in the P/E multiple leads to a range of GKB’s estimated share price from $27.",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.588479809976247,
+              "width": 0.5062972292191436,
+              "original_page": 5
+            },
+            "content": "ii) Discus the Sensitivity and Reliability of the P/E-Based Valuation",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9217635095119476
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.6211401425178147,
+              "width": 0.7069689336691856,
+              "original_page": 5
+            },
+            "content": "The sensitivity analysis shows that a 10% change in the P/E multiple leads to a range of GKB’s estimated share price from $27.53 to $33.65. This represents a change of approximately ±10% around the original estimate of $30.59.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9794993251562119
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07719714964370546,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.6852731591448931,
+              "width": 0.7565071368597817,
+              "original_page": 5
+            },
+            "content": "This sensitivity indicates that GKB’s valuation is quite dependent on the assumed P/E multiple. A small change in the multiple has a relatively significant impact on the estimated share price, which suggests that the P/E-based valuation may be less reliable if the comparable P/E ratio is uncertain or varies widely. In such cases, other valuation methods or additional comparables may be necessary to cross-check the estimate.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9826740056276322
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.8153206650831354,
+              "width": 0.09739714525608732,
+              "original_page": 5
+            },
+            "content": "Question 4.3",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9259050279855727
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0665083135391924,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.8473871733966746,
+              "width": 0.7590260285474392,
+              "original_page": 5
+            },
+            "content": "Disregard Questions 4.1 and 4.2. Consider now Xpertise AI, a company claiming to have mastered everything from social media to space exploration algorithms. It is expected to generate a free cash flow of $8 million in the coming year, with this cash flow projected to grow at 3% annually. Xpertise AI has an equity cost of capital of 13%, a debt cost of capital of",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.981457668542862
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.08669833729216152,
+              "width": 0.7237615449202351,
+              "original_page": 6
+            },
+            "content": "7%, and faces a 21% corporate tax rate. The company also maintains a constant debt-to- equity ratio of 0.5.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.959179037809372
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11670864819479429,
+              "page": 6,
+              "top": 0.17220902612826602,
+              "width": 0.5549958018471872,
+              "original_page": 6
+            },
+            "content": "i) Calculate Xpertise AI’s Weighted Average Cost of Capital (WACC).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9408113598823548
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11586901763224182,
+              "page": 6,
+              "top": 0.20605700712589073,
+              "width": 0.7598656591099916,
+              "original_page": 6
+            },
+            "content": "ii) Determine the value of Xpertise AI as an unlevered company, ignoring the effects of debt.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9447844177484512
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11586901763224182,
+              "page": 6,
+              "top": 0.23990498812351543,
+              "width": 0.47019311502938704,
+              "original_page": 6
+            },
+            "content": "iii) Calculate the value of Xpertise AI’s interest tax shield.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9090579688549042
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.12258606213266163,
+              "page": 6,
+              "top": 0.2749406175771972,
+              "width": 0.042821158690176324,
+              "original_page": 6
+            },
+            "content": "Tasks:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7031169652938842
+            },
+            "image_url": null
+          }
+        ],
+        "content": "iginal P/E Multiple of 13.3 Estimated share price = $30.59\n\nP/E Multiple Increased by 10% to 14.63 Estimated share price = $33.65\n\nP/E Multiple Decreased by 10% to 11.97 Estimated share price = $27.53## ii) Discus the Sensitivity and Reliability of the P/E-Based Valuation\n\nThe sensitivity analysis shows that a 10% change in the P/E multiple leads to a range of GKB’s estimated share price from $27.53 to $33.65. This represents a change of approximately ±10% around the original estimate of $30.59.\n\nThis sensitivity indicates that GKB’s valuation is quite dependent on the assumed P/E multiple. A small change in the multiple has a relatively significant impact on the estimated share price, which suggests that the P/E-based valuation may be less reliable if the comparable P/E ratio is uncertain or varies widely. In such cases, other valuation methods or additional comparables may be necessary to cross-check the estimate.\n\n## Question 4.3\n\nDisregard Questions 4.1 and 4.2. Consider now Xpertise AI, a company claiming to have mastered everything from social media to space exploration algorithms. It is expected to generate a free cash flow of $8 million in the coming year, with this cash flow projected to grow at 3% annually. Xpertise AI has an equity cost of capital of 13%, a debt cost of capital of\n\n7%, and faces a 21% corporate tax rate. The company also maintains a constant debt-to- equity ratio of 0.5.\n\ni) Calculate Xpertise AI’s Weighted Average Cost of Capital (WACC).\n\nii) Determine the value of Xpertise AI as an unlevered company, ignoring the effects of debt.\n\niii) Calculate the value of Xpertise AI’s interest tax shield.\n\n## Tasks:## Solution\n\ni) E/V1/(1+0.5) = 0.6667; D/V = 0.5/ (1 + 0.5) = 0.3333 WACC = (E/V) * Re + (D/V) * Rd * (1 - Tc)= (0.6667 * 0.13) + (0.3333 * 0.07 * (1 - 0.21))= 0.08667 + 0.02343 = 0.1051, or 10.51%\n\ni",
+        "embed": "iginal P/E Multiple of 13.3 Estimated share price = $30.59\n\nP/E Multiple Increased by 10% to 14.63 Estimated share price = $33.65\n\nP/E Multiple Decreased by 10% to 11.97 Estimated share price = $27.53## ii) Discus the Sensitivity and Reliability of the P/E-Based Valuation\n\nThe sensitivity analysis shows that a 10% change in the P/E multiple leads to a range of GKB’s estimated share price from $27.53 to $33.65. This represents a change of approximately ±10% around the original estimate of $30.59.\n\nThis sensitivity indicates that GKB’s valuation is quite dependent on the assumed P/E multiple. A small change in the multiple has a relatively significant impact on the estimated share price, which suggests that the P/E-based valuation may be less reliable if the comparable P/E ratio is uncertain or varies widely. In such cases, other valuation methods or additional comparables may be necessary to cross-check the estimate.\n\n## Question 4.3\n\nDisregard Questions 4.1 and 4.2. Consider now Xpertise AI, a company claiming to have mastered everything from social media to space exploration algorithms. It is expected to generate a free cash flow of $8 million in the coming year, with this cash flow projected to grow at 3% annually. Xpertise AI has an equity cost of capital of 13%, a debt cost of capital of\n\n7%, and faces a 21% corporate tax rate. The company also maintains a constant debt-to- equity ratio of 0.5.\n\ni) Calculate Xpertise AI’s Weighted Average Cost of Capital (WACC).\n\nii) Determine the value of Xpertise AI as an unlevered company, ignoring the effects of debt.\n\niii) Calculate the value of Xpertise AI’s interest tax shield.\n\n## Tasks:## Solution\n\ni) E/V1/(1+0.5) = 0.6667; D/V = 0.5/ (1 + 0.5) = 0.3333 WACC = (E/V) * Re + (D/V) * Rd * (1 - Tc)= (0.6667 * 0.13) + (0.3333 * 0.07 * (1 - 0.21))= 0.08667 + 0.02343 = 0.1051, or 10.51%\n\ni",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.30700712589073637,
+              "width": 0.06297229219143577,
+              "original_page": 6
+            },
+            "content": "Solution",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8767330706119537
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.060570071258907364,
+              "left": 0.14693534844668346,
+              "page": 6,
+              "top": 0.33907363420427555,
+              "width": 0.690176322418136,
+              "original_page": 6
+            },
+            "content": "i) E/V1/(1+0.5) = 0.6667; D/V = 0.5/ (1 + 0.5) = 0.3333 WACC = (E/V) * Re + (D/V) * Rd * (1 - Tc)= (0.6667 * 0.13) + (0.3333 * 0.07 * (1 - 0.21))= 0.08667 + 0.02343 = 0.1051, or 10.51%",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7072421729564666
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.17636579572446556,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.418646080760095,
+              "width": 0.6456759026028548,
+              "original_page": 6
+            },
+            "content": "ii) r_u = (E/V) * Re + (D/V) * Rd = (0.6667 * 0.13) + (0.3333 * 0.07) = 0.11, or 11% Using the perpetuity growth model for an unlevered firm: V_U = FCF / (R_u - g) Substituting the values: V_U = 8,000,000 / (0.11 - 0.03) = 8,000,000 / 0.08 = 100,000,000",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.781538924574852
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.12258606213266163,
+              "page": 6,
+              "top": 0.6146080760095012,
+              "width": 0.44920235096557515,
+              "original_page": 6
+            },
+            "content": "(iii): Calculate the Value of Xpertise AI’s Interest Tax Shield",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8952360868453979
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.6466745843230404,
+              "width": 0.743073047858942,
+              "original_page": 6
+            },
+            "content": "The interest tax shield is the additional value created by debt due to tax savings on interest payments. We can calculate this in two ways: as the difference between the levered and unlevered firm values or by directly discounting the tax savings.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9657473742961884
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.7114014251781473,
+              "width": 0.5130142737195634,
+              "original_page": 6
+            },
+            "content": "Method 1: Difference Between Levered and Unlevered Firm Values",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8681119441986084
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.045724465558194774,
+              "left": 0.1486146095717884,
+              "page": 6,
+              "top": 0.744061757719715,
+              "width": 0.6859781696053736,
+              "original_page": 6
+            },
+            "content": "1. Calculate the Levered Firm Value (V_L) of Xpertise AI V_L = FCF / (WACC - g)= 8,000,000 / (0.1051 - 0.03) = 8,000,000 / 0.0751 = 106,524,634",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8767309874296189
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.14777497900923595,
+              "page": 6,
+              "top": 0.8093824228028503,
+              "width": 0.28295549958018473,
+              "original_page": 6
+            },
+            "content": "2. Calculate the Interest Tax Shield",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7381379872560501
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.8420427553444181,
+              "width": 0.6565910999160369,
+              "original_page": 6
+            },
+            "content": "The interest tax shield is the difference between the levered and unlevered firm values:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8117634385824204
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.8741092636579573,
+              "width": 0.5398824517212426,
+              "original_page": 6
+            },
+            "content": "Interest Tax Shield = V_L - V_U = 106,524,634 - 100,000,000 = 6,524,634",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8400304615497589
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.08610451306413301,
+              "width": 0.33753148614609574,
+              "original_page": 7
+            },
+            "content": "Method 2: Direct Discounting of Tax Savings",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9232136607170105
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.1187648456057007,
+              "width": 0.7086481947942905,
+              "original_page": 7
+            },
+            "content": "Alternatively, we can calculate the interest tax shield as a growing perpetuity of the annual tax savings on debt interest, discounted by the unlevered cost of capital (R_u).",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9668499618768692
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.167458432304038,
+              "width": 0.3056255247691016,
+              "original_page": 7
+            },
+            "content": "The formula for the interest tax shield is:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9551510035991668
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.2001187648456057,
+              "width": 0.32913518052057095,
+              "original_page": 7
+            },
+            "content": "Interest Tax Shield = (D * Rd * Tc) / (R_u - g)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9499860942363739
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.17884130982367757,
+              "page": 7,
+              "top": 0.2327790973871734,
+              "width": 0.6717044500419815,
+              "original_page": 7
+            },
+            "content": "Since we know the debt-to-equity ratio is 0.5, and we have already calculated the levered firm value V_L, we can calculate the debt amount as follows:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9374180525541306
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.17884130982367757,
+              "page": 7,
+              "top": 0.2814726840855107,
+              "width": 0.15365239294710328,
+              "original_page": 7
+            },
+            "content": "D = Debt Ratio * V_L",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8928287893533706
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.17884130982367757,
+              "page": 7,
+              "top": 0.3141330166270784,
+              "width": 0.17548278757346766,
+              "original_page": 7
+            },
+            "content": "Substituting the values:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9135068506002426
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.17884130982367757,
+              "page": 7,
+              "top": 0.34619952494061756,
+              "width": 0.29303106633081444,
+              "original_page": 7
+            },
+            "content": "D = 0.3333 * 106,524,634 = 35,508,211",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8889441043138504
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.1486146095717884,
+              "page": 7,
+              "top": 0.37885985748218526,
+              "width": 0.32913518052057095,
+              "original_page": 7
+            },
+            "content": "1. Substitute into the Tax Shield Formula",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9337011247873306
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.17884130982367757,
+              "page": 7,
+              "top": 0.41152019002375295,
+              "width": 0.33585222502099077,
+              "original_page": 7
+            },
+            "content": "Now we can calculate the interest tax shield:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9376903384923935
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.17884130982367757,
+              "page": 7,
+              "top": 0.44418052256532065,
+              "width": 0.6910159529806885,
+              "original_page": 7
+            },
+            "content": "Interest Tax Shield = (35,508,211 * 0.07 * 0.21) / (0.11 - 0.03) = 521,973.1 / 0.08 = 6,524,634",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9268534898757934
+            },
+            "image_url": null
+          }
+        ],
+        "content": "verage Cost of Capital (WACC).\n\nii) Determine the value of Xpertise AI as an unlevered company, ignoring the effects of debt.\n\niii) Calculate the value of Xpertise AI’s interest tax shield.\n\n## Tasks:## Solution\n\ni) E/V1/(1+0.5) = 0.6667; D/V = 0.5/ (1 + 0.5) = 0.3333 WACC = (E/V) * Re + (D/V) * Rd * (1 - Tc)= (0.6667 * 0.13) + (0.3333 * 0.07 * (1 - 0.21))= 0.08667 + 0.02343 = 0.1051, or 10.51%\n\nii) r_u = (E/V) * Re + (D/V) * Rd = (0.6667 * 0.13) + (0.3333 * 0.07) = 0.11, or 11% Using the perpetuity growth model for an unlevered firm: V_U = FCF / (R_u - g) Substituting the values: V_U = 8,000,000 / (0.11 - 0.03) = 8,000,000 / 0.08 = 100,000,000\n\n## (iii): Calculate the Value of Xpertise AI’s Interest Tax Shield\n\nThe interest tax shield is the additional value created by debt due to tax savings on interest payments. We can calculate this in two ways: as the difference between the levered and unlevered firm values or by directly discounting the tax savings.\n\n## Method 1: Difference Between Levered and Unlevered Firm Values\n\n1. Calculate the Levered Firm Value (V_L) of Xpertise AI V_L = FCF / (WACC - g)= 8,000,000 / (0.1051 - 0.03) = 8,000,000 / 0.0751 = 106,524,634\n\n2. Calculate the Interest Tax Shield\n\nThe interest tax shield is the difference between the levered and unlevered firm values:\n\nInterest Tax Shield = V_L - V_U = 106,524,634 - 100,000,000 = 6,524,634\n\n## Method 2: Direct Discounting of Tax Savings\n\nAlternatively, we can calculate the interest tax shield as a growing perpetuity of the annual tax savings on debt interest, discounted by the unlevered cost of capital (R_u).\n\nThe formula for the interest tax shield is:\n\nInterest Tax Shield = (D * Rd * Tc) / (R_u - g)\n\nSince we know the debt-to-equity ratio is 0.5, and we have already calculated the levered firm value V_L, we can calculate the debt amount as follows:\n\nD = Debt Ratio * V_L\n\nSubstituting the values:\n\nD = 0.3333 * 106,524,634 = 35,508,211\n\n1. Substitute into the Tax Shield Formula\n\nNow we can calculate the interest tax shield:\n\nInterest Tax Shield = (35,508,211 * 0.07 * 0.21) / (0.11 - 0.03) = 521,973.1 / 0.08 = 6,524,634",
+        "embed": "verage Cost of Capital (WACC).\n\nii) Determine the value of Xpertise AI as an unlevered company, ignoring the effects of debt.\n\niii) Calculate the value of Xpertise AI’s interest tax shield.\n\n## Tasks:## Solution\n\ni) E/V1/(1+0.5) = 0.6667; D/V = 0.5/ (1 + 0.5) = 0.3333 WACC = (E/V) * Re + (D/V) * Rd * (1 - Tc)= (0.6667 * 0.13) + (0.3333 * 0.07 * (1 - 0.21))= 0.08667 + 0.02343 = 0.1051, or 10.51%\n\nii) r_u = (E/V) * Re + (D/V) * Rd = (0.6667 * 0.13) + (0.3333 * 0.07) = 0.11, or 11% Using the perpetuity growth model for an unlevered firm: V_U = FCF / (R_u - g) Substituting the values: V_U = 8,000,000 / (0.11 - 0.03) = 8,000,000 / 0.08 = 100,000,000\n\n## (iii): Calculate the Value of Xpertise AI’s Interest Tax Shield\n\nThe interest tax shield is the additional value created by debt due to tax savings on interest payments. We can calculate this in two ways: as the difference between the levered and unlevered firm values or by directly discounting the tax savings.\n\n## Method 1: Difference Between Levered and Unlevered Firm Values\n\n1. Calculate the Levered Firm Value (V_L) of Xpertise AI V_L = FCF / (WACC - g)= 8,000,000 / (0.1051 - 0.03) = 8,000,000 / 0.0751 = 106,524,634\n\n2. Calculate the Interest Tax Shield\n\nThe interest tax shield is the difference between the levered and unlevered firm values:\n\nInterest Tax Shield = V_L - V_U = 106,524,634 - 100,000,000 = 6,524,634\n\n## Method 2: Direct Discounting of Tax Savings\n\nAlternatively, we can calculate the interest tax shield as a growing perpetuity of the annual tax savings on debt interest, discounted by the unlevered cost of capital (R_u).\n\nThe formula for the interest tax shield is:\n\nInterest Tax Shield = (D * Rd * Tc) / (R_u - g)\n\nSince we know the debt-to-equity ratio is 0.5, and we have already calculated the levered firm value V_L, we can calculate the debt amount as follows:\n\nD = Debt Ratio * V_L\n\nSubstituting the values:\n\nD = 0.3333 * 106,524,634 = 35,508,211\n\n1. Substitute into the Tax Shield Formula\n\nNow we can calculate the interest tax shield:\n\nInterest Tax Shield = (35,508,211 * 0.07 * 0.21) / (0.11 - 0.03) = 521,973.1 / 0.08 = 6,524,634",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 7,
+    "credit_breakdown": {
+      "page": 7.0,
+      "complex": 1.0
+    },
+    "credits": 8.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "page"
+      ],
+      "3": [
+        "page"
+      ],
+      "4": [
+        "page"
+      ],
+      "5": [
+        "page"
+      ],
+      "6": [
+        "page"
+      ],
+      "7": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/af921d1f-26ad-4680-a541-83fd9248c36d.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T181053Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=c32222e5f224d94cf06c8f81da9e3e3869a71b38bacc30d32494fb7b9ee4e889",
+  "studio_link": "https://studio.reducto.ai/job/dcc38fcd-d7e2-47a4-8b98-abee7eadcaf0",
+  "response_type": "parse",
+  "parse_mode": null
+}

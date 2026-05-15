@@ -1,0 +1,2097 @@
+{
+  "duration": 9.88552212715149,
+  "job_id": "e28182d6-65f1-4678-8b6c-4ce9c8ee2be1",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 1,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 1
+            },
+            "content": "TIØ4145 2024 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9381736576557159
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.06386554621848739,
+              "page": 1,
+              "top": 0.04928741092636579,
+              "width": 0.34789915966386553,
+              "original_page": 1
+            },
+            "content": "i Front page TIØ4145 2024",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7730027943849563
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.08729216152019002,
+              "width": 0.4411764705882353,
+              "original_page": 1
+            },
+            "content": "Examination paper for TIØ4145 Corporate Finance",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9210452914237977
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.12470308788598575,
+              "width": 0.3907563025210084,
+              "original_page": 1
+            },
+            "content": "Course contact: Maria Lavrutich - 904 02 416 Present at the exam location: No",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9599496364593506
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.17814726840855108,
+              "width": 0.7571428571428571,
+              "original_page": 1
+            },
+            "content": "Permitted examination support material: D-No printed or hand-written support material is allowed. A specific basic calculator is allowed.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9788583219051361
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.2333729216152019,
+              "width": 0.20336134453781513,
+              "original_page": 1
+            },
+            "content": "OTHER INFORMATION",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9364953190088272
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.2494061757719715,
+              "width": 0.3621848739495798,
+              "original_page": 1
+            },
+            "content": "You will find a formula sheet down at the left.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.960215374827385
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.28681710213776723,
+              "width": 0.780672268907563,
+              "original_page": 1
+            },
+            "content": "Read the questions carefully and make your own assumptions. Specify in your answer which assumptions you have used as a basis for interpreting/defining the assignment.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9797091960906983
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04631828978622328,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.34026128266033256,
+              "width": 0.7840336134453781,
+              "original_page": 1
+            },
+            "content": "The academic person is only contacted in case of errors or insufficiencies in the question set. Address an invigilator if you suspect errors or insufficiencies. Write down the question in advance.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9820757746696472
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.0907563025210084,
+              "page": 1,
+              "top": 0.41211401425178146,
+              "width": 0.2235294117647059,
+              "original_page": 1
+            },
+            "content": "SPECIFIC INFORMATION",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9434128612279892
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.0907563025210084,
+              "page": 1,
+              "top": 0.4489311163895487,
+              "width": 0.13781512605042018,
+              "original_page": 1
+            },
+            "content": "Hand drawings:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9295985937118529
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.4655581947743468,
+              "width": 0.7890756302521008,
+              "original_page": 1
+            },
+            "content": "For questions in Sections 2, 3 and 4, you may choose to answer on handwritten sheets. At the bottom of the question, you will find a seven-digit code. Fill in this code in the top left corner of the sheets you wish to submit.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9830292016267776
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.5350356294536817,
+              "width": 0.7605042016806722,
+              "original_page": 1
+            },
+            "content": "We recommend that you do this during the exam. If you require access to the codes after the examination time ends, click “Show submission”.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9793221145868302
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04631828978622328,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.5878859857482185,
+              "width": 0.7840336134453781,
+              "original_page": 1
+            },
+            "content": "You are responsible for filling in the correct codes on the handwritten sheets. Therefore, read the cover sheet carefully. The Examination Office cannot guarantee that that incorrectly completed sheets will be added to your assignment.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9856436580419541
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.062351543942992874,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.6573634204275535,
+              "width": 0.7848739495798319,
+              "original_page": 1
+            },
+            "content": "Weighting: Section 1 counts for 20% of the final score, Sections 2 counts for 30%, Section 3 counts for 20%, Sections 4 counts for 30%. Multiple choice questions in Section 1 are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9874370723962784
+            },
+            "image_url": null
+          }
+        ],
+        "content": "TIØ4145 2024 Høst\n\n## i Front page TIØ4145 2024\n\n## Examination paper for TIØ4145 Corporate Finance\n\nCourse contact: Maria Lavrutich - 904 02 416 Present at the exam location: No\n\nPermitted examination support material: D-No printed or hand-written support material is allowed. A specific basic calculator is allowed.\n\n## OTHER INFORMATION\n\nYou will find a formula sheet down at the left.\n\nRead the questions carefully and make your own assumptions. Specify in your answer which assumptions you have used as a basis for interpreting/defining the assignment.\n\nThe academic person is only contacted in case of errors or insufficiencies in the question set. Address an invigilator if you suspect errors or insufficiencies. Write down the question in advance.\n\n## SPECIFIC INFORMATION\n\n## Hand drawings:\n\nFor questions in Sections 2, 3 and 4, you may choose to answer on handwritten sheets. At the bottom of the question, you will find a seven-digit code. Fill in this code in the top left corner of the sheets you wish to submit.\n\nWe recommend that you do this during the exam. If you require access to the codes after the examination time ends, click “Show submission”.\n\nYou are responsible for filling in the correct codes on the handwritten sheets. Therefore, read the cover sheet carefully. The Examination Office cannot guarantee that that incorrectly completed sheets will be added to your assignment.\n\nWeighting: Section 1 counts for 20% of the final score, Sections 2 counts for 30%, Section 3 counts for 20%, Sections 4 counts for 30%. Multiple choice questions in Section 1 are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.## Notifications:\n\nAny messages during the exam (e.g., in case of errors in the exam set) will be sent out via notifications in Inspera. A notification will appear as a dialog box on the screen. You c",
+        "embed": "TIØ4145 2024 Høst\n\n## i Front page TIØ4145 2024\n\n## Examination paper for TIØ4145 Corporate Finance\n\nCourse contact: Maria Lavrutich - 904 02 416 Present at the exam location: No\n\nPermitted examination support material: D-No printed or hand-written support material is allowed. A specific basic calculator is allowed.\n\n## OTHER INFORMATION\n\nYou will find a formula sheet down at the left.\n\nRead the questions carefully and make your own assumptions. Specify in your answer which assumptions you have used as a basis for interpreting/defining the assignment.\n\nThe academic person is only contacted in case of errors or insufficiencies in the question set. Address an invigilator if you suspect errors or insufficiencies. Write down the question in advance.\n\n## SPECIFIC INFORMATION\n\n## Hand drawings:\n\nFor questions in Sections 2, 3 and 4, you may choose to answer on handwritten sheets. At the bottom of the question, you will find a seven-digit code. Fill in this code in the top left corner of the sheets you wish to submit.\n\nWe recommend that you do this during the exam. If you require access to the codes after the examination time ends, click “Show submission”.\n\nYou are responsible for filling in the correct codes on the handwritten sheets. Therefore, read the cover sheet carefully. The Examination Office cannot guarantee that that incorrectly completed sheets will be added to your assignment.\n\nWeighting: Section 1 counts for 20% of the final score, Sections 2 counts for 30%, Section 3 counts for 20%, Sections 4 counts for 30%. Multiple choice questions in Section 1 are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.## Notifications:\n\nAny messages during the exam (e.g., in case of errors in the exam set) will be sent out via notifications in Inspera. A notification will appear as a dialog box on the screen. You c",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.0907563025210084,
+              "page": 1,
+              "top": 0.745249406175772,
+              "width": 0.11680672268907563,
+              "original_page": 1
+            },
+            "content": "Notifications:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9259910315275193
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.7612826603325415,
+              "width": 0.7764705882352941,
+              "original_page": 1
+            },
+            "content": "Any messages during the exam (e.g., in case of errors in the exam set) will be sent out via notifications in Inspera. A notification will appear as a dialog box on the screen. You can find the notification again by clicking on the bell icon at the top right",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9833763003349304
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.8307600950118765,
+              "width": 0.2495798319327731,
+              "original_page": 1
+            },
+            "content": "Withdrawing from the exam:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9418189108371735
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.8497624703087886,
+              "width": 0.8084033613445378,
+              "original_page": 1
+            },
+            "content": "If you wish to submit a blank test/withdraw from the exam for another reason, go to the menu in the top right-hand corner and click “Submit blank”. This cannot be undone, even if the test is still open.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9786745637655259
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.08991596638655462,
+              "page": 1,
+              "top": 0.9032066508313539,
+              "width": 0.21764705882352942,
+              "original_page": 1
+            },
+            "content": "Access to your answers:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9175262242555619
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9336134453781513,
+              "page": 1,
+              "top": 0.9709026128266033,
+              "width": 0.03361344537815126,
+              "original_page": 1
+            },
+            "content": "1/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9167643785476685
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 2,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 2
+            },
+            "content": "TIØ4145 2024 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8993801563978195
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08991596638655462,
+              "page": 2,
+              "top": 0.033847980997624705,
+              "width": 0.7848739495798319,
+              "original_page": 2
+            },
+            "content": "After the exam, you can find your answers under previous tests in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9568140089511872
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.06470588235294118,
+              "page": 2,
+              "top": 0.11817102137767221,
+              "width": 0.3487394957983193,
+              "original_page": 2
+            },
+            "content": "1.1 Valuation of companies",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.10840336134453782,
+              "page": 2,
+              "top": 0.16270783847980996,
+              "width": 0.711764705882353,
+              "original_page": 2
+            },
+            "content": "Which of the following best describes the purpose of the Normalized Earnings Method? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9626507997512818
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 2,
+              "top": 0.2161520190023753,
+              "width": 0.7168067226890756,
+              "original_page": 2
+            },
+            "content": "[ ] To adjust earnings to include all recurring items, regardless of their relevance to core business operations.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9521672613480512
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 2,
+              "top": 0.27078384798099764,
+              "width": 0.7554621848739496,
+              "original_page": 2
+            },
+            "content": "[ ] To adjust earnings by including anticipated future gains to reflect a more realistic earnings pattern over time.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9425314818819364
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 2,
+              "top": 0.32422802850356297,
+              "width": 0.7310924369747899,
+              "original_page": 2
+            },
+            "content": "[ ] To forecast future earnings by considering the company's growth potential and market trends.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9272643998265266
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 2,
+              "top": 0.37826603325415675,
+              "width": 0.7428571428571429,
+              "original_page": 2
+            },
+            "content": "[ ] To adjust earnings by excluding non-recurring or extraordinary items in order to reflect a company’s sustainable financial performance.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9401222745054647
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 2,
+              "top": 0.47802850356294535,
+              "width": 0.16134453781512606,
+              "original_page": 2
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8984490066766739
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.06302521008403361,
+              "page": 2,
+              "top": 0.5213776722090261,
+              "width": 0.13277310924369748,
+              "original_page": 2
+            },
+            "content": "1.2 Bonds",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.10840336134453782,
+              "page": 2,
+              "top": 0.5682897862232779,
+              "width": 0.36722689075630255,
+              "original_page": 2
+            },
+            "content": "Which of the following statements is FALSE? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8128340631723403
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.12184873949579832,
+              "page": 2,
+              "top": 0.6217339667458432,
+              "width": 0.7445378151260504,
+              "original_page": 2
+            },
+            "content": "[ ] Prior to its maturity date, the price of a zero-coupon bond is always greater than its face value.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8788037060122741
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.12352941176470589,
+              "page": 2,
+              "top": 0.6751781472684085,
+              "width": 0.6394957983193277,
+              "original_page": 2
+            },
+            "content": "[ ] Treasury bills are U.S. government bonds with a maturity of up to one year.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8445826574166615
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.12352941176470589,
+              "page": 2,
+              "top": 0.7143705463182898,
+              "width": 0.45966386554621846,
+              "original_page": 2
+            },
+            "content": "- Usually the face value of a bond is repaid at maturity.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8789117932319641
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.12352941176470589,
+              "page": 2,
+              "top": 0.7529691211401425,
+              "width": 0.7084033613445379,
+              "original_page": 2
+            },
+            "content": "[ ] The amount of each coupon payment is determined by the coupon rate of the bond.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8686500679701568
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 2,
+              "top": 0.8378859857482185,
+              "width": 0.16134453781512606,
+              "original_page": 2
+            },
+            "content": "Maximum marks: 2",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7749740362167359
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.9327731092436975,
+              "page": 2,
+              "top": 0.9703087885985748,
+              "width": 0.034453781512605045,
+              "original_page": 2
+            },
+            "content": "2/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8834759354591369
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 3,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 3
+            },
+            "content": "TIØ4145 2024 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8964312314987183
+            },
+            "image_url": null
+          }
+        ],
+        "content": "s in Section 1 are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.## Notifications:\n\nAny messages during the exam (e.g., in case of errors in the exam set) will be sent out via notifications in Inspera. A notification will appear as a dialog box on the screen. You can find the notification again by clicking on the bell icon at the top right\n\n## Withdrawing from the exam:\n\nIf you wish to submit a blank test/withdraw from the exam for another reason, go to the menu in the top right-hand corner and click “Submit blank”. This cannot be undone, even if the test is still open.\n\n## Access to your answers:\n\n1/15\n\nTIØ4145 2024 Høst\n\nAfter the exam, you can find your answers under previous tests in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.\n\n1.1 Valuation of companies\n\nWhich of the following best describes the purpose of the Normalized Earnings Method? Select one alternative:\n\n[ ] To adjust earnings to include all recurring items, regardless of their relevance to core business operations.\n\n[ ] To adjust earnings by including anticipated future gains to reflect a more realistic earnings pattern over time.\n\n[ ] To forecast future earnings by considering the company's growth potential and market trends.\n\n[ ] To adjust earnings by excluding non-recurring or extraordinary items in order to reflect a company’s sustainable financial performance.\n\nMaximum marks: 2\n\n1.2 Bonds\n\nWhich of the following statements is FALSE? Select one alternative:\n\n[ ] Prior to its maturity date, the price of a zero-coupon bond is always greater than its face value.\n\n[ ] Treasury bills are U.S. government bonds with a maturity of up to one year.\n\n- Usually the face value of a bond is repaid at maturity.\n\n[ ] The amount of each coupon payment is determined by the coupon rate of the bond.\n\nMaximum marks: 2\n\n2/15\n\nTIØ4145 2024 Høst## 1.3 Risk-Neutral Probabilities\n\nWhich of the following statements about the risk neutral probabilities is FALSE? Select one alternative:\n\n[ ] By using the probabilities in the risk-neutral world we",
+        "embed": "s in Section 1 are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.## Notifications:\n\nAny messages during the exam (e.g., in case of errors in the exam set) will be sent out via notifications in Inspera. A notification will appear as a dialog box on the screen. You can find the notification again by clicking on the bell icon at the top right\n\n## Withdrawing from the exam:\n\nIf you wish to submit a blank test/withdraw from the exam for another reason, go to the menu in the top right-hand corner and click “Submit blank”. This cannot be undone, even if the test is still open.\n\n## Access to your answers:\n\n1/15\n\nTIØ4145 2024 Høst\n\nAfter the exam, you can find your answers under previous tests in Inspera. Be aware that it may take a working day until any hand-written material is available in the archive.\n\n1.1 Valuation of companies\n\nWhich of the following best describes the purpose of the Normalized Earnings Method? Select one alternative:\n\n[ ] To adjust earnings to include all recurring items, regardless of their relevance to core business operations.\n\n[ ] To adjust earnings by including anticipated future gains to reflect a more realistic earnings pattern over time.\n\n[ ] To forecast future earnings by considering the company's growth potential and market trends.\n\n[ ] To adjust earnings by excluding non-recurring or extraordinary items in order to reflect a company’s sustainable financial performance.\n\nMaximum marks: 2\n\n1.2 Bonds\n\nWhich of the following statements is FALSE? Select one alternative:\n\n[ ] Prior to its maturity date, the price of a zero-coupon bond is always greater than its face value.\n\n[ ] Treasury bills are U.S. government bonds with a maturity of up to one year.\n\n- Usually the face value of a bond is repaid at maturity.\n\n[ ] The amount of each coupon payment is determined by the coupon rate of the bond.\n\nMaximum marks: 2\n\n2/15\n\nTIØ4145 2024 Høst## 1.3 Risk-Neutral Probabilities\n\nWhich of the following statements about the risk neutral probabilities is FALSE? Select one alternative:\n\n[ ] By using the probabilities in the risk-neutral world we",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.0166270783847981,
+              "left": 0.06554621848739496,
+              "page": 3,
+              "top": 0.0498812351543943,
+              "width": 0.37563025210084033,
+              "original_page": 3
+            },
+            "content": "1.3 Risk-Neutral Probabilities",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.931857043504715
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.10840336134453782,
+              "page": 3,
+              "top": 0.08729216152019002,
+              "width": 0.646218487394958,
+              "original_page": 3
+            },
+            "content": "Which of the following statements about the risk neutral probabilities is FALSE? Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8473968416452408
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 3,
+              "top": 0.14073634204275534,
+              "width": 0.7588235294117647,
+              "original_page": 3
+            },
+            "content": "[ ] By using the probabilities in the risk-neutral world we can price any derivative security— that is, any security whose payoff depends solely on the prices of other marketed assets.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9546315702795982
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04453681710213777,
+              "left": 0.1226890756302521,
+              "page": 3,
+              "top": 0.19418052256532067,
+              "width": 0.7529411764705882,
+              "original_page": 3
+            },
+            "content": "- After we have constructed the binomial tree and calculated the probabilities in the risk-\n[ ] neutral world, we can use them to price the derivative by simply discounting its expected\npayoff (using the risk neutral probabilities) at the risk-free rate.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9242842404544354
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04453681710213777,
+              "left": 0.1226890756302521,
+              "page": 3,
+              "top": 0.26365795724465557,
+              "width": 0.7621848739495798,
+              "original_page": 3
+            },
+            "content": "- To ensure that all assets in the risk-neutral world have an expected return equal to the\n[ ] risk-free rate, relative to the true probabilities, the risk-neutral probabilities underweight the\nbad states and overweight the good states.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.933110775384638
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 3,
+              "top": 0.3319477434679335,
+              "width": 0.7201680672268908,
+              "original_page": 3
+            },
+            "content": "[ ] If all market participants were risk neutral, then all financial assets (including options) would have the same cost of capital—the risk-free rate of interest.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9390359723567963
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 3,
+              "top": 0.4328978622327791,
+              "width": 0.16134453781512606,
+              "original_page": 3
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8951288074254989
+            },
+            "image_url": null
+          }
+        ],
+        "content": " to one year.\n\n- Usually the face value of a bond is repaid at maturity.\n\n[ ] The amount of each coupon payment is determined by the coupon rate of the bond.\n\nMaximum marks: 2\n\n2/15\n\nTIØ4145 2024 Høst## 1.3 Risk-Neutral Probabilities\n\nWhich of the following statements about the risk neutral probabilities is FALSE? Select one alternative:\n\n[ ] By using the probabilities in the risk-neutral world we can price any derivative security— that is, any security whose payoff depends solely on the prices of other marketed assets.\n\n- After we have constructed the binomial tree and calculated the probabilities in the risk-\n[ ] neutral world, we can use them to price the derivative by simply discounting its expected\npayoff (using the risk neutral probabilities) at the risk-free rate.\n\n- To ensure that all assets in the risk-neutral world have an expected return equal to the\n[ ] risk-free rate, relative to the true probabilities, the risk-neutral probabilities underweight the\nbad states and overweight the good states.\n\n[ ] If all market participants were risk neutral, then all financial assets (including options) would have the same cost of capital—the risk-free rate of interest.\n\nMaximum marks: 2## 1.4 Bankruptcy and Financial Distress\n\nWhich of the following statements is FALSE?\n\nSelect one alternative:\n\n[ ] When a firm fails to make a required payment to debt holders, it is in default\n\n- Wi",
+        "embed": " to one year.\n\n- Usually the face value of a bond is repaid at maturity.\n\n[ ] The amount of each coupon payment is determined by the coupon rate of the bond.\n\nMaximum marks: 2\n\n2/15\n\nTIØ4145 2024 Høst## 1.3 Risk-Neutral Probabilities\n\nWhich of the following statements about the risk neutral probabilities is FALSE? Select one alternative:\n\n[ ] By using the probabilities in the risk-neutral world we can price any derivative security— that is, any security whose payoff depends solely on the prices of other marketed assets.\n\n- After we have constructed the binomial tree and calculated the probabilities in the risk-\n[ ] neutral world, we can use them to price the derivative by simply discounting its expected\npayoff (using the risk neutral probabilities) at the risk-free rate.\n\n- To ensure that all assets in the risk-neutral world have an expected return equal to the\n[ ] risk-free rate, relative to the true probabilities, the risk-neutral probabilities underweight the\nbad states and overweight the good states.\n\n[ ] If all market participants were risk neutral, then all financial assets (including options) would have the same cost of capital—the risk-free rate of interest.\n\nMaximum marks: 2## 1.4 Bankruptcy and Financial Distress\n\nWhich of the following statements is FALSE?\n\nSelect one alternative:\n\n[ ] When a firm fails to make a required payment to debt holders, it is in default\n\n- Wi",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.06470588235294118,
+              "page": 3,
+              "top": 0.47802850356294535,
+              "width": 0.4907563025210084,
+              "original_page": 3
+            },
+            "content": "1.4 Bankruptcy and Financial Distress",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9617644369602203
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.10840336134453782,
+              "page": 3,
+              "top": 0.5225653206650831,
+              "width": 0.36722689075630255,
+              "original_page": 3
+            },
+            "content": "Which of the following statements is FALSE?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9023233085870743
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.10840336134453782,
+              "page": 3,
+              "top": 0.5415676959619953,
+              "width": 0.1957983193277311,
+              "original_page": 3
+            },
+            "content": "Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8246945410966873
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1226890756302521,
+              "page": 3,
+              "top": 0.5754156769596199,
+              "width": 0.6445378151260505,
+              "original_page": 3
+            },
+            "content": "[ ] When a firm fails to make a required payment to debt holders, it is in default",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.927100969938671
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04453681710213777,
+              "left": 0.1226890756302521,
+              "page": 3,
+              "top": 0.6146080760095012,
+              "width": 0.7638655462184873,
+              "original_page": 3
+            },
+            "content": "- With perfect capital markets, the risk of bankruptcy in itself is not a disadvantage of debt—\n[ ] bankruptcy simply shifts the ownership of the firm from equity holders to debt holders\nwithout changing the total value available to all investors.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9172712694853544
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 3,
+              "top": 0.684085510688836,
+              "width": 0.7226890756302521,
+              "original_page": 3
+            },
+            "content": "[ ] Whether paid by the firm or its creditors, the indirect costs of bankruptcy increase the value of the assets that the firm's investors will ultimately receive.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.94741350710392
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 3,
+              "top": 0.7375296912114014,
+              "width": 0.7596638655462185,
+              "original_page": 3
+            },
+            "content": "[ ] Bankruptcy is a long and complicated process that imposes both direct and indirect costs on the firm and its investors that the assumption of perfect capital markets ignores.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9610348450726476
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 3,
+              "top": 0.8378859857482185,
+              "width": 0.16134453781512606,
+              "original_page": 3
+            },
+            "content": "Maximum marks: 2",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8372628152370453
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9336134453781513,
+              "page": 3,
+              "top": 0.9703087885985748,
+              "width": 0.03361344537815126,
+              "original_page": 3
+            },
+            "content": "3/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8603240251541138
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 4,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 4
+            },
+            "content": "TIØ4145 2024 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9303885966539382
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.06386554621848739,
+              "page": 4,
+              "top": 0.042161520190023755,
+              "width": 0.2546218487394958,
+              "original_page": 4
+            },
+            "content": "1.5 Market Portfolio",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.10840336134453782,
+              "page": 4,
+              "top": 0.10570071258907364,
+              "width": 0.7773109243697479,
+              "original_page": 4
+            },
+            "content": "Suppose all possible investment opportunities in the world are limited to the four stocks listed in the table below:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9691919773817063
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11163895486935867,
+              "left": 0.14873949579831933,
+              "page": 4,
+              "top": 0.15795724465558195,
+              "width": 0.5453781512605042,
+              "original_page": 4
+            },
+            "content": "| Stock                    | Price per<br />Share   | Number of Shares<br />Outstanding (Millions)   |\n|-|-|-|\n| Taggart Transcontinental | $15.60                 | 25                                             |\n| Rearden Metal            | $13.00                 | 45                                             |\n| Wyatt Oil                | $29.25                 | 10                                             |\n| Nielson Motors           | $26.25                 | 26                                             |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8684227943420411
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.10840336134453782,
+              "page": 4,
+              "top": 0.29275534441805223,
+              "width": 0.773109243697479,
+              "original_page": 4
+            },
+            "content": "Suppose you are holding a market portfolio, which includes an investment of $9000 in Rearden Metal. The amount that you have invested in Nielson Motors is closest to:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9488738209009171
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.17311741337357112,
+              "left": 0.10676765762457327,
+              "page": 4,
+              "top": 0.32560269679706055,
+              "width": 0.7198923960453322,
+              "original_page": 4
+            },
+            "content": "Select one alternative:\n\n[ ] 7 715\n\n[ ] 9000\n\n[ ] 10 500\n\n[ ] 6 000",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8676467895507812
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 4,
+              "top": 0.5629453681710214,
+              "width": 0.16134453781512606,
+              "original_page": 4
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8511402547359467
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.9319327731092437,
+              "page": 4,
+              "top": 0.9714964370546318,
+              "width": 0.03529411764705882,
+              "original_page": 4
+            },
+            "content": "4/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8981978029012679
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 5,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 5
+            },
+            "content": "TIØ4145 2024 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9154421210289001
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03147268408551069,
+              "left": 0.06386554621848739,
+              "page": 5,
+              "top": 0.042161520190023755,
+              "width": 0.21428571428571427,
+              "original_page": 5
+            },
+            "content": "1.6 Real Options",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.10840336134453782,
+              "page": 5,
+              "top": 0.08729216152019002,
+              "width": 0.36722689075630255,
+              "original_page": 5
+            },
+            "content": "Which of the following statements is FALSE?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9047784149646759
+            },
+            "image_url": null
+          }
+        ],
+        "content": " the good states.\n\n[ ] If all market participants were risk neutral, then all financial assets (including options) would have the same cost of capital—the risk-free rate of interest.\n\nMaximum marks: 2## 1.4 Bankruptcy and Financial Distress\n\nWhich of the following statements is FALSE?\n\nSelect one alternative:\n\n[ ] When a firm fails to make a required payment to debt holders, it is in default\n\n- With perfect capital markets, the risk of bankruptcy in itself is not a disadvantage of debt—\n[ ] bankruptcy simply shifts the ownership of the firm from equity holders to debt holders\nwithout changing the total value available to all investors.\n\n[ ] Whether paid by the firm or its creditors, the indirect costs of bankruptcy increase the value of the assets that the firm's investors will ultimately receive.\n\n[ ] Bankruptcy is a long and complicated process that imposes both direct and indirect costs on the firm and its investors that the assumption of perfect capital markets ignores.\n\nMaximum marks: 2\n\n3/15\n\nTIØ4145 2024 Høst\n\n1.5 Market Portfolio\n\nSuppose all possible investment opportunities in the world are limited to the four stocks listed in the table below:\n\n| Stock                    | Price per<br />Share   | Number of Shares<br />Outstanding (Millions)   |\n|-|-|-|\n| Taggart Transcontinental | $15.60                 | 25                                             |\n| Rearden Metal            | $13.00                 | 45                                             |\n| Wyatt Oil                | $29.25                 | 10                                             |\n| Nielson Motors           | $26.25                 | 26                                             |\n\nSuppose you are holding a market portfolio, which includes an investment of $9000 in Rearden Metal. The amount that you have invested in Nielson Motors is closest to:\n\nSelect one alternative:\n\n[ ] 7 715\n\n[ ] 9000\n\n[ ] 10 500\n\n[ ] 6 000\n\nMaximum marks: 2\n\n4/15\n\nTIØ4145 2024 Høst\n\n1.6 Real Options\n\nWhich of the following statements is FALSE?## Select one alternative:\n\n[ ] To make an investment decision correctly, the value of embedded real options must be included in the decision-making process.\n\n[ ] A key distinction between a real opti",
+        "embed": " the good states.\n\n[ ] If all market participants were risk neutral, then all financial assets (including options) would have the same cost of capital—the risk-free rate of interest.\n\nMaximum marks: 2## 1.4 Bankruptcy and Financial Distress\n\nWhich of the following statements is FALSE?\n\nSelect one alternative:\n\n[ ] When a firm fails to make a required payment to debt holders, it is in default\n\n- With perfect capital markets, the risk of bankruptcy in itself is not a disadvantage of debt—\n[ ] bankruptcy simply shifts the ownership of the firm from equity holders to debt holders\nwithout changing the total value available to all investors.\n\n[ ] Whether paid by the firm or its creditors, the indirect costs of bankruptcy increase the value of the assets that the firm's investors will ultimately receive.\n\n[ ] Bankruptcy is a long and complicated process that imposes both direct and indirect costs on the firm and its investors that the assumption of perfect capital markets ignores.\n\nMaximum marks: 2\n\n3/15\n\nTIØ4145 2024 Høst\n\n1.5 Market Portfolio\n\nSuppose all possible investment opportunities in the world are limited to the four stocks listed in the table below:\n\nThis table presents the stock prices and outstanding shares for four companies. Taggart Transcontinental is trading at $15.60 with 25 million shares, while Rearden Metal has a price of $13.00 and 45 million shares outstanding. Wyatt Oil is valued at $29.25 per share with 10 million shares, and Nielson Motors has a share price of $26.25 with 26 million shares outstanding.\n\nSuppose you are holding a market portfolio, which includes an investment of $9000 in Rearden Metal. The amount that you have invested in Nielson Motors is closest to:\n\nSelect one alternative:\n\n[ ] 7 715\n\n[ ] 9000\n\n[ ] 10 500\n\n[ ] 6 000\n\nMaximum marks: 2\n\n4/15\n\nTIØ4145 2024 Høst\n\n1.6 Real Options\n\nWhich of the following statements is FALSE?## Select one alternative:\n\n[ ] To make an investment decision correctly, the value of embedded real options must be included in the decision-making process.\n\n[ ] A key distinction between a real opti",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.10840336134453782,
+              "page": 5,
+              "top": 0.10926365795724466,
+              "width": 0.1949579831932773,
+              "original_page": 5
+            },
+            "content": "Select one alternative:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7530392408370972
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.12184873949579832,
+              "page": 5,
+              "top": 0.14073634204275534,
+              "width": 0.738655462184874,
+              "original_page": 5
+            },
+            "content": "[ ] To make an investment decision correctly, the value of embedded real options must be included in the decision-making process.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7651256760954857
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.12184873949579832,
+              "page": 5,
+              "top": 0.19418052256532067,
+              "width": 0.7436974789915967,
+              "original_page": 5
+            },
+            "content": "[ ] A key distinction between a real option and a financial option is that real options, and the underlying assets on which they are based, are often traded in financial markets.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7890170341537845
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.12184873949579832,
+              "page": 5,
+              "top": 0.24762470308788598,
+              "width": 0.7647058823529411,
+              "original_page": 5
+            },
+            "content": "[ ] When you do not have the option to wait, it is optimal to invest in any positive-NPV project.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7022423372456903
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04453681710213777,
+              "left": 0.12184873949579832,
+              "page": 5,
+              "top": 0.28681710213776723,
+              "width": 0.7689075630252101,
+              "original_page": 5
+            },
+            "content": "- In particular, because real options allow a decision maker to choose the most attractive\n[ ] alternative after new information has been learned, the presence of real options adds value\nto an investment opportunity.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7109228336449824
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 5,
+              "top": 0.4026128266033254,
+              "width": 0.16134453781512606,
+              "original_page": 5
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8755012840032578
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.021377672209026127,
+              "left": 0.06470588235294118,
+              "page": 5,
+              "top": 0.4524940617577197,
+              "width": 0.26638655462184874,
+              "original_page": 5
+            },
+            "content": "1.7 Market efficiency",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9276570528745651
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.21838034586781843,
+              "left": 0.10574716519908745,
+              "page": 5,
+              "top": 0.4913642865178704,
+              "width": 0.7831001217625723,
+              "original_page": 5
+            },
+            "content": "Why do actively managed funds often fail to generate positive alphas on a consistent basis?\nSelect one alternative:\n\n[ ] Competition among fund managers and market efficiency reduce opportunities for access returns\n\n[ ] Fund managers prioritize diversification over returns, which limits alpha generation\n\n[ ] Most fund managers lack the skills necessary to outperform the market\n\n[ ] Fund managers face limitations in accessing timely information compared to individual investors",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9089385032653808
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 5,
+              "top": 0.7773159144893111,
+              "width": 0.16134453781512606,
+              "original_page": 5
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7780752211809159
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.9327731092436975,
+              "page": 5,
+              "top": 0.9703087885985748,
+              "width": 0.03529411764705882,
+              "original_page": 5
+            },
+            "content": "5/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8629240661859513
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 6,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 6
+            },
+            "content": "TIØ4145 2024 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9305714249610901
+            },
+            "image_url": null
+          }
+        ],
+        "content": "son Motors is closest to:\n\nSelect one alternative:\n\n[ ] 7 715\n\n[ ] 9000\n\n[ ] 10 500\n\n[ ] 6 000\n\nMaximum marks: 2\n\n4/15\n\nTIØ4145 2024 Høst\n\n1.6 Real Options\n\nWhich of the following statements is FALSE?## Select one alternative:\n\n[ ] To make an investment decision correctly, the value of embedded real options must be included in the decision-making process.\n\n[ ] A key distinction between a real option and a financial option is that real options, and the underlying assets on which they are based, are often traded in financial markets.\n\n[ ] When you do not have the option to wait, it is optimal to invest in any positive-NPV project.\n\n- In particular, because real options allow a decision maker to choose the most attractive\n[ ] alternative after new information has been learned, the presence of real options adds value\nto an investment opportunity.\n\nMaximum marks: 2\n\n## 1.7 Market efficiency\n\nWhy do actively managed funds often fail to generate positive alphas on a consistent basis?\nSelect one alternative:\n\n[ ] Competition among fund managers and market efficiency reduce opportunities for access returns\n\n[ ] Fund managers prioritize diversification over returns, which limits alpha generation\n\n[ ] Most fund managers lack the skills necessary to outperform the market\n\n[ ] Fund managers face limitations in accessing timely information compared to individual investors\n\nMaximum marks: 2\n\n5/15\n\nTIØ4145 2024 Høst## 1.8 Agency Costs of Leverage\n\nWhich of the following statements is FALSE?\n\nSelect one alternative:\n\n[ ] When a firm faces financial distress, it is the creditors of the firm who gain from sufficien",
+        "embed": "son Motors is closest to:\n\nSelect one alternative:\n\n[ ] 7 715\n\n[ ] 9000\n\n[ ] 10 500\n\n[ ] 6 000\n\nMaximum marks: 2\n\n4/15\n\nTIØ4145 2024 Høst\n\n1.6 Real Options\n\nWhich of the following statements is FALSE?## Select one alternative:\n\n[ ] To make an investment decision correctly, the value of embedded real options must be included in the decision-making process.\n\n[ ] A key distinction between a real option and a financial option is that real options, and the underlying assets on which they are based, are often traded in financial markets.\n\n[ ] When you do not have the option to wait, it is optimal to invest in any positive-NPV project.\n\n- In particular, because real options allow a decision maker to choose the most attractive\n[ ] alternative after new information has been learned, the presence of real options adds value\nto an investment opportunity.\n\nMaximum marks: 2\n\n## 1.7 Market efficiency\n\nWhy do actively managed funds often fail to generate positive alphas on a consistent basis?\nSelect one alternative:\n\n[ ] Competition among fund managers and market efficiency reduce opportunities for access returns\n\n[ ] Fund managers prioritize diversification over returns, which limits alpha generation\n\n[ ] Most fund managers lack the skills necessary to outperform the market\n\n[ ] Fund managers face limitations in accessing timely information compared to individual investors\n\nMaximum marks: 2\n\n5/15\n\nTIØ4145 2024 Høst## 1.8 Agency Costs of Leverage\n\nWhich of the following statements is FALSE?\n\nSelect one alternative:\n\n[ ] When a firm faces financial distress, it is the creditors of the firm who gain from sufficien",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.06470588235294118,
+              "page": 6,
+              "top": 0.04334916864608076,
+              "width": 0.3865546218487395,
+              "original_page": 6
+            },
+            "content": "1.8 Agency Costs of Leverage",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9534408867359161
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.10840336134453782,
+              "page": 6,
+              "top": 0.08729216152019002,
+              "width": 0.36722689075630255,
+              "original_page": 6
+            },
+            "content": "Which of the following statements is FALSE?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9380755990743637
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.008907363420427554,
+              "left": 0.10840336134453782,
+              "page": 6,
+              "top": 0.10926365795724466,
+              "width": 0.1949579831932773,
+              "original_page": 6
+            },
+            "content": "Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8271276146173477
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 6,
+              "top": 0.14073634204275534,
+              "width": 0.7655462184873949,
+              "original_page": 6
+            },
+            "content": "[ ] When a firm faces financial distress, it is the creditors of the firm who gain from sufficiently risky investments, even if they have negative NPV.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8385895147919655
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 6,
+              "top": 0.19418052256532067,
+              "width": 0.746218487394958,
+              "original_page": 6
+            },
+            "content": "[ ] In some circumstances, managers may take actions that benefit shareholders but harm the firm's creditors and lower the total value of the firm.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8706896281490724
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.1226890756302521,
+              "page": 6,
+              "top": 0.24821852731591448,
+              "width": 0.7008403361344537,
+              "original_page": 6
+            },
+            "content": "[ ] When a firm has leverage, a conflict of interest exists if investment decisions have different consequences for the value of equity and the value of debt.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8200998496126246
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.12184873949579832,
+              "page": 6,
+              "top": 0.3016627078384798,
+              "width": 0.6672268907563025,
+              "original_page": 6
+            },
+            "content": "[ ] Agency costs are costs that arise when there are conflicts of interest between stakeholders.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7040144137541453
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.7378151260504202,
+              "page": 6,
+              "top": 0.4026128266033254,
+              "width": 0.16134453781512606,
+              "original_page": 6
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8886741042137146
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.06302521008403361,
+              "page": 6,
+              "top": 0.44477434679334915,
+              "width": 0.13025210084033614,
+              "original_page": 6
+            },
+            "content": "1.9 CAPM",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.10840336134453782,
+              "page": 6,
+              "top": 0.49228028503562943,
+              "width": 0.7596638655462185,
+              "original_page": 6
+            },
+            "content": "Suppose that the risk-free rate is 5% and the market portfolio has an expected return of 13% with a volatility of 18%. Monsters Inc. has a 24% volatility and a correlation with the market of .60. Assume the CAPM assumptions hold.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9666011929512024
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.18803786325341448,
+              "left": 0.10592836011357668,
+              "page": 6,
+              "top": 0.5633067948801217,
+              "width": 0.7309762650177258,
+              "original_page": 6
+            },
+            "content": "Monsters' beta with the market is closest to:\nSelect one alternative:\n[ ] 1.0\n[ ] 0.8\n[ ] 1.3\n[ ] 0.6",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9294939756393432
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 6,
+              "top": 0.8165083135391924,
+              "width": 0.16134453781512606,
+              "original_page": 6
+            },
+            "content": "Maximum marks: 2",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8256196081638336
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.9327731092436975,
+              "page": 6,
+              "top": 0.9703087885985748,
+              "width": 0.034453781512605045,
+              "original_page": 6
+            },
+            "content": "6/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9080858409404755
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.8134453781512605,
+              "page": 7,
+              "top": 0.01840855106888361,
+              "width": 0.1546218487394958,
+              "original_page": 7
+            },
+            "content": "TIØ4145 2024 Høst",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.941436517238617
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.06554621848739496,
+              "page": 7,
+              "top": 0.04928741092636579,
+              "width": 0.30840336134453783,
+              "original_page": 7
+            },
+            "content": "1.10 Sustainable finance",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9428016304969787
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11848739495798319,
+              "page": 7,
+              "top": 0.08729216152019002,
+              "width": 0.6747899159663866,
+              "original_page": 7
+            },
+            "content": "What is \"double materiality\" in the context of corporate reporting and sustainability?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9497250437736511
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11848739495798319,
+              "page": 7,
+              "top": 0.11520190023752969,
+              "width": 0.19411764705882353,
+              "original_page": 7
+            },
+            "content": "Select one alternative:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.883947217464447
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.13361344537815126,
+              "page": 7,
+              "top": 0.14786223277909738,
+              "width": 0.7235294117647059,
+              "original_page": 7
+            },
+            "content": "[ ] The consideration of only impact materiality, which focuses on the environmental and social impacts of the company on society",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9672867377102374
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04453681710213777,
+              "left": 0.13361344537815126,
+              "page": 7,
+              "top": 0.2013064133016627,
+              "width": 0.7394957983193278,
+              "original_page": 7
+            },
+            "content": "- The consideration of both financial materiality, which focuses on risks and opportunities\n[ ] impacting the company’s financial performance, and impact materiality, which focuses\non the company’s environmental and social impacts on society",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9577502758242189
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.13361344537815126,
+              "page": 7,
+              "top": 0.27078384798099764,
+              "width": 0.7420168067226891,
+              "original_page": 7
+            },
+            "content": "[ ] The focus on balancing financial performance with non-financial goals related to internal operations, like efficiency and workforce diversity",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9578190450605593
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.13361344537815126,
+              "page": 7,
+              "top": 0.3248218527315915,
+              "width": 0.7327731092436974,
+              "original_page": 7
+            },
+            "content": "[ ] The obligation for companies to disclose all material information affecting stakeholders and shareholders quarterly",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9583339083194733
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.7378151260504202,
+              "page": 7,
+              "top": 0.4245843230403801,
+              "width": 0.16134453781512606,
+              "original_page": 7
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8777668982744217
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.9327731092436975,
+              "page": 7,
+              "top": 0.9709026128266033,
+              "width": 0.03361344537815126,
+              "original_page": 7
+            },
+            "content": "7/15",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9220705062150956
+            },
+            "image_url": null
+          }
+        ],
+        "content": "agers lack the skills necessary to outperform the market\n\n[ ] Fund managers face limitations in accessing timely information compared to individual investors\n\nMaximum marks: 2\n\n5/15\n\nTIØ4145 2024 Høst## 1.8 Agency Costs of Leverage\n\nWhich of the following statements is FALSE?\n\nSelect one alternative:\n\n[ ] When a firm faces financial distress, it is the creditors of the firm who gain from sufficiently risky investments, even if they have negative NPV.\n\n[ ] In some circumstances, managers may take actions that benefit shareholders but harm the firm's creditors and lower the total value of the firm.\n\n[ ] When a firm has leverage, a conflict of interest exists if investment decisions have different consequences for the value of equity and the value of debt.\n\n[ ] Agency costs are costs that arise when there are conflicts of interest between stakeholders.\n\nMaximum marks: 2\n\n1.9 CAPM\n\nSuppose that the risk-free rate is 5% and the market portfolio has an expected return of 13% with a volatility of 18%. Monsters Inc. has a 24% volatility and a correlation with the market of .60. Assume the CAPM assumptions hold.\n\nMonsters' beta with the market is closest to:\nSelect one alternative:\n[ ] 1.0\n[ ] 0.8\n[ ] 1.3\n[ ] 0.6\n\nMaximum marks: 2\n\n6/15\n\nTIØ4145 2024 Høst\n\n## 1.10 Sustainable finance\n\nWhat is \"double materiality\" in the context of corporate reporting and sustainability?\n\n## Select one alternative:\n\n[ ] The consideration of only impact materiality, which focuses on the environmental and social impacts of the company on society\n\n- The consideration of both financial materiality, which focuses on risks and opportunities\n[ ] impacting the company’s financial performance, and impact materiality, which focuses\non the company’s environmental and social impacts on society\n\n[ ] The focus on balancing financial performance with non-financial goals related to internal operations, like efficiency and workforce diversity\n\n[ ] The obligation for companies to disclose all material information affecting stakeholders and shareholders quarterly\n\nMaximum marks: 2\n\n7/15",
+        "embed": "agers lack the skills necessary to outperform the market\n\n[ ] Fund managers face limitations in accessing timely information compared to individual investors\n\nMaximum marks: 2\n\n5/15\n\nTIØ4145 2024 Høst## 1.8 Agency Costs of Leverage\n\nWhich of the following statements is FALSE?\n\nSelect one alternative:\n\n[ ] When a firm faces financial distress, it is the creditors of the firm who gain from sufficiently risky investments, even if they have negative NPV.\n\n[ ] In some circumstances, managers may take actions that benefit shareholders but harm the firm's creditors and lower the total value of the firm.\n\n[ ] When a firm has leverage, a conflict of interest exists if investment decisions have different consequences for the value of equity and the value of debt.\n\n[ ] Agency costs are costs that arise when there are conflicts of interest between stakeholders.\n\nMaximum marks: 2\n\n1.9 CAPM\n\nSuppose that the risk-free rate is 5% and the market portfolio has an expected return of 13% with a volatility of 18%. Monsters Inc. has a 24% volatility and a correlation with the market of .60. Assume the CAPM assumptions hold.\n\nMonsters' beta with the market is closest to:\nSelect one alternative:\n[ ] 1.0\n[ ] 0.8\n[ ] 1.3\n[ ] 0.6\n\nMaximum marks: 2\n\n6/15\n\nTIØ4145 2024 Høst\n\n## 1.10 Sustainable finance\n\nWhat is \"double materiality\" in the context of corporate reporting and sustainability?\n\n## Select one alternative:\n\n[ ] The consideration of only impact materiality, which focuses on the environmental and social impacts of the company on society\n\n- The consideration of both financial materiality, which focuses on risks and opportunities\n[ ] impacting the company’s financial performance, and impact materiality, which focuses\non the company’s environmental and social impacts on society\n\n[ ] The focus on balancing financial performance with non-financial goals related to internal operations, like efficiency and workforce diversity\n\n[ ] The obligation for companies to disclose all material information affecting stakeholders and shareholders quarterly\n\nMaximum marks: 2\n\n7/15",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 7,
+    "credit_breakdown": {
+      "page": 7.0,
+      "complex": 3.0
+    },
+    "credits": 10.0,
+    "page_billing_breakdown": {
+      "1": [
+        "page"
+      ],
+      "2": [
+        "page"
+      ],
+      "3": [
+        "page"
+      ],
+      "4": [
+        "complex",
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/b9cb620e-464e-4e9b-84c2-84b1d2f5dbfa.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T181037Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=adf931e543271391c7e9ea7741a27d0e83809d93732cbafc3c17ddc6279d2128",
+  "studio_link": "https://studio.reducto.ai/job/e28182d6-65f1-4678-8b6c-4ce9c8ee2be1",
+  "response_type": "parse",
+  "parse_mode": null
+}

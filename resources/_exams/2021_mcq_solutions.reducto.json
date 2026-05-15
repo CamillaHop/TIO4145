@@ -1,0 +1,455 @@
+{
+  "duration": 8.212563514709473,
+  "job_id": "84b989d4-3502-452a-9ad6-057b3d6e8e79",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.07957244655581948,
+              "width": 0.6633081444164568,
+              "original_page": 1
+            },
+            "content": "TIØ4145 Corporate Finance Fall 2021 Exam – Answers to the multiple-choice questions",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8834167540073394
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.0906801007556675,
+              "page": 1,
+              "top": 0.10807600950118765,
+              "width": 0.15113350125944586,
+              "original_page": 1
+            },
+            "content": "Sustainable Finance",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8768354535102845
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.1330166270783848,
+              "width": 0.7951301427371956,
+              "original_page": 1
+            },
+            "content": "The two dimensions of sustainability reporting are a) the impact in shareholder assessment and decisions, and b) significance on economic, social and environmental impacts.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9737110793590545
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.20368171021377673,
+              "width": 0.14609571788413098,
+              "original_page": 1
+            },
+            "content": "Valuation of Bonds",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9241774320602417
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.23040380047505937,
+              "width": 0.7791771620486986,
+              "original_page": 1
+            },
+            "content": "P = $52.50/1.058 + $52.50/1.0552 + $52.50/1.0523 + $1052.50/1.0504 = $1007.78 which is greater than $1000, so it trades at a premium.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9721381902694702
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.3022565320665083,
+              "width": 0.1351805205709488,
+              "original_page": 1
+            },
+            "content": "Capital Budgeting",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9177273660898209
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.32779097387173395,
+              "width": 0.5390428211586902,
+              "original_page": 1
+            },
+            "content": "The tax shield will last for $320 million/($100 million × 0.80) = 4.0 years.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9532144337892532
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.0906801007556675,
+              "page": 1,
+              "top": 0.3818289786223278,
+              "width": 0.10411418975650713,
+              "original_page": 1
+            },
+            "content": "Debt Markets",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.927319547533989
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.407957244655582,
+              "width": 0.7808564231738035,
+              "original_page": 1
+            },
+            "content": "The expected loss of lending can be calculated by multiplying the probability of default, the value of loss given a default and the exposure of the lender at default.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9750811874866485
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011876484560570071,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.47921615201900236,
+              "width": 0.18387909319899245,
+              "original_page": 1
+            },
+            "content": "Valuation of Companies",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9233081072568894
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.5053444180522565,
+              "width": 0.783375314861461,
+              "original_page": 1
+            },
+            "content": "If a company goes through a stable business cycle, the normalized earnings method is a common choice.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9439947575330734
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.5587885985748219,
+              "width": 0.35852225020990763,
+              "original_page": 1
+            },
+            "content": "Real Options 1 – create value with real options",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8075321972370147
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.5866983372921615,
+              "width": 0.31905961376994124,
+              "original_page": 1
+            },
+            "content": "Optimally delaying or abandoning projects",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9243688762187958
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.6389548693586699,
+              "width": 0.27120067170445006,
+              "original_page": 1
+            },
+            "content": "Real Options 2 – NPV of the project",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7001016408205032
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.6668646080760094,
+              "width": 0.12174643157010916,
+              "original_page": 1
+            },
+            "content": "Answer: 90,000.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8695238411426545
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.7191211401425178,
+              "width": 0.2216624685138539,
+              "original_page": 1
+            },
+            "content": "CAPM 1 – not an assumption",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8565607130527496
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.7458432304038005,
+              "width": 0.5675902602854744,
+              "original_page": 1
+            },
+            "content": "Investors have homogeneous risk-averse preferences toward taking on risk.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9137552499771118
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.7992874109263658,
+              "width": 0.24769101595298068,
+              "original_page": 1
+            },
+            "content": "CAPM 2 – consistent with CAPM",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9066124707460403
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.8260095011876485,
+              "width": 0.7388748950461796,
+              "original_page": 1
+            },
+            "content": "A security with only systematic risk has an expected return that exceeds the risk-free interest rate.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9334774225950241
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.0906801007556675,
+              "page": 1,
+              "top": 0.8800475059382423,
+              "width": 0.21326616288832914,
+              "original_page": 1
+            },
+            "content": "Fama-French-Carhart model",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8036778658628463
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.08984047019311503,
+              "page": 1,
+              "top": 0.9079572446555819,
+              "width": 0.11251049538203191,
+              "original_page": 1
+            },
+            "content": "Answer: 0.53%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8996341198682786
+            },
+            "image_url": null
+          }
+        ],
+        "content": "## TIØ4145 Corporate Finance Fall 2021 Exam – Answers to the multiple-choice questions\n\n## Sustainable Finance\n\nThe two dimensions of sustainability reporting are a) the impact in shareholder assessment and decisions, and b) significance on economic, social and environmental impacts.\n\n## Valuation of Bonds\n\nP = $52.50/1.058 + $52.50/1.0552 + $52.50/1.0523 + $1052.50/1.0504 = $1007.78 which is greater than $1000, so it trades at a premium.\n\n## Capital Budgeting\n\nThe tax shield will last for $320 million/($100 million × 0.80) = 4.0 years.\n\n## Debt Markets\n\nThe expected loss of lending can be calculated by multiplying the probability of default, the value of loss given a default and the exposure of the lender at default.\n\n## Valuation of Companies\n\nIf a company goes through a stable business cycle, the normalized earnings method is a common choice.\n\nReal Options 1 – create value with real options\n\nOptimally delaying or abandoning projects\n\nReal Options 2 – NPV of the project\n\nAnswer: 90,000.\n\n## CAPM 1 – not an assumption\n\nInvestors have homogeneous risk-averse preferences toward taking on risk.\n\n## CAPM 2 – consistent with CAPM\n\nA security with only systematic risk has an expected return that exceeds the risk-free interest rate.\n\n## Fama-French-Carhart model\n\nAnswer: 0.53%",
+        "embed": "## TIØ4145 Corporate Finance Fall 2021 Exam – Answers to the multiple-choice questions\n\n## Sustainable Finance\n\nThe two dimensions of sustainability reporting are a) the impact in shareholder assessment and decisions, and b) significance on economic, social and environmental impacts.\n\n## Valuation of Bonds\n\nP = $52.50/1.058 + $52.50/1.0552 + $52.50/1.0523 + $1052.50/1.0504 = $1007.78 which is greater than $1000, so it trades at a premium.\n\n## Capital Budgeting\n\nThe tax shield will last for $320 million/($100 million × 0.80) = 4.0 years.\n\n## Debt Markets\n\nThe expected loss of lending can be calculated by multiplying the probability of default, the value of loss given a default and the exposure of the lender at default.\n\n## Valuation of Companies\n\nIf a company goes through a stable business cycle, the normalized earnings method is a common choice.\n\nReal Options 1 – create value with real options\n\nOptimally delaying or abandoning projects\n\nReal Options 2 – NPV of the project\n\nAnswer: 90,000.\n\n## CAPM 1 – not an assumption\n\nInvestors have homogeneous risk-averse preferences toward taking on risk.\n\n## CAPM 2 – consistent with CAPM\n\nA security with only systematic risk has an expected return that exceeds the risk-free interest rate.\n\n## Fama-French-Carhart model\n\nAnswer: 0.53%",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 1,
+    "credit_breakdown": {
+      "page": 1.0
+    },
+    "credits": 1.0,
+    "page_billing_breakdown": {
+      "1": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/9b75c583-e40b-4ab3-a730-88051a6b0e12.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180805Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=11836c01a5404e304656e539cd16de1824a4a59948fe23b4749631a2268a1cb0",
+  "studio_link": "https://studio.reducto.ai/job/84b989d4-3502-452a-9ad6-057b3d6e8e79",
+  "response_type": "parse",
+  "parse_mode": null
+}

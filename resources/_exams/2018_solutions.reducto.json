@@ -1,0 +1,1749 @@
+{
+  "duration": 13.23611330986023,
+  "job_id": "fe736707-4109-4ffe-8ec8-c94c8fc256a7",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.08729216152019002,
+              "width": 0.1746431570109152,
+              "original_page": 1
+            },
+            "content": "Task 1-CAPM [15%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8834571540355682
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.11104513064133016,
+              "width": 0.5054575986565911,
+              "original_page": 1
+            },
+            "content": "Assume the CAPM is valid. You are given the following information:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.14845605700712589,
+              "left": 0.0906801007556675,
+              "page": 1,
+              "top": 0.13836104513064132,
+              "width": 0.8178001679261125,
+              "original_page": 1
+            },
+            "content": "| Stock    | Risk free<br />rate    | Expected return<br />on the market<br />portfolio    | Expected <br />return on the<br />stock    | 𝛽𝛽   | Price of the stock<br />in period 0   | Expected price of<br />the stock in<br />period 1   |\n|-|-|-|-|-|-|-|\n| A        | 10%                    | 20%                                                  | 10%                                        |      | 100                                   |                                                     |\n| B        | 10%                    | 20%                                                  |                                            | 1.5  |                                       | 125                                                 |\n| C        | 10%                    |                                                      | 20%                                        | 2.0  | 200                                   |                                                     |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9382245525717735
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.2856294536817102,
+              "width": 0.0041981528127623844,
+              "original_page": 1
+            },
+            "content": "",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.65
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.31235154394299286,
+              "width": 0.7539882451721243,
+              "original_page": 1
+            },
+            "content": "The stocks pay no dividends next period. This is enough information to complete the table. Calculate",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.3165083135391924,
+              "width": 0.7539882451721243,
+              "original_page": 1
+            },
+            "content": "all the missing data.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9767568230628967
+            },
+            "image_url": null
+          }
+        ],
+        "content": "## Task 1-CAPM [15%]\n\nAssume the CAPM is valid. You are given the following information:\n\n| Stock    | Risk free<br />rate    | Expected return<br />on the market<br />portfolio    | Expected <br />return on the<br />stock    | 𝛽𝛽   | Price of the stock<br />in period 0   | Expected price of<br />the stock in<br />period 1   |\n|-|-|-|-|-|-|-|\n| A        | 10%                    | 20%                                                  | 10%                                        |      | 100                                   |                                                     |\n| B        | 10%                    | 20%                                                  |                                            | 1.5  |                                       | 125                                                 |\n| C        | 10%                    |                                                      | 20%                                        | 2.0  | 200                                   |                                                     |\n\n\n\nThe stocks pay no dividends next period. This is enough information to complete the table. Calculate\n\nall the missing data.## Task 1-CAPM [15%] (cont.)\n\nE[r] == rf+(E[rm] -rf)ẞ\nE[P1] - Po\nE[r]\nРо\nB = Er-rf\nE[Fm] -rf\nEr-rf\nE[rm] - B +rf\nE[P1] = Po(1+E[r])\nE[P1]\nPo =\n1+E[r]\n\nBased on these formulas you get the following tab",
+        "embed": "## Task 1-CAPM [15%]\n\nAssume the CAPM is valid. You are given the following information:\n\nThis table presents data for three stocks (A, B, and C) related to investment analysis. It includes key financial metrics such as risk-free rate, expected market return, expected stock return, beta, current stock price, and expected future stock price. The missing values in the table require calculation based on established financial models like the Capital Asset Pricing Model (CAPM).\n\n\n\nThe stocks pay no dividends next period. This is enough information to complete the table. Calculate\n\nall the missing data.## Task 1-CAPM [15%] (cont.)\n\nE[r] == rf+(E[rm] -rf)ẞ\nE[P1] - Po\nE[r]\nРо\nB = Er-rf\nE[Fm] -rf\nEr-rf\nE[rm] - B +rf\nE[P1] = Po(1+E[r])\nE[P1]\nPo =\n1+E[r]\n\nBased on these formulas you get the following tab",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.19596199524940616,
+              "left": 0.1746431570109152,
+              "page": 1,
+              "top": 0.37885985748218526,
+              "width": 0.27287993282955497,
+              "original_page": 1
+            },
+            "content": "E[r] == rf+(E[rm] -rf)ẞ\nE[P1] - Po\nE[r]\nРо\nB = Er-rf\nE[Fm] -rf\nEr-rf\nE[rm] - B +rf\nE[P1] = Po(1+E[r])\nE[P1]\nPo =\n1+E[r]",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7559948772192001
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5991686460807601,
+              "width": 0.39126784214945426,
+              "original_page": 1
+            },
+            "content": "Based on these formulas you get the following table",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08907363420427554,
+              "left": 0.14609571788413098,
+              "page": 1,
+              "top": 0.6431116389548693,
+              "width": 0.4693534844668346,
+              "original_page": 1
+            },
+            "content": "| rf   | E[rm]   | E[71]   | β   | Ро   | E[P1]   |\n|-|-|-|-|-|-|\n| 10%  | 20%     | 10%     | 0   | 100  | 110     |\n| 10%  | 20%     | 25%     | 1.5 | 100  | 125     |\n| 10%  | 15%     | 20%     | 2.0 | 200  | 240     |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.911013913154602
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019596199524940617,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7416864608076009,
+              "width": 0.39210747271200674,
+              "original_page": 1
+            },
+            "content": "Task 2 – International Corporate Finance [20%]",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7701900237529691,
+              "width": 0.7279596977329975,
+              "original_page": 1
+            },
+            "content": "Consider a Norwegian investor who is planning to invest in a South African risk-free security that",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0344418052256532,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7874109263657957,
+              "width": 0.7388748950461796,
+              "original_page": 1
+            },
+            "content": "pays out 480 RAND in one year. Assume that the risk free interest rate in South Africa is 4.6%. The current spot exchange rate of Norwegian Krone to South African Rand is 1.66 RAND/NOK",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9857506275177002
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.060570071258907364,
+              "left": 0.1486146095717884,
+              "page": 1,
+              "top": 0.836104513064133,
+              "width": 0.5776658270361041,
+              "original_page": 1
+            },
+            "content": "a) What will the investor pay for this security in NOK?\nCRAND 480\nPVRAND 1+TRAND 1 + 0.046 = 458.89 RAND\nPrice in NOK is 458.89/1.66-276.44.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7803722828626632
+            },
+            "image_url": null
+          }
+        ],
+        "content": "                  |                                                     |\n\n\n\nThe stocks pay no dividends next period. This is enough information to complete the table. Calculate\n\nall the missing data.## Task 1-CAPM [15%] (cont.)\n\nE[r] == rf+(E[rm] -rf)ẞ\nE[P1] - Po\nE[r]\nРо\nB = Er-rf\nE[Fm] -rf\nEr-rf\nE[rm] - B +rf\nE[P1] = Po(1+E[r])\nE[P1]\nPo =\n1+E[r]\n\nBased on these formulas you get the following table\n\n| rf   | E[rm]   | E[71]   | β   | Ро   | E[P1]   |\n|-|-|-|-|-|-|\n| 10%  | 20%     | 10%     | 0   | 100  | 110     |\n| 10%  | 20%     | 25%     | 1.5 | 100  | 125     |\n| 10%  | 15%     | 20%     | 2.0 | 200  | 240     |\n\nTask 2 – International Corporate Finance [20%]\n\nConsider a Norwegian investor who is planning to invest in a South African risk-free security that\n\npays out 480 RAND in one year. Assume that the risk free interest rate in South Africa is 4.6%. The current spot exchange rate of Norwegian Krone to South African Rand is 1.66 RAND/NOK\n\na) What will the investor pay for this security in NOK?\nCRAND 480\nPVRAND 1+TRAND 1 + 0.046 = 458.89 RAND\nPrice in NOK is 458.89/1.66-276.44.## Task 1-CAPM [15%] (cont.)\n\nAssume that the risk free interest rate in Norway is 3% and one-year forward rate is 1.6 RAND/NOK.\n\nb) Is it possible for the investor Norwegian investor to profit from a",
+        "embed": "established financial models like the Capital Asset Pricing Model (CAPM).\n\n\n\nThe stocks pay no dividends next period. This is enough information to complete the table. Calculate\n\nall the missing data.## Task 1-CAPM [15%] (cont.)\n\nE[r] == rf+(E[rm] -rf)ẞ\nE[P1] - Po\nE[r]\nРо\nB = Er-rf\nE[Fm] -rf\nEr-rf\nE[rm] - B +rf\nE[P1] = Po(1+E[r])\nE[P1]\nPo =\n1+E[r]\n\nBased on these formulas you get the following table\n\nThis table presents scenarios with varying risk-free rates (rf), expected market returns (E[rm]), and expected returns of a specific asset (E[71]), alongside parameters beta (β), Rho (Ро), and expected returns of asset 1 (E[P1]). It illustrates how changes in these variables can influence the expected return of asset 1. For instance, increasing beta while holding other factors constant leads to a higher expected return for asset 1.\n\nTask 2 – International Corporate Finance [20%]\n\nConsider a Norwegian investor who is planning to invest in a South African risk-free security that\n\npays out 480 RAND in one year. Assume that the risk free interest rate in South Africa is 4.6%. The current spot exchange rate of Norwegian Krone to South African Rand is 1.66 RAND/NOK\n\na) What will the investor pay for this security in NOK?\nCRAND 480\nPVRAND 1+TRAND 1 + 0.046 = 458.89 RAND\nPrice in NOK is 458.89/1.66-276.44.## Task 1-CAPM [15%] (cont.)\n\nAssume that the risk free interest rate in Norway is 3% and one-year forward rate is 1.6 RAND/NOK.\n\nb) Is it possible for the investor Norwegian investor to profit from a",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.12258606213266163,
+              "page": 2,
+              "top": 0.08254156769596199,
+              "width": 0.7489504617968094,
+              "original_page": 2
+            },
+            "content": "Assume that the risk free interest rate in Norway is 3% and one-year forward rate is 1.6 RAND/NOK.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.892945870757103
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06947743467933491,
+              "left": 0.14693534844668346,
+              "page": 2,
+              "top": 0.10926365795724466,
+              "width": 0.7229219143576826,
+              "original_page": 2
+            },
+            "content": "b) Is it possible for the investor Norwegian investor to profit from an arbitrage opportunity? If yes, illustrate this opportunity and calculate the arbitrage profit. If no, show that the arbitrage profit is zero. Start the illustration by assuming that an investor borrows 100 NOK. Yes, it can, for example:",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9185355961322784
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.16984675898971013,
+              "left": 0.17605364052414593,
+              "page": 2,
+              "top": 0.18085940037090817,
+              "width": 0.6866830590389837,
+              "original_page": 2
+            },
+            "content": "The image depicts an arbitrage strategy involving NOK and RAND.\n\n1.  **Start with 100 NOK.**\n2.  **Exchange 100 NOK at a spot rate:** This results in 166 RAND (100 * 1.66).\n3.  **Invest 166 RAND in SA:** This yields 173.636 RAND (166 * 1.046).\n4.  **Convert 173.636 RAND using a forward rate (1.6):** This results in 108.5225 NOK (173.636 / 1.6).\n5.  **Alternative investment in Norway:** Investing 276.44 NOK at a risk-free rate of 1.03 yields 284.7332 NOK (276.44 * 1.03). The image also shows \"103 NOK\" and \"108.5225 NOK\" which appear to be comparison points.\n\nThe arbitrage profit is calculated as the final NOK amount obtained from the arbitrage strategy (108.5225 NOK) minus the amount that would have been obtained by investing the initial capital in Norway. The text states \"103 that one would own in Norway\", and the profit is 108.5225 - 103 = 5.5225. This suggests a comparison to a different initial NOK investment or a specific scenario.",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.94830864071846
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0688836104513064,
+              "left": 0.17884130982367757,
+              "page": 2,
+              "top": 0.3675771971496437,
+              "width": 0.6952141057934509,
+              "original_page": 2
+            },
+            "content": "Arbitrage strategy is to borrow 100 NOK at a risk free rate in Norway, exchange to RAND at a spot rate and invest in South Africa and convert using the forward rate. This secures 108.5225 NOK as opposed to 103 that one would own in Norway. Profit is 108.5225- 103=5.5225.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.970484870672226
+            },
+            "image_url": null
+          }
+        ],
+        "content": " of Norwegian Krone to South African Rand is 1.66 RAND/NOK\n\na) What will the investor pay for this security in NOK?\nCRAND 480\nPVRAND 1+TRAND 1 + 0.046 = 458.89 RAND\nPrice in NOK is 458.89/1.66-276.44.## Task 1-CAPM [15%] (cont.)\n\nAssume that the risk free interest rate in Norway is 3% and one-year forward rate is 1.6 RAND/NOK.\n\nb) Is it possible for the investor Norwegian investor to profit from an arbitrage opportunity? If yes, illustrate this opportunity and calculate the arbitrage profit. If no, show that the arbitrage profit is zero. Start the illustration by assuming that an investor borrows 100 NOK. Yes, it can, for example:\n\nThe image depicts an arbitrage strategy involving NOK and RAND.\n\n1.  **Start with 100 NOK.**\n2.  **Exchange 100 NOK at a spot rate:** This results in 166 RAND (100 * 1.66).\n3.  **Invest 166 RAND in SA:** This yields 173.636 RAND (166 * 1.046).\n4.  **Convert 173.636 RAND using a forward rate (1.6):** This results in 108.5225 NOK (173.636 / 1.6).\n5.  **Alternative investment in Norway:** Investing 276.44 NOK at a risk-free rate of 1.03 yields 284.7332 NOK (276.44 * 1.03). The image also shows \"103 NOK\" and \"108.5225 NOK\" which appear to be comparison points.\n\nThe arbitrage profit is calculated as the final NOK amount obtained from the arbitrage strategy (108.5225 NOK) minus the amount that would have been obtained by investing the initial capital in Norway. The text states \"103 that one would own in Norway\", and the profit is 108.5225 - 103 = 5.5225. This suggests a comparison to a different initial NOK investment or a specific scenario.\n\nArbitrage strategy is to borrow 100 NOK at a risk free rate in Norway, exchange to RAND at a spot rate and invest in South Africa and convert using the forward rate. This secures 108.5225 NOK as opposed to 103 that one would own in Norway. Profit is 108.5225- 103=5.5225.## Task 1-CAPM [15%] (cont.)\n\nc) Under the assumptions in this task we can conclude that these markets are not internationally integrated. Why is that? Interest rate parity does not hold\n\nd) Find the ",
+        "embed": " of Norwegian Krone to South African Rand is 1.66 RAND/NOK\n\na) What will the investor pay for this security in NOK?\nCRAND 480\nPVRAND 1+TRAND 1 + 0.046 = 458.89 RAND\nPrice in NOK is 458.89/1.66-276.44.## Task 1-CAPM [15%] (cont.)\n\nAssume that the risk free interest rate in Norway is 3% and one-year forward rate is 1.6 RAND/NOK.\n\nb) Is it possible for the investor Norwegian investor to profit from an arbitrage opportunity? If yes, illustrate this opportunity and calculate the arbitrage profit. If no, show that the arbitrage profit is zero. Start the illustration by assuming that an investor borrows 100 NOK. Yes, it can, for example:\n\nThe image depicts an arbitrage strategy involving NOK and RAND.\n\n1.  **Start with 100 NOK.**\n2.  **Exchange 100 NOK at a spot rate:** This results in 166 RAND (100 * 1.66).\n3.  **Invest 166 RAND in SA:** This yields 173.636 RAND (166 * 1.046).\n4.  **Convert 173.636 RAND using a forward rate (1.6):** This results in 108.5225 NOK (173.636 / 1.6).\n5.  **Alternative investment in Norway:** Investing 276.44 NOK at a risk-free rate of 1.03 yields 284.7332 NOK (276.44 * 1.03). The image also shows \"103 NOK\" and \"108.5225 NOK\" which appear to be comparison points.\n\nThe arbitrage profit is calculated as the final NOK amount obtained from the arbitrage strategy (108.5225 NOK) minus the amount that would have been obtained by investing the initial capital in Norway. The text states \"103 that one would own in Norway\", and the profit is 108.5225 - 103 = 5.5225. This suggests a comparison to a different initial NOK investment or a specific scenario.\n\nArbitrage strategy is to borrow 100 NOK at a risk free rate in Norway, exchange to RAND at a spot rate and invest in South Africa and convert using the forward rate. This secures 108.5225 NOK as opposed to 103 that one would own in Norway. Profit is 108.5225- 103=5.5225.## Task 1-CAPM [15%] (cont.)\n\nc) Under the assumptions in this task we can conclude that these markets are not internationally integrated. Why is that? Interest rate parity does not hold\n\nd) Find the ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.05166270783847981,
+              "left": 0.14777497900923595,
+              "page": 2,
+              "top": 0.45368171021377673,
+              "width": 0.6297229219143576,
+              "original_page": 2
+            },
+            "content": "c) Under the assumptions in this task we can conclude that these markets are not internationally integrated. Why is that? Interest rate parity does not hold",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9555210381746292
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05166270783847981,
+              "left": 0.14777497900923595,
+              "page": 2,
+              "top": 0.5053444180522565,
+              "width": 0.72544080604534,
+              "original_page": 2
+            },
+            "content": "d) Find the forward rate that would be implied by the assumption of internationally integrated capital markets. 1.685 RAND/NOK or 0.59 NOK/RAND",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9680429756641388
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.020190023752969122,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.6175771971496437,
+              "width": 0.2653232577665827,
+              "original_page": 2
+            },
+            "content": "Task 3 – Capital Structure [20%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9356902301311493
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1377672209026128,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.6466745843230404,
+              "width": 0.7581863979848866,
+              "original_page": 2
+            },
+            "content": "ABC Inc. is an all-equity firm with 10 million shares outstanding which trade at 15 NOK per share, and if faces a 40% corporate tax rate. Although investors currently expect ABC to remain an all-equity firm, ABC plans to announce tomorrow that it will issue perpetual debt for an amount of NOK 80 million and will use all the funds to repurchase shares. Market participants understand that with this new level of debt ABC could become financially distressed some time in the future. They also understand that the present value of the expected financial distress costs borne by shareholders is NOK 40 million. The announcement will also convey that ABC has no further plans to change its debt level.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.991419079899788
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.1486146095717884,
+              "page": 2,
+              "top": 0.7986935866983373,
+              "width": 0.7145256087321579,
+              "original_page": 2
+            },
+            "content": "a) What are the market value of ABC's assets before the announcement? Because the firm is all-equity the value of it's assets is the value of its equity before the announcement V₁ = E = 10 mil NOK15 = NOK150 mil",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8523607462644578
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03503562945368171,
+              "left": 0.14777497900923595,
+              "page": 2,
+              "top": 0.8438242280285035,
+              "width": 0.7371956339210747,
+              "original_page": 2
+            },
+            "content": "b) What is the market value of ABC’s assets after debt is issued and the shares are repurchased? What is the market value of ABC’s equity?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9435139954090118
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.026128266033254157,
+              "left": 0.2141057934508816,
+              "page": 2,
+              "top": 0.8824228028503563,
+              "width": 0.6288832913518052,
+              "original_page": 2
+            },
+            "content": "V₁ = E₁ + D = VU+ tD - PV (Distress costs) = 150 mil + 0.4.80mil – 40 mil = NOK 142 mil",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6880948543548584
+            },
+            "image_url": null
+          }
+        ],
+        "content": "exchange to RAND at a spot rate and invest in South Africa and convert using the forward rate. This secures 108.5225 NOK as opposed to 103 that one would own in Norway. Profit is 108.5225- 103=5.5225.## Task 1-CAPM [15%] (cont.)\n\nc) Under the assumptions in this task we can conclude that these markets are not internationally integrated. Why is that? Interest rate parity does not hold\n\nd) Find the forward rate that would be implied by the assumption of internationally integrated capital markets. 1.685 RAND/NOK or 0.59 NOK/RAND\n\n## Task 3 – Capital Structure [20%]\n\nABC Inc. is an all-equity firm with 10 million shares outstanding which trade at 15 NOK per share, and if faces a 40% corporate tax rate. Although investors currently expect ABC to remain an all-equity firm, ABC plans to announce tomorrow that it will issue perpetual debt for an amount of NOK 80 million and will use all the funds to repurchase shares. Market participants understand that with this new level of debt ABC could become financially distressed some time in the future. They also understand that the present value of the expected financial distress costs borne by shareholders is NOK 40 million. The announcement will also convey that ABC has no further plans to change its debt level.\n\na) What are the market value of ABC's assets before the announcement? Because the firm is all-equity the value of it's assets is the value of its equity before the announcement V₁ = E = 10 mil NOK15 = NOK150 mil\n\nb) What is the market value of ABC’s assets after debt is issued and the shares are repurchased? What is the market value of ABC’s equity?\n\nV₁ = E₁ + D = VU+ tD - PV (Distress costs) = 150 mil + 0.4.80mil – 40 mil = NOK 142 mil## Task 3 – Capital Structure [20%] (cont.)\n\nThe value of equity\n\nE₁ = 142 mil - 80 mil = NOK 62 mil.\n\nc) What is the market value of ABC's equity and the share price upon announcement (but before exe",
+        "embed": "exchange to RAND at a spot rate and invest in South Africa and convert using the forward rate. This secures 108.5225 NOK as opposed to 103 that one would own in Norway. Profit is 108.5225- 103=5.5225.## Task 1-CAPM [15%] (cont.)\n\nc) Under the assumptions in this task we can conclude that these markets are not internationally integrated. Why is that? Interest rate parity does not hold\n\nd) Find the forward rate that would be implied by the assumption of internationally integrated capital markets. 1.685 RAND/NOK or 0.59 NOK/RAND\n\n## Task 3 – Capital Structure [20%]\n\nABC Inc. is an all-equity firm with 10 million shares outstanding which trade at 15 NOK per share, and if faces a 40% corporate tax rate. Although investors currently expect ABC to remain an all-equity firm, ABC plans to announce tomorrow that it will issue perpetual debt for an amount of NOK 80 million and will use all the funds to repurchase shares. Market participants understand that with this new level of debt ABC could become financially distressed some time in the future. They also understand that the present value of the expected financial distress costs borne by shareholders is NOK 40 million. The announcement will also convey that ABC has no further plans to change its debt level.\n\na) What are the market value of ABC's assets before the announcement? Because the firm is all-equity the value of it's assets is the value of its equity before the announcement V₁ = E = 10 mil NOK15 = NOK150 mil\n\nb) What is the market value of ABC’s assets after debt is issued and the shares are repurchased? What is the market value of ABC’s equity?\n\nV₁ = E₁ + D = VU+ tD - PV (Distress costs) = 150 mil + 0.4.80mil – 40 mil = NOK 142 mil## Task 3 – Capital Structure [20%] (cont.)\n\nThe value of equity\n\nE₁ = 142 mil - 80 mil = NOK 62 mil.\n\nc) What is the market value of ABC's equity and the share price upon announcement (but before exe",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.08254156769596199,
+              "width": 0.14357682619647355,
+              "original_page": 3
+            },
+            "content": "The value of equity",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.3778337531486146,
+              "page": 3,
+              "top": 0.10451306413301663,
+              "width": 0.30394626364399663,
+              "original_page": 3
+            },
+            "content": "E₁ = 142 mil - 80 mil = NOK 62 mil.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.649235126376152
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06294536817102138,
+              "left": 0.14777497900923595,
+              "page": 3,
+              "top": 0.12114014251781473,
+              "width": 0.7111670864819479,
+              "original_page": 3
+            },
+            "content": "c) What is the market value of ABC's equity and the share price upon announcement (but before execution) of the transaction? Upon announcement the value of the equity decreases to NOK 142 mil and the share price drops to 14.2",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9545208007097243
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03681710213776722,
+              "left": 0.14777497900923595,
+              "page": 3,
+              "top": 0.19002375296912113,
+              "width": 0.3408900083963056,
+              "original_page": 3
+            },
+            "content": "d) How many shares will ABC repurchase?\n80 mil\nShares repurchased = = 5 633 803\n14.20",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9089557558298111
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.22684085510688837,
+              "width": 0.5323257766582704,
+              "original_page": 3
+            },
+            "content": "e) Is this change in capital structure beneficial to shareholders? Why?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0688836104513064,
+              "left": 0.14777497900923595,
+              "page": 3,
+              "top": 0.24406175771971497,
+              "width": 0.7346767422334173,
+              "original_page": 3
+            },
+            "content": "- The change in capital structure decreases firm value: the benefit (gain in interest tax shield) is less than the cost (cost of financial distress). Consequently, the debt issue takes the firms to the situation where the amount of debt exceeds the optimal amount that balances the marginal benefits and costs.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9862010151147842
+            },
+            "image_url": null
+          }
+        ],
+        "content": " of ABC’s assets after debt is issued and the shares are repurchased? What is the market value of ABC’s equity?\n\nV₁ = E₁ + D = VU+ tD - PV (Distress costs) = 150 mil + 0.4.80mil – 40 mil = NOK 142 mil## Task 3 – Capital Structure [20%] (cont.)\n\nThe value of equity\n\nE₁ = 142 mil - 80 mil = NOK 62 mil.\n\nc) What is the market value of ABC's equity and the share price upon announcement (but before execution) of the transaction? Upon announcement the value of the equity decreases to NOK 142 mil and the share price drops to 14.2\n\nd) How many shares will ABC repurchase?\n80 mil\nShares repurchased = = 5 633 803\n14.20\n\ne) Is this change in capital structure beneficial to shareholders? Why?\n\n- The change in capital structure decreases firm value: the benefit (gain in interest tax shield) is less than the cost (cost of financial distress). Consequently, the debt issue takes the firms to the situation where the amount of debt exceeds the optimal amount that balances the marginal benefits and costs.## Task 3 – Capital Structure [20%] (cont.)\n\nTask 4 – Option Valuation [30%]\n\nConsider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the\n\nstock price will eith",
+        "embed": " of ABC’s assets after debt is issued and the shares are repurchased? What is the market value of ABC’s equity?\n\nV₁ = E₁ + D = VU+ tD - PV (Distress costs) = 150 mil + 0.4.80mil – 40 mil = NOK 142 mil## Task 3 – Capital Structure [20%] (cont.)\n\nThe value of equity\n\nE₁ = 142 mil - 80 mil = NOK 62 mil.\n\nc) What is the market value of ABC's equity and the share price upon announcement (but before execution) of the transaction? Upon announcement the value of the equity decreases to NOK 142 mil and the share price drops to 14.2\n\nd) How many shares will ABC repurchase?\n80 mil\nShares repurchased = = 5 633 803\n14.20\n\ne) Is this change in capital structure beneficial to shareholders? Why?\n\n- The change in capital structure decreases firm value: the benefit (gain in interest tax shield) is less than the cost (cost of financial distress). Consequently, the debt issue takes the firms to the situation where the amount of debt exceeds the optimal amount that balances the marginal benefits and costs.## Task 3 – Capital Structure [20%] (cont.)\n\nTask 4 – Option Valuation [30%]\n\nConsider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the\n\nstock price will eith",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.019596199524940617,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.37707838479809974,
+              "width": 0.27287993282955497,
+              "original_page": 3
+            },
+            "content": "Task 4 – Option Valuation [30%]",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.40558194774346795,
+              "width": 0.7514693534844669,
+              "original_page": 3
+            },
+            "content": "Consider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0344418052256532,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.42280285035629456,
+              "width": 0.7590260285474392,
+              "original_page": 3
+            },
+            "content": "stock price will either increase by 25% or decrease by 20%. The stock pays no dividends and the risk free interest rate is equal to 7%. Use a two-period binomial model to answer the following questions",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9589767605066299
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.4667458432304038,
+              "width": 0.6935348446683459,
+              "original_page": 3
+            },
+            "content": "f) Calculate the price of a European call option on this stock with a strike price of 375 NOK.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11754827875734676,
+              "page": 3,
+              "top": 0.4833729216152019,
+              "width": 0.7237615449202351,
+              "original_page": 3
+            },
+            "content": "- Assume now that the stock pays a 25% dividend in period 2019.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9697212457656861
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.5106888361045131,
+              "width": 0.6515533165407221,
+              "original_page": 3
+            },
+            "content": "g) Recalculate the price of the European option in a) given new assumption regarding",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03503562945368171,
+              "left": 0.14777497900923595,
+              "page": 3,
+              "top": 0.5273159144893111,
+              "width": 0.7002518891687658,
+              "original_page": 3
+            },
+            "content": "- dividends. (hint: you need to calculate the option values from 2019 onwards based on ex dividend price, whereas the option value in 2018 based on the cum dividend price)",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9847025513648987
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.5623515439429929,
+              "width": 0.6985726280436608,
+              "original_page": 3
+            },
+            "content": "h) Compare the prices in a) and b) and explain the difference (or the absence of difference).",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.5795724465558195,
+              "width": 0.010075566750629723,
+              "original_page": 3
+            },
+            "content": "i)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.5795724465558195,
+              "width": 0.6616288832913518,
+              "original_page": 3
+            },
+            "content": "What is the price of the American option on the same stock as in b) with the same strike",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.14777497900923595,
+              "page": 3,
+              "top": 0.5961995249406176,
+              "width": 0.6935348446683459,
+              "original_page": 3
+            },
+            "content": "- price of 375 NOK? (the same hintas in b) applies).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9769599139690399
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.6140142517814727,
+              "width": 0.010075566750629723,
+              "original_page": 3
+            },
+            "content": "j)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.17884130982367757,
+              "page": 3,
+              "top": 0.6140142517814727,
+              "width": 0.6952141057934509,
+              "original_page": 3
+            },
+            "content": "Compare the prices of American and European option in b) and d) and explain the difference",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.14693534844668346,
+              "page": 3,
+              "top": 0.6306413301662708,
+              "width": 0.7279596977329975,
+              "original_page": 3
+            },
+            "content": "(or the absence of difference).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9756220400333404
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0166270783847981,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.6751781472684085,
+              "width": 0.7120067170445005,
+              "original_page": 3
+            },
+            "content": "Note: you can choose between replicating portfolio method or risk-neutral probabilities to price",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11754827875734676,
+              "page": 3,
+              "top": 0.6799287410926366,
+              "width": 0.7153652392947103,
+              "original_page": 3
+            },
+            "content": "European options.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9087188512086868
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.1486146095717884,
+              "page": 3,
+              "top": 0.7185273159144893,
+              "width": 0.33753148614609574,
+              "original_page": 3
+            },
+            "content": "a) Binomial tree and values(in parentheses)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.16833017670910036,
+              "left": 0.12136029836813209,
+              "page": 3,
+              "top": 0.7454214209332319,
+              "width": 0.2798834351508383,
+              "original_page": 3
+            },
+            "content": "| Year | Value 1 | Value 2 | Value 3 |\n|---|---|---|---|\n| 2018 | 400 | | |\n| | (89.09) | | |\n| 2019 | 500 | | |\n| | (149.53) | | |\n| 2020 | 625 | 400 | |\n| | (250) | (25) | |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9031100898981095
+            },
+            "image_url": null
+          }
+        ],
+        "content": " the cost (cost of financial distress). Consequently, the debt issue takes the firms to the situation where the amount of debt exceeds the optimal amount that balances the marginal benefits and costs.## Task 3 – Capital Structure [20%] (cont.)\n\nTask 4 – Option Valuation [30%]\n\nConsider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the\n\nstock price will either increase by 25% or decrease by 20%. The stock pays no dividends and the risk free interest rate is equal to 7%. Use a two-period binomial model to answer the following questions\n\nf) Calculate the price of a European call option on this stock with a strike price of 375 NOK.\n\n- Assume now that the stock pays a 25% dividend in period 2019.\n\ng) Recalculate the price of the European option in a) given new assumption regarding\n\n- dividends. (hint: you need to calculate the option values from 2019 onwards based on ex dividend price, whereas the option value in 2018 based on the cum dividend price)\n\nh) Compare the prices in a) and b) and explain the difference (or the absence of difference).\n\ni)\n\nWhat is the price of the American option on the same stock as in b) with the same strike\n\n- price of 375 NOK? (the same hintas in b) applies).\n\nj)\n\nCompare the prices of American and European option in b) and d) and explain the difference\n\n(or the absence of difference).\n\nNote: you can choose between replicating portfolio method or risk-neutral probabilities to price\n\nEuropean options.\n\na) Binomial tree and values(in parentheses)\n\n| Year | Value 1 | Value 2 | Value 3 |\n|---|---|---|---|\n| 2018 | 400 | | |\n| | (89.09) | | |\n| 2019 | 500 | | |\n| | (149.53) | | |\n| 2020 | 625 | 400 | |\n| | (250) | (25) | |## Task 3 – Capital Structure [20%] (cont.)\n\nThe image shows a branching structure with numerical values.\n\n*   **Branch 1:** 320, leading to (14.02) and a connection to 256.\n*   **Branch 2:** Connects",
+        "embed": " the cost (cost of financial distress). Consequently, the debt issue takes the firms to the situation where the amount of debt exceeds the optimal amount that balances the marginal benefits and costs.## Task 3 – Capital Structure [20%] (cont.)\n\nTask 4 – Option Valuation [30%]\n\nConsider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the\n\nstock price will either increase by 25% or decrease by 20%. The stock pays no dividends and the risk free interest rate is equal to 7%. Use a two-period binomial model to answer the following questions\n\nf) Calculate the price of a European call option on this stock with a strike price of 375 NOK.\n\n- Assume now that the stock pays a 25% dividend in period 2019.\n\ng) Recalculate the price of the European option in a) given new assumption regarding\n\n- dividends. (hint: you need to calculate the option values from 2019 onwards based on ex dividend price, whereas the option value in 2018 based on the cum dividend price)\n\nh) Compare the prices in a) and b) and explain the difference (or the absence of difference).\n\ni)\n\nWhat is the price of the American option on the same stock as in b) with the same strike\n\n- price of 375 NOK? (the same hintas in b) applies).\n\nj)\n\nCompare the prices of American and European option in b) and d) and explain the difference\n\n(or the absence of difference).\n\nNote: you can choose between replicating portfolio method or risk-neutral probabilities to price\n\nEuropean options.\n\na) Binomial tree and values(in parentheses)\n\n| Year | Value 1 | Value 2 | Value 3 |\n|---|---|---|---|\n| 2018 | 400 | | |\n| | (89.09) | | |\n| 2019 | 500 | | |\n| | (149.53) | | |\n| 2020 | 625 | 400 | |\n| | (250) | (25) | |## Task 3 – Capital Structure [20%] (cont.)\n\nThe image shows a branching structure with numerical values.\n\n*   **Branch 1:** 320, leading to (14.02) and a connection to 256.\n*   **Branch 2:** Connects",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.09768361433667978,
+              "left": 0.23319037475073467,
+              "page": 4,
+              "top": 0.08175535949562054,
+              "width": 0.15601370016333438,
+              "original_page": 4
+            },
+            "content": "The image shows a branching structure with numerical values.\n\n*   **Branch 1:** 320, leading to (14.02) and a connection to 256.\n*   **Branch 2:** Connects from the point of 320 and (14.02) to 256.\n*   **End Point:** 256, with a value of (0) below it.",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7365528345108032
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.18942992874109263,
+              "width": 0.20486985726280438,
+              "original_page": 4
+            },
+            "content": "Replicating portfolio: Δ S+B",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.21377672209026127,
+              "width": 0.5499580184718724,
+              "original_page": 4
+            },
+            "content": "In 2019: up state Δ=1 and B=-350.47; down state Δ=0.1736 and B=-41.53.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.23812351543942992,
+              "width": 0.25440806045340053,
+              "original_page": 4
+            },
+            "content": "In 2018: Δ=0.7528 and B=-212.03.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029691211401425176,
+              "left": 0.11754827875734676,
+              "page": 4,
+              "top": 0.29097387173396677,
+              "width": 0.7120067170445005,
+              "original_page": 4
+            },
+            "content": "Alternatively, one could use risk-neutral probabilities. Pu=(r-d)/(u-d)=(1.07-0.8)/(1.25-0.8)=0.6; Pd=0.4. Option value in 2018: (0.6*0.6*250+2*0.6*0.4*24)/(1.07)^2=89.09",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9174630224704743
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.2884188763036297,
+              "left": 0.11949908483138513,
+              "page": 4,
+              "top": 0.37750171652315917,
+              "width": 0.5647405308900412,
+              "original_page": 4
+            },
+            "content": "| Year | Event | Value | Option Value (Parentheses) |\n|---|---|---|---|\n| 2018 |  | 400 | (29.46) |\n| 2019 | (cum div) | 500 |  |\n|  | (ex div) | 375 | (52.57) |\n| 2020 |  | 468.75 | (93.75) |\n|  |  | 300 | (0) |\n| 2019 | (cum div) | 320 |  |\n|  | (ex div) | 240 | (0) |\n| 2020 |  | 192 | (0) |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5665718287229538
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.6989311163895487,
+              "width": 0.20486985726280438,
+              "original_page": 4
+            },
+            "content": "Replicating portfolio: Δ S+B",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.7262470308788599,
+              "width": 0.33837111670864817,
+              "original_page": 4
+            },
+            "content": "In 2019: up state Δ=0.5556 and B=-155.7757.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.752375296912114,
+              "width": 0.25440806045340053,
+              "original_page": 4
+            },
+            "content": "In 2018: Δ=0.2921 and B=-87.357.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.7838479809976246,
+              "width": 0.7120067170445005,
+              "original_page": 4
+            },
+            "content": "Alternatively, one could use risk-neutral probabilities. Pu=(r-d)/(u-d)=(1.07-0.8)/(1.25-0.8)=0.6; Pd=0.4. Option value in 2018: (0.6*0.6*93.75)/(1.07)^2=29.47.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9216736674308776
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0344418052256532,
+              "left": 0.14693534844668346,
+              "page": 4,
+              "top": 0.8479809976247031,
+              "width": 0.6742233417296389,
+              "original_page": 4
+            },
+            "content": "c) The price is b is much lower, since the option became less valuable in the presence of dividends.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9551887780427932
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.1486146095717884,
+              "page": 4,
+              "top": 0.8818289786223278,
+              "width": 0.5289672544080605,
+              "original_page": 4
+            },
+            "content": "d) Binomial tree and values(in parentheses) for the American Option",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          }
+        ],
+        "content": " values(in parentheses)\n\n| Year | Value 1 | Value 2 | Value 3 |\n|---|---|---|---|\n| 2018 | 400 | | |\n| | (89.09) | | |\n| 2019 | 500 | | |\n| | (149.53) | | |\n| 2020 | 625 | 400 | |\n| | (250) | (25) | |## Task 3 – Capital Structure [20%] (cont.)\n\nThe image shows a branching structure with numerical values.\n\n*   **Branch 1:** 320, leading to (14.02) and a connection to 256.\n*   **Branch 2:** Connects from the point of 320 and (14.02) to 256.\n*   **End Point:** 256, with a value of (0) below it.\n\nReplicating portfolio: Δ S+B\n\nIn 2019: up state Δ=1 and B=-350.47; down state Δ=0.1736 and B=-41.53.\n\nIn 2018: Δ=0.7528 and B=-212.03.\n\nAlternatively, one could use risk-neutral probabilities. Pu=(r-d)/(u-d)=(1.07-0.8)/(1.25-0.8)=0.6; Pd=0.4. Option value in 2018: (0.6*0.6*250+2*0.6*0.4*24)/(1.07)^2=89.09\n\n| Year | Event | Value | Option Value (Parentheses) |\n|---|---|---|---|\n| 2018 |  | 400 | (29.46) |\n| 2019 | (cum div) | 500 |  |\n|  | (ex div) | 375 | (52.57) |\n| 2020 |  | 468.75 | (93.75) |\n|  |  | 300 | (0) |\n| 2019 | (cum div) | 320 |  |\n|  | (ex div) | 240 | (0) |\n| 2020 |  | 192 | (0) |\n\nReplicating portfolio: Δ S+B\n\nIn 2019: up state Δ=0.5556 and B=-155.7757.\n\nIn 2018: Δ=0.2921 and B=-87.357.\n\nAlternatively, one could use risk-neutral probabilities. Pu=(r-d)/(u-d)=(1.07-0.8)/(1.25-0.8)=0.6; Pd=0.4. Option value in 2018: (0.6*0.6*93.75)/(1.07)^2=29.47.\n\nc) The price is b is much lower, since the option became less valuable in the presence of dividends.\n\nd) Binomial tree and values(in parentheses) for the American Option## Task 3 – Capital Structure [20%] (cont.)\n\n| Year | Event      | Value   |\n|------|------------|---------|\n| 2018 |            | 400     |\n|      |            | (29.46) |\n| 2019 | (cum div)  | 500  ",
+        "embed": " values(in parentheses)\n\n| Year | Value 1 | Value 2 | Value 3 |\n|---|---|---|---|\n| 2018 | 400 | | |\n| | (89.09) | | |\n| 2019 | 500 | | |\n| | (149.53) | | |\n| 2020 | 625 | 400 | |\n| | (250) | (25) | |## Task 3 – Capital Structure [20%] (cont.)\n\nThe image shows a branching structure with numerical values.\n\n*   **Branch 1:** 320, leading to (14.02) and a connection to 256.\n*   **Branch 2:** Connects from the point of 320 and (14.02) to 256.\n*   **End Point:** 256, with a value of (0) below it.\n\nReplicating portfolio: Δ S+B\n\nIn 2019: up state Δ=1 and B=-350.47; down state Δ=0.1736 and B=-41.53.\n\nIn 2018: Δ=0.7528 and B=-212.03.\n\nAlternatively, one could use risk-neutral probabilities. Pu=(r-d)/(u-d)=(1.07-0.8)/(1.25-0.8)=0.6; Pd=0.4. Option value in 2018: (0.6*0.6*250+2*0.6*0.4*24)/(1.07)^2=89.09\n\n| Year | Event | Value | Option Value (Parentheses) |\n|---|---|---|---|\n| 2018 |  | 400 | (29.46) |\n| 2019 | (cum div) | 500 |  |\n|  | (ex div) | 375 | (52.57) |\n| 2020 |  | 468.75 | (93.75) |\n|  |  | 300 | (0) |\n| 2019 | (cum div) | 320 |  |\n|  | (ex div) | 240 | (0) |\n| 2020 |  | 192 | (0) |\n\nReplicating portfolio: Δ S+B\n\nIn 2019: up state Δ=0.5556 and B=-155.7757.\n\nIn 2018: Δ=0.2921 and B=-87.357.\n\nAlternatively, one could use risk-neutral probabilities. Pu=(r-d)/(u-d)=(1.07-0.8)/(1.25-0.8)=0.6; Pd=0.4. Option value in 2018: (0.6*0.6*93.75)/(1.07)^2=29.47.\n\nc) The price is b is much lower, since the option became less valuable in the presence of dividends.\n\nd) Binomial tree and values(in parentheses) for the American Option## Task 3 – Capital Structure [20%] (cont.)\n\n| Year | Event      | Value   |\n|------|------------|---------|\n| 2018 |            | 400     |\n|      |            | (29.46) |\n| 2019 | (cum div)  | 500  ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.2653712637350848,
+              "left": 0.11924064629824596,
+              "page": 5,
+              "top": 0.07967859662343657,
+              "width": 0.3709607768919566,
+              "original_page": 5
+            },
+            "content": "| Year | Event      | Value   |\n|------|------------|---------|\n| 2018 |            | 400     |\n|      |            | (29.46) |\n| 2019 | (cum div)  | 500     |\n|      | (ex div)   | 375     |\n|      |            | (125)   |\n|      | (cum div)  | 320     |\n|      | (ex div)   | 240     |\n|      |            | (0)     |\n| 2020 |            | 468.75  |\n|      |            | (93.75) |\n|      |            | 300     |\n|      |            | (0)     |\n|      |            | 192     |\n|      |            | (0)     |",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8091625839471817
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.40498812351543945,
+              "width": 0.32997481108312343,
+              "original_page": 5
+            },
+            "content": "In 2019: payoff is max(52.57, 500-375)= 125",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8196679055690765
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.4317102137767221,
+              "width": 0.25440806045340053,
+              "original_page": 5
+            },
+            "content": "In 2018: Δ=0.2921 and B=-87.357.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.4637767220902613,
+              "width": 0.1746431570109152,
+              "original_page": 5
+            },
+            "content": "Or 0.6*125/1.07=70.09",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7458675652742386
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0344418052256532,
+              "left": 0.14693534844668346,
+              "page": 5,
+              "top": 0.4851543942992874,
+              "width": 0.7195633921074727,
+              "original_page": 5
+            },
+            "content": "e) The price of the American option is higher as there is due to the value of early exercise: it is valuable to exercise the option in 2019.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9617546737194062
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019596199524940617,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.583729216152019,
+              "width": 0.2695214105793451,
+              "original_page": 5
+            },
+            "content": "Task 5 – Law of One Price [15%]",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05641330166270784,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.6122327790973872,
+              "width": 0.7052896725440806,
+              "original_page": 5
+            },
+            "content": "In the discussions of some of the models in this course, we relied on the no-arbitrage argument or the Law of One Price: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9782289028167724
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05641330166270784,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.6781472684085511,
+              "width": 0.7220822837951302,
+              "original_page": 5
+            },
+            "content": "For which of the following theories/relationships, a) shortly explaining each theory/relationship and b) explain which of the following theories relies explicitly on no- arbitrage arguments.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9832474797964096
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11282660332541568,
+              "left": 0.1998320738874895,
+              "page": 5,
+              "top": 0.7345605700712589,
+              "width": 0.6742233417296389,
+              "original_page": 5
+            },
+            "content": "i. Relationship between the value of coupon bonds using zero-coupon bond. Use an example to illustrate the answer to this question (you need to make some assumptions about coupon payments, time to maturity and face value). Yes, by law of one price if using the zero-coupon bonds you can replicate the same cash flows as coupon the cash flows as risk are the same. Consider the following example.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8850475639104843
+            },
+            "image_url": null
+          }
+        ],
+        "content": ".6*0.6*93.75)/(1.07)^2=29.47.\n\nc) The price is b is much lower, since the option became less valuable in the presence of dividends.\n\nd) Binomial tree and values(in parentheses) for the American Option## Task 3 – Capital Structure [20%] (cont.)\n\n| Year | Event      | Value   |\n|------|------------|---------|\n| 2018 |            | 400     |\n|      |            | (29.46) |\n| 2019 | (cum div)  | 500     |\n|      | (ex div)   | 375     |\n|      |            | (125)   |\n|      | (cum div)  | 320     |\n|      | (ex div)   | 240     |\n|      |            | (0)     |\n| 2020 |            | 468.75  |\n|      |            | (93.75) |\n|      |            | 300     |\n|      |            | (0)     |\n|      |            | 192     |\n|      |            | (0)     |\n\nIn 2019: payoff is max(52.57, 500-375)= 125\n\nIn 2018: Δ=0.2921 and B=-87.357.\n\nOr 0.6*125/1.07=70.09\n\ne) The price of the American option is higher as there is due to the value of early exercise: it is valuable to exercise the option in 2019.\n\nTask 5 – Law of One Price [15%]\n\nIn the discussions of some of the models in this course, we relied on the no-arbitrage argument or the Law of One Price: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”\n\nFor which of the following theories/relationships, a) shortly explaining each theory/relationship and b) explain which of the following theories relies explicitly on no- arbitrage arguments.\n\ni. Relationship between the value of coupon bonds using zero-coupon bond. Use an example to illustrate the answer to this question (you need to make some assumptions about coupon payments, time to maturity and face value). Yes, by law of one price if using the zero-coupon bonds you can replicate the same cash flows as coupon the cash flows as risk are the same. Consider the following example.## Task 3 – Capital Structure [20%] (cont.)\n\n<table><tr><th>0</th><th></th><th>1</th><th>2</th><th>3</th></tr><tr><td>Coupon bond:</td><td></td><td>$100</td><td>$100</td><td>$1100</td></tr><tr><td>1-y",
+        "embed": ".6*0.6*93.75)/(1.07)^2=29.47.\n\nc) The price is b is much lower, since the option became less valuable in the presence of dividends.\n\nd) Binomial tree and values(in parentheses) for the American Option## Task 3 – Capital Structure [20%] (cont.)\n\n| Year | Event      | Value   |\n|------|------------|---------|\n| 2018 |            | 400     |\n|      |            | (29.46) |\n| 2019 | (cum div)  | 500     |\n|      | (ex div)   | 375     |\n|      |            | (125)   |\n|      | (cum div)  | 320     |\n|      | (ex div)   | 240     |\n|      |            | (0)     |\n| 2020 |            | 468.75  |\n|      |            | (93.75) |\n|      |            | 300     |\n|      |            | (0)     |\n|      |            | 192     |\n|      |            | (0)     |\n\nIn 2019: payoff is max(52.57, 500-375)= 125\n\nIn 2018: Δ=0.2921 and B=-87.357.\n\nOr 0.6*125/1.07=70.09\n\ne) The price of the American option is higher as there is due to the value of early exercise: it is valuable to exercise the option in 2019.\n\nTask 5 – Law of One Price [15%]\n\nIn the discussions of some of the models in this course, we relied on the no-arbitrage argument or the Law of One Price: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”\n\nFor which of the following theories/relationships, a) shortly explaining each theory/relationship and b) explain which of the following theories relies explicitly on no- arbitrage arguments.\n\ni. Relationship between the value of coupon bonds using zero-coupon bond. Use an example to illustrate the answer to this question (you need to make some assumptions about coupon payments, time to maturity and face value). Yes, by law of one price if using the zero-coupon bonds you can replicate the same cash flows as coupon the cash flows as risk are the same. Consider the following example.## Task 3 – Capital Structure [20%] (cont.)\n\nThis table presents the composition and cost of a zero-coupon bond portfolio designed to replicate a coupon bond. It details the face value and cost of ind",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.3159144893111639,
+              "left": 0.24517212426532325,
+              "page": 6,
+              "top": 0.08194774346793349,
+              "width": 0.6397984886649875,
+              "original_page": 6
+            },
+            "content": "<table><tr><th>0</th><th></th><th>1</th><th>2</th><th>3</th></tr><tr><td>Coupon bond:</td><td></td><td>$100</td><td>$100</td><td>$1100</td></tr><tr><td>1-year zero:</td><td></td><td>$100</td><td></td><td></td></tr><tr><td>2-year zero:</td><td></td><td></td><td>$100</td><td></td></tr><tr><td>3-year zero:</td><td></td><td></td><td></td><td>$1100</td></tr><tr><td>Zero-coupon\nBond portfolio:</td><td></td><td>$100</td><td>$100</td><td>$1100</td></tr><tr><td>Maturity</td><td>1 year</td><td>2 years</td><td>3 years</td><td>4 years</td></tr><tr><td>YTM</td><td>3.50%</td><td>4.00%</td><td>4.50%</td><td>4.75%</td></tr><tr><td>Price</td><td>$96.62</td><td>$92.45</td><td>$87.63</td><td>$83.06</td></tr><tr><td>Zero-Coupon Bond</td><td></td><td>Face Value Required</td><td></td><td>Cost</td></tr><tr><td>1 year</td><td></td><td>100</td><td></td><td>96.62</td></tr><tr><td>2 years</td><td></td><td>100</td><td></td><td>92.45</td></tr><tr><td>3 years</td><td></td><td>1100</td><td></td><td>11 x 87.63 963.93</td></tr><tr><td></td><td></td><td></td><td>Total Cost:</td><td>$1153.00</td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.799294999241829
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.23929471032745592,
+              "page": 6,
+              "top": 0.39429928741092635,
+              "width": 0.6171284634760705,
+              "original_page": 6
+            },
+            "content": "By the Law of One Price, year coupon bond must trade for a price of $1153.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.19479429051217464,
+              "page": 6,
+              "top": 0.41270783847980996,
+              "width": 0.014273719563392108,
+              "original_page": 6
+            },
+            "content": "ii.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          }
+        ],
+        "content": "o maturity and face value). Yes, by law of one price if using the zero-coupon bonds you can replicate the same cash flows as coupon the cash flows as risk are the same. Consider the following example.## Task 3 – Capital Structure [20%] (cont.)\n\n<table><tr><th>0</th><th></th><th>1</th><th>2</th><th>3</th></tr><tr><td>Coupon bond:</td><td></td><td>$100</td><td>$100</td><td>$1100</td></tr><tr><td>1-year zero:</td><td></td><td>$100</td><td></td><td></td></tr><tr><td>2-year zero:</td><td></td><td></td><td>$100</td><td></td></tr><tr><td>3-year zero:</td><td></td><td></td><td></td><td>$1100</td></tr><tr><td>Zero-coupon\nBond portfolio:</td><td></td><td>$100</td><td>$100</td><td>$1100</td></tr><tr><td>Maturity</td><td>1 year</td><td>2 years</td><td>3 years</td><td>4 years</td></tr><tr><td>YTM</td><td>3.50%</td><td>4.00%</td><td>4.50%</td><td>4.75%</td></tr><tr><td>Price</td><td>$96.62</td><td>$92.45</td><td>$87.63</td><td>$83.06</td></tr><tr><td>Zero-Coupon Bond</td><td></td><td>Face Value Required</td><td></td><td>Cost</td></tr><tr><td>1 year</td><td></td><td>100</td><td></td><td>96.62</td></tr><tr><td>2 years</td><td></td><td>100</td><td></td><td>92.45</td></tr><tr><td>3 years</td><td></td><td>1100</td><td></td><td>11 x 87.63 963.93</td></tr><tr><td></td><td></td><td></td><td>Total Cost:</td><td>$1153.00</td></tr></table>\n\nBy the Law of One Price, year coupon bond must trade for a price of $1153.\n\nii.## Task 3 – Capital Structure [20%] (cont.)\n\nThe Valuation of Stocks based on Multiples\n\nThe multiples approach is a valuation theory based on the idea that similar assets sell\n\nat similar prices. Thi",
+        "embed": "o maturity and face value). Yes, by law of one price if using the zero-coupon bonds you can replicate the same cash flows as coupon the cash flows as risk are the same. Consider the following example.## Task 3 – Capital Structure [20%] (cont.)\n\nThis table presents the composition and cost of a zero-coupon bond portfolio designed to replicate a coupon bond. It details the face value and cost of individual zero-coupon bonds with maturities of one, two, and three years, which are combined to match the cash flows of a coupon bond. The total cost of this constructed portfolio is $1153.00.\n\nBy the Law of One Price, year coupon bond must trade for a price of $1153.\n\nii.## Task 3 – Capital Structure [20%] (cont.)\n\nThe Valuation of Stocks based on Multiples\n\nThe multiples approach is a valuation theory based on the idea that similar assets sell\n\nat similar prices. Thi",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.23929471032745592,
+              "page": 6,
+              "top": 0.41270783847980996,
+              "width": 0.3526448362720403,
+              "original_page": 6
+            },
+            "content": "The Valuation of Stocks based on Multiples",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.4412114014251782,
+              "width": 0.6985726280436608,
+              "original_page": 6
+            },
+            "content": "The multiples approach is a valuation theory based on the idea that similar assets sell",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11223277909738717,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.46021377672209024,
+              "width": 0.6910159529806885,
+              "original_page": 6
+            },
+            "content": "at similar prices. This assumes that a ratio comparing value to some firm-specific variable (operating margins, cash flow, etc.) is the same across similar firms. Direct implication of the Law of one price effect. If we replicate same cashflows with the same risk we pay the same price. Estimate the value of the firm based on the value of other, comparable firms or investments that we expect will generate very similar cash flows in the future.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9821301311254501
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.19059613769941225,
+              "page": 6,
+              "top": 0.6009501187648456,
+              "width": 0.018471872376154493,
+              "original_page": 6
+            },
+            "content": "iii.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.23929471032745592,
+              "page": 6,
+              "top": 0.6009501187648456,
+              "width": 0.382031905961377,
+              "original_page": 6
+            },
+            "content": "Fama-French-Carhart multifactor model of risk",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07779097387173396,
+              "left": 0.2661628883291352,
+              "page": 6,
+              "top": 0.6270783847980997,
+              "width": 0.4164567590260285,
+              "original_page": 6
+            },
+            "content": "Fama-French-Carhart Factor Specification\nE[R] = rf+ẞkt (E[RMkt] — rf) + BSMBE [RSMB] -\n+BHMLE [RHML] + BPRIYRE[RPRIYR]",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7060273855924607
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.7155581947743468,
+              "width": 0.6406381192275399,
+              "original_page": 6
+            },
+            "content": "In order to estimate cost of capital it is not a necessary to identify the efficient",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09916864608076009,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.7351543942992874,
+              "width": 0.7010915197313182,
+              "original_page": 6
+            },
+            "content": "portfolio itself. As long as we can identify a collection of well-diversified portfolios from which an efficient portfolio can be constructed, we can use it to measure risk. Thus, we can write the risk premium of any marketable security as the sum of the risk premium of each factor multiplied by the sensitivity of the stock with that factor— the factor betas.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9777117997407914
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.17884130982367757,
+              "page": 6,
+              "top": 0.8426365795724465,
+              "width": 0.6599496221662469,
+              "original_page": 6
+            },
+            "content": "This theory similarly to CAPM does not explicitly rely on no-arbitrage arguments.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          }
+        ],
+        "content": "d></td><td>11 x 87.63 963.93</td></tr><tr><td></td><td></td><td></td><td>Total Cost:</td><td>$1153.00</td></tr></table>\n\nBy the Law of One Price, year coupon bond must trade for a price of $1153.\n\nii.## Task 3 – Capital Structure [20%] (cont.)\n\nThe Valuation of Stocks based on Multiples\n\nThe multiples approach is a valuation theory based on the idea that similar assets sell\n\nat similar prices. This assumes that a ratio comparing value to some firm-specific variable (operating margins, cash flow, etc.) is the same across similar firms. Direct implication of the Law of one price effect. If we replicate same cashflows with the same risk we pay the same price. Estimate the value of the firm based on the value of other, comparable firms or investments that we expect will generate very similar cash flows in the future.\n\niii.\n\nFama-French-Carhart multifactor model of risk\n\nFama-French-Carhart Factor Specification\nE[R] = rf+ẞkt (E[RMkt] — rf) + BSMBE [RSMB] -\n+BHMLE [RHML] + BPRIYRE[RPRIYR]\n\nIn order to estimate cost of capital it is not a necessary to identify the efficient\n\nportfolio itself. As long as we can identify a collection of well-diversified portfolios from which an efficient portfolio can be constructed, we can use it to measure risk. Thus, we can write the risk premium of any marketable security as the sum of the risk premium of each factor multiplied by the sensitivity of the stock with that factor— the factor betas.\n\nThis theory similarly to CAPM does not explicitly rely on no-arbitrage arguments.",
+        "embed": " which are combined to match the cash flows of a coupon bond. The total cost of this constructed portfolio is $1153.00.\n\nBy the Law of One Price, year coupon bond must trade for a price of $1153.\n\nii.## Task 3 – Capital Structure [20%] (cont.)\n\nThe Valuation of Stocks based on Multiples\n\nThe multiples approach is a valuation theory based on the idea that similar assets sell\n\nat similar prices. This assumes that a ratio comparing value to some firm-specific variable (operating margins, cash flow, etc.) is the same across similar firms. Direct implication of the Law of one price effect. If we replicate same cashflows with the same risk we pay the same price. Estimate the value of the firm based on the value of other, comparable firms or investments that we expect will generate very similar cash flows in the future.\n\niii.\n\nFama-French-Carhart multifactor model of risk\n\nFama-French-Carhart Factor Specification\nE[R] = rf+ẞkt (E[RMkt] — rf) + BSMBE [RSMB] -\n+BHMLE [RHML] + BPRIYRE[RPRIYR]\n\nIn order to estimate cost of capital it is not a necessary to identify the efficient\n\nportfolio itself. As long as we can identify a collection of well-diversified portfolios from which an efficient portfolio can be constructed, we can use it to measure risk. Thus, we can write the risk premium of any marketable security as the sum of the risk premium of each factor multiplied by the sensitivity of the stock with that factor— the factor betas.\n\nThis theory similarly to CAPM does not explicitly rely on no-arbitrage arguments.",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 6,
+    "credit_breakdown": {
+      "page": 6.0,
+      "complex": 6.0
+    },
+    "credits": 12.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "complex",
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/a7c15f6d-4f1b-4cad-88a5-2533f1448e7f.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180640Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=8056f857ed430e1f3f52d4b63a23d9f9639463fcf00091b1b9cbb89b1553a88a",
+  "studio_link": "https://studio.reducto.ai/job/fe736707-4109-4ffe-8ec8-c94c8fc256a7",
+  "response_type": "parse",
+  "parse_mode": null
+}

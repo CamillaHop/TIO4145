@@ -1,0 +1,1090 @@
+{
+  "duration": 10.863284587860107,
+  "job_id": "f0199bcc-ea83-4941-b0e3-0809e7e361e9",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.03920960667157414,
+              "left": 0.11616669449151731,
+              "page": 1,
+              "top": 0.04312700213808002,
+              "width": 0.04814096837261923,
+              "original_page": 1
+            },
+            "content": "",
+            "type": "Figure",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5920885622501374
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03598484848484849,
+              "left": 0.11601307189542484,
+              "page": 1,
+              "top": 0.04482323232323232,
+              "width": 0.24836601307189543,
+              "original_page": 1
+            },
+            "content": "ONTNU",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9100527971982957
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017045454545454544,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.11931818181818182,
+              "width": 0.5718954248366013,
+              "original_page": 1
+            },
+            "content": "Department of Industrial Economics and Technology Management",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8929313033819198
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.025252525252525252,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.1976010101010101,
+              "width": 0.7009803921568627,
+              "original_page": 1
+            },
+            "content": "Examination paper for TIØ4145 Corporate Finance",
+            "type": "Title",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.902271819114685
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.11601307189542484,
+              "page": 1,
+              "top": 0.26136363636363635,
+              "width": 0.511437908496732,
+              "original_page": 1
+            },
+            "content": "Academic contact during examination: Maria Lavrutich",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7710645496845245
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010732323232323232,
+              "left": 0.1184640522875817,
+              "page": 1,
+              "top": 0.2878787878787879,
+              "width": 0.1576797385620915,
+              "original_page": 1
+            },
+            "content": "Phone: 90402416",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8444635719060898
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011363636363636364,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.3402777777777778,
+              "width": 0.27124183006535946,
+              "original_page": 1
+            },
+            "content": "Examination date: 15.12.2018",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7851883053779602
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01452020202020202,
+              "left": 0.1184640522875817,
+              "page": 1,
+              "top": 0.36553030303030304,
+              "width": 0.3684640522875817,
+              "original_page": 1
+            },
+            "content": "Examination time (from-to): 09:00-13:00",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.780427822470665
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04292929292929293,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.38952020202020204,
+              "width": 0.7377450980392157,
+              "original_page": 1
+            },
+            "content": "Permitted examination support material: D - No printed or hand-written support material is allowed. A specific basic calculator is allowed.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7630499809980392
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.12539645878955571,
+              "left": 0.1155278698291654,
+              "page": 1,
+              "top": 0.4673437638716264,
+              "width": 0.39319118175631257,
+              "original_page": 1
+            },
+            "content": "Other information:\n\nLanguage: English\nNumber of pages (front page excluded): 3\nNumber of pages enclosed: 3",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7950143098831177
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.15427421801017993,
+              "left": 0.11890310399672564,
+              "page": 1,
+              "top": 0.7447747895211885,
+              "width": 0.42658279768002577,
+              "original_page": 1
+            },
+            "content": "Informasjon om trykking av eksamensoppgave\nOriginalen er:\n1-sidig [ ] 2-sidig [ ]\nsort/hvit [ ] farger [ ]\nskal ha flervalgskjema [ ]",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9806643962860108
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10319041242503156,
+              "left": 0.5736071019390829,
+              "page": 1,
+              "top": 0.751973007664536,
+              "width": 0.3119649450763378,
+              "original_page": 1
+            },
+            "content": "Checked by:\nDate: <empty>\nSignature: <empty>",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9530750513076782
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 1,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 1
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8170830875635147
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 2,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 2
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8874773710966111
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ONTNU\n\nDepartment of Industrial Economics and Technology Management\n\n# Examination paper for TIØ4145 Corporate Finance\n\nAcademic contact during examination: Maria Lavrutich\n\nPhone: 90402416\n\nExamination date: 15.12.2018\n\nExamination time (from-to): 09:00-13:00\n\nPermitted examination support material: D - No printed or hand-written support material is allowed. A specific basic calculator is allowed.\n\nOther information:\n\nLanguage: English\nNumber of pages (front page excluded): 3\nNumber of pages enclosed: 3\n\nInformasjon om trykking av eksamensoppgave\nOriginalen er:\n1-sidig [ ] 2-sidig [ ]\nsort/hvit [ ] farger [ ]\nskal ha flervalgskjema [ ]\n\nChecked by:\nDate: <empty>\nSignature: <empty>\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 1 – CAPM [15%]\n\nAssume the CAPM model is valid. You are given the following information:\n\n| Stock    | Risk free<br />rate    | Expec",
+        "embed": "ONTNU\n\nDepartment of Industrial Economics and Technology Management\n\n# Examination paper for TIØ4145 Corporate Finance\n\nAcademic contact during examination: Maria Lavrutich\n\nPhone: 90402416\n\nExamination date: 15.12.2018\n\nExamination time (from-to): 09:00-13:00\n\nPermitted examination support material: D - No printed or hand-written support material is allowed. A specific basic calculator is allowed.\n\nOther information:\n\nLanguage: English\nNumber of pages (front page excluded): 3\nNumber of pages enclosed: 3\n\nInformasjon om trykking av eksamensoppgave\nOriginalen er:\n1-sidig [ ] 2-sidig [ ]\nsort/hvit [ ] farger [ ]\nskal ha flervalgskjema [ ]\n\nChecked by:\nDate: <empty>\nSignature: <empty>\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 1 – CAPM [15%]\n\nAssume the CAPM model is valid. You are given the following information:\n\nThis table presents data for three stocks (",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.07828282828282829,
+              "width": 0.1707516339869281,
+              "original_page": 3
+            },
+            "content": "Task 1 – CAPM [15%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9181540161371231
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.10795454545454546,
+              "width": 0.5408496732026143,
+              "original_page": 3
+            },
+            "content": "Assume the CAPM model is valid. You are given the following information:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9199490189552307
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.15782828282828282,
+              "left": 0.10212418300653595,
+              "page": 3,
+              "top": 0.13320707070707072,
+              "width": 0.7941176470588235,
+              "original_page": 3
+            },
+            "content": "| Stock    | Risk free<br />rate    | Expected return<br />on the market<br />portfolio    | Expected re-<br />turn on the<br />stock    | 𝛽   | Price of the stock<br />in period 0   | Expected price of<br />the stock in pe-<br />riod 1   |\n|-|-|-|-|-|-|-|\n| A        | 10%                    | 20%                                                  | 10%                                         |     | 100                                   |                                                       |\n| B        | 10%                    | 20%                                                  |                                             | 1.5 |                                       | 125                                                   |\n| C        | 10%                    |                                                      | 20%                                         | 2.0 | 200                                   |                                                       |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9355525553226471
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.32196969696969696,
+              "width": 0.7540849673202614,
+              "original_page": 3
+            },
+            "content": "The stocks pay no dividends next period. This is enough information to complete the table. Calculate all the missing data.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9790421575307846
+            },
+            "image_url": null
+          }
+        ],
+        "content": "answer this.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 1 – CAPM [15%]\n\nAssume the CAPM model is valid. You are given the following information:\n\n| Stock    | Risk free<br />rate    | Expected return<br />on the market<br />portfolio    | Expected re-<br />turn on the<br />stock    | 𝛽   | Price of the stock<br />in period 0   | Expected price of<br />the stock in pe-<br />riod 1   |\n|-|-|-|-|-|-|-|\n| A        | 10%                    | 20%                                                  | 10%                                         |     | 100                                   |                                                       |\n| B        | 10%                    | 20%                                                  |                                             | 1.5 |                                       | 125                                                   |\n| C        | 10%                    |                                                      | 20%                                         | 2.0 | 200                                   |                                                       |\n\nThe stocks pay no dividends next period. This is enough information to complete the table. Calculate all the missing data.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 – International Corporate Finance [20%]\n\nConsider a Norwegian investor who is planning to invest in a South African risk-free secur",
+        "embed": "answer this.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 1 – CAPM [15%]\n\nAssume the CAPM model is valid. You are given the following information:\n\nThis table presents data for three stocks (A, B, and C) regarding their risk-free rate, expected market return, expected stock return, beta, current price, and expected future price. Stock A has an expected return of 10% and a current price of $100, but its beta and expected future price are missing. Stock B has a beta of 1.5 and an expected price of $125 in period 1, but its expected return is not provided. Stock C has a beta of 2.0 and an expected return of 20% with a current price of $200, but its expected future price is not given.\n\nThe stocks pay no dividends next period. This is enough information to complete the table. Calculate all the missing data.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 – International Corporate Finance [20%]\n\nConsider a Norwegian investor who is planning to invest in a South African risk-free secur",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.48926767676767674,
+              "width": 0.380718954248366,
+              "original_page": 3
+            },
+            "content": "Task 2 – International Corporate Finance [20%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9407281786203384
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.050505050505050504,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.5189393939393939,
+              "width": 0.7401960784313726,
+              "original_page": 3
+            },
+            "content": "Consider a Norwegian investor who is planning to invest in a South African risk-free security that pays out 480 RAND in one year. Assume that the risk-free interest rate in South Africa is 4.6%. The current spot exchange rate of Norwegian Kroner to South African Rand is 1.66 RAND/NOK",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9859622418880463
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.1454248366013072,
+              "page": 3,
+              "top": 0.5839646464646465,
+              "width": 0.40522875816993464,
+              "original_page": 3
+            },
+            "content": "a) What will the investor pay for this security in NOK?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9567050248384475
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.6123737373737373,
+              "width": 0.7238562091503268,
+              "original_page": 3
+            },
+            "content": "Assume the risk-free interest rate in Norway is 3% and the one-year forward rate is 1.6 RAND/NOK.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9600936055183411
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.050505050505050504,
+              "left": 0.1454248366013072,
+              "page": 3,
+              "top": 0.6407828282828283,
+              "width": 0.7369281045751634,
+              "original_page": 3
+            },
+            "content": "b) Is it possible for the Norwegian investor to profit from an arbitrage opportunity? If yes, illustrate this opportunity and calculate the arbitrage profit. If no, show that the arbitrage profit is zero. Start the illustration by assuming that an investor borrows 100 NOK.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9861270934343338
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.1454248366013072,
+              "page": 3,
+              "top": 0.6957070707070707,
+              "width": 0.7271241830065359,
+              "original_page": 3
+            },
+            "content": "c) Under the assumptions in this task, we can conclude that these markets are not internationally integrated. Why is that?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9769819974899292
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.14624183006535948,
+              "page": 3,
+              "top": 0.7323232323232324,
+              "width": 0.7369281045751634,
+              "original_page": 3
+            },
+            "content": "d) Find the forward rate that would be implied by the assumption of internationally integrated cap- ital markets.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9789278656244278
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 3,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 3
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.94490727186203
+            },
+            "image_url": null
+          }
+        ],
+        "content": "                   |                                                       |\n\nThe stocks pay no dividends next period. This is enough information to complete the table. Calculate all the missing data.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 – International Corporate Finance [20%]\n\nConsider a Norwegian investor who is planning to invest in a South African risk-free security that pays out 480 RAND in one year. Assume that the risk-free interest rate in South Africa is 4.6%. The current spot exchange rate of Norwegian Kroner to South African Rand is 1.66 RAND/NOK\n\na) What will the investor pay for this security in NOK?\n\nAssume the risk-free interest rate in Norway is 3% and the one-year forward rate is 1.6 RAND/NOK.\n\nb) Is it possible for the Norwegian investor to profit from an arbitrage opportunity? If yes, illustrate this opportunity and calculate the arbitrage profit. If no, show that the arbitrage profit is zero. Start the illustration by assuming that an investor borrows 100 NOK.\n\nc) Under the assumptions in this task, we can conclude that these markets are not internationally integrated. Why is that?\n\nd) Find the forward rate that would be implied by the assumption of internationally integrated cap- ital markets.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 3 – Capital Structure [20%]\n\nABC Inc. is an all-equity firm with 10 million shares outstanding which trade at 15 NOK per share, and i",
+        "embed": "0% with a current price of $200, but its expected future price is not given.\n\nThe stocks pay no dividends next period. This is enough information to complete the table. Calculate all the missing data.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 2 – International Corporate Finance [20%]\n\nConsider a Norwegian investor who is planning to invest in a South African risk-free security that pays out 480 RAND in one year. Assume that the risk-free interest rate in South Africa is 4.6%. The current spot exchange rate of Norwegian Kroner to South African Rand is 1.66 RAND/NOK\n\na) What will the investor pay for this security in NOK?\n\nAssume the risk-free interest rate in Norway is 3% and the one-year forward rate is 1.6 RAND/NOK.\n\nb) Is it possible for the Norwegian investor to profit from an arbitrage opportunity? If yes, illustrate this opportunity and calculate the arbitrage profit. If no, show that the arbitrage profit is zero. Start the illustration by assuming that an investor borrows 100 NOK.\n\nc) Under the assumptions in this task, we can conclude that these markets are not internationally integrated. Why is that?\n\nd) Find the forward rate that would be implied by the assumption of internationally integrated cap- ital markets.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 3 – Capital Structure [20%]\n\nABC Inc. is an all-equity firm with 10 million shares outstanding which trade at 15 NOK per share, and i",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.047979797979797977,
+              "width": 0.25735294117647056,
+              "original_page": 4
+            },
+            "content": "Task 3 – Capital Structure [20%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9282187938690185
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.12373737373737374,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.07765151515151515,
+              "width": 0.7508169934640523,
+              "original_page": 4
+            },
+            "content": "ABC Inc. is an all-equity firm with 10 million shares outstanding which trade at 15 NOK per share, and if faces a 40% corporate tax rate. Although investors currently expect ABC to remain an all-equity firm, ABC plans to announce tomorrow that it will issue perpetual debt for an amount of NOK 80 million and will use all the funds to repurchase shares. Market participants understand that with this new level of debt ABC could become financially distressed some time in the future. They also understand that the present value of the expected financial distress costs borne by shareholders is NOK 40 million. The an- nouncement will also convey that ABC has no further plans to change its debt level.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9902764707803726
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.14624183006535948,
+              "page": 4,
+              "top": 0.2159090909090909,
+              "width": 0.5351307189542484,
+              "original_page": 4
+            },
+            "content": "a) What is the market value of ABC’s assets before the announcement?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9402301758527756
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.14624183006535948,
+              "page": 4,
+              "top": 0.2342171717171717,
+              "width": 0.7165032679738562,
+              "original_page": 4
+            },
+            "content": "b) What is the market value of ABC’s assets after debt is issued and the shares are repurchased? What is the market value of ABC’s equity?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9728337049484252
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.14624183006535948,
+              "page": 4,
+              "top": 0.2708333333333333,
+              "width": 0.7214052287581699,
+              "original_page": 4
+            },
+            "content": "c) What is the market value of ABC’s equity and the share price upon announcement (but before execution) of the transaction?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9674650847911834
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.14624183006535948,
+              "page": 4,
+              "top": 0.307449494949495,
+              "width": 0.32107843137254904,
+              "original_page": 4
+            },
+            "content": "d) How many shares will ABC repurchase?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9381367355585098
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.14624183006535948,
+              "page": 4,
+              "top": 0.32575757575757575,
+              "width": 0.5874183006535948,
+              "original_page": 4
+            },
+            "content": "e) Is this change in capital structure beneficial to shareholders? Why/why not?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9478252023458481
+            },
+            "image_url": null
+          }
+        ],
+        "content": "tal markets.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 3 – Capital Structure [20%]\n\nABC Inc. is an all-equity firm with 10 million shares outstanding which trade at 15 NOK per share, and if faces a 40% corporate tax rate. Although investors currently expect ABC to remain an all-equity firm, ABC plans to announce tomorrow that it will issue perpetual debt for an amount of NOK 80 million and will use all the funds to repurchase shares. Market participants understand that with this new level of debt ABC could become financially distressed some time in the future. They also understand that the present value of the expected financial distress costs borne by shareholders is NOK 40 million. The an- nouncement will also convey that ABC has no further plans to change its debt level.\n\na) What is the market value of ABC’s assets before the announcement?\n\nb) What is the market value of ABC’s assets after debt is issued and the shares are repurchased? What is the market value of ABC’s equity?\n\nc) What is the market value of ABC’s equity and the share price upon announcement (but before execution) of the transaction?\n\nd) How many shares will ABC repurchase?\n\ne) Is this change in capital structure beneficial to shareholders? Why/why not?# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4– Option Valuation [30%]\n\nConsider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the stock ",
+        "embed": "tal markets.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 3 – Capital Structure [20%]\n\nABC Inc. is an all-equity firm with 10 million shares outstanding which trade at 15 NOK per share, and if faces a 40% corporate tax rate. Although investors currently expect ABC to remain an all-equity firm, ABC plans to announce tomorrow that it will issue perpetual debt for an amount of NOK 80 million and will use all the funds to repurchase shares. Market participants understand that with this new level of debt ABC could become financially distressed some time in the future. They also understand that the present value of the expected financial distress costs borne by shareholders is NOK 40 million. The an- nouncement will also convey that ABC has no further plans to change its debt level.\n\na) What is the market value of ABC’s assets before the announcement?\n\nb) What is the market value of ABC’s assets after debt is issued and the shares are repurchased? What is the market value of ABC’s equity?\n\nc) What is the market value of ABC’s equity and the share price upon announcement (but before execution) of the transaction?\n\nd) How many shares will ABC repurchase?\n\ne) Is this change in capital structure beneficial to shareholders? Why/why not?# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4– Option Valuation [30%]\n\nConsider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the stock ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015151515151515152,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.46464646464646464,
+              "width": 0.26062091503267976,
+              "original_page": 4
+            },
+            "content": "Task 4– Option Valuation [30%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9377422153949737
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.050505050505050504,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.4943181818181818,
+              "width": 0.738562091503268,
+              "original_page": 4
+            },
+            "content": "Consider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the stock price will either increase by 25% or decrease by 20%. The stock pays no dividends and the risk- free interest rate is equal to 7%. Use a two-period binomial model to answer the following questions",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9782995313405991
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.1454248366013072,
+              "page": 4,
+              "top": 0.5593434343434344,
+              "width": 0.678921568627451,
+              "original_page": 4
+            },
+            "content": "a) Calculate the price of a European call option on this stock with a strike price of 375 NOK.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8969574391841888
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.6060606060606061,
+              "width": 0.46405228758169936,
+              "original_page": 4
+            },
+            "content": "Assume now that the stock pays a 25% dividend in period 2019.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.95430768430233
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.050505050505050504,
+              "left": 0.14624183006535948,
+              "page": 4,
+              "top": 0.634469696969697,
+              "width": 0.7246732026143791,
+              "original_page": 4
+            },
+            "content": "b) Recalculate the price of the European option in a) given the new assumption regarding divi- dends. (hint: you need to calculate the option values from 2019 onwards based on ex dividend price, whereas the option value in 2018 based on the cum dividend price)",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9811665147542954
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013888888888888888,
+              "left": 0.14624183006535948,
+              "page": 4,
+              "top": 0.6893939393939394,
+              "width": 0.6830065359477124,
+              "original_page": 4
+            },
+            "content": "c) Compare the prices in a) and b) and explain the difference (or the absence of difference).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9486761540174484
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.14624183006535948,
+              "page": 4,
+              "top": 0.7077020202020202,
+              "width": 0.7369281045751634,
+              "original_page": 4
+            },
+            "content": "d) What is the price of the American option on the same stock as in b) with the same strike price of 375 NOK? (the same hintas in b) applies).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9745148032903671
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.1454248366013072,
+              "page": 4,
+              "top": 0.7443181818181818,
+              "width": 0.7246732026143791,
+              "original_page": 4
+            },
+            "content": "e) Compare the prices of the American and the European options in b) and d) and explain the dif- ference (or the absence of difference).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9748449712991715
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032196969696969696,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.8093434343434344,
+              "width": 0.7483660130718954,
+              "original_page": 4
+            },
+            "content": "Note: you can choose between replicating portfolio method or risk-neutral probabilities to price the op- tions.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9695926576852798
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03409090909090909,
+              "left": 0.11764705882352941,
+              "page": 4,
+              "top": 0.9204545454545454,
+              "width": 0.7377450980392157,
+              "original_page": 4
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8372523158788681
+            },
+            "image_url": null
+          }
+        ],
+        "content": "d the share price upon announcement (but before execution) of the transaction?\n\nd) How many shares will ABC repurchase?\n\ne) Is this change in capital structure beneficial to shareholders? Why/why not?# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4– Option Valuation [30%]\n\nConsider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the stock price will either increase by 25% or decrease by 20%. The stock pays no dividends and the risk- free interest rate is equal to 7%. Use a two-period binomial model to answer the following questions\n\na) Calculate the price of a European call option on this stock with a strike price of 375 NOK.\n\nAssume now that the stock pays a 25% dividend in period 2019.\n\nb) Recalculate the price of the European option in a) given the new assumption regarding divi- dends. (hint: you need to calculate the option values from 2019 onwards based on ex dividend price, whereas the option value in 2018 based on the cum dividend price)\n\nc) Compare the prices in a) and b) and explain the difference (or the absence of difference).\n\nd) What is the price of the American option on the same stock as in b) with the same strike price of 375 NOK? (the same hintas in b) applies).\n\ne) Compare the prices of the American and the European options in b) and d) and explain the dif- ference (or the absence of difference).\n\nNote: you can choose between replicating portfolio method or risk-neutral probabilities to price the op- tions.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 5 – Law of One Price [15%]\n\nIn the discussions of some of the models in this course, we relied on the no-arbitrage argument or the La",
+        "embed": "d the share price upon announcement (but before execution) of the transaction?\n\nd) How many shares will ABC repurchase?\n\ne) Is this change in capital structure beneficial to shareholders? Why/why not?# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 4– Option Valuation [30%]\n\nConsider a stock with a current price of 400 NOK. In each of the next two years (2019 and 2020) the stock price will either increase by 25% or decrease by 20%. The stock pays no dividends and the risk- free interest rate is equal to 7%. Use a two-period binomial model to answer the following questions\n\na) Calculate the price of a European call option on this stock with a strike price of 375 NOK.\n\nAssume now that the stock pays a 25% dividend in period 2019.\n\nb) Recalculate the price of the European option in a) given the new assumption regarding divi- dends. (hint: you need to calculate the option values from 2019 onwards based on ex dividend price, whereas the option value in 2018 based on the cum dividend price)\n\nc) Compare the prices in a) and b) and explain the difference (or the absence of difference).\n\nd) What is the price of the American option on the same stock as in b) with the same strike price of 375 NOK? (the same hintas in b) applies).\n\ne) Compare the prices of the American and the European options in b) and d) and explain the dif- ference (or the absence of difference).\n\nNote: you can choose between replicating portfolio method or risk-neutral probabilities to price the op- tions.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 5 – Law of One Price [15%]\n\nIn the discussions of some of the models in this course, we relied on the no-arbitrage argument or the La",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.015591609298192293,
+              "left": 0.1172492601111443,
+              "page": 5,
+              "top": 0.04607180637791772,
+              "width": 0.2614800065500063,
+              "original_page": 5
+            },
+            "content": "Task 5 – Law of One Price [15%]",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9259921550750733
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.056201864786417643,
+              "left": 0.11705168700152109,
+              "page": 5,
+              "top": 0.0763747647643511,
+              "width": 0.7591399814400294,
+              "original_page": 5
+            },
+            "content": "In the discussions of some of the models in this course, we relied on the no-arbitrage argument or the Law of One Price: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.988008764386177
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.035980636836702704,
+              "left": 0.11691107190548297,
+              "page": 5,
+              "top": 0.14645035603297835,
+              "width": 0.7476451420747023,
+              "original_page": 5
+            },
+            "content": "For the following theories/relationships, a) shortly explain each theory/relationship and b)ex- plain which of the following theories relies explicitly on no-arbitrage arguments.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9836931020021439
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.056091832260173766,
+              "left": 0.19353918116434865,
+              "page": 5,
+              "top": 0.18635227713350871,
+              "width": 0.693780659430075,
+              "original_page": 5
+            },
+            "content": "\ti. The relationship between the value of coupon bonds and zero-coupon bonds. Use an example to illustrate the answer to this question (you need to make some assumptions about coupon payments, time to maturity and face value).",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9834765672683716
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015821302196726342,
+              "left": 0.18939726552514147,
+              "page": 5,
+              "top": 0.2463200052404346,
+              "width": 0.39791759124578596,
+              "original_page": 5
+            },
+            "content": "ii. The Valuation of Stocks based on Multiples.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9488467007875443
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0159299593163922,
+              "left": 0.18607234141105866,
+              "page": 5,
+              "top": 0.26651647587174465,
+              "width": 0.462459921730616,
+              "original_page": 5
+            },
+            "content": "iii. The Fama-French-Carhart multifactor model of risk.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9604440748691558
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03533282032471551,
+              "left": 0.11473598776170309,
+              "page": 5,
+              "top": 0.918544483253979,
+              "width": 0.7378394638352845,
+              "original_page": 5
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Footer",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9097816497087479
+            },
+            "image_url": null
+          }
+        ],
+        "content": "e op- tions.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 5 – Law of One Price [15%]\n\nIn the discussions of some of the models in this course, we relied on the no-arbitrage argument or the Law of One Price: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”\n\nFor the following theories/relationships, a) shortly explain each theory/relationship and b)ex- plain which of the following theories relies explicitly on no-arbitrage arguments.\n\n\ti. The relationship between the value of coupon bonds and zero-coupon bonds. Use an example to illustrate the answer to this question (you need to make some assumptions about coupon payments, time to maturity and face value).\n\nii. The Valuation of Stocks based on Multiples.\n\niii. The Fama-French-Carhart multifactor model of risk.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+        "embed": "e op- tions.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.# Examination paper for TIØ4145 Corporate Finance (cont.)\n\n## Task 5 – Law of One Price [15%]\n\nIn the discussions of some of the models in this course, we relied on the no-arbitrage argument or the Law of One Price: “If two investment strategies have the same payoff tomorrow, they must have the same price today.”\n\nFor the following theories/relationships, a) shortly explain each theory/relationship and b)ex- plain which of the following theories relies explicitly on no-arbitrage arguments.\n\n\ti. The relationship between the value of coupon bonds and zero-coupon bonds. Use an example to illustrate the answer to this question (you need to make some assumptions about coupon payments, time to maturity and face value).\n\nii. The Valuation of Stocks based on Multiples.\n\niii. The Fama-French-Carhart multifactor model of risk.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 5,
+    "credit_breakdown": {
+      "page": 5.0,
+      "complex": 2.0
+    },
+    "credits": 7.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "page"
+      ],
+      "5": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/81adc91e-6e47-4793-a417-d142b549ddfd.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180624Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=1a664dbbf107a3e632f4573fb730f9a0eb7cb846b0b08af020572e1db9bf7200",
+  "studio_link": "https://studio.reducto.ai/job/f0199bcc-ea83-4941-b0e3-0809e7e361e9",
+  "response_type": "parse",
+  "parse_mode": null
+}

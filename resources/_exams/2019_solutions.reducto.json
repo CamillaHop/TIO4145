@@ -1,0 +1,3419 @@
+{
+  "duration": 18.139554738998413,
+  "job_id": "d1ef76f8-7147-4205-90ce-96a8effd301d",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.08907363420427554,
+              "width": 0.22082283795130142,
+              "original_page": 1
+            },
+            "content": "Forside TIØ4145",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8951601982116699
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.12707838479809977,
+              "width": 0.5751469353484466,
+              "original_page": 1
+            },
+            "content": "Department of Industrial Economics and Technology Management",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8901164293289184
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.16864608076009502,
+              "width": 0.4475230898404702,
+              "original_page": 1
+            },
+            "content": "Examination paper for TIØ4145 Corporate Finance",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.883041450381279
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.11754827875734676,
+              "page": 1,
+              "top": 0.21080760095011877,
+              "width": 0.47103274559193953,
+              "original_page": 1
+            },
+            "content": "Academic contact during examination: Maria Lavrutich",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8808786004781723
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.23040380047505937,
+              "width": 0.1561712846347607,
+              "original_page": 1
+            },
+            "content": "Phone: 904 02 416",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9189626216888428
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.25356294536817103,
+              "width": 0.25440806045340053,
+              "original_page": 1
+            },
+            "content": "Examination date: 09.12.2019",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8853692293167114
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.27137767220902614,
+              "width": 0.3593618807724601,
+              "original_page": 1
+            },
+            "content": "Examination time (from-to): 09:00 - 13:00",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8772747069597244
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.2921615201900237,
+              "width": 0.7439126784214946,
+              "original_page": 1
+            },
+            "content": "Permitted examination support material:D-No printed or hand-written support material is allowed. A specific basic calculator is allowed.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9568237334489822
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.333729216152019,
+              "width": 0.163727959697733,
+              "original_page": 1
+            },
+            "content": "Other information:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9271463125944137
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0510688836104513,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.3515439429928741,
+              "width": 0.7304785894206549,
+              "original_page": 1
+            },
+            "content": "Multiple choice questions in Section 1 are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9817091882228851
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.4489311163895487,
+              "width": 0.7590260285474392,
+              "original_page": 1
+            },
+            "content": "Students will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9805258989334107
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.11817102137767221,
+              "width": 0.14273719563392107,
+              "original_page": 2
+            },
+            "content": "Section 1",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7905623286962509
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.167458432304038,
+              "width": 0.15365239294710328,
+              "original_page": 2
+            },
+            "content": "Question la",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7910447031259538
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.20665083135391923,
+              "width": 0.6994122586062133,
+              "original_page": 2
+            },
+            "content": "Which of the following statements is least accurate regarding the factors that affect the interest rate risk characteristics of a bond?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9618618369102478
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.24821852731591448,
+              "width": 0.1889168765743073,
+              "original_page": 2
+            },
+            "content": "Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8717575550079346
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.020190023752969122,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.2808788598574822,
+              "width": 0.473551637279597,
+              "original_page": 2
+            },
+            "content": "- 0 [ ] The lower the duration, the lower the interest rate risk.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7140136649211248
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03622327790973872,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.32125890736342044,
+              "width": 0.7388748950461796,
+              "original_page": 2
+            },
+            "content": "- 0 [ ] The lower the coupon rate, the greater the bond's price sensitivity to changes in interest\nrates.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6802851676940918
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.12090680100755667,
+              "page": 2,
+              "top": 0.3818289786223278,
+              "width": 0.7355163727959698,
+              "original_page": 2
+            },
+            "content": "- The higher the yield, the greater the bond's price sensitivity to changes in interest rates.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8360726296901703
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03622327790973872,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.4180522565320665,
+              "width": 0.7086481947942905,
+              "original_page": 2
+            },
+            "content": "0 [ ] The longer the bond's maturity, the greater the bond's price sensitivity to changes in\ninterest rates.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6228278681635857
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.47862232779097386,
+              "width": 0.15869017632241814,
+              "original_page": 2
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9221402078866958
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11754827875734676,
+              "page": 2,
+              "top": 0.5403800475059383,
+              "width": 0.15449202350965574,
+              "original_page": 2
+            },
+            "content": "Question 1b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8938404977321625
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0510688836104513,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.578978622327791,
+              "width": 0.7380352644836272,
+              "original_page": 2
+            },
+            "content": "When valuing a European option using the binomial model, an increase in the real world probability that the underlying will go up most likely implies that the current price of the option:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9772041887044907
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.21705609319328978,
+              "left": 0.11697978316786707,
+              "page": 2,
+              "top": 0.6404571170761579,
+              "width": 0.3876213246689035,
+              "original_page": 2
+            },
+            "content": "Select one alternative:\n\n[ ] Decreases\n\n[ ] Depends whether it is a put or a call option\n\n[ ] Increases\n\n[x] Remains unchanged\n\nMaximum marks: 2",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8823298931121826
+            },
+            "image_url": null
+          }
+        ],
+        "content": "## Forside TIØ4145\n\nDepartment of Industrial Economics and Technology Management\n\nExamination paper for TIØ4145 Corporate Finance\n\nAcademic contact during examination: Maria Lavrutich\n\nPhone: 904 02 416\n\nExamination date: 09.12.2019\n\nExamination time (from-to): 09:00 - 13:00\n\nPermitted examination support material:D-No printed or hand-written support material is allowed. A specific basic calculator is allowed.\n\n## Other information:\n\nMultiple choice questions in Section 1 are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.\n\n## Section 1\n\n## Question la\n\nWhich of the following statements is least accurate regarding the factors that affect the interest rate risk characteristics of a bond?\n\nSelect one alternative:\n\n- 0 [ ] The lower the duration, the lower the interest rate risk.\n\n- 0 [ ] The lower the coupon rate, the greater the bond's price sensitivity to changes in interest\nrates.\n\n- The higher the yield, the greater the bond's price sensitivity to changes in interest rates.\n\n0 [ ] The longer the bond's maturity, the greater the bond's price sensitivity to changes in\ninterest rates.\n\nMaximum marks: 2\n\n## Question 1b\n\nWhen valuing a European option using the binomial model, an increase in the real world probability that the underlying will go up most likely implies that the current price of the option:\n\nSelect one alternative:\n\n[ ] Decreases\n\n[ ] Depends whether it is a put or a call option\n\n[ ] Increases\n\n[x] Remains unchanged\n\nMaximum marks: 2## Question 1c\n\nThe following table shows four potential investment opportunities for a firm, and the effect that the decision by shareholders about whether to invest or not invest in those opportunit",
+        "embed": "## Forside TIØ4145\n\nDepartment of Industrial Economics and Technology Management\n\nExamination paper for TIØ4145 Corporate Finance\n\nAcademic contact during examination: Maria Lavrutich\n\nPhone: 904 02 416\n\nExamination date: 09.12.2019\n\nExamination time (from-to): 09:00 - 13:00\n\nPermitted examination support material:D-No printed or hand-written support material is allowed. A specific basic calculator is allowed.\n\n## Other information:\n\nMultiple choice questions in Section 1 are graded as follows: 2 points are given for correct answer; 1 point is subtracted for wrong answer; 0 points is given when the question is left unanswered. Only one answer is correct.\n\nStudents will find the examination results in Studentweb. Please contact the department if you have questions about your results. The Examinations Office will not be able to answer this.\n\n## Section 1\n\n## Question la\n\nWhich of the following statements is least accurate regarding the factors that affect the interest rate risk characteristics of a bond?\n\nSelect one alternative:\n\n- 0 [ ] The lower the duration, the lower the interest rate risk.\n\n- 0 [ ] The lower the coupon rate, the greater the bond's price sensitivity to changes in interest\nrates.\n\n- The higher the yield, the greater the bond's price sensitivity to changes in interest rates.\n\n0 [ ] The longer the bond's maturity, the greater the bond's price sensitivity to changes in\ninterest rates.\n\nMaximum marks: 2\n\n## Question 1b\n\nWhen valuing a European option using the binomial model, an increase in the real world probability that the underlying will go up most likely implies that the current price of the option:\n\nSelect one alternative:\n\n[ ] Decreases\n\n[ ] Depends whether it is a put or a call option\n\n[ ] Increases\n\n[x] Remains unchanged\n\nMaximum marks: 2## Question 1c\n\nThe following table shows four potential investment opportunities for a firm, and the effect that the decision by shareholders about whether to invest or not invest in those opportunit",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.13004750593824227,
+              "width": 0.15113350125944586,
+              "original_page": 3
+            },
+            "content": "Question 1c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.85377938747406
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05166270783847981,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.1680522565320665,
+              "width": 0.743073047858942,
+              "original_page": 3
+            },
+            "content": "The following table shows four potential investment opportunities for a firm, and the effect that the decision by shareholders about whether to invest or not invest in those opportunities has on bondholders. Choose the alternative that represents the debt overhang problem.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9842403471469879
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1021377672209026,
+              "left": 0.11754827875734676,
+              "page": 3,
+              "top": 0.24228028503562946,
+              "width": 0.6322418136020151,
+              "original_page": 3
+            },
+            "content": "| Alternative    | NPV    | Equity holders   | Debt holders   |\n|-|-|-|-|\n| 1              | 100    | Invest           | Beneficial     |\n| 2              | 50     | Do not invest    | Not beneficial |\n| 3              | -50    | Do not invest    | Not beneficial |\n| 4              | -100   | Invest           | Beneficial     |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9592255532741547
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.18022481959109635,
+              "left": 0.11630842207260836,
+              "page": 3,
+              "top": 0.3686475232774458,
+              "width": 0.19717093338794212,
+              "original_page": 3
+            },
+            "content": "Select one alternative:\n\n[ ] Alternative 3\n[ ] Alternative 4\n[ ] Alternative 1\n[x] Alternative 2",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9631895065307617
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.5712589073634204,
+              "width": 0.7506297229219143,
+              "original_page": 3
+            },
+            "content": "The equity holders do not invest in positive NPV projects and that negatively affects the debt holders. This situation is known as the debt overhang problem.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9763213515281677
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.6288598574821853,
+              "width": 0.15869017632241814,
+              "original_page": 3
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9210151106119155
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.11922753988245172,
+              "page": 3,
+              "top": 0.666270783847981,
+              "width": 0.1528127623845508,
+              "original_page": 3
+            },
+            "content": "Question 1d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8947349518537522
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.6876484560570071,
+              "width": 0.7514693534844669,
+              "original_page": 3
+            },
+            "content": "Which of the following statements is correct about Capital Asset Pricing Model (CAPM) and Arbitrage Pricing Theory (APT)?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9706667304039002
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.7298099762470309,
+              "width": 0.1897565071368598,
+              "original_page": 3
+            },
+            "content": "Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8855573326349258
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.020190023752969122,
+              "left": 0.11922753988245172,
+              "page": 3,
+              "top": 0.7618764845605701,
+              "width": 0.5566750629722922,
+              "original_page": 3
+            },
+            "content": "- 0 [ ] Both the CAPM and the APT are built on the same assumptions.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6827166587114335
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.020190023752969122,
+              "left": 0.11922753988245172,
+              "page": 3,
+              "top": 0.8022565320665083,
+              "width": 0.5222502099076406,
+              "original_page": 3
+            },
+            "content": "[ ] The CAPM is considered to be less restrictive than the APT.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7562584613760313
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.03622327790973872,
+              "left": 0.11754827875734676,
+              "page": 3,
+              "top": 0.8426365795724465,
+              "width": 0.6893366918555835,
+              "original_page": 3
+            },
+            "content": "[ ] Both the CAPM and the APT predict that all investors will hold the same market\nportfolio.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8426317623432945
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.09144893111638955,
+              "width": 0.6868178001679262,
+              "original_page": 4
+            },
+            "content": "Both the CAPM and the APT state that there is a linear relation between risk and expected return.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9039193660020828
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.14786223277909738,
+              "width": 0.15869017632241814,
+              "original_page": 4
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8964888036251069
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.11754827875734676,
+              "page": 4,
+              "top": 0.2013064133016627,
+              "width": 0.15449202350965574,
+              "original_page": 4
+            },
+            "content": "Question le",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8099179565906525
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.23990498812351543,
+              "width": 0.7304785894206549,
+              "original_page": 4
+            },
+            "content": "Under the ‘pecking order’ theory on raising finance, in which order will businesses tend to favor raising finance for investments?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9203431129455566
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.2814726840855107,
+              "width": 0.1889168765743073,
+              "original_page": 4
+            },
+            "content": "Select one alternative:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7922895938158036
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.020190023752969122,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.3141330166270784,
+              "width": 0.3047858942065491,
+              "original_page": 4
+            },
+            "content": "[ ] Debt, retained profit, new shares.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7741852551698685
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.3586698337292161,
+              "width": 0.3056255247691016,
+              "original_page": 4
+            },
+            "content": "- Retained profit, debt, new shares.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9109870225191117
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.020190023752969122,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.39429928741092635,
+              "width": 0.3047858942065491,
+              "original_page": 4
+            },
+            "content": "- 0 [ ] New shares, debt, retained profit.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8114335000514985
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019596199524940617,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.4352731591448931,
+              "width": 0.3064651553316541,
+              "original_page": 4
+            },
+            "content": "- 0 [ ] Retained profit, new shares, debt.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8238940119743347
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.47921615201900236,
+              "width": 0.15869017632241814,
+              "original_page": 4
+            },
+            "content": "Maximum marks: 2",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9083051145076751
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.5290973871733967,
+              "width": 0.14273719563392107,
+              "original_page": 4
+            },
+            "content": "Section 2",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8203627228736877
+            },
+            "image_url": null
+          }
+        ],
+        "content": "t likely implies that the current price of the option:\n\nSelect one alternative:\n\n[ ] Decreases\n\n[ ] Depends whether it is a put or a call option\n\n[ ] Increases\n\n[x] Remains unchanged\n\nMaximum marks: 2## Question 1c\n\nThe following table shows four potential investment opportunities for a firm, and the effect that the decision by shareholders about whether to invest or not invest in those opportunities has on bondholders. Choose the alternative that represents the debt overhang problem.\n\n| Alternative    | NPV    | Equity holders   | Debt holders   |\n|-|-|-|-|\n| 1              | 100    | Invest           | Beneficial     |\n| 2              | 50     | Do not invest    | Not beneficial |\n| 3              | -50    | Do not invest    | Not beneficial |\n| 4              | -100   | Invest           | Beneficial     |\n\nSelect one alternative:\n\n[ ] Alternative 3\n[ ] Alternative 4\n[ ] Alternative 1\n[x] Alternative 2\n\nThe equity holders do not invest in positive NPV projects and that negatively affects the debt holders. This situation is known as the debt overhang problem.\n\nMaximum marks: 2\n\n## Question 1d\n\nWhich of the following statements is correct about Capital Asset Pricing Model (CAPM) and Arbitrage Pricing Theory (APT)?\n\nSelect one alternative:\n\n- 0 [ ] Both the CAPM and the APT are built on the same assumptions.\n\n[ ] The CAPM is considered to be less restrictive than the APT.\n\n[ ] Both the CAPM and the APT predict that all investors will hold the same market\nportfolio.\n\nBoth the CAPM and the APT state that there is a linear relation between risk and expected return.\n\nMaximum marks: 2\n\n## Question le\n\nUnder the ‘pecking order’ theory on raising finance, in which order will businesses tend to favor raising finance for investments?\n\nSelect one alternative:\n\n[ ] Debt, retained profit, new shares.\n\n- Retained profit, debt, new shares.\n\n- 0 [ ] New shares, debt, retained profit.\n\n- 0 [ ] Retained profit, new shares, debt.\n\nMaximum marks: 2\n\n## Section 2## Question 2a\n\nEasteros Inc., an unlevered firm, has expected earnings before interest and taxes of $2 million per year. Easteros's tax rate is 40%, and the market value is $12 million. The stock has",
+        "embed": "t likely implies that the current price of the option:\n\nSelect one alternative:\n\n[ ] Decreases\n\n[ ] Depends whether it is a put or a call option\n\n[ ] Increases\n\n[x] Remains unchanged\n\nMaximum marks: 2## Question 1c\n\nThe following table shows four potential investment opportunities for a firm, and the effect that the decision by shareholders about whether to invest or not invest in those opportunities has on bondholders. Choose the alternative that represents the debt overhang problem.\n\nThis table outlines four investment alternatives with their respective Net Present Values (NPVs) and the impact on equity and debt holders. For alternatives with positive NPVs (1 and 2), equity holders benefit from investing, while debt holders also see a positive outcome. However, for alternatives with negative NPVs (3 and 4), the decision for equity holders to invest or not is presented, with a confusing implication that even a negative NPV project could be beneficial to debt holders.\n\nSelect one alternative:\n\n[ ] Alternative 3\n[ ] Alternative 4\n[ ] Alternative 1\n[x] Alternative 2\n\nThe equity holders do not invest in positive NPV projects and that negatively affects the debt holders. This situation is known as the debt overhang problem.\n\nMaximum marks: 2\n\n## Question 1d\n\nWhich of the following statements is correct about Capital Asset Pricing Model (CAPM) and Arbitrage Pricing Theory (APT)?\n\nSelect one alternative:\n\n- 0 [ ] Both the CAPM and the APT are built on the same assumptions.\n\n[ ] The CAPM is considered to be less restrictive than the APT.\n\n[ ] Both the CAPM and the APT predict that all investors will hold the same market\nportfolio.\n\nBoth the CAPM and the APT state that there is a linear relation between risk and expected return.\n\nMaximum marks: 2\n\n## Question le\n\nUnder the ‘pecking order’ theory on raising finance, in which order will businesses tend to favor raising finance for investments?\n\nSelect one alternative:\n\n[ ] Debt, retained profit, new shares.\n\n- Retained profit, debt, new shares.\n\n- 0 [ ] New shares, debt, retained profit.\n\n- 0 [ ] Retained profit, new shares, debt.\n\nMaximum marks: 2\n\n## Section 2## Question 2a\n\nEasteros Inc., an unlevered firm, has expected earnings before interest and taxes of $2 million per year. Easteros's tax rate is 40%, and the market value is $12 million. The stock has",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.580166270783848,
+              "width": 0.15365239294710328,
+              "original_page": 4
+            },
+            "content": "Question 2a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.824752026796341
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08729216152019002,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.6175771971496437,
+              "width": 0.7615449202350966,
+              "original_page": 4
+            },
+            "content": "Easteros Inc., an unlevered firm, has expected earnings before interest and taxes of $2 million per year. Easteros's tax rate is 40%, and the market value is $12 million. The stock has a β of 1, and the risk free rate is 9%. The risk premium is 6%. Management is considering the use of perpetual debt (the size of the firm would remain constant). The default free interest rate on debt is 12%.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9851685136556625
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.7304038004750594,
+              "width": 0.6935348446683459,
+              "original_page": 4
+            },
+            "content": "What is the cost of equity, WACC and the value of Easteros before the debt is issued?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9463710993528366
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.7713776722090261,
+              "width": 0.746431570109152,
+              "original_page": 4
+            },
+            "content": "Cost of equity is 9%+6%=15%, since it does not have any debt WACC is also equal to 15%.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9529654324054718
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.8117577197149644,
+              "width": 0.15869017632241814,
+              "original_page": 4
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9160761117935181
+            },
+            "image_url": null
+          }
+        ],
+        "content": "e:\n\n[ ] Debt, retained profit, new shares.\n\n- Retained profit, debt, new shares.\n\n- 0 [ ] New shares, debt, retained profit.\n\n- 0 [ ] Retained profit, new shares, debt.\n\nMaximum marks: 2\n\n## Section 2## Question 2a\n\nEasteros Inc., an unlevered firm, has expected earnings before interest and taxes of $2 million per year. Easteros's tax rate is 40%, and the market value is $12 million. The stock has a β of 1, and the risk free rate is 9%. The risk premium is 6%. Management is considering the use of perpetual debt (the size of the firm would remain constant). The default free interest rate on debt is 12%.\n\nWhat is the cost of equity, WACC and the value of Easteros before the debt is issued?\n\nCost of equity is 9%+6%=15%, since it does not have any debt WACC is also equal to 15%.\n\nMaximum marks: 5## Question 2b\n\nThe Easteros's analysts have estimated that the present value of any bankruptcy cost is $8 million and the probability will increase with leverage according to the following schedule:\n",
+        "embed": "e:\n\n[ ] Debt, retained profit, new shares.\n\n- Retained profit, debt, new shares.\n\n- 0 [ ] New shares, debt, retained profit.\n\n- 0 [ ] Retained profit, new shares, debt.\n\nMaximum marks: 2\n\n## Section 2## Question 2a\n\nEasteros Inc., an unlevered firm, has expected earnings before interest and taxes of $2 million per year. Easteros's tax rate is 40%, and the market value is $12 million. The stock has a β of 1, and the risk free rate is 9%. The risk premium is 6%. Management is considering the use of perpetual debt (the size of the firm would remain constant). The default free interest rate on debt is 12%.\n\nWhat is the cost of equity, WACC and the value of Easteros before the debt is issued?\n\nCost of equity is 9%+6%=15%, since it does not have any debt WACC is also equal to 15%.\n\nMaximum marks: 5## Question 2b\n\nThe Easteros's analysts have estimated that the present value of any bankruptcy cost is $8 million and the probability will increase with leverage according to the following schedule:\n",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.08907363420427554,
+              "width": 0.15449202350965574,
+              "original_page": 5
+            },
+            "content": "Question 2b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9136316299438476
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.14726840855106887,
+              "width": 0.7363560033585222,
+              "original_page": 5
+            },
+            "content": "The Easteros's analysts have estimated that the present value of any bankruptcy cost is $8 million and the probability will increase with leverage according to the following schedule:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9848420262336731
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1543942992874109,
+              "left": 0.3249370277078086,
+              "page": 5,
+              "top": 0.20368171021377673,
+              "width": 0.3492863140218304,
+              "original_page": 5
+            },
+            "content": "| Value of debt   | Probability of bankruptcy   |\n|-|-|\n| $2 500 000      | 0%                          |\n| $5 000 000      | 8%                          |\n| $7 500 000      | 20.5%                       |\n| $8 000 000      | 30%                         |\n| $9 000 000      | 45%                         |\n| $10 000 000     | 52.5%                       |\n| $12 500 000     | 70%                         |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.96299022808671
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.3836104513064133,
+              "width": 0.7321578505457599,
+              "original_page": 5
+            },
+            "content": "What is the value of the firm for different values of debt in the table above? (Replicate the table in your answer).",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9819476127624511
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.12342569269521411,
+              "page": 5,
+              "top": 0.45665083135391926,
+              "width": 0.42317380352644834,
+              "original_page": 5
+            },
+            "content": "VL=VU+PV (tax shield) - PV (bankruptcy costs),",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8409855902194977
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.18527315914489312,
+              "left": 0.11922753988245172,
+              "page": 5,
+              "top": 0.5213776722090261,
+              "width": 0.7565071368597817,
+              "original_page": 5
+            },
+            "content": "<table><tr><th>Value of\nDebt (D)</th><th>Probability of\nbankruptcy (pD)</th><th>PV (tax shield)\n(0.4×D) </th><th>PV (bank cost)\n(PD×8M) </th><th>Value of the\nfirm  </th></tr><tr><td>$2 500 000</td><td>0% </td><td>1,000,000 </td><td>0 </td><td>13,000,000 </td></tr><tr><td>$5 000 000</td><td>8% </td><td>2,000,000 </td><td>640,000 </td><td>13,360,000 </td></tr><tr><td>$7 500 000</td><td>20.5% </td><td>3,000,000 </td><td>1,640,000 </td><td>13,360,000 </td></tr><tr><td>$8 000 000</td><td>30% </td><td>3,200,000 </td><td>2,400,000 </td><td>12,800,000 </td></tr><tr><td>$9 000 000</td><td>45% </td><td>3,600,000 </td><td>3,600,000 </td><td>12,000,000 </td></tr><tr><td>$10 000 000</td><td>52.5%</td><td>4,000,000 </td><td>4,200,000 </td><td>11,800,000 </td></tr><tr><td>$12 500 000</td><td>70%</td><td>5,000,000 </td><td>5,600,000 </td><td>11,400,000 </td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9344470724463463
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.746437054631829,
+              "width": 0.15869017632241814,
+              "original_page": 5
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9179026514291764
+            },
+            "image_url": null
+          }
+        ],
+        "content": "s 12%.\n\nWhat is the cost of equity, WACC and the value of Easteros before the debt is issued?\n\nCost of equity is 9%+6%=15%, since it does not have any debt WACC is also equal to 15%.\n\nMaximum marks: 5## Question 2b\n\nThe Easteros's analysts have estimated that the present value of any bankruptcy cost is $8 million and the probability will increase with leverage according to the following schedule:\n\n| Value of debt   | Probability of bankruptcy   |\n|-|-|\n| $2 500 000      | 0%                          |\n| $5 000 000      | 8%                          |\n| $7 500 000      | 20.5%                       |\n| $8 000 000      | 30%                         |\n| $9 000 000      | 45%                         |\n| $10 000 000     | 52.5%                       |\n| $12 500 000     | 70%                         |\n\nWhat is the value of the firm for different values of debt in the table above? (Replicate the table in your answer).\n\nVL=VU+PV (tax shield) - PV (bankruptcy costs),\n\n<table><tr><th>Value of\nDebt (D)</th><th>Probability of\nbankruptcy (pD)</th><th>PV (tax shield)\n(0.4×D) </th><th>PV (bank cost)\n(PD×8M) </th><th>Value of the\nfirm  </th></tr><tr><td>$2 500 000</td><td>0% </td><td>1,000,000 </td><td>0 </td><td>13,000,000 </td></tr><tr><td>$5 000 000</td><td>8% </td><td>2,000,000 </td><td>640,000 </td><td>13,360,000 </td></tr><tr><td>$7 500 000</td><td>20.5% </td><td>3,000,000 </td><td>1,640,000 </td><td>13,360,000 </td></tr><tr><td>$8 000 000</td><td>30% </td><td>3,200,000 </td><td>2,400,000 </td><td>12,800,000 </td></tr><tr><td>$9 000 000</td><td>45% </td><td>3,600,000 </td><td>3,600,000 </td><td>12,000,000 </td></tr><tr><td>$10 000 000</td><td>52.5%</td><td>4,000,000 </td><td>4,200,000 </td><td>11,800,000 </td></tr><tr><td>$12 500 000</td><td>70%</td><td>5,000,000 </td><td>5,600,000 </td><td>11,400,000 </td></tr></table>\n\nMaximum marks: 5## Question 2c\n\nWhat is the firm's optimal capital structure? Why?\n\nObviously, the optimal debt level is $5,000,000 or $7,500,000 c- With this optimal capital structure, the total value of the firm is",
+        "embed": "s 12%.\n\nWhat is the cost of equity, WACC and the value of Easteros before the debt is issued?\n\nCost of equity is 9%+6%=15%, since it does not have any debt WACC is also equal to 15%.\n\nMaximum marks: 5## Question 2b\n\nThe Easteros's analysts have estimated that the present value of any bankruptcy cost is $8 million and the probability will increase with leverage according to the following schedule:\n\nThis table shows the probability of bankruptcy for a company based on different values of debt. As the value of debt increases, the probability of bankruptcy also rises significantly. For instance, at a debt of $2,500,000, the bankruptcy risk is zero, while a debt of $12,500,000 carries a 70% probability of bankruptcy.\n\nWhat is the value of the firm for different values of debt in the table above? (Replicate the table in your answer).\n\nVL=VU+PV (tax shield) - PV (bankruptcy costs),\n\nThis table illustrates the relationship between the value of debt, the probability of bankruptcy, and the resulting value of a firm. As the value of debt increases, so does the probability of bankruptcy, leading to a complex interplay between the present value of the tax shield and the present value of bankruptcy costs. Ultimately, the firm's value is affected by these factors, showing a peak and then a decline with higher levels of debt and increased bankruptcy risk.\n\nMaximum marks: 5## Question 2c\n\nWhat is the firm's optimal capital structure? Why?\n\nObviously, the optimal debt level is $5,000,000 or $7,500,000 c- With this optimal capital structure, the total value of the firm is",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.11754827875734676,
+              "page": 5,
+              "top": 0.7998812351543944,
+              "width": 0.1528127623845508,
+              "original_page": 5
+            },
+            "content": "Question 2c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8830378085374833
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.8378859857482185,
+              "width": 0.40554156171284633,
+              "original_page": 5
+            },
+            "content": "What is the firm's optimal capital structure? Why?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9659877747297287
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.08847980997624703,
+              "width": 0.760705289672544,
+              "original_page": 6
+            },
+            "content": "Obviously, the optimal debt level is $5,000,000 or $7,500,000 c- With this optimal capital structure, the total value of the firm is VL = VU + value added of debt = 12,000,000 + 1,360,000 = 13,360,000. At this level there is an optimal balance between bankruptcy costs and the tax shield",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9820112675428391
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.15676959619952494,
+              "width": 0.15869017632241814,
+              "original_page": 6
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8765081763267517
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.20724465558194774,
+              "width": 0.14273719563392107,
+              "original_page": 6
+            },
+            "content": "Section 3",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9377448499202728
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.1200671704450042,
+              "page": 6,
+              "top": 0.25771971496437057,
+              "width": 0.15197313182199831,
+              "original_page": 6
+            },
+            "content": "Question 3a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9389657884836197
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.29572446555819476,
+              "width": 0.5306465155331654,
+              "original_page": 6
+            },
+            "content": "A 6-month American put option has the following characteristics:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9621461719274521
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.1486146095717884,
+              "page": 6,
+              "top": 0.32838479809976245,
+              "width": 0.23005877413937867,
+              "original_page": 6
+            },
+            "content": "- Initial stock price is $40.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7602978527545929
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1486146095717884,
+              "page": 6,
+              "top": 0.34501187648456055,
+              "width": 0.32157850545759864,
+              "original_page": 6
+            },
+            "content": "- Strike price of the put option is $45.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7521722346544266
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1486146095717884,
+              "page": 6,
+              "top": 0.36163895486935865,
+              "width": 0.3047858942065491,
+              "original_page": 6
+            },
+            "content": "- The stock is non-dividend paying.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7386299550533295
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.1486146095717884,
+              "page": 6,
+              "top": 0.37767220902612825,
+              "width": 0.5751469353484466,
+              "original_page": 6
+            },
+            "content": "- Each period the stock can either go up by 25% or go down by 25%.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9345372766256332
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.1486146095717884,
+              "page": 6,
+              "top": 0.39429928741092635,
+              "width": 0.35516372795969775,
+              "original_page": 6
+            },
+            "content": "- The annual risk-free interest rate is 7%.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7610987186431885
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.4495249406175772,
+              "width": 0.5558354324097398,
+              "original_page": 6
+            },
+            "content": "Fill in the stock price movement in a two-period binomial tree below",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.920948201417923
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11401425178147269,
+              "left": 0.11754827875734676,
+              "page": 6,
+              "top": 0.46971496437054633,
+              "width": 0.380352644836272,
+              "original_page": 6
+            },
+            "content": "| Period 0   | Period 1   | Period 2   |\n|-|-|-|\n|            | Suu        | = 62,5     |\n| Su         | = 50       |            |\n| S=40       |            | Sud = 37,5 |\n| Sd         | =30        |            |\n|            | Sdd        | = 22,5     |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8450486322244009
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1508313539192399,
+              "left": 0.11670864819479429,
+              "page": 6,
+              "top": 0.6241092636579573,
+              "width": 0.5121746431570109,
+              "original_page": 6
+            },
+            "content": "| Compute the payoffs for the put option in the last period below   | Compute the payoffs for the put option in the last period below   |\n|-|-|\n|                                                                   | Period 2                                                          |\n| Puu                                                               | = 0                                                               |\n| Pud                                                               | = 7,5                                                             |\n| Pdd<br />Maximum marks: 2                                         | = 22,5                                                            |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7041526436805725
+            },
+            "image_url": null
+          }
+        ],
+        "content": "d>52.5%</td><td>4,000,000 </td><td>4,200,000 </td><td>11,800,000 </td></tr><tr><td>$12 500 000</td><td>70%</td><td>5,000,000 </td><td>5,600,000 </td><td>11,400,000 </td></tr></table>\n\nMaximum marks: 5## Question 2c\n\nWhat is the firm's optimal capital structure? Why?\n\nObviously, the optimal debt level is $5,000,000 or $7,500,000 c- With this optimal capital structure, the total value of the firm is VL = VU + value added of debt = 12,000,000 + 1,360,000 = 13,360,000. At this level there is an optimal balance between bankruptcy costs and the tax shield\n\nMaximum marks: 5\n\n## Section 3\n\n## Question 3a\n\nA 6-month American put option has the following characteristics:\n\n- Initial stock price is $40.\n\n- Strike price of the put option is $45.\n\n- The stock is non-dividend paying.\n\n- Each period the stock can either go up by 25% or go down by 25%.\n\n- The annual risk-free interest rate is 7%.\n\nFill in the stock price movement in a two-period binomial tree below\n\n| Period 0   | Period 1   | Period 2   |\n|-|-|-|\n|            | Suu        | = 62,5     |\n| Su         | = 50       |            |\n| S=40       |            | Sud = 37,5 |\n| Sd         | =30        |            |\n|            | Sdd        | = 22,5     |\n\n| Compute the payoffs for the put option in the last period below   | Compute the payoffs for the put option in the last period below   |\n|-|-|\n|                                                                   | Period 2                                                          |\n| Puu                                                               | = 0                                                               |\n| Pud                                                               | = 7,5                                                             |\n| Pdd<br />Maximum marks: 2                                         | = 22,5                                                            |## Question 3b\n\nFor the American put option in the previous question compute the payoffs in Period 1 and Period 0.\n\nRisk free rate for 3 months is equal to 7%/4=1.75%\n\nRisk neutral probability of an u",
+        "embed": "sent value of bankruptcy costs. Ultimately, the firm's value is affected by these factors, showing a peak and then a decline with higher levels of debt and increased bankruptcy risk.\n\nMaximum marks: 5## Question 2c\n\nWhat is the firm's optimal capital structure? Why?\n\nObviously, the optimal debt level is $5,000,000 or $7,500,000 c- With this optimal capital structure, the total value of the firm is VL = VU + value added of debt = 12,000,000 + 1,360,000 = 13,360,000. At this level there is an optimal balance between bankruptcy costs and the tax shield\n\nMaximum marks: 5\n\n## Section 3\n\n## Question 3a\n\nA 6-month American put option has the following characteristics:\n\n- Initial stock price is $40.\n\n- Strike price of the put option is $45.\n\n- The stock is non-dividend paying.\n\n- Each period the stock can either go up by 25% or go down by 25%.\n\n- The annual risk-free interest rate is 7%.\n\nFill in the stock price movement in a two-period binomial tree below\n\nThis table illustrates a progression of values associated with 'Su' and 'S' across three periods. In Period 1, 'Su' is 50 and 'Sd' is 30, while 'Suu' is 62.5 and 'Sdd' is 22.5. Period 2 shows 'Su' also at 62.5 and 'Sud' at 37.5, and Period 0 has 'S' equal to 40.\n\nThis table displays the payoffs for a put option at the end of period 2. The payoff is 0 if the stock price goes up twice (Puu). If the stock price goes up and then down (Pud), the payoff is 7.5. Finally, if the stock price goes down twice (Pdd), the payoff is 22.5.## Question 3b\n\nFor the American put option in the previous question compute the payoffs in Period 1 and Period 0.\n\nRisk free rate for 3 months is equal to 7%/4=1.75%\n\nRisk neutral probability of an u",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.11922753988245172,
+              "page": 6,
+              "top": 0.8206650831353919,
+              "width": 0.1528127623845508,
+              "original_page": 6
+            },
+            "content": "Question 3b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9200214475393296
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.8586698337292161,
+              "width": 0.7246011754827876,
+              "original_page": 6
+            },
+            "content": "For the American put option in the previous question compute the payoffs in Period 1 and Period 0.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9636839985847473
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.8972684085510689,
+              "width": 0.4156171284634761,
+              "original_page": 6
+            },
+            "content": "Risk free rate for 3 months is equal to 7%/4=1.75%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9389094263315201
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1735973856511422,
+              "left": 0.11682874549846504,
+              "page": 7,
+              "top": 0.08262229248916735,
+              "width": 0.7143002501262725,
+              "original_page": 7
+            },
+            "content": "Risk neutral probability of an up move is equal to p = (1,0175*40-30)/(50-30) = 0,535\nValue of the American option is the maximum of the value of early exercise (exercising immediately) and the value of the option.\nPut option value in Period 1 in state u: max (45 - 50, (0535*0+0.465*7.5)/1.0175) ) = 3.4275\nPut option value in Period 1 in state d: max (45 - 30, (0.535*7.5+0.465*22.5)/1.0175) ) = 15\nPut option value in Period 1: max (45 - 30, (0.535*3.4275+0.465*15)/1.0175) ) = 8.657",
+            "type": "Key Value",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9076128005981445
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.3176959619952494,
+              "width": 0.16960537363560033,
+              "original_page": 7
+            },
+            "content": "Maximum marks: 10",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8964476585388184
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0166270783847981,
+              "left": 0.11922753988245172,
+              "page": 7,
+              "top": 0.35629453681710216,
+              "width": 0.15113350125944586,
+              "original_page": 7
+            },
+            "content": "Question 3c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8635905206203461
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05166270783847981,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.37648456057007124,
+              "width": 0.7598656591099916,
+              "original_page": 7
+            },
+            "content": "Compare the American option in previous question with the European but otherwise identical put option. Do they have the same value? Calculate the value of this European option and explain.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9798289895057678
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.040380047505938245,
+              "left": 0.11754827875734676,
+              "page": 7,
+              "top": 0.45427553444180524,
+              "width": 0.6851385390428212,
+              "original_page": 7
+            },
+            "content": "No, they do not, the European will be worth less, since the early exercise is valuable.\n0.535*3.4275+0.465*14.226\nPeur= = 8.303\n1.0175",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7794461250305176
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.5314726840855107,
+              "width": 0.15952980688497062,
+              "original_page": 7
+            },
+            "content": "Maximum marks: 4",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9046749711036682
+            },
+            "image_url": null
+          }
+        ],
+        "content": "                                                             |\n| Pdd<br />Maximum marks: 2                                         | = 22,5                                                            |## Question 3b\n\nFor the American put option in the previous question compute the payoffs in Period 1 and Period 0.\n\nRisk free rate for 3 months is equal to 7%/4=1.75%\n\nRisk neutral probability of an up move is equal to p = (1,0175*40-30)/(50-30) = 0,535\nValue of the American option is the maximum of the value of early exercise (exercising immediately) and the value of the option.\nPut option value in Period 1 in state u: max (45 - 50, (0535*0+0.465*7.5)/1.0175) ) = 3.4275\nPut option value in Period 1 in state d: max (45 - 30, (0.535*7.5+0.465*22.5)/1.0175) ) = 15\nPut option value in Period 1: max (45 - 30, (0.535*3.4275+0.465*15)/1.0175) ) = 8.657\n\nMaximum marks: 10\n\n## Question 3c\n\nCompare the American option in previous question with the European but otherwise identical put option. Do they have the same value? Calculate the value of this European option and explain.\n\nNo, they do not, the European will be worth less, since the early exercise is valuable.\n0.535*3.4275+0.465*14.226\nPeur= = 8.303\n1.0175\n\nMaximum marks: 4## Question 3d\n\nUnder what conditions European put options are valued differently than their American counterparts? What about call options? Explain using Put-Call Parity.\n\nPut Call parity: C=P+S-PV(K",
+        "embed": "iod 2. The payoff is 0 if the stock price goes up twice (Puu). If the stock price goes up and then down (Pud), the payoff is 7.5. Finally, if the stock price goes down twice (Pdd), the payoff is 22.5.## Question 3b\n\nFor the American put option in the previous question compute the payoffs in Period 1 and Period 0.\n\nRisk free rate for 3 months is equal to 7%/4=1.75%\n\nRisk neutral probability of an up move is equal to p = (1,0175*40-30)/(50-30) = 0,535\nValue of the American option is the maximum of the value of early exercise (exercising immediately) and the value of the option.\nPut option value in Period 1 in state u: max (45 - 50, (0535*0+0.465*7.5)/1.0175) ) = 3.4275\nPut option value in Period 1 in state d: max (45 - 30, (0.535*7.5+0.465*22.5)/1.0175) ) = 15\nPut option value in Period 1: max (45 - 30, (0.535*3.4275+0.465*15)/1.0175) ) = 8.657\n\nMaximum marks: 10\n\n## Question 3c\n\nCompare the American option in previous question with the European but otherwise identical put option. Do they have the same value? Calculate the value of this European option and explain.\n\nNo, they do not, the European will be worth less, since the early exercise is valuable.\n0.535*3.4275+0.465*14.226\nPeur= = 8.303\n1.0175\n\nMaximum marks: 4## Question 3d\n\nUnder what conditions European put options are valued differently than their American counterparts? What about call options? Explain using Put-Call Parity.\n\nPut Call parity: C=P+S-PV(K",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.5688836104513064,
+              "width": 0.15449202350965574,
+              "original_page": 7
+            },
+            "content": "Question 3d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.920931613445282
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.6074821852731591,
+              "width": 0.7052896725440806,
+              "original_page": 7
+            },
+            "content": "Under what conditions European put options are valued differently than their American counterparts? What about call options? Explain using Put-Call Parity.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9749219536781311
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.13064133016627077,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.665083135391924,
+              "width": 0.7590260285474392,
+              "original_page": 7
+            },
+            "content": "Put Call parity: C=P+S-PV(K). For a non-dividend paying stock, we can write the price of the zero-coupon bond as PV(K) = K-dis(K), where dis(K) is the amount of the discount from face value of the zero-coupon bond K. So Put-Call Parity can be written as C=S-K +dis(K)+P, where S-K is the intrinsic value and dis(K)+P is the time value. Becausedis(K)andP must be positive before the expiration date, a European call always has a positive time value. This implies that it is never optimal to exercise a call option on a non- dividend paying stock early. European call options are priced exactly the same as their American counterparts if they do not pay dividends.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9669642925262452
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.8123515439429929,
+              "width": 0.7422334172963896,
+              "original_page": 7
+            },
+            "content": "This is not true for put options: it may be optimal to exercise a put option on a non-dividend paying stock early. P=K-S -dis(K)+C.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9813314825296402
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.8450118764845606,
+              "width": 0.005037783375314861,
+              "original_page": 7
+            },
+            "content": "",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.65
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.8616389548693587,
+              "width": 0.7346767422334173,
+              "original_page": 7
+            },
+            "content": "When the strike price is high and the put option is sufficiently deep in-the-money, this discount will be large relative to the value of the call, and the time value of a European put option will be negative. In this case, the European put will sell for less than its intrinsic",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9823482155799865
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.08432304038004751,
+              "width": 0.7220822837951302,
+              "original_page": 8
+            },
+            "content": "value. However, its American counterpart cannot sell for less than its intrinsic value, so American put option will be worth more than an otherwise identical European put option.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9774933278560638
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.1496437054631829,
+              "width": 0.691855583543241,
+              "original_page": 8
+            },
+            "content": "With dividends however the Call option may also be priced below its intrinsic value: C=S-K +dis(K)+P-PV(Div), since its time value dis(K)+P-PV(Div) can be negative if dividends are large.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9847813934087754
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.12342569269521411,
+              "page": 8,
+              "top": 0.21496437054631828,
+              "width": 0.15869017632241814,
+              "original_page": 8
+            },
+            "content": "Maximum marks: 9",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9040321856737137
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.27375296912114017,
+              "width": 0.14273719563392107,
+              "original_page": 8
+            },
+            "content": "Section 4",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          }
+        ],
+        "content": "the value of this European option and explain.\n\nNo, they do not, the European will be worth less, since the early exercise is valuable.\n0.535*3.4275+0.465*14.226\nPeur= = 8.303\n1.0175\n\nMaximum marks: 4## Question 3d\n\nUnder what conditions European put options are valued differently than their American counterparts? What about call options? Explain using Put-Call Parity.\n\nPut Call parity: C=P+S-PV(K). For a non-dividend paying stock, we can write the price of the zero-coupon bond as PV(K) = K-dis(K), where dis(K) is the amount of the discount from face value of the zero-coupon bond K. So Put-Call Parity can be written as C=S-K +dis(K)+P, where S-K is the intrinsic value and dis(K)+P is the time value. Becausedis(K)andP must be positive before the expiration date, a European call always has a positive time value. This implies that it is never optimal to exercise a call option on a non- dividend paying stock early. European call options are priced exactly the same as their American counterparts if they do not pay dividends.\n\nThis is not true for put options: it may be optimal to exercise a put option on a non-dividend paying stock early. P=K-S -dis(K)+C.\n\n\n\nWhen the strike price is high and the put option is sufficiently deep in-the-money, this discount will be large relative to the value of the call, and the time value of a European put option will be negative. In this case, the European put will sell for less than its intrinsic\n\nvalue. However, its American counterpart cannot sell for less than its intrinsic value, so American put option will be worth more than an otherwise identical European put option.\n\nWith dividends however the Call option may also be priced below its intrinsic value: C=S-K +dis(K)+P-PV(Div), since its time value dis(K)+P-PV(Div) can be negative if dividends are large.\n\nMaximum marks: 9\n\nSection 4## Question 4a\n\nYou are thinking about investing your money in the stock market, which consists only of three stocks: A, B and C. You know that the economy is expected to behave according to the follo",
+        "embed": "the value of this European option and explain.\n\nNo, they do not, the European will be worth less, since the early exercise is valuable.\n0.535*3.4275+0.465*14.226\nPeur= = 8.303\n1.0175\n\nMaximum marks: 4## Question 3d\n\nUnder what conditions European put options are valued differently than their American counterparts? What about call options? Explain using Put-Call Parity.\n\nPut Call parity: C=P+S-PV(K). For a non-dividend paying stock, we can write the price of the zero-coupon bond as PV(K) = K-dis(K), where dis(K) is the amount of the discount from face value of the zero-coupon bond K. So Put-Call Parity can be written as C=S-K +dis(K)+P, where S-K is the intrinsic value and dis(K)+P is the time value. Becausedis(K)andP must be positive before the expiration date, a European call always has a positive time value. This implies that it is never optimal to exercise a call option on a non- dividend paying stock early. European call options are priced exactly the same as their American counterparts if they do not pay dividends.\n\nThis is not true for put options: it may be optimal to exercise a put option on a non-dividend paying stock early. P=K-S -dis(K)+C.\n\n\n\nWhen the strike price is high and the put option is sufficiently deep in-the-money, this discount will be large relative to the value of the call, and the time value of a European put option will be negative. In this case, the European put will sell for less than its intrinsic\n\nvalue. However, its American counterpart cannot sell for less than its intrinsic value, so American put option will be worth more than an otherwise identical European put option.\n\nWith dividends however the Call option may also be priced below its intrinsic value: C=S-K +dis(K)+P-PV(Div), since its time value dis(K)+P-PV(Div) can be negative if dividends are large.\n\nMaximum marks: 9\n\nSection 4## Question 4a\n\nYou are thinking about investing your money in the stock market, which consists only of three stocks: A, B and C. You know that the economy is expected to behave according to the follo",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11922753988245172,
+              "page": 8,
+              "top": 0.3248218527315915,
+              "width": 0.15365239294710328,
+              "original_page": 8
+            },
+            "content": "Question 4a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8949156999588013
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06947743467933491,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.36223277909738716,
+              "width": 0.7531486146095718,
+              "original_page": 8
+            },
+            "content": "You are thinking about investing your money in the stock market, which consists only of three stocks: A, B and C. You know that the economy is expected to behave according to the following table. You believe the likelihood of each scenario is identical (all states of nature have equal probabilities). You also know the following about your stocks:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9886482954025269
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11104513064133016,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.45486935866983375,
+              "width": 0.6322418136020151,
+              "original_page": 8
+            },
+            "content": "| State of the<br />Economy   | RA   | RB   | Rc   |\n|-|-|-|-|\n| Recession                   | 0%   | 0%   | -5%  |\n| Normal                      | 10%  | 20%  | 10%  |\n| Boom                        | 20%  | 10%  | 7%   |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.943542993068695
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11754827875734676,
+              "page": 8,
+              "top": 0.5908551068883611,
+              "width": 0.5827036104114189,
+              "original_page": 8
+            },
+            "content": "i. Calculate the expected returns and the total risk for each of the stocks.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.882024523615837
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.6110451306413301,
+              "width": 0.7363560033585222,
+              "original_page": 8
+            },
+            "content": "ii. Calculate the covariances between stocks A and B, stocks A and C, and stocks B and C.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8767901480197906
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.062351543942992874,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.6532066508313539,
+              "width": 0.42233417296389586,
+              "original_page": 8
+            },
+            "content": "i. Expected returns E(RA) = 1/3 × 0.10 + 1/3 ×0.20 = 0.1(10%) E(RB)=1/3 × 0.20 + 1/3 ×0.1 = 0.1(10%) E(RC) 1/3×0.05 +1/3× 0.1 + 1/3 ×0.07 = 0.04(4%)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5770575746893882
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06175771971496437,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.7357482185273159,
+              "width": 0.6658270361041142,
+              "original_page": 8
+            },
+            "content": "Total risk is standard deviation. SD(RA) =( 1/3× (0-0.1)² +1/3× (0.1-0.1)² +1/3(0.2-0.1)² )0.5= 0.08165 SD(RB,Rc) = (1/3× (0-0.1)² +1/3× (0.2-0.1)²+1/3(0.1-0.1)²)0.5-0.08165 SD(RA,RC) = (1/3× (-0.05-0.04)² +1/3× (0.1-0.04)² +1/3(0.07-0.04)² )0.5 = 0.0648",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7967786461114883
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.8153206650831354,
+              "width": 0.12090680100755667,
+              "original_page": 8
+            },
+            "content": "ii. Covariances",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8470953285694123
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.024346793349168647,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.827790973871734,
+              "width": 0.762384550797649,
+              "original_page": 8
+            },
+            "content": "COV (RA ,RB ) = 1/3× (0-0.1) (0-0.1) +1/3× (0.1-0.1)(0.2-0.1) +1/3(0.2-0.1)(0.1-0.1) = 0.0033",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.024346793349168647,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.8444180522565321,
+              "width": 0.762384550797649,
+              "original_page": 8
+            },
+            "content": "COV (RB ,RC ) = 1/3× (-0.05-0.04) (0-0.1) +1/3× (0.1-0.04)(0.2-0.1) +1/3(0.07-0.04)(0.1-",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.8640142517814727,
+              "width": 0.09907640638119228,
+              "original_page": 8
+            },
+            "content": "0.1) =0.005",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.024346793349168647,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.8770783847980997,
+              "width": 0.762384550797649,
+              "original_page": 8
+            },
+            "content": "COV (RA ,RC ) = 1/3× (0-0.1) (-0.05-0.04) +1/3× (0.1-0.1)(0.1-0.04) +1/3(0.2-0.1)(0.07-",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11754827875734676,
+              "page": 8,
+              "top": 0.8836104513064132,
+              "width": 0.764063811922754,
+              "original_page": 8
+            },
+            "content": "0.04) = 0.004",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7998847514390945
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.10451306413301663,
+              "width": 0.15869017632241814,
+              "original_page": 9
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.79529068171978
+            },
+            "image_url": null
+          }
+        ],
+        "content": "owever the Call option may also be priced below its intrinsic value: C=S-K +dis(K)+P-PV(Div), since its time value dis(K)+P-PV(Div) can be negative if dividends are large.\n\nMaximum marks: 9\n\nSection 4## Question 4a\n\nYou are thinking about investing your money in the stock market, which consists only of three stocks: A, B and C. You know that the economy is expected to behave according to the following table. You believe the likelihood of each scenario is identical (all states of nature have equal probabilities). You also know the following about your stocks:\n\n| State of the<br />Economy   | RA   | RB   | Rc   |\n|-|-|-|-|\n| Recession                   | 0%   | 0%   | -5%  |\n| Normal                      | 10%  | 20%  | 10%  |\n| Boom                        | 20%  | 10%  | 7%   |\n\ni. Calculate the expected returns and the total risk for each of the stocks.\n\nii. Calculate the covariances between stocks A and B, stocks A and C, and stocks B and C.\n\ni. Expected returns E(RA) = 1/3 × 0.10 + 1/3 ×0.20 = 0.1(10%) E(RB)=1/3 × 0.20 + 1/3 ×0.1 = 0.1(10%) E(RC) 1/3×0.05 +1/3× 0.1 + 1/3 ×0.07 = 0.04(4%)\n\nTotal risk is standard deviation. SD(RA) =( 1/3× (0-0.1)² +1/3× (0.1-0.1)² +1/3(0.2-0.1)² )0.5= 0.08165 SD(RB,Rc) = (1/3× (0-0.1)² +1/3× (0.2-0.1)²+1/3(0.1-0.1)²)0.5-0.08165 SD(RA,RC) = (1/3× (-0.05-0.04)² +1/3× (0.1-0.04)² +1/3(0.07-0.04)² )0.5 = 0.0648\n\n## ii. Covariances\n\nCOV (RA ,RB ) = 1/3× (0-0.1) (0-0.1) +1/3× (0.1-0.1)(0.2-0.1) +1/3(0.2-0.1)(0.1-0.1) = 0.0033\n\nCOV (RB ,RC ) = 1/3× (-0.05-0.04) (0-0.1) +1/3× (0.1-0.04)(0.2-0.1) +1/3(0.07-0.04)(0.1-\n\n0.1) =0.005\n\nCOV (RA ,RC ) = 1/3× (0-0.1) (-0.05-0.04) +1/3× (0.1-0.1)(0.1-0.04) +1/3(0.2-0.1)(0.07-\n\n0.04) = 0.004\n\nMaximum marks: 5## Question 4b\n\nIf you have to form an equally weighted portfolio consisting of two stocks, which two stocks would you put in your portfolio if you only care about risk reduction? Why?\n\nIf you only ca",
+        "embed": "owever the Call option may also be priced below its intrinsic value: C=S-K +dis(K)+P-PV(Div), since its time value dis(K)+P-PV(Div) can be negative if dividends are large.\n\nMaximum marks: 9\n\nSection 4## Question 4a\n\nYou are thinking about investing your money in the stock market, which consists only of three stocks: A, B and C. You know that the economy is expected to behave according to the following table. You believe the likelihood of each scenario is identical (all states of nature have equal probabilities). You also know the following about your stocks:\n\nThis table shows the potential returns (RA, RB, and Rc) of three different investments under three economic states: recession, normal, and boom. Investment RB offers the highest return during a normal economy at 20%, while RA provides the highest return during a boom at 20%. Investment Rc is the only one that shows a negative return, -5%, during a recession, but offers moderate returns in other economic conditions.\n\ni. Calculate the expected returns and the total risk for each of the stocks.\n\nii. Calculate the covariances between stocks A and B, stocks A and C, and stocks B and C.\n\ni. Expected returns E(RA) = 1/3 × 0.10 + 1/3 ×0.20 = 0.1(10%) E(RB)=1/3 × 0.20 + 1/3 ×0.1 = 0.1(10%) E(RC) 1/3×0.05 +1/3× 0.1 + 1/3 ×0.07 = 0.04(4%)\n\nTotal risk is standard deviation. SD(RA) =( 1/3× (0-0.1)² +1/3× (0.1-0.1)² +1/3(0.2-0.1)² )0.5= 0.08165 SD(RB,Rc) = (1/3× (0-0.1)² +1/3× (0.2-0.1)²+1/3(0.1-0.1)²)0.5-0.08165 SD(RA,RC) = (1/3× (-0.05-0.04)² +1/3× (0.1-0.04)² +1/3(0.07-0.04)² )0.5 = 0.0648\n\n## ii. Covariances\n\nCOV (RA ,RB ) = 1/3× (0-0.1) (0-0.1) +1/3× (0.1-0.1)(0.2-0.1) +1/3(0.2-0.1)(0.1-0.1) = 0.0033\n\nCOV (RB ,RC ) = 1/3× (-0.05-0.04) (0-0.1) +1/3× (0.1-0.04)(0.2-0.1) +1/3(0.07-0.04)(0.1-\n\n0.1) =0.005\n\nCOV (RA ,RC ) = 1/3× (0-0.1) (-0.05-0.04) +1/3× (0.1-0.1)(0.1-0.04) +1/3(0.2-0.1)(0.07-\n\n0.04) = 0.004\n\nMaximum marks: 5## Question 4b\n\nIf you have to form an equally weighted portfolio consisting of two stocks, which two stocks would you put in your portfolio if you only care about risk reduction? Why?\n\nIf you only ca",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.1200671704450042,
+              "page": 9,
+              "top": 0.167458432304038,
+              "width": 0.15197313182199831,
+              "original_page": 9
+            },
+            "content": "Question 4b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9293386608362197
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.20486935866983372,
+              "width": 0.7539882451721243,
+              "original_page": 9
+            },
+            "content": "If you have to form an equally weighted portfolio consisting of two stocks, which two stocks would you put in your portfolio if you only care about risk reduction? Why?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9712421029806138
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09738717339667459,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.26306413301662707,
+              "width": 0.7455919395465995,
+              "original_page": 9
+            },
+            "content": "If you only care about risk then you would choose a portfolio with minimal variance. The variance of such a portfolio (with equal weights) is SDp=0.25(SD1^2+SD2^2+2Cov12) These variances for different stocks are Var(A,B)=0.005 Var(A,C)=0.004717 Var(C,B)=0.005217",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7968492746353149
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.37767220902612825,
+              "width": 0.7615449202350966,
+              "original_page": 9
+            },
+            "content": "So you would choose A and C. Note that this is not the combination of stocks with lowest covariance. The reduction in risk comes also from the fact that C has the lowest variance.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9701714009046555
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.4501187648456057,
+              "width": 0.15869017632241814,
+              "original_page": 9
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9178095519542694
+            },
+            "image_url": null
+          }
+        ],
+        "content": "0.05-0.04) (0-0.1) +1/3× (0.1-0.04)(0.2-0.1) +1/3(0.07-0.04)(0.1-\n\n0.1) =0.005\n\nCOV (RA ,RC ) = 1/3× (0-0.1) (-0.05-0.04) +1/3× (0.1-0.1)(0.1-0.04) +1/3(0.2-0.1)(0.07-\n\n0.04) = 0.004\n\nMaximum marks: 5## Question 4b\n\nIf you have to form an equally weighted portfolio consisting of two stocks, which two stocks would you put in your portfolio if you only care about risk reduction? Why?\n\nIf you only care about risk then you would choose a portfolio with minimal variance. The variance of such a portfolio (with equal weights) is SDp=0.25(SD1^2+SD2^2+2Cov12) These variances for different stocks are Var(A,B)=0.005 Var(A,C)=0.004717 Var(C,B)=0.005217\n\nSo you would choose A and C. Note that this is not the combination of stocks with lowest covariance. The reduction in risk comes also from the fact that C has the lowest variance.\n\nMaximum marks: 5## Question 4c\n\nDisregard the assumptions in 4b.\n\ni. Suppose now that you are considering creating a portfolio that consist of 60% investment in stock A and 40% investment B. Does this portfolio impro",
+        "embed": "0.05-0.04) (0-0.1) +1/3× (0.1-0.04)(0.2-0.1) +1/3(0.07-0.04)(0.1-\n\n0.1) =0.005\n\nCOV (RA ,RC ) = 1/3× (0-0.1) (-0.05-0.04) +1/3× (0.1-0.1)(0.1-0.04) +1/3(0.2-0.1)(0.07-\n\n0.04) = 0.004\n\nMaximum marks: 5## Question 4b\n\nIf you have to form an equally weighted portfolio consisting of two stocks, which two stocks would you put in your portfolio if you only care about risk reduction? Why?\n\nIf you only care about risk then you would choose a portfolio with minimal variance. The variance of such a portfolio (with equal weights) is SDp=0.25(SD1^2+SD2^2+2Cov12) These variances for different stocks are Var(A,B)=0.005 Var(A,C)=0.004717 Var(C,B)=0.005217\n\nSo you would choose A and C. Note that this is not the combination of stocks with lowest covariance. The reduction in risk comes also from the fact that C has the lowest variance.\n\nMaximum marks: 5## Question 4c\n\nDisregard the assumptions in 4b.\n\ni. Suppose now that you are considering creating a portfolio that consist of 60% investment in stock A and 40% investment B. Does this portfolio impro",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.0172209026128266,
+              "left": 0.11922753988245172,
+              "page": 9,
+              "top": 0.48812351543942994,
+              "width": 0.15113350125944586,
+              "original_page": 9
+            },
+            "content": "Question 4c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9269813954830171
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.5089073634204275,
+              "width": 0.2653232577665827,
+              "original_page": 9
+            },
+            "content": "Disregard the assumptions in 4b.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9406861811876297
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05166270783847981,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.5296912114014252,
+              "width": 0.7590260285474392,
+              "original_page": 9
+            },
+            "content": "i. Suppose now that you are considering creating a portfolio that consist of 60% investment in stock A and 40% investment B. Does this portfolio improve your risk-return trade-off relative to the individual investments in stocks A, B and C?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.854122343659401
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.586104513064133,
+              "width": 0.4903442485306465,
+              "original_page": 9
+            },
+            "content": "ii. Does it make sense to add stock C to this portfolio? Why?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8882369279861451
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06472684085510688,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.6193586698337292,
+              "width": 0.762384550797649,
+              "original_page": 9
+            },
+            "content": "i. Yes, in comparison to A and B since the portfolio has the same expected return, but allows to diversity some risk compared to individual securities, and thus leads to smaller volatility. It is, however, not clear in relation to C, since despite the fact that has a larger expected return, it also has a larger volatility.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9637249499559403
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.7013064133016627,
+              "width": 0.7615449202350966,
+              "original_page": 9
+            },
+            "content": "One could, for example, look the expected return per unit of volatility and conclude that this trade-off is improved. Since expected return of a new portfolio is 10% and volatility is 0.07, so the ratio is equal to 1.33, which is larger than for stock C (0.617)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9776774734258652
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06532066508313539,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.7998812351543944,
+              "width": 0.762384550797649,
+              "original_page": 9
+            },
+            "content": "ii. It only makes no sense to add stock C if the correlation between stock A and the portfolio is equal to +1. Looking at the returns for these two investments, one can easily conclude that this will not be the case. Hence, adding stock C should further diversify the portfolio and expand the efficient frontier.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9819693088531494
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.8824228028503563,
+              "width": 0.15869017632241814,
+              "original_page": 9
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8483266204595565
+            },
+            "image_url": null
+          }
+        ],
+        "content": "7\n\nSo you would choose A and C. Note that this is not the combination of stocks with lowest covariance. The reduction in risk comes also from the fact that C has the lowest variance.\n\nMaximum marks: 5## Question 4c\n\nDisregard the assumptions in 4b.\n\ni. Suppose now that you are considering creating a portfolio that consist of 60% investment in stock A and 40% investment B. Does this portfolio improve your risk-return trade-off relative to the individual investments in stocks A, B and C?\n\nii. Does it make sense to add stock C to this portfolio? Why?\n\ni. Yes, in comparison to A and B since the portfolio has the same expected return, but allows to diversity some risk compared to individual securities, and thus leads to smaller volatility. It is, however, not clear in relation to C, since despite the fact that has a larger expected return, it also has a larger volatility.\n\nOne could, for example, look the expected return per unit of volatility and conclude that this trade-off is improved. Since expected return of a new portfolio is 10% and volatility is 0.07, so the ratio is equal to 1.33, which is larger than for stock C (0.617)\n\nii. It only makes no sense to add stock C if the correlation between stock A and the portfolio is equal to +1. Looking at the returns for these two investments, one can easily conclude that this will not be the case. Hence, adding stock C should further diversify the portfolio and expand the efficient frontier.\n\nMaximum marks: 5## Question 4d\n\nConsider now the market consisting of only two risky stocks A and B with expected returns given in Question 4a, and a risk free asset with return equal to 3%. Find the weights of a tan",
+        "embed": "7\n\nSo you would choose A and C. Note that this is not the combination of stocks with lowest covariance. The reduction in risk comes also from the fact that C has the lowest variance.\n\nMaximum marks: 5## Question 4c\n\nDisregard the assumptions in 4b.\n\ni. Suppose now that you are considering creating a portfolio that consist of 60% investment in stock A and 40% investment B. Does this portfolio improve your risk-return trade-off relative to the individual investments in stocks A, B and C?\n\nii. Does it make sense to add stock C to this portfolio? Why?\n\ni. Yes, in comparison to A and B since the portfolio has the same expected return, but allows to diversity some risk compared to individual securities, and thus leads to smaller volatility. It is, however, not clear in relation to C, since despite the fact that has a larger expected return, it also has a larger volatility.\n\nOne could, for example, look the expected return per unit of volatility and conclude that this trade-off is improved. Since expected return of a new portfolio is 10% and volatility is 0.07, so the ratio is equal to 1.33, which is larger than for stock C (0.617)\n\nii. It only makes no sense to add stock C if the correlation between stock A and the portfolio is equal to +1. Looking at the returns for these two investments, one can easily conclude that this will not be the case. Hence, adding stock C should further diversify the portfolio and expand the efficient frontier.\n\nMaximum marks: 5## Question 4d\n\nConsider now the market consisting of only two risky stocks A and B with expected returns given in Question 4a, and a risk free asset with return equal to 3%. Find the weights of a tan",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.08907363420427554,
+              "width": 0.15449202350965574,
+              "original_page": 10
+            },
+            "content": "Question 4d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9174632966518401
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0510688836104513,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.12707838479809977,
+              "width": 0.7397145256087322,
+              "original_page": 10
+            },
+            "content": "Consider now the market consisting of only two risky stocks A and B with expected returns given in Question 4a, and a risk free asset with return equal to 3%. Find the weights of a tangent portfolio in this market and the Sharpe ratio corresponding to this portfolio.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9847182422876358
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032660332541567694,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.21437054631828978,
+              "width": 0.7380352644836272,
+              "original_page": 10
+            },
+            "content": "The stocks A and B have the same expected returns, so the tangent portfolio will be the one with minimal variance. Let w denote the weight for stock A, then we need to find",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9711271524429321
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014845605700712588,
+              "left": 0.30730478589420657,
+              "page": 10,
+              "top": 0.2660332541567696,
+              "width": 0.3786733837111671,
+              "original_page": 10
+            },
+            "content": "minw(w²σ² + (1 − w)σ + 2w(1 − W)σAB) -",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7021394029259681
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.2975059382422803,
+              "width": 0.3417296389588581,
+              "original_page": 10
+            },
+            "content": "Taking the derivative and setting it to zero",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9348239749670029
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.35852225020990763,
+              "page": 10,
+              "top": 0.3331353919239905,
+              "width": 0.2804366078925273,
+              "original_page": 10
+            },
+            "content": "2wo-σ +20AB - 4WσAB = 0",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6890350908041001
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.37615449202350965,
+              "page": 10,
+              "top": 0.3663895486935867,
+              "width": 0.24517212426532325,
+              "original_page": 10
+            },
+            "content": "2w(0-20AB) = σ - 20AB",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5163536801934242
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.02672209026128266,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.4014251781472684,
+              "width": 0.7363560033585222,
+              "original_page": 10
+            },
+            "content": "Since σ = σ we get that w=0.5. So tangent portfolio will consist of 50% investment in stock A and 50% investment in stock B.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.729645486176014
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.4483372921615202,
+              "width": 0.7556675062972292,
+              "original_page": 10
+            },
+            "content": "The volatility of this portfolio can be found using standard calculations and is equal to 0.0707",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9504554271697998
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.4815914489311164,
+              "width": 0.43912678421494544,
+              "original_page": 10
+            },
+            "content": "The Sharpe ratio is equal to (10%-3%)/0.0707=0.9899",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9493613630533219
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.5142517814726841,
+              "width": 0.15869017632241814,
+              "original_page": 10
+            },
+            "content": "Maximum marks: 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9388942390680313
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.5480997624703088,
+              "width": 0.14273719563392107,
+              "original_page": 10
+            },
+            "content": "Section 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.5985748218527316,
+              "width": 0.15365239294710328,
+              "original_page": 10
+            },
+            "content": "Question 5a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9278239011764526
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0332541567695962,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.6365795724465558,
+              "width": 0.7388748950461796,
+              "original_page": 10
+            },
+            "content": "What do Miller and Modigliani (M&M) conclude about the effect of dividend policy on the initial share price of the firm? Explain the intuition behind their conclusion.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.979337728023529
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.6870546318289786,
+              "width": 0.7581863979848866,
+              "original_page": 10
+            },
+            "content": "MM Dividend Irrelevance: In perfect capital markets, holding fixed the investment policy of a firm, the firm’s choice of dividend policy is irrelevant and does not affect the initial share price.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9851820349693299
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08135391923990498,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.7529691211401425,
+              "width": 0.7539882451721243,
+              "original_page": 10
+            },
+            "content": "Regardless of the amount of cash the firm has on hand, it can pay a smaller dividend (and use the remaining cash to repurchase shares) or a larger dividend (by selling equity to raise cash). Because buying or selling shares is a zero-NPV transaction, such transactions have no effect on the initial share price. Furthermore, shareholders can create a homemade dividend of any size by buying or selling shares themselves.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9859182685613632
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.8515439429928741,
+              "width": 0.15952980688497062,
+              "original_page": 10
+            },
+            "content": "Maximum marks: 6",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.927009779214859
+            },
+            "image_url": null
+          }
+        ],
+        "content": "rns for these two investments, one can easily conclude that this will not be the case. Hence, adding stock C should further diversify the portfolio and expand the efficient frontier.\n\nMaximum marks: 5## Question 4d\n\nConsider now the market consisting of only two risky stocks A and B with expected returns given in Question 4a, and a risk free asset with return equal to 3%. Find the weights of a tangent portfolio in this market and the Sharpe ratio corresponding to this portfolio.\n\nThe stocks A and B have the same expected returns, so the tangent portfolio will be the one with minimal variance. Let w denote the weight for stock A, then we need to find\n\nminw(w²σ² + (1 − w)σ + 2w(1 − W)σAB) -\n\nTaking the derivative and setting it to zero\n\n2wo-σ +20AB - 4WσAB = 0\n\n2w(0-20AB) = σ - 20AB\n\nSince σ = σ we get that w=0.5. So tangent portfolio will consist of 50% investment in stock A and 50% investment in stock B.\n\nThe volatility of this portfolio can be found using standard calculations and is equal to 0.0707\n\nThe Sharpe ratio is equal to (10%-3%)/0.0707=0.9899\n\nMaximum marks: 5\n\nSection 5\n\n## Question 5a\n\nWhat do Miller and Modigliani (M&M) conclude about the effect of dividend policy on the initial share price of the firm? Explain the intuition behind their conclusion.\n\nMM Dividend Irrelevance: In perfect capital markets, holding fixed the investment policy of a firm, the firm’s choice of dividend policy is irrelevant and does not affect the initial share price.\n\nRegardless of the amount of cash the firm has on hand, it can pay a smaller dividend (and use the remaining cash to repurchase shares) or a larger dividend (by selling equity to raise cash). Because buying or selling shares is a zero-NPV transaction, such transactions have no effect on the initial share price. Furthermore, shareholders can create a homemade dividend of any size by buying or selling shares themselves.\n\nMaximum marks: 6## Question 5b\n\nTo examine how the dividend policy affects firm value, consider the following example. IKEO Corporation, an unlevered firm manufacturing furniture, this year has a net operating income",
+        "embed": "rns for these two investments, one can easily conclude that this will not be the case. Hence, adding stock C should further diversify the portfolio and expand the efficient frontier.\n\nMaximum marks: 5## Question 4d\n\nConsider now the market consisting of only two risky stocks A and B with expected returns given in Question 4a, and a risk free asset with return equal to 3%. Find the weights of a tangent portfolio in this market and the Sharpe ratio corresponding to this portfolio.\n\nThe stocks A and B have the same expected returns, so the tangent portfolio will be the one with minimal variance. Let w denote the weight for stock A, then we need to find\n\nminw(w²σ² + (1 − w)σ + 2w(1 − W)σAB) -\n\nTaking the derivative and setting it to zero\n\n2wo-σ +20AB - 4WσAB = 0\n\n2w(0-20AB) = σ - 20AB\n\nSince σ = σ we get that w=0.5. So tangent portfolio will consist of 50% investment in stock A and 50% investment in stock B.\n\nThe volatility of this portfolio can be found using standard calculations and is equal to 0.0707\n\nThe Sharpe ratio is equal to (10%-3%)/0.0707=0.9899\n\nMaximum marks: 5\n\nSection 5\n\n## Question 5a\n\nWhat do Miller and Modigliani (M&M) conclude about the effect of dividend policy on the initial share price of the firm? Explain the intuition behind their conclusion.\n\nMM Dividend Irrelevance: In perfect capital markets, holding fixed the investment policy of a firm, the firm’s choice of dividend policy is irrelevant and does not affect the initial share price.\n\nRegardless of the amount of cash the firm has on hand, it can pay a smaller dividend (and use the remaining cash to repurchase shares) or a larger dividend (by selling equity to raise cash). Because buying or selling shares is a zero-NPV transaction, such transactions have no effect on the initial share price. Furthermore, shareholders can create a homemade dividend of any size by buying or selling shares themselves.\n\nMaximum marks: 6## Question 5b\n\nTo examine how the dividend policy affects firm value, consider the following example. IKEO Corporation, an unlevered firm manufacturing furniture, this year has a net operating income",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.0166270783847981,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.08966745843230403,
+              "width": 0.15449202350965574,
+              "original_page": 11
+            },
+            "content": "Question 5b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9168521910905838
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.12232779097387174,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.12707838479809977,
+              "width": 0.7371956339210747,
+              "original_page": 11
+            },
+            "content": "To examine how the dividend policy affects firm value, consider the following example. IKEO Corporation, an unlevered firm manufacturing furniture, this year has a net operating income after taxes of $ 100 million, and net capital expenditure needs (capital expenditures in excess of depreciation) of $ 50 million, and 105 million shares outstanding. The firm pays out residual cash flows as dividends each year. Assume that in the future the firm is expected to grow at 5% a year, and its capital expenditures also grow at 5% a year. Finally, assume that the firm’s cost of capital is equal to 10%.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9877646833658218
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.2749406175771972,
+              "width": 0.5088161209068011,
+              "original_page": 11
+            },
+            "content": "i. What is its IKEO Corporation’s dividend per share this year?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.824819603562355
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.29572446555819476,
+              "width": 0.7565071368597817,
+              "original_page": 11
+            },
+            "content": "ii. What is the price per share of IKEO Corporation cum dividend andex dividend (before and after this year’s dividend is paid out)?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9322501212358475
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.13064133016627077,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.35332541567695963,
+              "width": 0.6767422334172963,
+              "original_page": 11
+            },
+            "content": "Value of the firm can be estimated as follows: Free Cash Flow to the Firm = EBIT (1- tax rate) - Net Capital Expenditures = $ 100 million - $ 50 million = $ 50 million Cum dividend price = Dividend today+Free Cash Flow to Firm (1+g) / (WACC - g) Dividend this year 50/105=0.476 Cum dividend price=0.476+50 (1.05) / (105 (.10 - .05))=10.476 Ex dividend price = Free Cash Flow to Firm (1+g) / (WACC - g) = $ 50 (1.05) / (105(.10 - .05))= $ 10",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9286846786737442
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.4845605700712589,
+              "width": 0.15952980688497062,
+              "original_page": 11
+            },
+            "content": "Maximum marks: 6",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7658218502998352
+            },
+            "image_url": null
+          }
+        ],
+        "content": "transaction, such transactions have no effect on the initial share price. Furthermore, shareholders can create a homemade dividend of any size by buying or selling shares themselves.\n\nMaximum marks: 6## Question 5b\n\nTo examine how the dividend policy affects firm value, consider the following example. IKEO Corporation, an unlevered firm manufacturing furniture, this year has a net operating income after taxes of $ 100 million, and net capital expenditure needs (capital expenditures in excess of depreciation) of $ 50 million, and 105 million shares outstanding. The firm pays out residual cash flows as dividends each year. Assume that in the future the firm is expected to grow at 5% a year, and its capital expenditures also grow at 5% a year. Finally, assume that the firm’s cost of capital is equal to 10%.\n\ni. What is its IKEO Corporation’s dividend per share this year?\n\nii. What is the price per share of IKEO Corporation cum dividend andex dividend (before and after this year’s dividend is paid out)?\n\nValue of the firm can be estimated as follows: Free Cash Flow to the Firm = EBIT (1- tax rate) - Net Capital Expenditures = $ 100 million - $ 50 million = $ 50 million Cum dividend price = Dividend today+Free Cash Flow to Firm (1+g) / (WACC - g) Dividend this year 50/105=0.476 Cum dividend price=0.476+50 (1.05) / (105 (.10 - .05))=10.476 Ex dividend price = Free Cash Flow to Firm (1+g) / (WACC - g) = $ 50 (1.05) / (105(.10 - .05))= $ 10\n\nMaximum marks: 6## Question 5c\n\nNow assume that IKEO Corporation is told by an investment consultant that its stockholders would gain if the firm paid out $ 100 million in dividends this year. It now has to raise add",
+        "embed": "transaction, such transactions have no effect on the initial share price. Furthermore, shareholders can create a homemade dividend of any size by buying or selling shares themselves.\n\nMaximum marks: 6## Question 5b\n\nTo examine how the dividend policy affects firm value, consider the following example. IKEO Corporation, an unlevered firm manufacturing furniture, this year has a net operating income after taxes of $ 100 million, and net capital expenditure needs (capital expenditures in excess of depreciation) of $ 50 million, and 105 million shares outstanding. The firm pays out residual cash flows as dividends each year. Assume that in the future the firm is expected to grow at 5% a year, and its capital expenditures also grow at 5% a year. Finally, assume that the firm’s cost of capital is equal to 10%.\n\ni. What is its IKEO Corporation’s dividend per share this year?\n\nii. What is the price per share of IKEO Corporation cum dividend andex dividend (before and after this year’s dividend is paid out)?\n\nValue of the firm can be estimated as follows: Free Cash Flow to the Firm = EBIT (1- tax rate) - Net Capital Expenditures = $ 100 million - $ 50 million = $ 50 million Cum dividend price = Dividend today+Free Cash Flow to Firm (1+g) / (WACC - g) Dividend this year 50/105=0.476 Cum dividend price=0.476+50 (1.05) / (105 (.10 - .05))=10.476 Ex dividend price = Free Cash Flow to Firm (1+g) / (WACC - g) = $ 50 (1.05) / (105(.10 - .05))= $ 10\n\nMaximum marks: 6## Question 5c\n\nNow assume that IKEO Corporation is told by an investment consultant that its stockholders would gain if the firm paid out $ 100 million in dividends this year. It now has to raise add",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.5385985748218527,
+              "width": 0.15197313182199831,
+              "original_page": 11
+            },
+            "content": "Question 5c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9284415155649185
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06947743467933491,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.5766033254156769,
+              "width": 0.7615449202350966,
+              "original_page": 11
+            },
+            "content": "Now assume that IKEO Corporation is told by an investment consultant that its stockholders would gain if the firm paid out $ 100 million in dividends this year. It now has to raise additional financing to cover its net capital expenditure needs. Assume that IKEO Corporation can issue new stock with no cost and no signaling implications to raise these funds.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9855479240417481
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.054038004750593824,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.6716152019002375,
+              "width": 0.7497900923593619,
+              "original_page": 11
+            },
+            "content": "i. What are the new price per share and dividend per share of IKEO Corporation in this case? ii. Is this result consistent with the conclusion of Modigliani and Miller about payout policy in Question 5a? Explain.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9823254734277725
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07482185273159145,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.751187648456057,
+              "width": 0.7590260285474392,
+              "original_page": 11
+            },
+            "content": "The firm needs to raise an additional 50 million to pay a larger dividend. For a price per share of 10.476 it can issue 50/10.476=4.7728 million shares. Then its cum dividend price would be 100/109.7728+50 (1.05)/(109.7728(0.1-0.05))=10.476 0.9109+9,5652=10.476.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9830908805131913
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05166270783847981,
+              "left": 0.11838790931989925,
+              "page": 11,
+              "top": 0.8515439429928741,
+              "width": 0.7363560033585222,
+              "original_page": 11
+            },
+            "content": "It is consistent with the answer in Question a, since ex dividend price drops but it is compensated by a larger dividend today. Therefore the shareholders get the same value and are indifferent between the two alternatives.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9839035153388977
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.10451306413301663,
+              "width": 0.15952980688497062,
+              "original_page": 12
+            },
+            "content": "Maximum marks: 6",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.790185010433197
+            },
+            "image_url": null
+          }
+        ],
+        "content": "s year 50/105=0.476 Cum dividend price=0.476+50 (1.05) / (105 (.10 - .05))=10.476 Ex dividend price = Free Cash Flow to Firm (1+g) / (WACC - g) = $ 50 (1.05) / (105(.10 - .05))= $ 10\n\nMaximum marks: 6## Question 5c\n\nNow assume that IKEO Corporation is told by an investment consultant that its stockholders would gain if the firm paid out $ 100 million in dividends this year. It now has to raise additional financing to cover its net capital expenditure needs. Assume that IKEO Corporation can issue new stock with no cost and no signaling implications to raise these funds.\n\ni. What are the new price per share and dividend per share of IKEO Corporation in this case? ii. Is this result consistent with the conclusion of Modigliani and Miller about payout policy in Question 5a? Explain.\n\nThe firm needs to raise an additional 50 million to pay a larger dividend. For a price per share of 10.476 it can issue 50/10.476=4.7728 million shares. Then its cum dividend price would be 100/109.7728+50 (1.05)/(109.7728(0.1-0.05))=10.476 0.9109+9,5652=10.476.\n\nIt is consistent with the answer in Question a, since ex dividend price drops but it is compensated by a larger dividend today. Therefore the shareholders get the same value and are indifferent between the two alternatives.\n\nMaximum marks: 6## Question 5d\n\nIn Question 5c we made an assumption that equity issuance has no adverse signaling implications.\n\ni. What are signaling implications of equity issuance for the stock price and under wh",
+        "embed": "s year 50/105=0.476 Cum dividend price=0.476+50 (1.05) / (105 (.10 - .05))=10.476 Ex dividend price = Free Cash Flow to Firm (1+g) / (WACC - g) = $ 50 (1.05) / (105(.10 - .05))= $ 10\n\nMaximum marks: 6## Question 5c\n\nNow assume that IKEO Corporation is told by an investment consultant that its stockholders would gain if the firm paid out $ 100 million in dividends this year. It now has to raise additional financing to cover its net capital expenditure needs. Assume that IKEO Corporation can issue new stock with no cost and no signaling implications to raise these funds.\n\ni. What are the new price per share and dividend per share of IKEO Corporation in this case? ii. Is this result consistent with the conclusion of Modigliani and Miller about payout policy in Question 5a? Explain.\n\nThe firm needs to raise an additional 50 million to pay a larger dividend. For a price per share of 10.476 it can issue 50/10.476=4.7728 million shares. Then its cum dividend price would be 100/109.7728+50 (1.05)/(109.7728(0.1-0.05))=10.476 0.9109+9,5652=10.476.\n\nIt is consistent with the answer in Question a, since ex dividend price drops but it is compensated by a larger dividend today. Therefore the shareholders get the same value and are indifferent between the two alternatives.\n\nMaximum marks: 6## Question 5d\n\nIn Question 5c we made an assumption that equity issuance has no adverse signaling implications.\n\ni. What are signaling implications of equity issuance for the stock price and under wh",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.15855106888361045,
+              "width": 0.15449202350965574,
+              "original_page": 12
+            },
+            "content": "Question 5d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9139704346656798
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.19655581947743467,
+              "width": 0.6834592779177162,
+              "original_page": 12
+            },
+            "content": "In Question 5c we made an assumption that equity issuance has no adverse signaling implications.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9546759366989136
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.23515439429928742,
+              "width": 0.7052896725440806,
+              "original_page": 12
+            },
+            "content": "i. What are signaling implications of equity issuance for the stock price and under what conditions they arise?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8978404700756073
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.016033254156769598,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.27375296912114017,
+              "width": 0.72544080604534,
+              "original_page": 12
+            },
+            "content": "ii. How do these implications affect the preference of the managers for financing sources?",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.859491428732872
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.30700712589073637,
+              "width": 0.762384550797649,
+              "original_page": 12
+            },
+            "content": "i. According to the lemons principle, when managers have private information about the value of a firm, investors will discount the price they are willing to pay for a new equity issue due to adverse selection.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8079574018716812
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.37292161520190026,
+              "width": 0.7397145256087322,
+              "original_page": 12
+            },
+            "content": "- 1)Managers are more likely to sell equity when they know a firm is overvalued. As a result, the stock price declines when a firm announces an equity issue.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8258209168910979
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.42220902612826605,
+              "width": 0.6759026028547439,
+              "original_page": 12
+            },
+            "content": "2)The stock price tends to rise prior to the announcement of an equity issue because managers tend to delay equity issues until after good news becomes public.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8684259951114655
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.048693586698337295,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.45486935866983375,
+              "width": 0.7539882451721243,
+              "original_page": 12
+            },
+            "content": "ii. Managers who perceive that the firm’s equity is underpriced will have a preference to fund investment using retained earnings, or debt, rather than equity. This result is called the pecking order hypothesis.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9092314213514328
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.5207838479809976,
+              "width": 0.15952980688497062,
+              "original_page": 12
+            },
+            "content": "Maximum marks: 6",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8341065764427185
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.01840855106888361,
+              "left": 0.11922753988245172,
+              "page": 12,
+              "top": 0.5742280285035629,
+              "width": 0.15113350125944586,
+              "original_page": 12
+            },
+            "content": "Question 5e",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9118648409843445
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06947743467933491,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.6128266033254157,
+              "width": 0.7539882451721243,
+              "original_page": 12
+            },
+            "content": "Does the announcement of a change in dividend payouts also has signaling implications for stock prices? If so, what possible signals does a firm give when it cuts its dividend and how does it affect the stock price? Does the stock price always react in the same way to the cuts in dividends?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9831320255994797
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0510688836104513,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.7060570071258907,
+              "width": 0.7556675062972292,
+              "original_page": 12
+            },
+            "content": "On the one hand, when managers cut the dividend, it may signal that they have given up hope that earnings will rebound in the near term and so need to reduce the dividend to save cash leading to a price decline.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9794598460197449
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05166270783847981,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.7589073634204275,
+              "width": 0.7153652392947103,
+              "original_page": 12
+            },
+            "content": "On the other hand, a firm might cut its dividend to exploit new positive-NPV investment opportunities. In this case, the dividend decrease might lead to a positive—rather than negative—stock price reaction.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9797409653663636
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.015439429928741092,
+              "left": 0.11838790931989925,
+              "page": 12,
+              "top": 0.8491686460807601,
+              "width": 0.15952980688497062,
+              "original_page": 12
+            },
+            "content": "Maximum marks: 6",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.866242128610611
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ion a, since ex dividend price drops but it is compensated by a larger dividend today. Therefore the shareholders get the same value and are indifferent between the two alternatives.\n\nMaximum marks: 6## Question 5d\n\nIn Question 5c we made an assumption that equity issuance has no adverse signaling implications.\n\ni. What are signaling implications of equity issuance for the stock price and under what conditions they arise?\n\nii. How do these implications affect the preference of the managers for financing sources?\n\ni. According to the lemons principle, when managers have private information about the value of a firm, investors will discount the price they are willing to pay for a new equity issue due to adverse selection.\n\n- 1)Managers are more likely to sell equity when they know a firm is overvalued. As a result, the stock price declines when a firm announces an equity issue.\n\n2)The stock price tends to rise prior to the announcement of an equity issue because managers tend to delay equity issues until after good news becomes public.\n\nii. Managers who perceive that the firm’s equity is underpriced will have a preference to fund investment using retained earnings, or debt, rather than equity. This result is called the pecking order hypothesis.\n\nMaximum marks: 6\n\n## Question 5e\n\nDoes the announcement of a change in dividend payouts also has signaling implications for stock prices? If so, what possible signals does a firm give when it cuts its dividend and how does it affect the stock price? Does the stock price always react in the same way to the cuts in dividends?\n\nOn the one hand, when managers cut the dividend, it may signal that they have given up hope that earnings will rebound in the near term and so need to reduce the dividend to save cash leading to a price decline.\n\nOn the other hand, a firm might cut its dividend to exploit new positive-NPV investment opportunities. In this case, the dividend decrease might lead to a positive—rather than negative—stock price reaction.\n\nMaximum marks: 6",
+        "embed": "ion a, since ex dividend price drops but it is compensated by a larger dividend today. Therefore the shareholders get the same value and are indifferent between the two alternatives.\n\nMaximum marks: 6## Question 5d\n\nIn Question 5c we made an assumption that equity issuance has no adverse signaling implications.\n\ni. What are signaling implications of equity issuance for the stock price and under what conditions they arise?\n\nii. How do these implications affect the preference of the managers for financing sources?\n\ni. According to the lemons principle, when managers have private information about the value of a firm, investors will discount the price they are willing to pay for a new equity issue due to adverse selection.\n\n- 1)Managers are more likely to sell equity when they know a firm is overvalued. As a result, the stock price declines when a firm announces an equity issue.\n\n2)The stock price tends to rise prior to the announcement of an equity issue because managers tend to delay equity issues until after good news becomes public.\n\nii. Managers who perceive that the firm’s equity is underpriced will have a preference to fund investment using retained earnings, or debt, rather than equity. This result is called the pecking order hypothesis.\n\nMaximum marks: 6\n\n## Question 5e\n\nDoes the announcement of a change in dividend payouts also has signaling implications for stock prices? If so, what possible signals does a firm give when it cuts its dividend and how does it affect the stock price? Does the stock price always react in the same way to the cuts in dividends?\n\nOn the one hand, when managers cut the dividend, it may signal that they have given up hope that earnings will rebound in the near term and so need to reduce the dividend to save cash leading to a price decline.\n\nOn the other hand, a firm might cut its dividend to exploit new positive-NPV investment opportunities. In this case, the dividend decrease might lead to a positive—rather than negative—stock price reaction.\n\nMaximum marks: 6",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 12,
+    "credit_breakdown": {
+      "page": 12.0,
+      "complex": 6.0
+    },
+    "credits": 18.0,
+    "page_billing_breakdown": {
+      "1": [
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "complex",
+        "page"
+      ],
+      "8": [
+        "complex",
+        "page"
+      ],
+      "9": [
+        "page"
+      ],
+      "10": [
+        "page"
+      ],
+      "11": [
+        "page"
+      ],
+      "12": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/ba47d419-607e-4c48-a7e1-5f71e10846c4.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180720Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=1cc29596b949bc25f4e72820ed5d810051eed2574cdc0cdcbf16416ec109bc14",
+  "studio_link": "https://studio.reducto.ai/job/d1ef76f8-7147-4205-90ce-96a8effd301d",
+  "response_type": "parse",
+  "parse_mode": null
+}

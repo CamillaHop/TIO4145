@@ -1,0 +1,2981 @@
+{
+  "duration": 10.631308794021606,
+  "job_id": "2e390362-2119-48b1-b668-4f412f62ec3f",
+  "result": {
+    "chunks": [
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.08610451306413301,
+              "width": 0.33585222502099077,
+              "original_page": 1
+            },
+            "content": "TIØ4145 Corporate Finance Exam – Fall 2021",
+            "type": "Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.908615329861641
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.14133016627078385,
+              "width": 0.09655751469353484,
+              "original_page": 1
+            },
+            "content": "Question 2.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9214603424072265
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.17399049881235154,
+              "width": 0.7565071368597817,
+              "original_page": 1
+            },
+            "content": "As a financial consultant, you are given the following information about two companies. [Numbers in grey color are given, numbers in bold are answers].",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9780634701251983
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.22209026128266032,
+              "width": 0.7615449202350966,
+              "original_page": 1
+            },
+            "content": "Fill in the missing figures given that the expected return of the market portfolio is 12% and the risk- free rate is 2%. Assume that there is no corporate tax rate and all cash flows are perpetual.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9733685910701751
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.2013064133016627,
+              "left": 0.15785054575986565,
+              "page": 1,
+              "top": 0.2844418052256532,
+              "width": 0.5062972292191436,
+              "original_page": 1
+            },
+            "content": "<table><tr><th></th><th>Rearden Metal</th><th>Taggart Trans.</th></tr><tr><td>Before tax operating income</td><td>655  </td><td>690 </td></tr><tr><td>Interest on debt</td><td>85  </td><td>105 </td></tr><tr><td>Cost of capital (WACC)</td><td>9-9.1 %</td><td>8.625 %</td></tr><tr><td>Cost of equity capital</td><td>15 %</td><td>13 %</td></tr><tr><td>Cost of debt capital</td><td>2.5 %</td><td>3 %</td></tr><tr><td>Value of equity</td><td>3800  </td><td>4500 </td></tr><tr><td>Value of debt</td><td>3400 </td><td>3500  </td></tr><tr><td>Value of firm</td><td>7200 </td><td>8000  </td></tr><tr><td>Beta of equity</td><td>1.3 </td><td>1.1  </td></tr><tr><td>Beta of debt</td><td>0.05 </td><td>0.1  </td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9239464147524401
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5142517814726841,
+              "width": 0.2611251049538203,
+              "original_page": 1
+            },
+            "content": "Question 2.b – calculations for 2.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9133585214614868
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5427553444180523,
+              "width": 0.2863140218303946,
+              "original_page": 1
+            },
+            "content": "Answers for Taggart Transcontinental:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9076930999755859
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.5676959619952494,
+              "width": 0.4181360201511335,
+              "original_page": 1
+            },
+            "content": "Value of the Firm = ($690-$105+$105)/0.08625 = $8000",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.93195381462574
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.5961995249406176,
+              "width": 0.19815281276238456,
+              "original_page": 1
+            },
+            "content": "Debt VF - Equity = $3500",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7618258729577064
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.6205463182897862,
+              "width": 0.26364399664147775,
+              "original_page": 1
+            },
+            "content": "Debt = $3500 = $105/rD ⇒ rD = 3%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9361586332321167
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.6472684085510689,
+              "width": 0.3333333333333333,
+              "original_page": 1
+            },
+            "content": "Equity = $4500 = ($690-$105)/rE ⇒ rE = 13%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9294061899185181
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.6757719714964371,
+              "width": 0.417296389588581,
+              "original_page": 1
+            },
+            "content": "BE = (rErf)/(rMkt - rf) = (0.13 -0.02)/(0.12 -0.02) = 1.1",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7461216658353806
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.7013064133016627,
+              "width": 0.6162888329135181,
+              "original_page": 1
+            },
+            "content": "rU = rWACC = 0.13×$4500/$8000 + 0.03×$3500/$8000 = 8.625% (because tax is 0)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9351657658815384
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.1200671704450042,
+              "page": 1,
+              "top": 0.7292161520190024,
+              "width": 0.47774979009235935,
+              "original_page": 1
+            },
+            "content": "BU (rU rf)/(rMkt - rf) = (0.08625 -0.02)/(0.12 -0.02) = 0.6625",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7635993599891662
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.754750593824228,
+              "width": 0.5155331654072208,
+              "original_page": 1
+            },
+            "content": "βD = βU - (βU - βE)×E/D = 0.6625 - (0.6625 - 1.1)×$4500/$3500 = 0.1",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9114868074655533
+            },
+            "image_url": null
+          }
+        ],
+        "content": "TIØ4145 Corporate Finance Exam – Fall 2021\n\n## Question 2.a\n\nAs a financial consultant, you are given the following information about two companies. [Numbers in grey color are given, numbers in bold are answers].\n\nFill in the missing figures given that the expected return of the market portfolio is 12% and the risk- free rate is 2%. Assume that there is no corporate tax rate and all cash flows are perpetual.\n\n<table><tr><th></th><th>Rearden Metal</th><th>Taggart Trans.</th></tr><tr><td>Before tax operating income</td><td>655  </td><td>690 </td></tr><tr><td>Interest on debt</td><td>85  </td><td>105 </td></tr><tr><td>Cost of capital (WACC)</td><td>9-9.1 %</td><td>8.625 %</td></tr><tr><td>Cost of equity capital</td><td>15 %</td><td>13 %</td></tr><tr><td>Cost of debt capital</td><td>2.5 %</td><td>3 %</td></tr><tr><td>Value of equity</td><td>3800  </td><td>4500 </td></tr><tr><td>Value of debt</td><td>3400 </td><td>3500  </td></tr><tr><td>Value of firm</td><td>7200 </td><td>8000  </td></tr><tr><td>Beta of equity</td><td>1.3 </td><td>1.1  </td></tr><tr><td>Beta of debt</td><td>0.05 </td><td>0.1  </td></tr></table>\n\n## Question 2.b – calculations for 2.a\n\nAnswers for Taggart Transcontinental:\n\nValue of the Firm = ($690-$105+$105)/0.08625 = $8000\n\nDebt VF - Equity = $3500\n\nDebt = $3500 = $105/rD ⇒ rD = 3%\n\nEquity = $4500 = ($690-$105)/rE ⇒ rE = 13%\n\nBE = (rErf)/(rMkt - rf) = (0.13 -0.02)/(0.12 -0.02) = 1.1\n\nrU = rWACC = 0.13×$4500/$8000 + 0.03×$3500/$8000 = 8.625% (because tax is 0)\n\nBU (rU rf)/(rMkt - rf) = (0.08625 -0.02)/(0.12 -0.02) = 0.6625\n\nβD = βU - (βU - βE)×E/D = 0.6625 - (0.6625 - 1.1)×$4500/$3500 = 0.1## Answers for Rearden Metal:\n\nEquity VF Debt = $3800\n\nrE = rf - βE×(rMkt - rf) = 0.02 + 1.3×(0.12 - 0.02) = 15%\n\nβU = βE×E/(E+D) + βD×D/(E+D) = 1.3×(3800/7200) + 0.05×(3400/7200) = 0.709722\n\nrWACC = ",
+        "embed": "TIØ4145 Corporate Finance Exam – Fall 2021\n\n## Question 2.a\n\nAs a financial consultant, you are given the following information about two companies. [Numbers in grey color are given, numbers in bold are answers].\n\nFill in the missing figures given that the expected return of the market portfolio is 12% and the risk- free rate is 2%. Assume that there is no corporate tax rate and all cash flows are perpetual.\n\nThis table presents financial data for Rearden Metal and Taggart Trans., highlighting their operating income, capital costs, and firm valuations. Rearden Metal shows a slightly higher before-tax operating income, but Taggart Trans. has a lower cost of capital and a greater overall firm value. The data also contrasts their respective costs of equity and debt, as well as the betas for both equity and debt.\n\n## Question 2.b – calculations for 2.a\n\nAnswers for Taggart Transcontinental:\n\nValue of the Firm = ($690-$105+$105)/0.08625 = $8000\n\nDebt VF - Equity = $3500\n\nDebt = $3500 = $105/rD ⇒ rD = 3%\n\nEquity = $4500 = ($690-$105)/rE ⇒ rE = 13%\n\nBE = (rErf)/(rMkt - rf) = (0.13 -0.02)/(0.12 -0.02) = 1.1\n\nrU = rWACC = 0.13×$4500/$8000 + 0.03×$3500/$8000 = 8.625% (because tax is 0)\n\nBU (rU rf)/(rMkt - rf) = (0.08625 -0.02)/(0.12 -0.02) = 0.6625\n\nβD = βU - (βU - βE)×E/D = 0.6625 - (0.6625 - 1.1)×$4500/$3500 = 0.1## Answers for Rearden Metal:\n\nEquity VF Debt = $3800\n\nrE = rf - βE×(rMkt - rf) = 0.02 + 1.3×(0.12 - 0.02) = 15%\n\nβU = βE×E/(E+D) + βD×D/(E+D) = 1.3×(3800/7200) + 0.05×(3400/7200) = 0.709722\n\nrWACC = ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.8081947743467933,
+              "width": 0.21074727120067172,
+              "original_page": 1
+            },
+            "content": "Answers for Rearden Metal:",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7369060754776
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.11922753988245172,
+              "page": 1,
+              "top": 0.8355106888361045,
+              "width": 0.19731318219983207,
+              "original_page": 1
+            },
+            "content": "Equity VF Debt = $3800",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6408866137266159
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.8616389548693587,
+              "width": 0.40218303946263645,
+              "original_page": 1
+            },
+            "content": "rE = rf - βE×(rMkt - rf) = 0.02 + 1.3×(0.12 - 0.02) = 15%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7936402291059494
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 1,
+              "top": 0.8883610451306413,
+              "width": 0.6154492023509656,
+              "original_page": 1
+            },
+            "content": "βU = βE×E/(E+D) + βD×D/(E+D) = 1.3×(3800/7200) + 0.05×(3400/7200) = 0.709722",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8416814178228378
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.08610451306413301,
+              "width": 0.5675902602854744,
+              "original_page": 2
+            },
+            "content": "rWACC = rU = rf - βU×(rMkt - rf) = 0.02 + 0.709722×(0.12 - 0.02) = 9.09722%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9024678587913513
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.11460807600950118,
+              "width": 0.5642317380352645,
+              "original_page": 2
+            },
+            "content": "rD=rU + (rUrE)×E/D = 0.0909722 + (0.0909722 -0.15)x3800/3400 = 2.5%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7239532440900803
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.13954869358669833,
+              "width": 0.33837111670864817,
+              "original_page": 2
+            },
+            "content": "Interest on debt = D×rD = $3400×0.025 = $85",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8646167039871215
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.1668646080760095,
+              "width": 0.6616288832913518,
+              "original_page": 2
+            },
+            "content": "Before tax operating income = E×rE + D×rD = $3800×0.15 + $85 = $655 (because tax is 0)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8906346559524536
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.22149643705463182,
+              "width": 0.09571788413098237,
+              "original_page": 2
+            },
+            "content": "Question 2.c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.888427060842514
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.25415676959619954,
+              "width": 0.4290512174643157,
+              "original_page": 2
+            },
+            "content": "Answer this question using the information given in 2.a.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9230781763792038
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.2862232779097387,
+              "width": 0.7262804366078925,
+              "original_page": 2
+            },
+            "content": "Suppose that because of the large need for steel in building railroad infrastructure, Taggart Transcontinental and Rearden Metal decide to form into one large conglomerate. What is your estimate of the asset beta for this new conglomerate?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9289360046386719
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.37767220902612825,
+              "width": 0.38455079764903444,
+              "original_page": 2
+            },
+            "content": "Taggart debt beta calculated from the table is 0.10.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8973712921142578
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.40439429928741094,
+              "width": 0.5751469353484466,
+              "original_page": 2
+            },
+            "content": "βU = E/V βE + D/V βD = 4500/8000 × 1.1 + (8000-4500)/8000 × 0.10 = 0.6625",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8828409552574158
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.4578384798099763,
+              "width": 0.31066330814441645,
+              "original_page": 2
+            },
+            "content": "Rearden debt beta from the table is 0.05.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8850040942430496
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.4845605700712589,
+              "width": 0.5936188077246012,
+              "original_page": 2
+            },
+            "content": "βU = E/V βE + D/V βD = 3800/7200 × 1.3 + (7200-3800)/7200 × 0.05 = 0.709722",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.864403036236763
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.5380047505938242,
+              "width": 0.27371956339210746,
+              "original_page": 2
+            },
+            "content": "Beta conglomerate = W_TT + W_RM",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.868698513507843
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.5647268408551069,
+              "width": 0.5776658270361041,
+              "original_page": 2
+            },
+            "content": "= 8000/(8000+7200) × (0.6625) + 7200/(8000+7200) × (0.709722) = 0.684868",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8741633713245391
+            },
+            "image_url": null
+          }
+        ],
+        "content": "C = 0.13×$4500/$8000 + 0.03×$3500/$8000 = 8.625% (because tax is 0)\n\nBU (rU rf)/(rMkt - rf) = (0.08625 -0.02)/(0.12 -0.02) = 0.6625\n\nβD = βU - (βU - βE)×E/D = 0.6625 - (0.6625 - 1.1)×$4500/$3500 = 0.1## Answers for Rearden Metal:\n\nEquity VF Debt = $3800\n\nrE = rf - βE×(rMkt - rf) = 0.02 + 1.3×(0.12 - 0.02) = 15%\n\nβU = βE×E/(E+D) + βD×D/(E+D) = 1.3×(3800/7200) + 0.05×(3400/7200) = 0.709722\n\nrWACC = rU = rf - βU×(rMkt - rf) = 0.02 + 0.709722×(0.12 - 0.02) = 9.09722%\n\nrD=rU + (rUrE)×E/D = 0.0909722 + (0.0909722 -0.15)x3800/3400 = 2.5%\n\nInterest on debt = D×rD = $3400×0.025 = $85\n\nBefore tax operating income = E×rE + D×rD = $3800×0.15 + $85 = $655 (because tax is 0)\n\n## Question 2.c\n\nAnswer this question using the information given in 2.a.\n\nSuppose that because of the large need for steel in building railroad infrastructure, Taggart Transcontinental and Rearden Metal decide to form into one large conglomerate. What is your estimate of the asset beta for this new conglomerate?\n\nTaggart debt beta calculated from the table is 0.10.\n\nβU = E/V βE + D/V βD = 4500/8000 × 1.1 + (8000-4500)/8000 × 0.10 = 0.6625\n\nRearden debt beta from the table is 0.05.\n\nβU = E/V βE + D/V βD = 3800/7200 × 1.3 + (7200-3800)/7200 × 0.05 = 0.709722\n\nBeta conglomerate = W_TT + W_RM\n\n= 8000/(8000+7200) × (0.6625) + 7200/(8000+7200) × (0.709722) = 0.684868## Question 2.d\n\nTo form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at marke",
+        "embed": "C = 0.13×$4500/$8000 + 0.03×$3500/$8000 = 8.625% (because tax is 0)\n\nBU (rU rf)/(rMkt - rf) = (0.08625 -0.02)/(0.12 -0.02) = 0.6625\n\nβD = βU - (βU - βE)×E/D = 0.6625 - (0.6625 - 1.1)×$4500/$3500 = 0.1## Answers for Rearden Metal:\n\nEquity VF Debt = $3800\n\nrE = rf - βE×(rMkt - rf) = 0.02 + 1.3×(0.12 - 0.02) = 15%\n\nβU = βE×E/(E+D) + βD×D/(E+D) = 1.3×(3800/7200) + 0.05×(3400/7200) = 0.709722\n\nrWACC = rU = rf - βU×(rMkt - rf) = 0.02 + 0.709722×(0.12 - 0.02) = 9.09722%\n\nrD=rU + (rUrE)×E/D = 0.0909722 + (0.0909722 -0.15)x3800/3400 = 2.5%\n\nInterest on debt = D×rD = $3400×0.025 = $85\n\nBefore tax operating income = E×rE + D×rD = $3800×0.15 + $85 = $655 (because tax is 0)\n\n## Question 2.c\n\nAnswer this question using the information given in 2.a.\n\nSuppose that because of the large need for steel in building railroad infrastructure, Taggart Transcontinental and Rearden Metal decide to form into one large conglomerate. What is your estimate of the asset beta for this new conglomerate?\n\nTaggart debt beta calculated from the table is 0.10.\n\nβU = E/V βE + D/V βD = 4500/8000 × 1.1 + (8000-4500)/8000 × 0.10 = 0.6625\n\nRearden debt beta from the table is 0.05.\n\nβU = E/V βE + D/V βD = 3800/7200 × 1.3 + (7200-3800)/7200 × 0.05 = 0.709722\n\nBeta conglomerate = W_TT + W_RM\n\n= 8000/(8000+7200) × (0.6625) + 7200/(8000+7200) × (0.709722) = 0.684868## Question 2.d\n\nTo form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at marke",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 2,
+              "top": 0.6187648456057007,
+              "width": 0.09655751469353484,
+              "original_page": 2
+            },
+            "content": "Question 2.d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.923341092467308
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.6448931116389549,
+              "width": 0.7523089840470193,
+              "original_page": 2
+            },
+            "content": "To form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at market value.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.976716336607933
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.08194774346793349,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.7060570071258907,
+              "width": 0.7523089840470193,
+              "original_page": 2
+            },
+            "content": "After the merger, however, the Taggart's executives realize that the company will not be able to pay back the total debt. Bankruptcy costs amount to $415. How much would the creditors of Taggart receive in the event of a bankruptcy? If the company would offer its creditors a fraction of its equity, how big would this fraction have to be for this deal to be accepted? Assume that the continuation value for the company in this case is the sum of all equity.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9858561635017395
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.10095011876484561,
+              "left": 0.11838790931989925,
+              "page": 2,
+              "top": 0.7998812351543944,
+              "width": 0.7615449202350966,
+              "original_page": 2
+            },
+            "content": "|                       | Before Merger   | After Merger   |\n|-|-|-|\n| Taggart original debt | 3500            | 3500           |\n| Taggart new debt      | -               | 7200           |\n| Taggart equity value  | 4500            | 4500           |\n| Rearden original debt | 3400            | -              |\n| Rearden equity value  | 3800            | 3800           |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9497803529103597
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.1187648456057007,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.11460807600950118,
+              "width": 0.3988245172124265,
+              "original_page": 3
+            },
+            "content": "If bankrupt:\n\nTotal equity: 8300\n\n(Minus) Bankruptcy cost: 415\n\nValue to creditors: 7885\n\nWhich is the value that they would expect to receive.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9019482254981994
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.27315914489311166,
+              "width": 0.27371956339210746,
+              "original_page": 3
+            },
+            "content": "If they take equity, then it would be:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7898316353559494
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.3004750593824228,
+              "width": 0.4550797649034425,
+              "original_page": 3
+            },
+            "content": "value to creditors = equity participation × continuation value",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8033290445804595
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.11922753988245172,
+              "page": 3,
+              "top": 0.32897862232779096,
+              "width": 0.11922753988245172,
+              "original_page": 3
+            },
+            "content": "7885 ex 8300",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6754457116127014
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.35391923990498814,
+              "width": 0.05877413937867338,
+              "original_page": 3
+            },
+            "content": "e = 95%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7901713728904725
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.407957244655582,
+              "width": 0.09739714525608732,
+              "original_page": 3
+            },
+            "content": "Question 2.e",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9073081165552139
+            },
+            "image_url": null
+          }
+        ],
+        "content": "e table is 0.05.\n\nβU = E/V βE + D/V βD = 3800/7200 × 1.3 + (7200-3800)/7200 × 0.05 = 0.709722\n\nBeta conglomerate = W_TT + W_RM\n\n= 8000/(8000+7200) × (0.6625) + 7200/(8000+7200) × (0.709722) = 0.684868## Question 2.d\n\nTo form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at market value.\n\nAfter the merger, however, the Taggart's executives realize that the company will not be able to pay back the total debt. Bankruptcy costs amount to $415. How much would the creditors of Taggart receive in the event of a bankruptcy? If the company would offer its creditors a fraction of its equity, how big would this fraction have to be for this deal to be accepted? Assume that the continuation value for the company in this case is the sum of all equity.\n\n|                       | Before Merger   | After Merger   |\n|-|-|-|\n| Taggart original debt | 3500            | 3500           |\n| Taggart new debt      | -               | 7200           |\n| Taggart equity value  | 4500            | 4500           |\n| Rearden original debt | 3400            | -              |\n| Rearden equity value  | 3800            | 3800           |\n\nIf bankrupt:\n\nTotal equity: 8300\n\n(Minus) Bankruptcy cost: 415\n\nValue to creditors: 7885\n\nWhich is the value that they would expect to receive.\n\nIf they take equity, then it would be:\n\nvalue to creditors = equity participation × continuation value\n\n7885 ex 8300\n\ne = 95%\n\n## Question 2.e## Question 2.e (cont.)\n\nAssuming perfect capital markets Modigliani and Miller showed that whether firms are financed by equity and/or debt does not impact their value. Name 2 market imperfections th",
+        "embed": "e table is 0.05.\n\nβU = E/V βE + D/V βD = 3800/7200 × 1.3 + (7200-3800)/7200 × 0.05 = 0.709722\n\nBeta conglomerate = W_TT + W_RM\n\n= 8000/(8000+7200) × (0.6625) + 7200/(8000+7200) × (0.709722) = 0.684868## Question 2.d\n\nTo form the conglomerate mentioned in (2.c) Taggart Transcontinental has issued new debt of the amount of $7200, to pay Rearden Metal's debt and buy the equity of the company at market value.\n\nAfter the merger, however, the Taggart's executives realize that the company will not be able to pay back the total debt. Bankruptcy costs amount to $415. How much would the creditors of Taggart receive in the event of a bankruptcy? If the company would offer its creditors a fraction of its equity, how big would this fraction have to be for this deal to be accepted? Assume that the continuation value for the company in this case is the sum of all equity.\n\nThis table illustrates the financial changes in Taggart and Rearden's debt and equity values before and after a merger. Taggart's original debt remained unchanged, but it incurred new debt, while its equity value stayed consistent. Rearden's original debt was eliminated post-merger, and its equity value remained the same.\n\nIf bankrupt:\n\nTotal equity: 8300\n\n(Minus) Bankruptcy cost: 415\n\nValue to creditors: 7885\n\nWhich is the value that they would expect to receive.\n\nIf they take equity, then it would be:\n\nvalue to creditors = equity participation × continuation value\n\n7885 ex 8300\n\ne = 95%\n\n## Question 2.e## Question 2.e (cont.)\n\nAssuming perfect capital markets Modigliani and Miller showed that whether firms are financed by equity and/or debt does not impact their value. Name 2 market imperfections th",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.4334916864608076,
+              "width": 0.760705289672544,
+              "original_page": 3
+            },
+            "content": "Assuming perfect capital markets Modigliani and Miller showed that whether firms are financed by equity and/or debt does not impact their value. Name 2 market imperfections that lead to the fact that the capital structure affects firm value and explain the impact on that value.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9773230910301208
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.49465558194774345,
+              "width": 0.48866498740554154,
+              "original_page": 3
+            },
+            "content": "Adapted from Berk and DeMarzo, page 617 of the fourth edition.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9526859790086746
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.5213776722090261,
+              "width": 0.7170445004198153,
+              "original_page": 3
+            },
+            "content": "The optimal capital structure depends on market imperfections, such as taxes, financial distress costs, agency costs, and asymmetric information.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9689489811658859
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.5653206650831354,
+              "width": 0.7178841309823678,
+              "original_page": 3
+            },
+            "content": "Of all the different possible imperfections that drive capital structure, the most clear-cut, and possibly the most significant, is taxes. The interest tax shield allows firms to repay investors and avoid the corporate tax.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9813691794872283
+            },
+            "image_url": null
+          }
+        ],
+        "content": "5\n\nWhich is the value that they would expect to receive.\n\nIf they take equity, then it would be:\n\nvalue to creditors = equity participation × continuation value\n\n7885 ex 8300\n\ne = 95%\n\n## Question 2.e## Question 2.e (cont.)\n\nAssuming perfect capital markets Modigliani and Miller showed that whether firms are financed by equity and/or debt does not impact their value. Name 2 market imperfections that lead to the fact that the capital structure affects firm value and explain the impact on that value.\n\nAdapted from Berk and DeMarzo, page 617 of the fourth edition.\n\nThe optimal capital structure depends on market imperfections, such as taxes, financial distress costs, agency costs, and asymmetric information.\n\nOf all the different possible imperfections that drive capital structure, the most clear-cut, and possibly the most significant, is taxes. The interest tax shield allows firms to repay investors and avoid the corporate tax.## Question 2.e (cont.)\n\nWhile firms should use leverage to shield their income from taxes, how much of their income should they shield? If leverage is too high, there is an increased risk that a firm",
+        "embed": "5\n\nWhich is the value that they would expect to receive.\n\nIf they take equity, then it would be:\n\nvalue to creditors = equity participation × continuation value\n\n7885 ex 8300\n\ne = 95%\n\n## Question 2.e## Question 2.e (cont.)\n\nAssuming perfect capital markets Modigliani and Miller showed that whether firms are financed by equity and/or debt does not impact their value. Name 2 market imperfections that lead to the fact that the capital structure affects firm value and explain the impact on that value.\n\nAdapted from Berk and DeMarzo, page 617 of the fourth edition.\n\nThe optimal capital structure depends on market imperfections, such as taxes, financial distress costs, agency costs, and asymmetric information.\n\nOf all the different possible imperfections that drive capital structure, the most clear-cut, and possibly the most significant, is taxes. The interest tax shield allows firms to repay investors and avoid the corporate tax.## Question 2.e (cont.)\n\nWhile firms should use leverage to shield their income from taxes, how much of their income should they shield? If leverage is too high, there is an increased risk that a firm",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.08194774346793349,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.6264845605700713,
+              "width": 0.7539882451721243,
+              "original_page": 3
+            },
+            "content": "While firms should use leverage to shield their income from taxes, how much of their income should they shield? If leverage is too high, there is an increased risk that a firm may not be able to meet its debt obligations and will be forced to default. While the risk of default is not itself a problem, financial distress may lead to other consequences that reduce the value of the firm. Firms must, therefore, balance the tax benefits of debt against the costs of financial distress.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9861839294433594
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.7220902612826603,
+              "width": 0.7615449202350966,
+              "original_page": 3
+            },
+            "content": "Agency costs and benefits of leverage are also important determinants of capital structure. Too much debt can motivate managers and equity holders to take excessive risks or under-invest in a firm. When free cash flows are high, too little leverage may encourage wasteful spending.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9820919692516327
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.7832541567695962,
+              "width": 0.7539882451721243,
+              "original_page": 3
+            },
+            "content": "A firm must also consider the potential signaling and adverse selection consequences of its financing choice. Because bankruptcy is costly for managers, increasing leverage can signal managers’ confidence in the firm’s ability to meet its debt obligations.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9807979911565781
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 3,
+              "top": 0.8444180522565321,
+              "width": 0.7556675062972292,
+              "original_page": 3
+            },
+            "content": "Finally, it is important to recognize that because actively changing a firm’s capital structure (for example, by selling or repurchasing shares or bonds) entails transactions costs, firms may be unlikely to change their capital structures unless they depart significantly from the optimal level.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9785212188959121
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.08788598574821853,
+              "width": 0.09571788413098237,
+              "original_page": 4
+            },
+            "content": "Question 3.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9092270463705063
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.12054631828978622,
+              "width": 0.6288832913518052,
+              "original_page": 4
+            },
+            "content": "Consider the Pro Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9513279974460602
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04691211401425178,
+              "left": 0.11754827875734676,
+              "page": 4,
+              "top": 0.1496437054631829,
+              "width": 0.5449202350965575,
+              "original_page": 4
+            },
+            "content": "|                       | Year   | 2008   | 2009   | 2010   |\n|-|-|-|-|-|\n| Balance Sheet ($ 000) |        |        |        |        |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8103726744651794
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ssible imperfections that drive capital structure, the most clear-cut, and possibly the most significant, is taxes. The interest tax shield allows firms to repay investors and avoid the corporate tax.## Question 2.e (cont.)\n\nWhile firms should use leverage to shield their income from taxes, how much of their income should they shield? If leverage is too high, there is an increased risk that a firm may not be able to meet its debt obligations and will be forced to default. While the risk of default is not itself a problem, financial distress may lead to other consequences that reduce the value of the firm. Firms must, therefore, balance the tax benefits of debt against the costs of financial distress.\n\nAgency costs and benefits of leverage are also important determinants of capital structure. Too much debt can motivate managers and equity holders to take excessive risks or under-invest in a firm. When free cash flows are high, too little leverage may encourage wasteful spending.\n\nA firm must also consider the potential signaling and adverse selection consequences of its financing choice. Because bankruptcy is costly for managers, increasing leverage can signal managers’ confidence in the firm’s ability to meet its debt obligations.\n\nFinally, it is important to recognize that because actively changing a firm’s capital structure (for example, by selling or repurchasing shares or bonds) entails transactions costs, firms may be unlikely to change their capital structures unless they depart significantly from the optimal level.\n\n## Question 3.a\n\nConsider the Pro Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.\n\n|                       | Year   | 2008   | 2009   | 2010   |\n|-|-|-|-|-|\n| Balance Sheet ($ 000) |        |        |        |        |## Assets\n\n<table><tr><th>1 Cash and Cash Equivalents</th><th>9845 </th><th>11,355 </th><th>13,030 </th></tr><tr><td>2 Accounts Receivable</td><td>19,689 </td><td>22,709 </td><td>26,059 </td></tr><tr>",
+        "embed": "ssible imperfections that drive capital structure, the most clear-cut, and possibly the most significant, is taxes. The interest tax shield allows firms to repay investors and avoid the corporate tax.## Question 2.e (cont.)\n\nWhile firms should use leverage to shield their income from taxes, how much of their income should they shield? If leverage is too high, there is an increased risk that a firm may not be able to meet its debt obligations and will be forced to default. While the risk of default is not itself a problem, financial distress may lead to other consequences that reduce the value of the firm. Firms must, therefore, balance the tax benefits of debt against the costs of financial distress.\n\nAgency costs and benefits of leverage are also important determinants of capital structure. Too much debt can motivate managers and equity holders to take excessive risks or under-invest in a firm. When free cash flows are high, too little leverage may encourage wasteful spending.\n\nA firm must also consider the potential signaling and adverse selection consequences of its financing choice. Because bankruptcy is costly for managers, increasing leverage can signal managers’ confidence in the firm’s ability to meet its debt obligations.\n\nFinally, it is important to recognize that because actively changing a firm’s capital structure (for example, by selling or repurchasing shares or bonds) entails transactions costs, firms may be unlikely to change their capital structures unless they depart significantly from the optimal level.\n\n## Question 3.a\n\nConsider the Pro Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.\n\nThis table presents balance sheet data for the years 2008, 2009, and 2010, with values expressed in thousands of dollars. It provides a financial snapshot of the entity's assets, liabilities, and equity for each of these three years.## Assets\n\nThis table presents a company's balance sheet data for three periods. Total assets show a consistent increase from 172,501 to 192,597, driven by growth in current assets and property, plant",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.20961995249406176,
+              "width": 0.047019311502938706,
+              "original_page": 4
+            },
+            "content": "Assets",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8285105347633361
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.32007125890736343,
+              "left": 0.11586901763224182,
+              "page": 4,
+              "top": 0.2327790973871734,
+              "width": 0.5465994962216625,
+              "original_page": 4
+            },
+            "content": "<table><tr><th>1 Cash and Cash Equivalents</th><th>9845 </th><th>11,355 </th><th>13,030 </th></tr><tr><td>2 Accounts Receivable</td><td>19,689 </td><td>22,709 </td><td>26,059 </td></tr><tr><td>3 Inventories</td><td>8854 </td><td>10,240 </td><td>11,784 </td></tr><tr><td>4 Total Current Assets</td><td>38,388 </td><td>44,304 </td><td>50,872 </td></tr><tr><td>5 Property, Plant, and Equipment</td><td>61,781 </td><td>69,102 </td><td>69,392 </td></tr><tr><td>6 Goodwill</td><td>72,332 </td><td>72,332 </td><td>72,332 </td></tr><tr><td>7 Total Assets</td><td>172,501</td><td>185,738</td><td>192,597</td></tr><tr><td colspan=\"4\">Liabilities</td></tr><tr><td>8 Wages Payable</td><td>1941 </td><td>2211 </td><td>2570 </td></tr><tr><td>9 Other Accounts Payable</td><td>5938 </td><td>6900 </td><td>7878 </td></tr><tr><td>10 Total Current Liabilities</td><td>7879</td><td>9110</td><td>10,448</td></tr><tr><td>11 Debt</td><td>115,000</td><td>120,000</td><td>120,000</td></tr><tr><td>11 Total Liabilities</td><td>122,879</td><td>129,110</td><td>130,448</td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9322196006774902
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 4,
+              "top": 0.5730403800475059,
+              "width": 0.7120067170445005,
+              "original_page": 4
+            },
+            "content": "Calculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9428747743368149
+            },
+            "image_url": null
+          }
+        ],
+        "content": "Forma Balance Sheet for Ideko, 2008-2010, expressed in $1000's.\n\n|                       | Year   | 2008   | 2009   | 2010   |\n|-|-|-|-|-|\n| Balance Sheet ($ 000) |        |        |        |        |## Assets\n\n<table><tr><th>1 Cash and Cash Equivalents</th><th>9845 </th><th>11,355 </th><th>13,030 </th></tr><tr><td>2 Accounts Receivable</td><td>19,689 </td><td>22,709 </td><td>26,059 </td></tr><tr><td>3 Inventories</td><td>8854 </td><td>10,240 </td><td>11,784 </td></tr><tr><td>4 Total Current Assets</td><td>38,388 </td><td>44,304 </td><td>50,872 </td></tr><tr><td>5 Property, Plant, and Equipment</td><td>61,781 </td><td>69,102 </td><td>69,392 </td></tr><tr><td>6 Goodwill</td><td>72,332 </td><td>72,332 </td><td>72,332 </td></tr><tr><td>7 Total Assets</td><td>172,501</td><td>185,738</td><td>192,597</td></tr><tr><td colspan=\"4\">Liabilities</td></tr><tr><td>8 Wages Payable</td><td>1941 </td><td>2211 </td><td>2570 </td></tr><tr><td>9 Other Accounts Payable</td><td>5938 </td><td>6900 </td><td>7878 </td></tr><tr><td>10 Total Current Liabilities</td><td>7879</td><td>9110</td><td>10,448</td></tr><tr><td>11 Debt</td><td>115,000</td><td>120,000</td><td>120,000</td></tr><tr><td>11 Total Liabilities</td><td>122,879</td><td>129,110</td><td>130,448</td></tr></table>\n\nCalculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.## Assets (cont.)\n\nAnswer:\n\n<table><tr><th></th><th>Year</th><th>2008</th><th>2009</th><th>2010</th></tr><tr><td colspan=\"5\">Working Capital ($ 000)</td></tr><tr><td colspan=\"5\">Assets</td></tr><tr><t",
+        "embed": " data for the years 2008, 2009, and 2010, with values expressed in thousands of dollars. It provides a financial snapshot of the entity's assets, liabilities, and equity for each of these three years.## Assets\n\nThis table presents a company's balance sheet data for three periods. Total assets show a consistent increase from 172,501 to 192,597, driven by growth in current assets and property, plant, and equipment. Liabilities also grew, primarily due to an increase in debt, resulting in a rising total liability figure.\n\nCalculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.## Assets (cont.)\n\nAnswer:\n\nThis table presents the working capital figures for a company from 2008 to 2010, showing a consistent increase in total current assets, total current liabilities, and net w",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.007719714964370546,
+              "left": 0.11922753988245172,
+              "page": 4,
+              "top": 0.6080760095011877,
+              "width": 0.060453400503778336,
+              "original_page": 4
+            },
+            "content": "Answer:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.854867485165596
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.24524940617577198,
+              "left": 0.11670864819479429,
+              "page": 4,
+              "top": 0.6288598574821853,
+              "width": 0.5474391267842149,
+              "original_page": 4
+            },
+            "content": "<table><tr><th></th><th>Year</th><th>2008</th><th>2009</th><th>2010</th></tr><tr><td colspan=\"5\">Working Capital ($ 000)</td></tr><tr><td colspan=\"5\">Assets</td></tr><tr><td>1 Cash and Cash Equivalents</td><td></td><td>9845 </td><td>11,355 </td><td>13,030 </td></tr><tr><td>2 Accounts Receivable</td><td></td><td>19,689 </td><td>22,709 </td><td>26,059 </td></tr><tr><td>3 Inventories</td><td></td><td>8854 </td><td>10,240 </td><td>11,784 </td></tr><tr><td>4 Total Current Assets</td><td></td><td>38,388 </td><td>44,304 </td><td>50,872 </td></tr><tr><td>Liabilities</td><td></td><td></td><td></td><td></td></tr><tr><td>8 Wages Payable</td><td></td><td>1941 </td><td>2211 </td><td>2570 </td></tr><tr><td>9 Other Accounts Payable</td><td></td><td>5938 </td><td>6900 </td><td>7878 </td></tr><tr><td>10 Total Current Liabilities</td><td></td><td>7879 </td><td>9110 </td><td>10,448 </td></tr><tr><td colspan=\"5\">Net Working Capital</td></tr><tr><td>NWC(4 - 10)</td><td></td><td>30,509 </td><td>35,194 </td><td>40,425 </td></tr><tr><td>Increase in NWC</td><td></td><td></td><td>4685 </td><td>5231 </td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9411620966025761
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.11754827875734676,
+              "page": 4,
+              "top": 0.8830166270783848,
+              "width": 0.2510495382031906,
+              "original_page": 4
+            },
+            "content": "Increase in NWC = NWCt - NWCt- 1",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.14073634204275534,
+              "width": 0.09739714525608732,
+              "original_page": 5
+            },
+            "content": "Question 3.b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9246772587299348
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.17399049881235154,
+              "width": 0.7128463476070529,
+              "original_page": 5
+            },
+            "content": "Using the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.973213928937912
+            },
+            "image_url": null
+          }
+        ],
+        "content": "0</td></tr><tr><td>11 Total Liabilities</td><td>122,879</td><td>129,110</td><td>130,448</td></tr></table>\n\nCalculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.## Assets (cont.)\n\nAnswer:\n\n<table><tr><th></th><th>Year</th><th>2008</th><th>2009</th><th>2010</th></tr><tr><td colspan=\"5\">Working Capital ($ 000)</td></tr><tr><td colspan=\"5\">Assets</td></tr><tr><td>1 Cash and Cash Equivalents</td><td></td><td>9845 </td><td>11,355 </td><td>13,030 </td></tr><tr><td>2 Accounts Receivable</td><td></td><td>19,689 </td><td>22,709 </td><td>26,059 </td></tr><tr><td>3 Inventories</td><td></td><td>8854 </td><td>10,240 </td><td>11,784 </td></tr><tr><td>4 Total Current Assets</td><td></td><td>38,388 </td><td>44,304 </td><td>50,872 </td></tr><tr><td>Liabilities</td><td></td><td></td><td></td><td></td></tr><tr><td>8 Wages Payable</td><td></td><td>1941 </td><td>2211 </td><td>2570 </td></tr><tr><td>9 Other Accounts Payable</td><td></td><td>5938 </td><td>6900 </td><td>7878 </td></tr><tr><td>10 Total Current Liabilities</td><td></td><td>7879 </td><td>9110 </td><td>10,448 </td></tr><tr><td colspan=\"5\">Net Working Capital</td></tr><tr><td>NWC(4 - 10)</td><td></td><td>30,509 </td><td>35,194 </td><td>40,425 </td></tr><tr><td>Increase in NWC</td><td></td><td></td><td>4685 </td><td>5231 </td></tr></table>\n\nIncrease in NWC = NWCt - NWCt- 1\n\n## Question 3.b\n\nUsing the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years.## Question 3.b (cont.)\n\n<table><tr><th></th><th></th><th></th><th></th></tr><tr><td colspan=\"4\">Year 2009 2010\nIncome Statement($ 000)</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td co",
+        "embed": "iabilities also grew, primarily due to an increase in debt, resulting in a rising total liability figure.\n\nCalculate the amount of the increase in net working capital for Ideko in years 2009 and 2010.## Assets (cont.)\n\nAnswer:\n\nThis table presents the working capital figures for a company from 2008 to 2010, showing a consistent increase in total current assets, total current liabilities, and net working capital over the period. Specifically, net working capital grew from $30,509,000 in 2008 to $40,425,000 in 2010, with increases of $4,685,000 and $5,231,000 in 2009 and 2010 respectively. The components contributing to these figures include cash and cash equivalents, accounts receivable, and inventories for assets, and wages payable and other accounts payable for liabilities.\n\nIncrease in NWC = NWCt - NWCt- 1\n\n## Question 3.b\n\nUsing the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years.## Question 3.b (cont.)\n\nThis table presents the income statement and cash flow calculations for a company in 2009 and 2010. It shows a consistent increase in sales and profitability from 2009 to 2010",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.6128266033254157,
+              "left": 0.11670864819479429,
+              "page": 5,
+              "top": 0.21852731591448932,
+              "width": 0.44584382871536526,
+              "original_page": 5
+            },
+            "content": "<table><tr><th></th><th></th><th></th><th></th></tr><tr><td colspan=\"4\">Year 2009 2010\nIncome Statement($ 000)</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\">1Sales 138,149 158,526 \n2 Cost of Goods Sold</td></tr><tr><td>3 Raw Materials</td><td></td><td>(28,333)</td><td>(32,193) </td></tr><tr><td>4 Direct Labor Costs</td><td></td><td>(35,834)</td><td>(41,925) </td></tr><tr><td>5 Gross Profit</td><td></td><td>73,982</td><td>84,407 </td></tr><tr><td>6 Sales and Marketing</td><td></td><td>(27,630)</td><td>(31,705) </td></tr><tr><td>7 Administrative</td><td></td><td>(17,959)</td><td>(20,608) </td></tr><tr><td>8EBITDA</td><td></td><td>28,393</td><td>32,094 </td></tr><tr><td>9 Depreciation</td><td></td><td>(7678)</td><td>(7710) </td></tr><tr><td>10EBIT</td><td></td><td>20,715</td><td>24,383 </td></tr><tr><td>11 Interest Expense (net)</td><td></td><td>(7820)</td><td>(8160) </td></tr><tr><td>12 Pre-tax Income</td><td></td><td>12,895</td><td>16,223 </td></tr><tr><td>13 Income Tax</td><td></td><td>(4513)</td><td>(5678) </td></tr><tr><td>14 Net Income</td><td></td><td></td><td>8382 10,545</td></tr><tr><td>Year</td><td></td><td>2009</td><td>2010</td></tr><tr><td>Capital Expenditures</td><td></td><td>15,000 </td><td>8000 </td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\">Net Borrowing 5000  0 \n\nAnswer:</td></tr><tr><td>Year</td><td></td><td>2009 </td><td>2010 </td></tr><tr><td>Net Income ($ 000)</td><td></td><td>8382 </td><td>10,545 </td></tr><tr><td>Plus: After Tax-Interest</td><td>Expense</td><td>5083 </td><td>5304 </td></tr><tr><td>Unlevered Net Income</td><td></td><td>13,465 </td><td>15,849 </td></tr><tr><td>Plus: Depreciation</td><td></td><td>7678 </td><td>7710 </td></tr><tr><td>Less: Increases in NWC</td><td></td><td>(4685) </td><td>(5230) </td></tr><tr><td>Less: Capital Expenditures</td><td></td><td>(15,000) </td><td>(8000) </td></tr><tr><td>Free Cash Flow of Firm</td><td></td><td>1458 </td><td>10,329 </td></tr><tr><td>Plus: Net Borrowing</td><td></td><td>5000 </td><td>0 </td></tr><tr><td>Less: After-Tax Interest</td><td>Expense</td><td>(5083) </td><td>(5304) </td></tr><tr><td>Free Cash Flow to Equity</td><td></td><td>1,375 </td><td>5,025 </td></tr></table>",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8563672459894611
+            },
+            "image_url": null
+          }
+        ],
+        "content": "# Question 3.b\n\nUsing the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years.## Question 3.b (cont.)\n\n<table><tr><th></th><th></th><th></th><th></th></tr><tr><td colspan=\"4\">Year 2009 2010\nIncome Statement($ 000)</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\">1Sales 138,149 158,526 \n2 Cost of Goods Sold</td></tr><tr><td>3 Raw Materials</td><td></td><td>(28,333)</td><td>(32,193) </td></tr><tr><td>4 Direct Labor Costs</td><td></td><td>(35,834)</td><td>(41,925) </td></tr><tr><td>5 Gross Profit</td><td></td><td>73,982</td><td>84,407 </td></tr><tr><td>6 Sales and Marketing</td><td></td><td>(27,630)</td><td>(31,705) </td></tr><tr><td>7 Administrative</td><td></td><td>(17,959)</td><td>(20,608) </td></tr><tr><td>8EBITDA</td><td></td><td>28,393</td><td>32,094 </td></tr><tr><td>9 Depreciation</td><td></td><td>(7678)</td><td>(7710) </td></tr><tr><td>10EBIT</td><td></td><td>20,715</td><td>24,383 </td></tr><tr><td>11 Interest Expense (net)</td><td></td><td>(7820)</td><td>(8160) </td></tr><tr><td>12 Pre-tax Income</td><td></td><td>12,895</td><td>16,223 </td></tr><tr><td>13 Income Tax</td><td></td><td>(4513)</td><td>(5678) </td></tr><tr><td>14 Net Income</td><td></td><td></td><td>8382 10,545</td></tr><tr><td>Year</td><td></td><td>2009</td><td>2010</td></tr><tr><td>Capital Expenditures</td><td></td><td>15,000 </td><td>8000 </td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\">Net Borrowing 5000  0 \n\nAnswer:</td></tr><tr><td>Year</td><td></td><td>2009 </td><td>2010 </td></tr><tr><td>Net Income ($ 000)</td><td></td><td>8382 </td><td>10,545 </td></tr><tr><td>Plus: After Tax-Interest</td><td>Expense</td><td>5083 </td><td>5304 </td></tr><tr><td>Unlevered Net Income</td><td></td><td>13,465 </td><td>15,849 </td></tr><tr><td>Plus: Depreciation</td><td></td><td>7678 </td><td>7710 </td></tr><tr><td>Less: Increases in NWC</td><td></td><td>(4685) </td><td>(5230) </td></tr><tr><td>Less: Capital Expenditures</td><td></td><td>(15,000) </td><td>(8000) </td></tr><tr><td>Free Cash Flow of Firm</td><td></td><td>1458 </td><td>10,329 </td></tr><tr><td>Plus: Net Borrowing</td><td></td><td>5000 </td><td>0 </td></tr><tr><td>Less: After-Tax Interest</td><td>Expense</td><td>(5083) </td><td>(5304) </td></tr><tr><td>Free Cash Flow to Equity</td><td></td><td>1,375 </td><td>5,025 </td></tr></table>## Question 3.b (cont.)\n\nAfter-Tax Interest Expense = Interest Expense × (1 - τc)\n\nτc is 35% and can be computed from the income statement.\n\n## Question 3.c\n\nThe following are financial ratios for thr",
+        "embed": "# Question 3.b\n\nUsing the values calculated in (3.a) and the following information (expressed in $1000's), calculate Ideko's Free Cash Flow to the Firm and Free Cash Flow to Equity for the same years.## Question 3.b (cont.)\n\nThis table presents the income statement and cash flow calculations for a company in 2009 and 2010. It shows a consistent increase in sales and profitability from 2009 to 2010, with net income rising from $8,382,000 to $10,545,000. The table also details the calculation of Free Cash Flow to the Firm and Free Cash Flow to Equity, highlighting significant changes in capital expenditures and net borrowing between the two years.## Question 3.b (cont.)\n\nAfter-Tax Interest Expense = Interest Expense × (1 - τc)\n\nτc is 35% and can be computed from the income statement.\n\n## Question 3.c\n\nThe following are financial ratios for thr",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.8521377672209026,
+              "width": 0.41309823677581864,
+              "original_page": 5
+            },
+            "content": "After-Tax Interest Expense = Interest Expense × (1 - τc)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9481200367212296
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 5,
+              "top": 0.8842042755344418,
+              "width": 0.45004198152812763,
+              "original_page": 5
+            },
+            "content": "τc is 35% and can be computed from the income statement.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9582316160202027
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.11460807600950118,
+              "width": 0.09571788413098237,
+              "original_page": 6
+            },
+            "content": "Question 3.c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8825207591056824
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.14667458432304037,
+              "width": 0.6574307304785895,
+              "original_page": 6
+            },
+            "content": "The following are financial ratios for three companies which are comparable to Ideko:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8915388792753219
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06413301662707839,
+              "left": 0.11670864819479429,
+              "page": 6,
+              "top": 0.17814726840855108,
+              "width": 0.5020990764063812,
+              "original_page": 6
+            },
+            "content": "| Ratio     | Oakley, Inc.   | Luxottica Group   | Nike, Inc.   |\n|-|-|-|-|\n| P/E       | 24.8x          | 28x               | 18.2x        |\n| EV/Sales  | 2x             | 2.7x              | 1.5x         |\n| EV/EBITDA | 11.6x          | 14.4x             | 9.3x         |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9387722060084343
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.26009501187648454,
+              "width": 0.7455919395465995,
+              "original_page": 6
+            },
+            "content": "Based upon the average EV/EBITDA ratio of the comparable firms, and assuming that Ideko holds $6.5 million of cash in excess of its working capital needs, and has $4.5 million of debt in the year 2010, calculate Ideko's target market value of equity in 2010?",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9693235486745835
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.3254156769596199,
+              "width": 0.060453400503778336,
+              "original_page": 6
+            },
+            "content": "Answer:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7910820007324219
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.3509501187648456,
+              "width": 0.20654911838790932,
+              "original_page": 6
+            },
+            "content": "Average EV/EBITDA = 11.77",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8448353707790375
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.37767220902612825,
+              "width": 0.5180520570948782,
+              "original_page": 6
+            },
+            "content": "EV = EV/EBITDA × EBITDA = 11.77 × $32.094 million = $377.75 million",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.917279314994812
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.40498812351543945,
+              "width": 0.3702770780856423,
+              "original_page": 6
+            },
+            "content": "EV = Equity + Debt - Cash in excess of NWC needs",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9168190091848374
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030878859857482184,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.4311163895486936,
+              "width": 0.72544080604534,
+              "original_page": 6
+            },
+            "content": "Equity = EV - Debt + Cash in excess of NWC needs = $377.75 million - $4.5 million + $6.5 million = $379.75 million",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.962723171710968
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 6,
+              "top": 0.503562945368171,
+              "width": 0.09655751469353484,
+              "original_page": 6
+            },
+            "content": "Question 3.d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9004991263151169
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.5285035629453682,
+              "width": 0.7212426532325776,
+              "original_page": 6
+            },
+            "content": "Assume that, given Ideko's future expected growth rate of 5%, the expected free cash flow for 2011 is $11 150 650.00.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8885152965784073
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.5724465558194775,
+              "width": 0.7170445004198153,
+              "original_page": 6
+            },
+            "content": "If the company's WACC is 9%, calculate the continuation value (expressed in $1000's) in 2010.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9166894525289535
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.5991686460807601,
+              "width": 0.5432409739714525,
+              "original_page": 6
+            },
+            "content": "V2010 = FCF2011 / WACC - g = 11,150,650 / (0.09 - 0.05) = $278,991,300",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9057264178991318
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.6543942992874109,
+              "width": 0.09739714525608732,
+              "original_page": 6
+            },
+            "content": "Question 4.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9022041738033295
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 6,
+              "top": 0.6793349168646081,
+              "width": 0.7346767422334173,
+              "original_page": 6
+            },
+            "content": "The current price of Ocean Corporation stock is $6. In each six-month period this stock price can either go up by $2.50 or go down by $2. The stock pays no dividends. The one-year risk-free interest rate is 5%. Fill in Ocean stock price movements in a two-period binomial tree below.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.961698341369629
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.167458432304038,
+              "left": 0.11586901763224182,
+              "page": 6,
+              "top": 0.7446555819477435,
+              "width": 0.3341729638958858,
+              "original_page": 6
+            },
+            "content": "| Period 0   | Period 1       | Period 2   |\n|-|-|-|\n| Su         | Suu<br />= 8.5 | = 11       |\n| S = 6      |                | Sud = 6.5  |\n| Sd         | = 4            |            |\n|            | Sdd            | = 2        |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8214434623718262
+            },
+            "image_url": null
+          }
+        ],
+        "content": "</td><td>0 </td></tr><tr><td>Less: After-Tax Interest</td><td>Expense</td><td>(5083) </td><td>(5304) </td></tr><tr><td>Free Cash Flow to Equity</td><td></td><td>1,375 </td><td>5,025 </td></tr></table>## Question 3.b (cont.)\n\nAfter-Tax Interest Expense = Interest Expense × (1 - τc)\n\nτc is 35% and can be computed from the income statement.\n\n## Question 3.c\n\nThe following are financial ratios for three companies which are comparable to Ideko:\n\n| Ratio     | Oakley, Inc.   | Luxottica Group   | Nike, Inc.   |\n|-|-|-|-|\n| P/E       | 24.8x          | 28x               | 18.2x        |\n| EV/Sales  | 2x             | 2.7x              | 1.5x         |\n| EV/EBITDA | 11.6x          | 14.4x             | 9.3x         |\n\nBased upon the average EV/EBITDA ratio of the comparable firms, and assuming that Ideko holds $6.5 million of cash in excess of its working capital needs, and has $4.5 million of debt in the year 2010, calculate Ideko's target market value of equity in 2010?\n\nAnswer:\n\nAverage EV/EBITDA = 11.77\n\nEV = EV/EBITDA × EBITDA = 11.77 × $32.094 million = $377.75 million\n\nEV = Equity + Debt - Cash in excess of NWC needs\n\nEquity = EV - Debt + Cash in excess of NWC needs = $377.75 million - $4.5 million + $6.5 million = $379.75 million\n\n## Question 3.d\n\nAssume that, given Ideko's future expected growth rate of 5%, the expected free cash flow for 2011 is $11 150 650.00.\n\nIf the company's WACC is 9%, calculate the continuation value (expressed in $1000's) in 2010.\n\nV2010 = FCF2011 / WACC - g = 11,150,650 / (0.09 - 0.05) = $278,991,300\n\n## Question 4.a\n\nThe current price of Ocean Corporation stock is $6. In each six-month period this stock price can either go up by $2.50 or go down by $2. The stock pays no dividends. The one-year risk-free interest rate is 5%. Fill in Ocean stock price movements in a two-period binomial tree below.\n\n| Period 0   | Period 1       | Period 2   |\n|-|-|-|\n| Su         | Suu<br />= 8.5 | = 11       |\n| S = 6      |                | Sud = 6.5  |\n| Sd         | = 4            |            |\n|            | Sdd            | = 2        |## Question 4.b\n\ni) Calculate the payoffs for a currently at the money one year call option on the Ocean stock in the last period below.\n\nii) Sketch the payoff of a one year call option as a function ",
+        "embed": "00. The table also details the calculation of Free Cash Flow to the Firm and Free Cash Flow to Equity, highlighting significant changes in capital expenditures and net borrowing between the two years.## Question 3.b (cont.)\n\nAfter-Tax Interest Expense = Interest Expense × (1 - τc)\n\nτc is 35% and can be computed from the income statement.\n\n## Question 3.c\n\nThe following are financial ratios for three companies which are comparable to Ideko:\n\nThis table presents valuation multiples for Oakley, Inc., Luxottica Group, and Nike, Inc. Luxottica Group generally shows higher P/E and EV/Sales ratios compared to both Oakley and Nike, suggesting it might be valued more richly relative to its earnings and sales. Nike, on the other hand, exhibits the lowest P/E and EV/Sales multiples, potentially indicating it is the most undervalued among the three.\n\nBased upon the average EV/EBITDA ratio of the comparable firms, and assuming that Ideko holds $6.5 million of cash in excess of its working capital needs, and has $4.5 million of debt in the year 2010, calculate Ideko's target market value of equity in 2010?\n\nAnswer:\n\nAverage EV/EBITDA = 11.77\n\nEV = EV/EBITDA × EBITDA = 11.77 × $32.094 million = $377.75 million\n\nEV = Equity + Debt - Cash in excess of NWC needs\n\nEquity = EV - Debt + Cash in excess of NWC needs = $377.75 million - $4.5 million + $6.5 million = $379.75 million\n\n## Question 3.d\n\nAssume that, given Ideko's future expected growth rate of 5%, the expected free cash flow for 2011 is $11 150 650.00.\n\nIf the company's WACC is 9%, calculate the continuation value (expressed in $1000's) in 2010.\n\nV2010 = FCF2011 / WACC - g = 11,150,650 / (0.09 - 0.05) = $278,991,300\n\n## Question 4.a\n\nThe current price of Ocean Corporation stock is $6. In each six-month period this stock price can either go up by $2.50 or go down by $2. The stock pays no dividends. The one-year risk-free interest rate is 5%. Fill in Ocean stock price movements in a two-period binomial tree below.\n\nThis table displays a series of values labeled \"Su\", \"S\", \"Sd\", and \"Sud\" across three periods. In Period 0, \"Su\" is 8.5, \"S\" is 6, and \"Sd\" is 4. Period 1 shows \"Su\" at 11 and \"Sd\" at 4, with \"Sdd\" having a value of 2. Period 2 presents \"Sud\" as 6.5.## Question 4.b\n\ni) Calculate the payoffs for a currently at the money one year call option on the Ocean stock in the last period below.\n\nii) Sketch the payoff of a one year call option as a function ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.12114014251781473,
+              "width": 0.09655751469353484,
+              "original_page": 7
+            },
+            "content": "Question 4.b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9402468711137771
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.15261282660332542,
+              "width": 0.7531486146095718,
+              "original_page": 7
+            },
+            "content": "i) Calculate the payoffs for a currently at the money one year call option on the Ocean stock in the last period below.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9754141449928284
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.2013064133016627,
+              "width": 0.7380352644836272,
+              "original_page": 7
+            },
+            "content": "ii) Sketch the payoff of a one year call option as a function of the strike price in the case that the price moved up during both six month periods.",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9751507312059402
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.0344418052256532,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.25,
+              "width": 0.7573467674223342,
+              "original_page": 7
+            },
+            "content": "i) The call is at the money, thus strike price K = 6. The payoffs at the end nodes are given by the formula: max(S – K, 0), in which S is the stock price. Hence, Cuu = max(11 – 6, 0) = 5, Cud = max(6.5 – 6,",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9271534770727158
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019002375296912115,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.2826603325415677,
+              "width": 0.26028547439126787,
+              "original_page": 7
+            },
+            "content": "0) = 0.5 and Cdd = max(2 – 6, 0) = 0.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 1.0
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.31116389548693585,
+              "width": 0.7497900923593619,
+              "original_page": 7
+            },
+            "content": "ii) The price of the stock after two up movements is equal to 11. Therefore, the answer is to sketch the function Cuu = max(11 – K, 0), with strike price K on the x-axis, call payoff Cuu on the y-axis. (I.e. a straight line through the points (0, 11) and (11, 0) and a zero value to the right of (11, 0).)",
+            "type": "List Item",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9815196961164474
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.4002375296912114,
+              "width": 0.09655751469353484,
+              "original_page": 7
+            },
+            "content": "Question 4.c",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9312352061271667
+            },
+            "image_url": null
+          }
+        ],
+        "content": "Period 2   |\n|-|-|-|\n| Su         | Suu<br />= 8.5 | = 11       |\n| S = 6      |                | Sud = 6.5  |\n| Sd         | = 4            |            |\n|            | Sdd            | = 2        |## Question 4.b\n\ni) Calculate the payoffs for a currently at the money one year call option on the Ocean stock in the last period below.\n\nii) Sketch the payoff of a one year call option as a function of the strike price in the case that the price moved up during both six month periods.\n\ni) The call is at the money, thus strike price K = 6. The payoffs at the end nodes are given by the formula: max(S – K, 0), in which S is the stock price. Hence, Cuu = max(11 – 6, 0) = 5, Cud = max(6.5 – 6,\n\n0) = 0.5 and Cdd = max(2 – 6, 0) = 0.\n\nii) The price of the stock after two up movements is equal to 11. Therefore, the answer is to sketch the function Cuu = max(11 – K, 0), with strike price K on the x-axis, call payoff Cuu on the y-axis. (I.e. a straight line through the points (0, 11) and (11, 0) and a zero value to the right of (11, 0).)\n\n## Question 4.c## Using the Binomial Model, calculate the price of a one-year European put option on the Ocean stock with a strike price of $7.\n\nGiven the annual risk free interest rate r; = 0.05, the 6-monthly rate",
+        "embed": ", \"S\", \"Sd\", and \"Sud\" across three periods. In Period 0, \"Su\" is 8.5, \"S\" is 6, and \"Sd\" is 4. Period 1 shows \"Su\" at 11 and \"Sd\" at 4, with \"Sdd\" having a value of 2. Period 2 presents \"Sud\" as 6.5.## Question 4.b\n\ni) Calculate the payoffs for a currently at the money one year call option on the Ocean stock in the last period below.\n\nii) Sketch the payoff of a one year call option as a function of the strike price in the case that the price moved up during both six month periods.\n\ni) The call is at the money, thus strike price K = 6. The payoffs at the end nodes are given by the formula: max(S – K, 0), in which S is the stock price. Hence, Cuu = max(11 – 6, 0) = 5, Cud = max(6.5 – 6,\n\n0) = 0.5 and Cdd = max(2 – 6, 0) = 0.\n\nii) The price of the stock after two up movements is equal to 11. Therefore, the answer is to sketch the function Cuu = max(11 – K, 0), with strike price K on the x-axis, call payoff Cuu on the y-axis. (I.e. a straight line through the points (0, 11) and (11, 0) and a zero value to the right of (11, 0).)\n\n## Question 4.c## Using the Binomial Model, calculate the price of a one-year European put option on the Ocean stock with a strike price of $7.\n\nGiven the annual risk free interest rate r; = 0.05, the 6-monthly rate",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.42577197149643703,
+              "width": 0.7237615449202351,
+              "original_page": 7
+            },
+            "content": "Using the Binomial Model, calculate the price of a one-year European put option on the Ocean stock with a strike price of $7.",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9268290817737579
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.050475059382422804,
+              "left": 0.11754827875734676,
+              "page": 7,
+              "top": 0.47565320665083133,
+              "width": 0.760705289672544,
+              "original_page": 7
+            },
+            "content": "Given the annual risk free interest rate r; = 0.05, the 6-monthly rate is given by îƒ = (1 + rƒ)² — 1≈ 0.0247. Furthermore, the put payoffs at the final nodes are given by: Puu = max(7-11, 0) = 0, Pud = max(7 - 6.5, 0) = 0.5 and Pdd = max(7 - 2, 0) = 5.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.820388188958168
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.033847980997624705,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.5368171021377672,
+              "width": 0.7262804366078925,
+              "original_page": 7
+            },
+            "content": "The replicating portfolio of the option at node 𝑢 is given by holding Δ𝑢 of the stock and 𝐵 𝑢 of the bond.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.979831314086914
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.3534844668345928,
+              "page": 7,
+              "top": 0.5843230403800475,
+              "width": 0.2879932829554996,
+              "original_page": 7
+            },
+            "content": "Puu - Pud Pud-Sud Au\nAu = ', B₁ =\nSuu-Sud 1+ff",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8155584633350372
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.6276722090261283,
+              "width": 0.7514693534844669,
+              "original_page": 7
+            },
+            "content": "In the above 𝑃 𝑖 (𝑆 𝑖 ) denotes the value of the put (stock) at node 𝑖, and 𝑟̂ 𝑓 is the previously calculated 6-month risk free rate. The (European) put price at node 𝑢 is then given by",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.978990551829338
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011282660332541567,
+              "left": 0.43073047858942065,
+              "page": 7,
+              "top": 0.6751781472684085,
+              "width": 0.1376994122586062,
+              "original_page": 7
+            },
+            "content": "Pu = ▲u · Su + Bu",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7202833771705628
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.6989311163895487,
+              "width": 0.42065491183879095,
+              "original_page": 7
+            },
+            "content": "Plugging in the numbers for the up node 𝑢calculations:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9585373759269714
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.07779097387173396,
+              "left": 0.29303106633081444,
+              "page": 7,
+              "top": 0.7256532066508313,
+              "width": 0.4063811922753988,
+              "original_page": 7
+            },
+            "content": "1\n0 - 0.5 1 0.5-6.5 - 19\nAu = , Bu ≈ 1.1928\n11-6.5 9 1 + 0.0247\n\n1\nP ༤ -: .8.5+ 1.1928 ≈ 0.2484\n9",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6689026147127152
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.014251781472684086,
+              "left": 0.11838790931989925,
+              "page": 7,
+              "top": 0.8165083135391924,
+              "width": 0.23845507976490343,
+              "original_page": 7
+            },
+            "content": "Similarly, for the down node 𝑑:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8026716917753219
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.05938242280285035,
+              "left": 0.20067170445004198,
+              "page": 7,
+              "top": 0.8432304038004751,
+              "width": 0.5952980688497062,
+              "original_page": 7
+            },
+            "content": "Pud - Pad 0.5-5 Pad - Sad - Ad 5-2-1\nAd = Sud - Sad 6.5-2 = −1, Bα = 1+ff 1 + 0.0247 ≈ 6.831\n\nPa = Aa Sa B₁ ≈ −1·4 + 6.831 = 2.831",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6295213490724564
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.08610451306413301,
+              "width": 0.2174643157010915,
+              "original_page": 8
+            },
+            "content": "Finally, for the starting node:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9464409530162812
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.057007125890736345,
+              "left": 0.14273719563392107,
+              "page": 8,
+              "top": 0.11223277909738717,
+              "width": 0.7120067170445005,
+              "original_page": 8
+            },
+            "content": "Pu - Pa 0.2484 2.831 Pa-Sa A 2.831 4 -0.5739\nA = ≈-0.5739, B = ≈ 5.003\nSu Sa 8.5-4 1 + fƒ 1 +0.0247\n\nPAS+B≈-0.5739 6+5.003≈ 1.56",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6748503759503365
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.1840855106888361,
+              "width": 0.5146935348446684,
+              "original_page": 8
+            },
+            "content": "Therefore, the one-year European put is worth approximately $1.56.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9514964133501053
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032066508313539195,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.21080760095011877,
+              "width": 0.7590260285474392,
+              "original_page": 8
+            },
+            "content": "Alternative approach: use the above approach to determine the call with strike K = 7, which is approx. 0.893. Then, use 𝑃 = 𝐶 + 𝑃𝑉(𝐾) – 𝑆 0 to determine the value of the put.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9754707098007203
+            },
+            "image_url": null
+          }
+        ],
+        "content": "x(11 – K, 0), with strike price K on the x-axis, call payoff Cuu on the y-axis. (I.e. a straight line through the points (0, 11) and (11, 0) and a zero value to the right of (11, 0).)\n\n## Question 4.c## Using the Binomial Model, calculate the price of a one-year European put option on the Ocean stock with a strike price of $7.\n\nGiven the annual risk free interest rate r; = 0.05, the 6-monthly rate is given by îƒ = (1 + rƒ)² — 1≈ 0.0247. Furthermore, the put payoffs at the final nodes are given by: Puu = max(7-11, 0) = 0, Pud = max(7 - 6.5, 0) = 0.5 and Pdd = max(7 - 2, 0) = 5.\n\nThe replicating portfolio of the option at node 𝑢 is given by holding Δ𝑢 of the stock and 𝐵 𝑢 of the bond.\n\nPuu - Pud Pud-Sud Au\nAu = ', B₁ =\nSuu-Sud 1+ff\n\nIn the above 𝑃 𝑖 (𝑆 𝑖 ) denotes the value of the put (stock) at node 𝑖, and 𝑟̂ 𝑓 is the previously calculated 6-month risk free rate. The (European) put price at node 𝑢 is then given by\n\nPu = ▲u · Su + Bu\n\nPlugging in the numbers for the up node 𝑢calculations:\n\n1\n0 - 0.5 1 0.5-6.5 - 19\nAu = , Bu ≈ 1.1928\n11-6.5 9 1 + 0.0247\n\n1\nP ༤ -: .8.5+ 1.1928 ≈ 0.2484\n9\n\nSimilarly, for the down node 𝑑:\n\nPud - Pad 0.5-5 Pad - Sad - Ad 5-2-1\nAd = Sud - Sad 6.5-2 = −1, Bα = 1+ff 1 + 0.0247 ≈ 6.831\n\nPa = Aa Sa B₁ ≈ −1·4 + 6.831 = 2.831\n\nFinally, for the starting node:\n\nPu - Pa 0.2484 2.831 Pa-Sa A 2.831 4 -0.5739\nA = ≈-0.5739, B = ≈ 5.003\nSu Sa 8.5-4 1 + fƒ 1 +0.0247\n\nPAS+B≈-0.5739 6+5.003≈ 1.56\n\nTherefore, the one-year European put is worth approximately $1.56.\n\nAlternative approach: use the above approach to determine the call with strike K = 7, which is approx. 0.893. Then, use 𝑃 = 𝐶 + 𝑃𝑉(𝐾) – 𝑆 0 to determine the value of the put.## Question 4.d\n\nCompute the risk neutral probability that the stock price will increase over the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in th",
+        "embed": "x(11 – K, 0), with strike price K on the x-axis, call payoff Cuu on the y-axis. (I.e. a straight line through the points (0, 11) and (11, 0) and a zero value to the right of (11, 0).)\n\n## Question 4.c## Using the Binomial Model, calculate the price of a one-year European put option on the Ocean stock with a strike price of $7.\n\nGiven the annual risk free interest rate r; = 0.05, the 6-monthly rate is given by îƒ = (1 + rƒ)² — 1≈ 0.0247. Furthermore, the put payoffs at the final nodes are given by: Puu = max(7-11, 0) = 0, Pud = max(7 - 6.5, 0) = 0.5 and Pdd = max(7 - 2, 0) = 5.\n\nThe replicating portfolio of the option at node 𝑢 is given by holding Δ𝑢 of the stock and 𝐵 𝑢 of the bond.\n\nPuu - Pud Pud-Sud Au\nAu = ', B₁ =\nSuu-Sud 1+ff\n\nIn the above 𝑃 𝑖 (𝑆 𝑖 ) denotes the value of the put (stock) at node 𝑖, and 𝑟̂ 𝑓 is the previously calculated 6-month risk free rate. The (European) put price at node 𝑢 is then given by\n\nPu = ▲u · Su + Bu\n\nPlugging in the numbers for the up node 𝑢calculations:\n\n1\n0 - 0.5 1 0.5-6.5 - 19\nAu = , Bu ≈ 1.1928\n11-6.5 9 1 + 0.0247\n\n1\nP ༤ -: .8.5+ 1.1928 ≈ 0.2484\n9\n\nSimilarly, for the down node 𝑑:\n\nPud - Pad 0.5-5 Pad - Sad - Ad 5-2-1\nAd = Sud - Sad 6.5-2 = −1, Bα = 1+ff 1 + 0.0247 ≈ 6.831\n\nPa = Aa Sa B₁ ≈ −1·4 + 6.831 = 2.831\n\nFinally, for the starting node:\n\nPu - Pa 0.2484 2.831 Pa-Sa A 2.831 4 -0.5739\nA = ≈-0.5739, B = ≈ 5.003\nSu Sa 8.5-4 1 + fƒ 1 +0.0247\n\nPAS+B≈-0.5739 6+5.003≈ 1.56\n\nTherefore, the one-year European put is worth approximately $1.56.\n\nAlternative approach: use the above approach to determine the call with strike K = 7, which is approx. 0.893. Then, use 𝑃 = 𝐶 + 𝑃𝑉(𝐾) – 𝑆 0 to determine the value of the put.## Question 4.d\n\nCompute the risk neutral probability that the stock price will increase over the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in th",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.012470308788598575,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.25534441805225655,
+              "width": 0.0982367758186398,
+              "original_page": 8
+            },
+            "content": "Question 4.d",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9348652601242066
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.2814726840855107,
+              "width": 0.7556675062972292,
+              "original_page": 8
+            },
+            "content": "Compute the risk neutral probability that the stock price will increase over the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in the up state lower or larger than the actual probability in the upstate. Explain your answer.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9814005613327026
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.032660332541567694,
+              "left": 0.2141057934508816,
+              "page": 8,
+              "top": 0.34263657957244653,
+              "width": 0.5701091519731318,
+              "original_page": 8
+            },
+            "content": "Su · p + Sa (1 - p) (1+r)S - Sa 1.0247 6-4\nS = 1+ >> p = Su - Sa 8.5-4 ≈ 0.4773",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6618515804409981
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.39073634204275537,
+              "width": 0.436607892527288,
+              "original_page": 8
+            },
+            "content": "Hence, the risk-neutral probability is approximately 0.477.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9567084729671478
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.06532066508313539,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.4168646080760095,
+              "width": 0.7329974811083123,
+              "original_page": 8
+            },
+            "content": "The risk-neutral probability in the up state is lower than the actual probability in the upstate. To ensure that all assets in the risk-neutral world have an expected return equal to the risk-free rate, relative to the true probabilities, the risk-neutral probabilities overweight the bad states and underweight the good states.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9886791735887528
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.09916864608076009,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.49524940617577196,
+              "width": 0.7598656591099916,
+              "original_page": 8
+            },
+            "content": "More detailed: In the real world investors are risk-averse. Thus, the expected return of a typical stock includes a positive risk premium to compensate investors of risk. IN the hypothetical risk-neutral world, investors do not require compensation for risk. So for the stock prices to be the same as in real world, investors must be more pessimistic. Thus, stocks that in reality have expected returns above the risk-free rate, when evaluated using these more pessimistic probabilities, have expected returns that equal the risk-free rate.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9916561096906662
+            },
+            "image_url": null
+          }
+        ],
+        "content": "rth approximately $1.56.\n\nAlternative approach: use the above approach to determine the call with strike K = 7, which is approx. 0.893. Then, use 𝑃 = 𝐶 + 𝑃𝑉(𝐾) – 𝑆 0 to determine the value of the put.## Question 4.d\n\nCompute the risk neutral probability that the stock price will increase over the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in the up state lower or larger than the actual probability in the upstate. Explain your answer.\n\nSu · p + Sa (1 - p) (1+r)S - Sa 1.0247 6-4\nS = 1+ >> p = Su - Sa 8.5-4 ≈ 0.4773\n\nHence, the risk-neutral probability is approximately 0.477.\n\nThe risk-neutral probability in the up state is lower than the actual probability in the upstate. To ensure that all assets in the risk-neutral world have an expected return equal to the risk-free rate, relative to the true probabilities, the risk-neutral probabilities overweight the bad states and underweight the good states.\n\nMore detailed: In the real world investors are risk-averse. Thus, the expected return of a typical stock includes a positive risk premium to compensate investors of risk. IN the hypothetical risk-neutral world, investors do not require compensation for risk. So for the stock prices to be the same as in real world, investors must be more pessimistic. Thus, stocks that in reality have expected returns above the risk-free rate, when evaluated using these more pessimistic probabilities, have expected returns that equal the risk-free rate.## Question 5.a\n\nYou are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).\n\nThe duration of the auto loans is three years ",
+        "embed": "rth approximately $1.56.\n\nAlternative approach: use the above approach to determine the call with strike K = 7, which is approx. 0.893. Then, use 𝑃 = 𝐶 + 𝑃𝑉(𝐾) – 𝑆 0 to determine the value of the put.## Question 4.d\n\nCompute the risk neutral probability that the stock price will increase over the first six-month period. Assuming that investors are risk-averse, is the risk-neutral probability in the up state lower or larger than the actual probability in the upstate. Explain your answer.\n\nSu · p + Sa (1 - p) (1+r)S - Sa 1.0247 6-4\nS = 1+ >> p = Su - Sa 8.5-4 ≈ 0.4773\n\nHence, the risk-neutral probability is approximately 0.477.\n\nThe risk-neutral probability in the up state is lower than the actual probability in the upstate. To ensure that all assets in the risk-neutral world have an expected return equal to the risk-free rate, relative to the true probabilities, the risk-neutral probabilities overweight the bad states and underweight the good states.\n\nMore detailed: In the real world investors are risk-averse. Thus, the expected return of a typical stock includes a positive risk premium to compensate investors of risk. IN the hypothetical risk-neutral world, investors do not require compensation for risk. So for the stock prices to be the same as in real world, investors must be more pessimistic. Thus, stocks that in reality have expected returns above the risk-free rate, when evaluated using these more pessimistic probabilities, have expected returns that equal the risk-free rate.## Question 5.a\n\nYou are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).\n\nThe duration of the auto loans is three years ",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 8,
+              "top": 0.6359857482185273,
+              "width": 0.09571788413098237,
+              "original_page": 8
+            },
+            "content": "Question 5.a",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9430603176355361
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.668646080760095,
+              "width": 0.7539882451721243,
+              "original_page": 8
+            },
+            "content": "You are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9721249014139175
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.04513064133016627,
+              "left": 0.11838790931989925,
+              "page": 8,
+              "top": 0.7173396674584323,
+              "width": 0.7590260285474392,
+              "original_page": 8
+            },
+            "content": "The duration of the auto loans is three years and the duration of the mortgages is eight years. Both cash reserves and checking and savings have zero duration. The CDs have a duration of two years and the long-term financing has a ten-year duration.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9874619454145431
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11163895486935867,
+              "left": 0.16204869857262805,
+              "page": 8,
+              "top": 0.7808788598574822,
+              "width": 0.5961376994122586,
+              "original_page": 8
+            },
+            "content": "| Assets        |     | Liabilities                  |     |\n|-|-|-|-|\n| Cash Reserves | 100 | Checking & Savings           | 200 |\n| Auto Loans    | 200 | Certificates of Deposit      | 150 |\n| Mortgages     | 300 | Long-Term Financing          | 200 |\n| Total Assets  | 600 | |Total Liabilities           | 550 |\n|               |     | Owner's Equity               | 50  |\n|               |     | Total Liabilities and Equity | 600 |",
+            "type": "Table",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9212772922856467
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.08669833729216152,
+              "width": 0.30730478589420657,
+              "original_page": 9
+            },
+            "content": "Calculate the duration of SFTSL's equity.",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8843974560499192
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.1187648456057007,
+              "width": 0.1376994122586062,
+              "original_page": 9
+            },
+            "content": "Answer: 14 years.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7206873953342438
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.11460807600950118,
+              "left": 0.11586901763224182,
+              "page": 9,
+              "top": 0.14133016627078385,
+              "width": 0.7262804366078925,
+              "original_page": 9
+            },
+            "content": "Explanation: Dassets = 100/600 × 0 (cash) + 200/600 × 3 (auto) + 300/600 × 8 (mortgage) = 5 years Dliabilities = 200/550 × 0 (checking) + 150/550 × 2 years (CDs) + 200/550 × 10 years (Long Term) = 4.181818 years Dequity = Dassets - Dliabilities = A/(A-L) × DA - L/(A-L) × DL = 600/(600-550) × (5 years) - 550/(600-550) × (4.181818 years) = 14.00 years",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7459707796573638
+            },
+            "image_url": null
+          }
+        ],
+        "content": "essimistic. Thus, stocks that in reality have expected returns above the risk-free rate, when evaluated using these more pessimistic probabilities, have expected returns that equal the risk-free rate.## Question 5.a\n\nYou are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).\n\nThe duration of the auto loans is three years and the duration of the mortgages is eight years. Both cash reserves and checking and savings have zero duration. The CDs have a duration of two years and the long-term financing has a ten-year duration.\n\n| Assets        |     | Liabilities                  |     |\n|-|-|-|-|\n| Cash Reserves | 100 | Checking & Savings           | 200 |\n| Auto Loans    | 200 | Certificates of Deposit      | 150 |\n| Mortgages     | 300 | Long-Term Financing          | 200 |\n| Total Assets  | 600 | |Total Liabilities           | 550 |\n|               |     | Owner's Equity               | 50  |\n|               |     | Total Liabilities and Equity | 600 |\n\n## Calculate the duration of SFTSL's equity.\n\nAnswer: 14 years.\n\nExplanation: Dassets = 100/600 × 0 (cash) + 200/600 × 3 (auto) + 300/600 × 8 (mortgage) = 5 years Dliabilities = 200/550 × 0 (checking) + 150/550 × 2 years (CDs) + 200/550 × 10 years (Long Term) = 4.181818 years Dequity = Dassets - Dliabilities = A/(A-L) × DA - L/(A-L) × DL = 600/(600-550) × (5 years) - 550/(600-550) × (4.181818 years) = 14.00 years## Question 5.b\n\nAssume the data in (5.a) holds for an interest rate of 5%. Calculate the percentage change in SFTL equity if the interest rate falls to 4%.\n\nAnswer: 14% increase.\n\nExplanation:\n\nIf in",
+        "embed": "essimistic. Thus, stocks that in reality have expected returns above the risk-free rate, when evaluated using these more pessimistic probabilities, have expected returns that equal the risk-free rate.## Question 5.a\n\nYou are a risk manager for Security First Trust Savings and Loan (SFTSL). SFTSL's balance sheet is as follows (in millions of dollars).\n\nThe duration of the auto loans is three years and the duration of the mortgages is eight years. Both cash reserves and checking and savings have zero duration. The CDs have a duration of two years and the long-term financing has a ten-year duration.\n\nThis table presents a balance sheet with total assets of $600, primarily composed of mortgages and auto loans. The liabilities, totaling $550, are comprised of checking and savings accounts, certificates of deposit, and long-term financing. The remaining $50 represents owner's equity, bringing the total liabilities and equity to $600.\n\n## Calculate the duration of SFTSL's equity.\n\nAnswer: 14 years.\n\nExplanation: Dassets = 100/600 × 0 (cash) + 200/600 × 3 (auto) + 300/600 × 8 (mortgage) = 5 years Dliabilities = 200/550 × 0 (checking) + 150/550 × 2 years (CDs) + 200/550 × 10 years (Long Term) = 4.181818 years Dequity = Dassets - Dliabilities = A/(A-L) × DA - L/(A-L) × DL = 600/(600-550) × (5 years) - 550/(600-550) × (4.181818 years) = 14.00 years## Question 5.b\n\nAssume the data in (5.a) holds for an interest rate of 5%. Calculate the percentage change in SFTL equity if the interest rate falls to 4%.\n\nAnswer: 14% increase.\n\nExplanation:\n\nIf in",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.009501187648456057,
+              "left": 0.11922753988245172,
+              "page": 9,
+              "top": 0.2975059382422803,
+              "width": 0.09571788413098237,
+              "original_page": 9
+            },
+            "content": "Question 5.b",
+            "type": "Section Header",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8768204599618912
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.32304038004750596,
+              "width": 0.744752308984047,
+              "original_page": 9
+            },
+            "content": "Assume the data in (5.a) holds for an interest rate of 5%. Calculate the percentage change in SFTL equity if the interest rate falls to 4%.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9079303920269013
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.00831353919239905,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.37589073634204273,
+              "width": 0.17296389588581024,
+              "original_page": 9
+            },
+            "content": "Answer: 14% increase.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8795952230691909
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010095011876484561,
+              "left": 0.11922753988245172,
+              "page": 9,
+              "top": 0.4085510688836104,
+              "width": 0.09235936188077246,
+              "original_page": 9
+            },
+            "content": "Explanation:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.841221708059311
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.029097387173396674,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.43942992874109266,
+              "width": 0.7455919395465995,
+              "original_page": 9
+            },
+            "content": "If interest rates fall by 1%, and given the duration calculated in (5.a), the value of SFTSL's equity will increase by about 14%.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9472965925931931
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.010688836104513063,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.48931116389548696,
+              "width": 0.17632241813602015,
+              "original_page": 9
+            },
+            "content": "Also accepted answers:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8111357122659684
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.047505938242280284,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.5207838479809976,
+              "width": 0.7581863979848866,
+              "original_page": 9
+            },
+            "content": "“The duration can also be interpreted as a measurement of the sensitivity to changes in interest rates. Hence, if the duration is equal to 14, it means that the value of the security/asset changes with 14 times the given change in the interest rate.",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9435789287090302
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.5819477434679335,
+              "width": 0.6280436607892528,
+              "original_page": 9
+            },
+            "content": "Thus, since the interest rate is decreasing by 1%, the SFTL equity increases by 14%.”",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9195019632577897
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.6353919239904988,
+              "width": 0.37615449202350965,
+              "original_page": 9
+            },
+            "content": "“Modified duration = D/(1+r) = 14.02/1.05 = 13.35",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7450434654951095
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.6621140142517815,
+              "width": 0.7061293031066331,
+              "original_page": 9
+            },
+            "content": "The modified duration can be seen as the percentage decrease of the value per 1% increase in interest rate",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8760848313570022
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.7054631828978623,
+              "width": 0.6448362720403022,
+              "original_page": 9
+            },
+            "content": "percentage change in equity = - percentage change in interest rate*modified duration",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8200897395610809
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.7327790973871734,
+              "width": 0.37363560033585225,
+              "original_page": 9
+            },
+            "content": "Percentage change in equity = -(-1*13.35) = 13.35",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7661993622779846
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.7595011876484561,
+              "width": 0.5071368597816961,
+              "original_page": 9
+            },
+            "content": "The equity value will increase by 13.35% with an interest fall of 1%”",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8490916401147842
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.8129453681710214,
+              "width": 0.7145256087321579,
+              "original_page": 9
+            },
+            "content": "“If the interest falls to 4%, it means that the change of interest is -1%. We know the duration of assets and liabilities from 5a, which was",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.90680231153965
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.8562945368171021,
+              "width": 0.16288832913518053,
+              "original_page": 9
+            },
+            "content": "Duration of assets = 5",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7386659771203994
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 9,
+              "top": 0.8836104513064132,
+              "width": 0.21662468513853905,
+              "original_page": 9
+            },
+            "content": "Duration of liabilities = 4.182",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8249767452478409
+            },
+            "image_url": null
+          }
+        ],
+        "content": "ears (CDs) + 200/550 × 10 years (Long Term) = 4.181818 years Dequity = Dassets - Dliabilities = A/(A-L) × DA - L/(A-L) × DL = 600/(600-550) × (5 years) - 550/(600-550) × (4.181818 years) = 14.00 years## Question 5.b\n\nAssume the data in (5.a) holds for an interest rate of 5%. Calculate the percentage change in SFTL equity if the interest rate falls to 4%.\n\nAnswer: 14% increase.\n\nExplanation:\n\nIf interest rates fall by 1%, and given the duration calculated in (5.a), the value of SFTSL's equity will increase by about 14%.\n\nAlso accepted answers:\n\n“The duration can also be interpreted as a measurement of the sensitivity to changes in interest rates. Hence, if the duration is equal to 14, it means that the value of the security/asset changes with 14 times the given change in the interest rate.\n\nThus, since the interest rate is decreasing by 1%, the SFTL equity increases by 14%.”\n\n“Modified duration = D/(1+r) = 14.02/1.05 = 13.35\n\nThe modified duration can be seen as the percentage decrease of the value per 1% increase in interest rate\n\npercentage change in equity = - percentage change in interest rate*modified duration\n\nPercentage change in equity = -(-1*13.35) = 13.35\n\nThe equity value will increase by 13.35% with an interest fall of 1%”\n\n“If the interest falls to 4%, it means that the change of interest is -1%. We know the duration of assets and liabilities from 5a, which was\n\nDuration of assets = 5\n\nDuration of liabilities = 4.182## Question 5.b (cont.)\n\nThe duration can be used as a multiplier for change, meaning that for instance a 1% change in interest will lead to a -5% change in assets. Using this, we get the following ne",
+        "embed": "ears (CDs) + 200/550 × 10 years (Long Term) = 4.181818 years Dequity = Dassets - Dliabilities = A/(A-L) × DA - L/(A-L) × DL = 600/(600-550) × (5 years) - 550/(600-550) × (4.181818 years) = 14.00 years## Question 5.b\n\nAssume the data in (5.a) holds for an interest rate of 5%. Calculate the percentage change in SFTL equity if the interest rate falls to 4%.\n\nAnswer: 14% increase.\n\nExplanation:\n\nIf interest rates fall by 1%, and given the duration calculated in (5.a), the value of SFTSL's equity will increase by about 14%.\n\nAlso accepted answers:\n\n“The duration can also be interpreted as a measurement of the sensitivity to changes in interest rates. Hence, if the duration is equal to 14, it means that the value of the security/asset changes with 14 times the given change in the interest rate.\n\nThus, since the interest rate is decreasing by 1%, the SFTL equity increases by 14%.”\n\n“Modified duration = D/(1+r) = 14.02/1.05 = 13.35\n\nThe modified duration can be seen as the percentage decrease of the value per 1% increase in interest rate\n\npercentage change in equity = - percentage change in interest rate*modified duration\n\nPercentage change in equity = -(-1*13.35) = 13.35\n\nThe equity value will increase by 13.35% with an interest fall of 1%”\n\n“If the interest falls to 4%, it means that the change of interest is -1%. We know the duration of assets and liabilities from 5a, which was\n\nDuration of assets = 5\n\nDuration of liabilities = 4.182## Question 5.b (cont.)\n\nThe duration can be used as a multiplier for change, meaning that for instance a 1% change in interest will lead to a -5% change in assets. Using this, we get the following ne",
+        "enriched": null,
+        "enrichment_success": false
+      },
+      {
+        "blocks": [
+          {
+            "bbox": {
+              "height": 0.028503562945368172,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.08788598574821853,
+              "width": 0.7019311502938707,
+              "original_page": 10
+            },
+            "content": "The duration can be used as a multiplier for change, meaning that for instance a 1% change in interest will lead to a -5% change in assets. Using this, we get the following new values:",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.9190204590559006
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.02672209026128266,
+              "left": 0.12342569269521411,
+              "page": 10,
+              "top": 0.13123515439429928,
+              "width": 0.4979009235936188,
+              "original_page": 10
+            },
+            "content": "Value assets Value assets, before + Value assets, before -5 change interest rate = 600 + 600(-5). (-1%) = 630",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7113457590341568
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.027315914489311165,
+              "left": 0.12342569269521411,
+              "page": 10,
+              "top": 0.17695961995249407,
+              "width": 0.5759865659109992,
+              "original_page": 10
+            },
+            "content": "Valueliabilities = Value liabilities, before + Value liabilities, before · -4.182 change interest rate = 550+550 (-4.182) (-1%) = 573",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.639095613360405
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.017814726840855107,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.22684085510688837,
+              "width": 0.4626364399664148,
+              "original_page": 10
+            },
+            "content": "As equity = assets - liabilities, we have Equitynew = 630 - 573 = 57",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.5814608603715896
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.019596199524940617,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.25534441805225655,
+              "width": 0.3677581863979849,
+              "original_page": 10
+            },
+            "content": "The change in equity is then Equity = 577-1=14%",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "low",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.6228731244802475
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013657957244655582,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.28681710213776723,
+              "width": 0.41141897565071367,
+              "original_page": 10
+            },
+            "content": "The change in equity if interest falls to 4% will be 14%\"",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7875148206949234
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.030285035629453682,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.34085510688836107,
+              "width": 0.6717044500419815,
+              "original_page": 10
+            },
+            "content": "“To calculate the percentage change, I use duration approximation, where delta(equity) = equity(0)*delta(r)*(-D)",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.8955725312232972
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.3847980997624703,
+              "width": 0.27455919395465994,
+              "original_page": 10
+            },
+            "content": "Change in equity = 50*(-1%)*(-14)=7",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7630235195159911
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.011876484560570071,
+              "left": 0.11922753988245172,
+              "page": 10,
+              "top": 0.41211401425178146,
+              "width": 0.1670864819479429,
+              "original_page": 10
+            },
+            "content": "New equity 50+7=57",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7626397371292114
+            },
+            "image_url": null
+          },
+          {
+            "bbox": {
+              "height": 0.013064133016627079,
+              "left": 0.11838790931989925,
+              "page": 10,
+              "top": 0.43824228028503565,
+              "width": 0.24517212426532325,
+              "original_page": 10
+            },
+            "content": "Percentage change = 7/50=14%”",
+            "type": "Text",
+            "chart_data": null,
+            "confidence": "high",
+            "extra": null,
+            "granular_confidence": {
+              "extract_confidence": null,
+              "parse_confidence": 0.7789122641086579
+            },
+            "image_url": null
+          }
+        ],
+        "content": "”\n\n“If the interest falls to 4%, it means that the change of interest is -1%. We know the duration of assets and liabilities from 5a, which was\n\nDuration of assets = 5\n\nDuration of liabilities = 4.182## Question 5.b (cont.)\n\nThe duration can be used as a multiplier for change, meaning that for instance a 1% change in interest will lead to a -5% change in assets. Using this, we get the following new values:\n\nValue assets Value assets, before + Value assets, before -5 change interest rate = 600 + 600(-5). (-1%) = 630\n\nValueliabilities = Value liabilities, before + Value liabilities, before · -4.182 change interest rate = 550+550 (-4.182) (-1%) = 573\n\nAs equity = assets - liabilities, we have Equitynew = 630 - 573 = 57\n\nThe change in equity is then Equity = 577-1=14%\n\nThe change in equity if interest falls to 4% will be 14%\"\n\n“To calculate the percentage change, I use duration approximation, where delta(equity) = equity(0)*delta(r)*(-D)\n\nChange in equity = 50*(-1%)*(-14)=7\n\nNew equity 50+7=57\n\nPercentage change = 7/50=14%”",
+        "embed": "”\n\n“If the interest falls to 4%, it means that the change of interest is -1%. We know the duration of assets and liabilities from 5a, which was\n\nDuration of assets = 5\n\nDuration of liabilities = 4.182## Question 5.b (cont.)\n\nThe duration can be used as a multiplier for change, meaning that for instance a 1% change in interest will lead to a -5% change in assets. Using this, we get the following new values:\n\nValue assets Value assets, before + Value assets, before -5 change interest rate = 600 + 600(-5). (-1%) = 630\n\nValueliabilities = Value liabilities, before + Value liabilities, before · -4.182 change interest rate = 550+550 (-4.182) (-1%) = 573\n\nAs equity = assets - liabilities, we have Equitynew = 630 - 573 = 57\n\nThe change in equity is then Equity = 577-1=14%\n\nThe change in equity if interest falls to 4% will be 14%\"\n\n“To calculate the percentage change, I use duration approximation, where delta(equity) = equity(0)*delta(r)*(-D)\n\nChange in equity = 50*(-1%)*(-14)=7\n\nNew equity 50+7=57\n\nPercentage change = 7/50=14%”",
+        "enriched": null,
+        "enrichment_success": false
+      }
+    ],
+    "type": "full",
+    "custom": null,
+    "ocr": null
+  },
+  "usage": {
+    "num_pages": 10,
+    "credit_breakdown": {
+      "page": 10.0,
+      "complex": 6.0
+    },
+    "credits": 16.0,
+    "page_billing_breakdown": {
+      "1": [
+        "complex",
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "page"
+      ],
+      "4": [
+        "complex",
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "page"
+      ],
+      "8": [
+        "complex",
+        "page"
+      ],
+      "9": [
+        "page"
+      ],
+      "10": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/0ec3642c-04e6-40a9-b055-1af1b9147776.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T180819Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=7221661d970e67d6ebdaee6c15321676a13b327610e7c13cac9343e615be6bee",
+  "studio_link": "https://studio.reducto.ai/job/2e390362-2119-48b1-b668-4f412f62ec3f",
+  "response_type": "parse",
+  "parse_mode": null
+}
