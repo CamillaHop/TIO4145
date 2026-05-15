@@ -49,17 +49,65 @@ chat widget that grounds answers in your course materials.
    This runs four stages: parse → sections → flashcards → exam. Each
    stage is idempotent — re-running overwrites outputs cleanly.
 
-7. **Open the site.**
-   ```bash
-   # Open the file directly:
-   open web/index.html
-
-   # Or serve it locally:
-   python -m http.server 8000
-   # then visit http://localhost:8000/web/
-   ```
-   Deploy `/` to Vercel (or any static host) for a public version. The
+7. **View the site locally.** See [Running locally](#running-locally) below.
+   Deploy `/` to Vercel (or any static host) for a public version — the
    included `vercel.json` is preconfigured.
+
+## Running locally
+
+**You need an HTTP server.** Opening `web/index.html` via `file://`
+will *not* work — the pages use `fetch()` to load JSON, which browsers
+block on the `file://` protocol for security reasons.
+
+**Serve from the REPO ROOT, not from `web/`.** The pages reference
+`../course_config.json` and `../generated/…`, so the server's root has
+to be the directory that contains both `web/` and `course_config.json`
+as siblings.
+
+### One-line server (recommended)
+
+```bash
+# from the repository root:
+python -m http.server 8000
+```
+
+Then open:
+
+| Page | URL |
+|------|-----|
+| Course landing page | <http://localhost:8000/web/> |
+| A section | <http://localhost:8000/web/section.html?id=section_01> |
+| Flashcards | <http://localhost:8000/web/flashcards.html?id=section_01> |
+| Exam prep | <http://localhost:8000/web/exam.html> |
+
+Stop the server with `Ctrl+C`.
+
+### Alternatives
+
+```bash
+# Any of these also work, from the repo root:
+npx serve .                 # Node — auto-picks a port
+php -S localhost:8000       # if PHP is installed
+ruby -run -e httpd . -p 8000
+```
+
+If you use **VS Code Live Server**, set the project root to this
+repository (not `web/`), then right-click `web/index.html` → *Open with
+Live Server*.
+
+### Dev workflow tips
+
+- **Hard-refresh** after generating new content: `Cmd-Shift-R` (macOS)
+  or `Ctrl-Shift-R` (Linux / Windows). The pages cache JSON aggressively.
+- **Keep DevTools open with "Disable cache" checked** while iterating on
+  HTML/CSS/JS — otherwise stale `main.js` will silently break things.
+- Sanity-check that JSON is reachable from the server:
+  ```bash
+  curl -I http://localhost:8000/course_config.json
+  curl -I http://localhost:8000/generated/sections/section_01.json
+  ```
+  Both should return `HTTP/1.0 200 OK`. If they don't, your server is
+  rooted in the wrong directory.
 
 ## Regenerating individual pieces
 

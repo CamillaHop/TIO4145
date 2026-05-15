@@ -79,6 +79,7 @@
   "llm": {
     "provider": "anthropic",
     "openrouter_model": "google/gemma-4-26b-a4b-it:free",
+    "flashcards_model": "nvidia/nemotron-3-super-120b-a12b:free",
     "anthropic_model": "claude-sonnet-4-6"
   },
   "generation": {

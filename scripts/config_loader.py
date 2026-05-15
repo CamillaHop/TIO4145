@@ -76,14 +76,29 @@ def _strip_fences(text: str) -> str:
     return t.strip()
 
 
-def call_llm(prompt: str, *, max_tokens: int = 8000) -> str:
-    """Dispatch to the provider configured in course_config.json.
+def call_llm(
+    prompt: str,
+    *,
+    max_tokens: int = 8000,
+    provider: str | None = None,
+    model: str | None = None,
+) -> str:
+    """Dispatch to the provider configured in course_config.json, or to an
+    explicit per-call override.
+
+    Args:
+        provider: "anthropic" or "openrouter". If None, uses llm.provider
+                  from course_config.json. Useful for cheap-tier scripts
+                  (e.g. flashcards) that want OpenRouter even when the
+                  default provider is Anthropic.
+        model:    Specific model id. If None, uses the configured model
+                  for the resolved provider.
 
     Returns the model's text response with markdown fences stripped.
     """
     cfg = load_config().get("llm", {})
-    provider = cfg.get("provider", "openrouter")
-    model_override = os.environ.get("MODEL")
+    provider = provider or cfg.get("provider", "openrouter")
+    model_override = model or os.environ.get("MODEL")
 
     if provider == "openrouter":
         key = os.environ.get("OPENROUTER_API_KEY")
@@ -92,20 +107,53 @@ def call_llm(prompt: str, *, max_tokens: int = 8000) -> str:
         model = model_override or cfg.get(
             "openrouter_model", "google/gemma-4-26b-a4b-it:free"
         )
+        import time
         import requests  # local import: only needed for this path
-        r = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {key}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": model,
-                "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": max_tokens,
-            },
-            timeout=180,
-        )
+
+        # Free-tier models often hit upstream provider rate limits. OpenRouter
+        # returns 429 with a Retry-After hint; honour it up to N times before
+        # giving up.
+        MAX_429_RETRIES = 4
+        for attempt in range(MAX_429_RETRIES + 1):
+            r = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {key}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": model,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": max_tokens,
+                },
+                timeout=180,
+            )
+            if r.status_code != 429:
+                break
+            if attempt == MAX_429_RETRIES:
+                sys.exit(
+                    f"ERROR: OpenRouter rate-limited {MAX_429_RETRIES + 1}× in a row "
+                    f"for model {model}. Try a different model or wait longer.\n"
+                    f"{r.text[:500]}"
+                )
+            # Prefer the structured retry_after_seconds; fall back to header,
+            # then to a sane default. Add a 2s buffer.
+            wait = None
+            try:
+                meta = r.json().get("error", {}).get("metadata", {})
+                wait = meta.get("retry_after_seconds")
+            except Exception:
+                pass
+            if wait is None:
+                wait = float(r.headers.get("Retry-After") or 30)
+            wait = float(wait) + 2.0
+            print(
+                f"  rate-limited (attempt {attempt + 1}/{MAX_429_RETRIES + 1}); "
+                f"waiting {wait:.0f}s before retry…",
+                file=sys.stderr,
+            )
+            time.sleep(wait)
+
         if not r.ok:
             sys.exit(f"ERROR: OpenRouter returned {r.status_code}: {r.text[:500]}")
         try:
@@ -133,9 +181,17 @@ def call_llm(prompt: str, *, max_tokens: int = 8000) -> str:
     sys.exit(f"ERROR: unknown llm.provider '{provider}' in course_config.json")
 
 
-def call_llm_json(prompt: str, *, max_tokens: int = 8000):
-    """call_llm + JSON parse with one retry on parse failure."""
-    raw = call_llm(prompt, max_tokens=max_tokens)
+def call_llm_json(
+    prompt: str,
+    *,
+    max_tokens: int = 8000,
+    provider: str | None = None,
+    model: str | None = None,
+):
+    """call_llm + JSON parse with one retry on parse failure.
+
+    `provider` and `model` are forwarded to call_llm — see its docstring."""
+    raw = call_llm(prompt, max_tokens=max_tokens, provider=provider, model=model)
     try:
         return json.loads(raw)
     except json.JSONDecodeError as e:
@@ -145,7 +201,7 @@ def call_llm_json(prompt: str, *, max_tokens: int = 8000):
             + str(e)
             + "). Return ONLY the JSON object or array, no preamble, no markdown fences."
         )
-        retry_raw = call_llm(retry_prompt, max_tokens=max_tokens)
+        retry_raw = call_llm(retry_prompt, max_tokens=max_tokens, provider=provider, model=model)
         return json.loads(retry_raw)
 
 

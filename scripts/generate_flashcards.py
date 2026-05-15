@@ -63,8 +63,19 @@ def generate_one(section: dict, cfg: dict, template: str) -> None:
         },
     )
 
-    print(f"  calling LLM for {sid}…")
-    data = call_llm_json(prompt, max_tokens=4000)
+    # Flashcards are short, well-bounded JSON — always use OpenRouter (free
+    # tier) regardless of the global provider setting, to keep Anthropic
+    # spend reserved for the heavy section + exam generators.
+    llm_cfg  = cfg.get("llm", {})
+    fc_model = llm_cfg.get("flashcards_model") or llm_cfg.get("openrouter_model")
+
+    print(f"  calling LLM for {sid} (openrouter:{fc_model})…")
+    data = call_llm_json(
+        prompt,
+        max_tokens=4000,
+        provider="openrouter",
+        model=fc_model,
+    )
 
     if not isinstance(data, list):
         print(f"  ERROR: LLM returned non-array for {sid}", file=sys.stderr)
