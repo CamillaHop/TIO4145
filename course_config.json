@@ -21,6 +21,9 @@
     "openrouter_model": "google/gemma-4-26b-a4b-it:free",
     "anthropic_model": "claude-sonnet-4-6"
   },
+  "reducto": {
+    "documents": []
+  },
   "features": {
     "chat": {
       "enabled": false,

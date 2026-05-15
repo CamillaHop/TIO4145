@@ -174,10 +174,10 @@ def gather_source_text(section_id: str, *, max_chars: int = 80_000) -> str:
 
 def _extract_text(data, *, source: str) -> str:
     """Pull text out of a parsed.json. Handles several common shapes:
-    - {"pages": [{"page": N, "text": "..."}, ...]}
-    - {"text": "..."} or {"content": "..."}
-    - a bare list of strings
-    - a bare string
+    - Reducto:    {"chunks": [{"embed": "...", "blocks": [...]}, ...]}
+    - pdfplumber: {"pages":  [{"page": N, "text": "..."}, ...]}
+    - generic:    {"text": "..."} or {"content": "..."}
+    - bare list of strings, or bare string
     """
     header = f"\n\n=== {source} ===\n"
     if isinstance(data, str):
@@ -185,16 +185,36 @@ def _extract_text(data, *, source: str) -> str:
     if isinstance(data, list):
         return header + "\n\n".join(str(x) for x in data)
     if isinstance(data, dict):
+        # Reducto: top-level "chunks" list. Each chunk has an "embed" field
+        # (the embedding-optimised text) and/or a "blocks" list with raw content.
+        if "chunks" in data and isinstance(data["chunks"], list):
+            parts: list[str] = []
+            for c in data["chunks"]:
+                if not isinstance(c, dict):
+                    continue
+                txt = c.get("embed") or c.get("content") or c.get("text") or ""
+                if not txt and isinstance(c.get("blocks"), list):
+                    block_parts: list[str] = []
+                    for b in c["blocks"]:
+                        if isinstance(b, dict):
+                            bt = b.get("content") or b.get("text") or b.get("markdown") or ""
+                            if bt:
+                                block_parts.append(str(bt))
+                    txt = "\n".join(block_parts)
+                if txt:
+                    parts.append(str(txt).strip())
+            if parts:
+                return header + "\n\n".join(parts)
         if "pages" in data and isinstance(data["pages"], list):
-            chunks = []
+            page_chunks = []
             for p in data["pages"]:
                 if not isinstance(p, dict):
                     continue
                 page_num = p.get("page", "?")
                 txt = p.get("text") or p.get("content") or ""
                 if txt:
-                    chunks.append(f"--- page {page_num} ---\n{txt}")
-            return header + "\n\n".join(chunks)
+                    page_chunks.append(f"--- page {page_num} ---\n{txt}")
+            return header + "\n\n".join(page_chunks)
         for key in ("text", "content", "body"):
             if key in data and isinstance(data[key], str):
                 return header + data[key]

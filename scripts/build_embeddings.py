@@ -67,6 +67,26 @@ def _read_text(path: Path) -> str:
     if isinstance(data, list):
         return "\n\n".join(str(x) for x in data)
     if isinstance(data, dict):
+        # Reducto chunks
+        if "chunks" in data and isinstance(data["chunks"], list):
+            parts: list[str] = []
+            for c in data["chunks"]:
+                if not isinstance(c, dict):
+                    continue
+                txt = c.get("embed") or c.get("content") or c.get("text") or ""
+                if not txt and isinstance(c.get("blocks"), list):
+                    block_parts: list[str] = []
+                    for b in c["blocks"]:
+                        if isinstance(b, dict):
+                            bt = b.get("content") or b.get("text") or b.get("markdown") or ""
+                            if bt:
+                                block_parts.append(str(bt))
+                    txt = "\n".join(block_parts)
+                if txt:
+                    parts.append(str(txt))
+            if parts:
+                return "\n\n".join(parts)
+        # pdfplumber pages
         if "pages" in data and isinstance(data["pages"], list):
             parts = []
             for p in data["pages"]:

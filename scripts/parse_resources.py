@@ -51,12 +51,17 @@ def parse_pptx(path: Path) -> dict:
 
 
 def needs_reparse(source: Path, force: bool) -> tuple[bool, Path]:
-    out = source.with_suffix(source.suffix + ".parsed.json")
-    # Naming: e.g. slides.pdf → slides.pdf.parsed.json
-    # We keep the original extension visible so the file's provenance is obvious.
     out = source.parent / f"{source.stem}.parsed.json"
     if force or not out.exists():
         return True, out
+    # If the existing .parsed.json was produced by Reducto, don't overwrite
+    # it with a cheaper pdfplumber pass. Reducto output has top-level "chunks".
+    try:
+        existing = json.loads(out.read_text(encoding="utf-8"))
+        if isinstance(existing, dict) and "chunks" in existing:
+            return False, out
+    except Exception:
+        pass
     return out.stat().st_mtime < source.stat().st_mtime, out
 
 

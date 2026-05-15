@@ -70,6 +70,45 @@ python scripts/generate_flashcards.py --section section_03
 python scripts/generate_exam.py
 ```
 
+## High-quality parsing via Reducto (optional)
+
+`parse_resources.py` uses `pdfplumber`, which is free but loses tables and
+equations. For textbooks and exam PDFs, [Reducto](https://reducto.ai)
+produces much better structured output. Costs money per page; opt-in.
+
+```bash
+pip install reducto python-dotenv requests
+export REDUCTO_API_KEY=…
+
+# Parse the docs you listed in course_config.json -> reducto.documents
+python scripts/parse_with_reducto.py
+
+# One-off: parse a specific PDF
+python scripts/parse_with_reducto.py --doc resources/_course/book.pdf
+
+# Walk every PDF under resources/ (ignores the config list)
+python scripts/parse_with_reducto.py --all
+```
+
+Per source PDF, two files are written next to it:
+`<basename>.reducto.json` (Reducto's metafile — small, holds the parse
+URL) and `<basename>.parsed.json` (the actual parsed content that the
+rest of the pipeline reads). Two-step caching means a re-run after a
+network blip can fetch the parsed content without paying for another
+parse. Idempotent: skips up-to-date sources; `--force` to re-parse.
+
+**Tuning for math-heavy textbooks** — open `scripts/parse_with_reducto.py`
+and look at the `CONFIG` block at the top. The defaults are tuned for
+information preservation:
+- `REDUCTO_CHUNK_MODE = "variable"` — layout-aware chunk boundaries
+- `REDUCTO_CHUNK_SIZE = 1500`, `REDUCTO_CHUNK_OVERLAP = 200` — generous,
+  keeps proofs in one chunk
+- `REDUCTO_EXTRACTION_MODE = "hybrid"` — combines OCR with the PDF's
+  embedded text. **The key knob for equations**: LaTeX-rendered formulas
+  survive verbatim instead of being re-OCR'd from glyphs.
+- `REDUCTO_SUMMARIZE_FIGURES = True` — text descriptions of diagrams so
+  visual content lands in the chunk text.
+
 ## Optional chat widget
 
 Set `features.chat.enabled` to `true` in `course_config.json`. Then run

@@ -45,15 +45,25 @@ course metadata. Every script and every web page reads from it.
 # Full pipeline (parse + sections + flashcards + exam, plus embeddings if chat is enabled)
 bash scripts/generate_all.sh
 
-# Just pre-parse PDFs/PPTX
+# Just pre-parse PDFs/PPTX (pdfplumber — free, basic)
 python scripts/parse_resources.py
 python scripts/parse_resources.py --section section_03
 python scripts/parse_resources.py --force
+
+# Higher-quality parsing via Reducto (paid; needs REDUCTO_API_KEY)
+python scripts/parse_with_reducto.py            # uses reducto.documents in config
+python scripts/parse_with_reducto.py --doc resources/_course/book.pdf
+python scripts/parse_with_reducto.py --all      # walk every PDF under resources/
 
 # Regenerate one section
 python scripts/generate_sections.py --section section_03
 python scripts/generate_flashcards.py --section section_03
 ```
+
+Reducto and pdfplumber both write `<basename>.parsed.json` next to the
+source PDF — same schema, same location. Reducto is strictly higher
+quality (tables, equations) but costs money. Run Reducto first on the
+big-ticket docs; let `parse_resources.py` handle the rest.
 
 ## Adding a new section
 
