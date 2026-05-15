@@ -1,0 +1,36 @@
+{
+  "course_code": "COURSE_CODE",
+  "course_name": "Full Course Name",
+  "university": "University Name",
+  "language": "en",
+  "sections": [
+    {
+      "id": "section_01",
+      "title": "Section Title Placeholder",
+      "description": "Brief description of what this section covers.",
+      "resource_folder": "resources/section_01"
+    }
+  ],
+  "exam": {
+    "format": "Describe exam format here",
+    "duration_hours": 4,
+    "allowed_aids": "None / Calculator / etc."
+  },
+  "llm": {
+    "provider": "openrouter",
+    "openrouter_model": "google/gemma-4-26b-a4b-it:free",
+    "anthropic_model": "claude-sonnet-4-6"
+  },
+  "features": {
+    "chat": {
+      "enabled": false,
+      "provider": "openrouter",
+      "embed_model": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
+      "chat_models": {
+        "fast": "liquid/lfm-2.5-1.2b-instruct:free",
+        "balanced": "google/gemma-4-26b-a4b-it:free",
+        "quality": "nvidia/nemotron-3-super-120b-a12b:free"
+      }
+    }
+  }
+}

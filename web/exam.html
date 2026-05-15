@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exam prep</title>
+<link rel="stylesheet" href="assets/style.css" />
+<script defer src="assets/main.js"></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand" data-course-code>—</a>
+    <a href="index.html" class="nav-back">← All sections</a>
+    <div class="nav-links">
+      <a href="flashcards.html">Flashcards</a>
+      <a href="exam.html">Exam prep</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <p class="eyebrow">Final-exam companion</p>
+    <h1>Exam prep</h1>
+    <p class="lede">Priority topics, practice questions, key definitions, and a suggested study schedule.</p>
+  </div>
+</header>
+
+<main class="container" id="main">
+  <div id="root">
+    <p class="empty-state"><span>Loading exam prep…</span></p>
+  </div>
+</main>
+
+<footer>
+  <div class="container"><p data-course-code>—</p></div>
+</footer>
+
+<script>
+(function () {
+  function init() {
+    StudySite.loadConfig().then(function (cfg) {
+      StudySite.applyCourseChrome(cfg);
+      StudySite.maybeLoadChat(cfg);
+      return StudySite.loadExam();
+    }).then(function (data) {
+      render(data);
+    }).catch(function (err) {
+      document.getElementById('root').innerHTML =
+        '<div class="empty-state"><p>No exam prep generated yet. Run <code>python scripts/generate_exam.py</code>.<br><br><em>' +
+        StudySite.escapeHtml(err.message) + '</em></p></div>';
+    });
+  }
+
+  function render(data) {
+    var html = [];
+
+    var topics = Array.isArray(data.priority_topics) ? data.priority_topics : [];
+    if (topics.length) {
+      html.push('<section class="exam-block"><h2>Priority topics</h2>');
+      topics.forEach(function (t) {
+        if (typeof t === 'string') {
+          html.push('<details><summary>' + StudySite.escapeHtml(t) + '</summary></details>');
+          return;
+        }
+        html.push(
+          '<details><summary>' + StudySite.escapeHtml(t.topic || '') + '</summary>' +
+          '<div>' + StudySite.escapeHtml(t.why_important || '') + '</div></details>'
+        );
+      });
+      html.push('</section>');
+    }
+
+    var questions = Array.isArray(data.practice_questions) ? data.practice_questions : [];
+    if (questions.length) {
+      html.push('<section class="exam-block"><h2>Practice questions</h2>');
+      questions.forEach(function (q) {
+        html.push(
+          '<details><summary>' + StudySite.escapeHtml(q.question || '') + '</summary>' +
+          '<div>' +
+            (q.section ? '<p style="font-family:var(--mono);font-size:0.8rem;color:var(--ink-faded);margin:0 0 0.4rem;">' + StudySite.escapeHtml(q.section) + '</p>' : '') +
+            '<p style="margin:0;">' + StudySite.escapeHtml(q.answer || '') + '</p>' +
+          '</div></details>'
+        );
+      });
+      html.push('</section>');
+    }
+
+    var defs = Array.isArray(data.key_definitions) ? data.key_definitions : [];
+    if (defs.length) {
+      html.push('<section class="exam-block"><h2>Key definitions</h2><dl>');
+      defs.forEach(function (d) {
+        html.push(
+          '<dt>' + StudySite.escapeHtml(d.term || '') + '</dt>' +
+          '<dd>' + StudySite.escapeHtml(d.definition || '') + '</dd>'
+        );
+      });
+      html.push('</dl></section>');
+    }
+
+    var schedule = Array.isArray(data.study_schedule) ? data.study_schedule : [];
+    if (schedule.length) {
+      html.push('<section class="exam-block"><h2>Study schedule</h2>');
+      html.push('<table><thead><tr><th>Day</th><th>Focus</th><th>Tasks</th></tr></thead><tbody>');
+      schedule.forEach(function (s) {
+        var tasks = Array.isArray(s.tasks) ? s.tasks : [];
+        html.push(
+          '<tr>' +
+            '<td>' + StudySite.escapeHtml(String(s.day || '')) + '</td>' +
+            '<td>' + StudySite.escapeHtml(s.focus || '') + '</td>' +
+            '<td><ul style="margin:0;">' +
+              tasks.map(function (t) { return '<li>' + StudySite.escapeHtml(t) + '</li>'; }).join('') +
+            '</ul></td>' +
+          '</tr>'
+        );
+      });
+      html.push('</tbody></table></section>');
+    }
+
+    document.getElementById('root').innerHTML = html.join('') || '<div class="empty-state"><p>Exam prep is empty.</p></div>';
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script>
+
+</body>
+</html>

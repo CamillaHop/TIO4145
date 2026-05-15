@@ -1,0 +1,7 @@
+{
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "functions": {
+    "api/chat.js": { "maxDuration": 120 }
+  }
+}

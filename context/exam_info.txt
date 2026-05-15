@@ -1,0 +1,16 @@
+# Fill this file with everything you know about the exam.
+# Used by scripts/generate_exam.py to produce a tailored study plan.
+
+Format: [FILL IN: e.g. 4-hour written exam, no aids; or take-home; or oral]
+Duration (hours): [FILL IN]
+Allowed aids: [FILL IN]
+Grading: [FILL IN: e.g. A–F, pass/fail, percentage]
+
+Common question types:
+- [FILL IN]
+
+Historically tested topics (if known):
+- [FILL IN]
+
+Special notes (e.g. mandatory questions, multiple-choice rules):
+[FILL IN]

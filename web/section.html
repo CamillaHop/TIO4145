@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Section</title>
+<link rel="stylesheet" href="assets/style.css" />
+<script defer src="assets/main.js"></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand" data-course-code>—</a>
+    <a href="index.html" class="nav-back">← All sections</a>
+    <div class="nav-links">
+      <a href="flashcards.html">Flashcards</a>
+      <a href="exam.html">Exam prep</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container section-content" id="main">
+  <p class="eyebrow" id="section-id">…</p>
+  <h1 id="section-title">Loading…</h1>
+  <p class="summary" id="section-summary"></p>
+
+  <section id="key-concepts-wrap" hidden>
+    <h2>Key concepts</h2>
+    <div class="kc-grid" id="kc-grid"></div>
+  </section>
+
+  <section class="notes" id="notes-wrap" hidden>
+    <h2>Detailed notes</h2>
+    <div id="notes-body"></div>
+  </section>
+
+  <section class="mistakes" id="mistakes-wrap" hidden>
+    <h2>Common mistakes</h2>
+    <ul id="mistakes-list"></ul>
+  </section>
+
+  <p style="margin-top: 3rem;"><a href="index.html">← Back to all sections</a></p>
+</main>
+
+<footer>
+  <div class="container"><p data-course-code>—</p></div>
+</footer>
+
+<script>
+(function () {
+  function init() {
+    StudySite.loadConfig().then(function (cfg) {
+      StudySite.applyCourseChrome(cfg);
+      StudySite.maybeLoadChat(cfg);
+      var id = StudySite.getParam('id');
+      if (!id) {
+        showError('No section id in URL. Use <code>?id=section_01</code>.');
+        return;
+      }
+      document.getElementById('section-id').textContent = id;
+      return StudySite.ensureMarkdown().then(function () {
+        return StudySite.loadSection(id);
+      }).then(function (data) {
+        render(data);
+      }).catch(function (err) {
+        showError('No content generated for <code>' + StudySite.escapeHtml(id) + '</code> yet. Run <code>bash scripts/generate_all.sh</code>.<br><br><em>' + StudySite.escapeHtml(err.message) + '</em>');
+      });
+    });
+  }
+
+  function render(data) {
+    document.getElementById('section-title').textContent = data.title || '';
+    document.getElementById('section-summary').textContent = data.summary || '';
+
+    var kcs = Array.isArray(data.key_concepts) ? data.key_concepts : [];
+    if (kcs.length) {
+      var grid = document.getElementById('kc-grid');
+      grid.innerHTML = kcs.map(function (k) {
+        if (typeof k === 'string') {
+          return '<div class="kc-card"><p>' + StudySite.escapeHtml(k) + '</p></div>';
+        }
+        return (
+          '<div class="kc-card">' +
+            '<h3>' + StudySite.escapeHtml(k.concept || '') + '</h3>' +
+            '<p>' + StudySite.escapeHtml(k.explanation || '') + '</p>' +
+          '</div>'
+        );
+      }).join('');
+      document.getElementById('key-concepts-wrap').hidden = false;
+    }
+
+    if (data.detailed_notes) {
+      document.getElementById('notes-body').innerHTML = StudySite.renderMarkdown(data.detailed_notes);
+      document.getElementById('notes-wrap').hidden = false;
+    }
+
+    var mistakes = Array.isArray(data.common_mistakes) ? data.common_mistakes : [];
+    if (mistakes.length) {
+      document.getElementById('mistakes-list').innerHTML = mistakes.map(function (m) {
+        return '<li>' + StudySite.escapeHtml(m) + '</li>';
+      }).join('');
+      document.getElementById('mistakes-wrap').hidden = false;
+    }
+  }
+
+  function showError(html) {
+    document.getElementById('section-title').textContent = 'Not found';
+    document.getElementById('section-summary').innerHTML = '';
+    var main = document.getElementById('main');
+    var div = document.createElement('div');
+    div.className = 'empty-state';
+    div.innerHTML = '<p>' + html + '</p>';
+    main.appendChild(div);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script>
+
+</body>
+</html>

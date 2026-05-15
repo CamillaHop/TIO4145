@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Study site</title>
+<link rel="stylesheet" href="assets/style.css" />
+<script defer src="assets/main.js"></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand" data-course-code>—</a>
+    <div class="nav-links">
+      <a href="flashcards.html">Flashcards</a>
+      <a href="exam.html">Exam prep</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <p class="eyebrow"><span data-university>—</span></p>
+    <h1><span data-course-code>—</span> · <em data-course-name>—</em></h1>
+    <p class="lede">A study companion built from the course materials. Browse sections, drill flashcards, and prep for the exam.</p>
+  </div>
+</header>
+
+<main class="container" id="main">
+  <section>
+    <h2>Sections</h2>
+    <div class="section-grid" id="section-grid">
+      <p class="empty-state"><span>Loading sections…</span></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>Generated study site · edit <code>course_config.json</code> to retheme</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  function init() {
+    StudySite.loadConfig().then(function (cfg) {
+      StudySite.applyCourseChrome(cfg);
+      renderSections(cfg);
+      StudySite.maybeLoadChat(cfg);
+    }).catch(function (err) {
+      document.getElementById('section-grid').innerHTML =
+        '<div class="empty-state"><p>Could not load <code>course_config.json</code>: ' +
+        StudySite.escapeHtml(err.message) + '</p></div>';
+    });
+  }
+
+  function renderSections(cfg) {
+    var grid = document.getElementById('section-grid');
+    var sections = (cfg.sections || []);
+    if (!sections.length) {
+      grid.innerHTML = '<div class="empty-state"><p>No sections defined yet. Edit <code>course_config.json</code>.</p></div>';
+      return;
+    }
+    grid.innerHTML = sections.map(function (s) {
+      return (
+        '<a class="section-card" href="section.html?id=' + encodeURIComponent(s.id) + '">' +
+          '<span class="sc-id">' + StudySite.escapeHtml(s.id) + '</span>' +
+          '<div class="sc-title">' + StudySite.escapeHtml(s.title || s.id) + '</div>' +
+          '<p class="sc-desc">' + StudySite.escapeHtml(s.description || '') + '</p>' +
+        '</a>'
+      );
+    }).join('');
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script>
+
+</body>
+</html>

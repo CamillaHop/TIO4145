@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Flashcards</title>
+<link rel="stylesheet" href="assets/style.css" />
+<script defer src="assets/main.js"></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand" data-course-code>—</a>
+    <a href="index.html" class="nav-back">← All sections</a>
+    <div class="nav-links">
+      <a href="flashcards.html">Flashcards</a>
+      <a href="exam.html">Exam prep</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <p class="eyebrow">Active recall</p>
+    <h1>Flashcards</h1>
+  </div>
+</header>
+
+<main class="container" id="main">
+  <div class="fc-toolbar" id="toolbar">
+    <select id="section-select" aria-label="Choose section"></select>
+    <span class="fc-counter"><span id="fc-current">0</span> / <span id="fc-total">0</span></span>
+    <div class="fc-filters" id="filters">
+      <label><input type="checkbox" data-d="easy" checked> easy</label>
+      <label><input type="checkbox" data-d="medium" checked> medium</label>
+      <label><input type="checkbox" data-d="hard" checked> hard</label>
+    </div>
+    <button class="fc-btn" data-prev>← prev</button>
+    <button class="fc-btn" data-next>next →</button>
+    <button class="fc-btn" data-shuffle>shuffle</button>
+    <button class="fc-btn" data-reset>reset</button>
+  </div>
+
+  <div class="flashcard" id="card" tabindex="0" role="button" aria-label="Flashcard — click or press Enter to flip">
+    <div class="flashcard__inner" id="card-inner">
+      <div class="flashcard__front">
+        <div class="fc-diff" id="fc-diff" data-d="">—</div>
+        <p class="fc-q" id="fc-q">Pick a section to start.</p>
+        <div class="fc-hint">Click card to flip ↻</div>
+      </div>
+      <div class="flashcard__back">
+        <div class="fc-diff" data-d="">answer</div>
+        <p class="fc-a" id="fc-a">—</p>
+        <div class="fc-hint">Click card to return ↺</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="flashcard-hint">
+    Keys: <kbd>←</kbd> <kbd>→</kbd> navigate · <kbd>Enter</kbd>/<kbd>Space</kbd> flip ·
+    <kbd>S</kbd> shuffle · <kbd>R</kbd> reset
+  </p>
+</main>
+
+<footer>
+  <div class="container"><p data-course-code>—</p></div>
+</footer>
+
+<script>
+(function () {
+  var state = {
+    sections: [],
+    cards: [],     // currently filtered & ordered
+    rawCards: [],  // full deck for current section
+    current: 0,
+    sectionId: null,
+  };
+
+  function init() {
+    StudySite.loadConfig().then(function (cfg) {
+      StudySite.applyCourseChrome(cfg);
+      StudySite.maybeLoadChat(cfg);
+      state.sections = cfg.sections || [];
+      var sel = document.getElementById('section-select');
+      sel.innerHTML = state.sections.map(function (s) {
+        return '<option value="' + StudySite.escapeHtml(s.id) + '">' + StudySite.escapeHtml(s.title || s.id) + '</option>';
+      }).join('');
+      if (state.sections.length) loadSection(state.sections[0].id);
+      sel.addEventListener('change', function () { loadSection(sel.value); });
+      bindControls();
+    });
+  }
+
+  function loadSection(id) {
+    state.sectionId = id;
+    StudySite.loadFlashcards(id).then(function (cards) {
+      state.rawCards = Array.isArray(cards) ? cards : [];
+      applyFilter();
+    }).catch(function () {
+      state.rawCards = [];
+      applyFilter();
+      setFront('No flashcards for this section. Run <code>python scripts/generate_flashcards.py --section ' + StudySite.escapeHtml(id) + '</code>.');
+      setBack('—', '');
+    });
+  }
+
+  function applyFilter() {
+    var allowed = [];
+    document.querySelectorAll('#filters input').forEach(function (cb) {
+      if (cb.checked) allowed.push(cb.dataset.d);
+    });
+    state.cards = state.rawCards.filter(function (c) {
+      return allowed.indexOf(c.difficulty) !== -1;
+    });
+    state.current = 0;
+    unflip();
+    show();
+  }
+
+  function show() {
+    var total = state.cards.length;
+    document.getElementById('fc-total').textContent = total;
+    document.getElementById('fc-current').textContent = total ? (state.current + 1) : 0;
+    if (!total) {
+      setFront('No cards match the current filter.');
+      setBack('—', '');
+      return;
+    }
+    var c = state.cards[state.current];
+    setFront(StudySite.escapeHtml(c.front || ''), c.difficulty);
+    setBack(StudySite.escapeHtml(c.back || ''), c.difficulty);
+  }
+
+  function setFront(html, diff) {
+    document.getElementById('fc-q').innerHTML = html;
+    var d = document.getElementById('fc-diff');
+    d.textContent = diff || '—';
+    d.setAttribute('data-d', diff || '');
+  }
+  function setBack(html, diff) {
+    document.getElementById('fc-a').innerHTML = html;
+  }
+
+  function flip() {
+    document.getElementById('card-inner').classList.toggle('is-flipped');
+  }
+  function unflip() {
+    document.getElementById('card-inner').classList.remove('is-flipped');
+  }
+  function next() { if (!state.cards.length) return; state.current = (state.current + 1) % state.cards.length; unflip(); show(); }
+  function prev() { if (!state.cards.length) return; state.current = (state.current - 1 + state.cards.length) % state.cards.length; unflip(); show(); }
+  function shuffle() {
+    for (var i = state.cards.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = state.cards[i]; state.cards[i] = state.cards[j]; state.cards[j] = t;
+    }
+    state.current = 0; unflip(); show();
+  }
+  function reset() {
+    applyFilter();
+  }
+
+  function bindControls() {
+    document.getElementById('card').addEventListener('click', flip);
+    document.querySelector('[data-next]').addEventListener('click', next);
+    document.querySelector('[data-prev]').addEventListener('click', prev);
+    document.querySelector('[data-shuffle]').addEventListener('click', shuffle);
+    document.querySelector('[data-reset]').addEventListener('click', reset);
+    document.querySelectorAll('#filters input').forEach(function (cb) {
+      cb.addEventListener('change', applyFilter);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+      if (e.key === 'ArrowLeft')  { e.preventDefault(); prev(); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); next(); }
+      else if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); }
+      else if (e.key === 's' || e.key === 'S') { e.preventDefault(); shuffle(); }
+      else if (e.key === 'r' || e.key === 'R') { e.preventDefault(); reset(); }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script>
+
+</body>
+</html>
