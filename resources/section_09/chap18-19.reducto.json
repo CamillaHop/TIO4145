@@ -1,0 +1,323 @@
+{
+  "duration": 27.110710382461548,
+  "job_id": "7a441f71-c4a4-4750-bbc9-b1c5d1761707",
+  "result": {
+    "result_id": "180d3b64-62e0-4794-8f7c-f6af5b2dd781",
+    "type": "url",
+    "url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/180d3b64-62e0-4794-8f7c-f6af5b2dd781.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T110354Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=913e01fdc6707e8535a19ead4ab91270946284844b5ec7d79fe6d7684356c9eb"
+  },
+  "usage": {
+    "num_pages": 83,
+    "credit_breakdown": {
+      "page": 83.0,
+      "complex": 51.0
+    },
+    "credits": 134.0,
+    "page_billing_breakdown": {
+      "1": [
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "page"
+      ],
+      "4": [
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "complex",
+        "page"
+      ],
+      "8": [
+        "complex",
+        "page"
+      ],
+      "9": [
+        "complex",
+        "page"
+      ],
+      "10": [
+        "page"
+      ],
+      "11": [
+        "complex",
+        "page"
+      ],
+      "12": [
+        "page"
+      ],
+      "13": [
+        "page"
+      ],
+      "14": [
+        "complex",
+        "page"
+      ],
+      "15": [
+        "complex",
+        "page"
+      ],
+      "16": [
+        "complex",
+        "page"
+      ],
+      "17": [
+        "page"
+      ],
+      "18": [
+        "complex",
+        "page"
+      ],
+      "19": [
+        "page"
+      ],
+      "20": [
+        "page"
+      ],
+      "21": [
+        "page"
+      ],
+      "22": [
+        "page"
+      ],
+      "23": [
+        "page"
+      ],
+      "24": [
+        "complex",
+        "page"
+      ],
+      "25": [
+        "complex",
+        "page"
+      ],
+      "26": [
+        "page"
+      ],
+      "27": [
+        "complex",
+        "page"
+      ],
+      "28": [
+        "page"
+      ],
+      "29": [
+        "complex",
+        "page"
+      ],
+      "30": [
+        "complex",
+        "page"
+      ],
+      "31": [
+        "page"
+      ],
+      "32": [
+        "complex",
+        "page"
+      ],
+      "33": [
+        "complex",
+        "page"
+      ],
+      "34": [
+        "complex",
+        "page"
+      ],
+      "35": [
+        "page"
+      ],
+      "36": [
+        "page"
+      ],
+      "37": [
+        "page"
+      ],
+      "38": [
+        "page"
+      ],
+      "39": [
+        "complex",
+        "page"
+      ],
+      "40": [
+        "page"
+      ],
+      "41": [
+        "complex",
+        "page"
+      ],
+      "42": [
+        "complex",
+        "page"
+      ],
+      "43": [
+        "complex",
+        "page"
+      ],
+      "44": [
+        "complex",
+        "page"
+      ],
+      "45": [
+        "page"
+      ],
+      "46": [
+        "page"
+      ],
+      "47": [
+        "page"
+      ],
+      "48": [
+        "page"
+      ],
+      "49": [
+        "page"
+      ],
+      "50": [
+        "complex",
+        "page"
+      ],
+      "51": [
+        "page"
+      ],
+      "52": [
+        "complex",
+        "page"
+      ],
+      "53": [
+        "complex",
+        "page"
+      ],
+      "54": [
+        "complex",
+        "page"
+      ],
+      "55": [
+        "complex",
+        "page"
+      ],
+      "56": [
+        "complex",
+        "page"
+      ],
+      "57": [
+        "complex",
+        "page"
+      ],
+      "58": [
+        "complex",
+        "page"
+      ],
+      "59": [
+        "complex",
+        "page"
+      ],
+      "60": [
+        "complex",
+        "page"
+      ],
+      "61": [
+        "complex",
+        "page"
+      ],
+      "62": [
+        "complex",
+        "page"
+      ],
+      "63": [
+        "complex",
+        "page"
+      ],
+      "64": [
+        "complex",
+        "page"
+      ],
+      "65": [
+        "complex",
+        "page"
+      ],
+      "66": [
+        "complex",
+        "page"
+      ],
+      "67": [
+        "complex",
+        "page"
+      ],
+      "68": [
+        "page"
+      ],
+      "69": [
+        "complex",
+        "page"
+      ],
+      "70": [
+        "complex",
+        "page"
+      ],
+      "71": [
+        "page"
+      ],
+      "72": [
+        "complex",
+        "page"
+      ],
+      "73": [
+        "page"
+      ],
+      "74": [
+        "complex",
+        "page"
+      ],
+      "75": [
+        "complex",
+        "page"
+      ],
+      "76": [
+        "complex",
+        "page"
+      ],
+      "77": [
+        "complex",
+        "page"
+      ],
+      "78": [
+        "page"
+      ],
+      "79": [
+        "complex",
+        "page"
+      ],
+      "80": [
+        "page"
+      ],
+      "81": [
+        "complex",
+        "page"
+      ],
+      "82": [
+        "page"
+      ],
+      "83": [
+        "complex",
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/08a420ec-9c8c-48b2-913c-2fad2cb35f67.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T110354Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=de5bd7f2ddd767db5f42415af1b850d60657972892cdf20a39f4f5d67d95135e",
+  "studio_link": "https://studio.reducto.ai/job/7a441f71-c4a4-4750-bbc9-b1c5d1761707",
+  "response_type": "parse",
+  "parse_mode": null
+}

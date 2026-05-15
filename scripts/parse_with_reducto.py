@@ -86,7 +86,7 @@ REDUCTO_SUMMARIZE_FIGURES = True
 # Timeouts -------------------------------------------------------------------
 
 # Seconds to wait for a single parse. Textbooks legitimately need minutes.
-REDUCTO_TIMEOUT_S = 600000
+REDUCTO_TIMEOUT_S = 60000
 
 # Catch-all overrides --------------------------------------------------------
 # Anything you want to pass through that isn't surfaced as a named knob
@@ -171,12 +171,11 @@ def parse_to_meta(pdf_path: Path, meta_path: Path, client) -> dict:
 
     print(f"    → parsing  (chunk_mode={REDUCTO_CHUNK_MODE}, "
           f"chunk_size={REDUCTO_CHUNK_SIZE}, extraction={REDUCTO_EXTRACTION_MODE})")
-    result = client.parse.run(  # type: ignore[call-arg]
+    result = client.with_options(timeout=REDUCTO_TIMEOUT_S).parse.run(  # type: ignore[call-arg]
         input=upload,
         retrieval=_retrieval_param(),
         settings=_settings_param(),
         enhance=_enhance_param(),
-        experimental_options={"timeout": REDUCTO_TIMEOUT_S},
     )
     meta = _to_serializable(result)
     write_json_atomic(meta_path, meta)

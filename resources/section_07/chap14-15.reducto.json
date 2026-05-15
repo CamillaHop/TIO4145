@@ -1,0 +1,248 @@
+{
+  "duration": 22.727110385894775,
+  "job_id": "74907e51-e3b2-4c96-b17b-fb37750201c3",
+  "result": {
+    "result_id": "e4988e23-8a2c-47c8-8a04-825b8b98efd9",
+    "type": "url",
+    "url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/e4988e23-8a2c-47c8-8a04-825b8b98efd9.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T110158Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=7837f0d2f1bf7fc2ca06356e508fd993e7552b2883b6c69c26ce8a6f1f3903f0"
+  },
+  "usage": {
+    "num_pages": 64,
+    "credit_breakdown": {
+      "page": 64.0,
+      "complex": 33.0
+    },
+    "credits": 97.0,
+    "page_billing_breakdown": {
+      "1": [
+        "page"
+      ],
+      "2": [
+        "complex",
+        "page"
+      ],
+      "3": [
+        "complex",
+        "page"
+      ],
+      "4": [
+        "complex",
+        "page"
+      ],
+      "5": [
+        "complex",
+        "page"
+      ],
+      "6": [
+        "complex",
+        "page"
+      ],
+      "7": [
+        "page"
+      ],
+      "8": [
+        "complex",
+        "page"
+      ],
+      "9": [
+        "complex",
+        "page"
+      ],
+      "10": [
+        "page"
+      ],
+      "11": [
+        "complex",
+        "page"
+      ],
+      "12": [
+        "page"
+      ],
+      "13": [
+        "page"
+      ],
+      "14": [
+        "complex",
+        "page"
+      ],
+      "15": [
+        "page"
+      ],
+      "16": [
+        "page"
+      ],
+      "17": [
+        "page"
+      ],
+      "18": [
+        "page"
+      ],
+      "19": [
+        "page"
+      ],
+      "20": [
+        "complex",
+        "page"
+      ],
+      "21": [
+        "page"
+      ],
+      "22": [
+        "complex",
+        "page"
+      ],
+      "23": [
+        "page"
+      ],
+      "24": [
+        "page"
+      ],
+      "25": [
+        "page"
+      ],
+      "26": [
+        "complex",
+        "page"
+      ],
+      "27": [
+        "page"
+      ],
+      "28": [
+        "page"
+      ],
+      "29": [
+        "page"
+      ],
+      "30": [
+        "page"
+      ],
+      "31": [
+        "page"
+      ],
+      "32": [
+        "complex",
+        "page"
+      ],
+      "33": [
+        "complex",
+        "page"
+      ],
+      "34": [
+        "complex",
+        "page"
+      ],
+      "35": [
+        "complex",
+        "page"
+      ],
+      "36": [
+        "page"
+      ],
+      "37": [
+        "page"
+      ],
+      "38": [
+        "complex",
+        "page"
+      ],
+      "39": [
+        "complex",
+        "page"
+      ],
+      "40": [
+        "complex",
+        "page"
+      ],
+      "41": [
+        "page"
+      ],
+      "42": [
+        "page"
+      ],
+      "43": [
+        "complex",
+        "page"
+      ],
+      "44": [
+        "complex",
+        "page"
+      ],
+      "45": [
+        "complex",
+        "page"
+      ],
+      "46": [
+        "complex",
+        "page"
+      ],
+      "47": [
+        "complex",
+        "page"
+      ],
+      "48": [
+        "page"
+      ],
+      "49": [
+        "complex",
+        "page"
+      ],
+      "50": [
+        "complex",
+        "page"
+      ],
+      "51": [
+        "complex",
+        "page"
+      ],
+      "52": [
+        "complex",
+        "page"
+      ],
+      "53": [
+        "complex",
+        "page"
+      ],
+      "54": [
+        "complex",
+        "page"
+      ],
+      "55": [
+        "complex",
+        "page"
+      ],
+      "56": [
+        "complex",
+        "page"
+      ],
+      "57": [
+        "complex",
+        "page"
+      ],
+      "58": [
+        "page"
+      ],
+      "59": [
+        "page"
+      ],
+      "60": [
+        "page"
+      ],
+      "61": [
+        "page"
+      ],
+      "62": [
+        "page"
+      ],
+      "63": [
+        "page"
+      ],
+      "64": [
+        "page"
+      ]
+    }
+  },
+  "pdf_url": "https://prod-storage20241010144745140900000001.s3.amazonaws.com/769baad0-5c73-4007-ad73-258c66a49a66.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2UOK6OVBOUYL7WYA%2F20260515%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260515T110158Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=1517488d80a1ae0fd3c617d085eb161fe85ade8adaa2e9bb86393f358b9a56be",
+  "studio_link": "https://studio.reducto.ai/job/74907e51-e3b2-4c96-b17b-fb37750201c3",
+  "response_type": "parse",
+  "parse_mode": null
+}
