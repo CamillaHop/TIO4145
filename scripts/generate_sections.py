@@ -51,7 +51,7 @@ def generate_one(section: dict, cfg: dict, ctx: dict, template: str) -> None:
     )
 
     print(f"  calling LLM for {sid}…")
-    data = call_llm_json(prompt, max_tokens=8000)
+    data = call_llm_json(prompt, max_tokens=16000)
 
     if not isinstance(data, dict):
         print(f"  ERROR: LLM returned non-object for {sid}", file=sys.stderr)

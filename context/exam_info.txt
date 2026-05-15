@@ -1,16 +1,87 @@
-# Fill this file with everything you know about the exam.
-# Used by scripts/generate_exam.py to produce a tailored study plan.
+# Used by scripts/generate_exam.py to produce a tailored study plan and is
+# also fed into section generation so the exam_focus field can be honest
+# about what historically appears.
+#
+# Sources: examination papers and solutions in resources/_exams/
+# (2017, 2018, 2019, 2021 + 2021_mcq, 2022, 2023, 2024). The course has
+# evolved from a fully-written exam (2017–2019) into the Inspera-based
+# four-section format used since 2021.
 
-Format: [FILL IN: e.g. 4-hour written exam, no aids; or take-home; or oral]
-Duration (hours): [FILL IN]
-Allowed aids: [FILL IN]
-Grading: [FILL IN: e.g. A–F, pass/fail, percentage]
+Format: 4-hour written digital exam delivered through Inspera. Four sections.
+        Section 1 is multiple choice. Sections 2, 3 and 4 are written;
+        students may answer those by hand on physical sheets that get
+        scanned in (each sub-question has a seven-digit submission code).
+        Question language: English.
+
+Duration (hours): 4
+
+Allowed aids: A specific basic (non-programmable) calculator, plus a
+              formula sheet provided in Inspera. No other printed or
+              hand-written material is allowed.
+              [FORMULA SHEET — paste contents below when available]
+
+Grading: A–F. Section weighting (per the 2024 paper):
+         Section 1 (MCQ)      20%
+         Section 2 (written)  30%
+         Section 3 (written)  20%
+         Section 4 (written)  30%
+         MCQ scoring rule: +2 for a correct answer, −1 for a wrong answer,
+         0 for blank. Students should therefore skip MCQs they cannot
+         eliminate down to a 50/50.
 
 Common question types:
-- [FILL IN]
+- Section 1 (MCQ): conceptual single-answer questions, one per major
+  course topic. Typical pattern is "Which of the following statements
+  about X is FALSE?" or "Which best describes …". Past topics in MCQ have
+  included: valuation of bonds (zero-coupon yields and the term
+  structure), valuation of companies (DCF vs. normalized earnings),
+  capital budgeting (NPV decisions, tax-loss carryforwards), debt markets
+  (expected loss, callable bonds), financial options (delta, risk-neutral
+  probabilities), the flow-to-equity method, sustainable finance, and
+  real options.
+- Sections 2–4 (written): multi-part numerical/derivation problems
+  drawn from one major topic each. Sub-questions typically build on each
+  other (a → b → c → d). Examples:
+    * Bond duration and interest-rate sensitivity; expected growth and
+      earnings under a stated payout/leverage policy.
+    * Two-period binomial option pricing; risk-neutral valuation;
+      American vs. European; effect of dividends; put–call parity.
+    * Capital structure with corporate taxes: filling in tables for
+      levered/unlevered firms using MM, WACC, cost of equity, value of
+      tax shield.
+    * Flow-to-equity / APV / WACC valuation of a project or firm given
+      free cash flows and a target capital structure.
+    * Portfolio choice and the CAPM: computing betas, expected returns,
+      tangency-portfolio weights.
 
-Historically tested topics (if known):
-- [FILL IN]
+Historically tested topics (rough frequency across 2017–2024 papers):
+- Bond pricing, YTM, duration, term structure — appears almost every year.
+- Option pricing (binomial trees, risk-neutral valuation, put–call parity,
+  Black–Scholes intuition, American vs. European, dividend effect) —
+  appears almost every year, often as a large written section.
+- Capital structure with taxes (MM I/II, WACC, value of tax shield,
+  trade-off theory) — appears almost every year, often as a "fill in the
+  table" written task.
+- Valuation methods (DCF, APV, WACC, flow-to-equity, normalized
+  earnings) — appears almost every year.
+- CAPM and portfolio theory (beta, expected returns, efficient frontier,
+  tangency portfolio) — recurring.
+- Capital budgeting decision rules and side effects (tax-loss
+  carryforwards, sensitivity analysis) — recurring.
+- Real options (option to delay, abandon, expand) — recurring since 2021.
+- Sustainable finance — recurring in the MCQ section since 2021.
+- Payout policy (dividends vs. repurchases, irrelevance results) —
+  occasional.
+- Market efficiency / EMH — occasional, usually conceptual MCQ.
 
-Special notes (e.g. mandatory questions, multiple-choice rules):
-[FILL IN]
+Special notes:
+- The exam is delivered in Inspera. Students should practice working
+  numerical problems digitally (no scratch in the printed paper) but can
+  use physical handwritten sheets for derivations in sections 2–4.
+- The MCQ negative-marking rule is unusual; emphasize it in study plans.
+- Several years' papers come with a separate "*_solutions.pdf" and
+  2021/2023/2024 have separate "*_mcq" and "*_mcq_solutions" files —
+  these are the single best signal for the level of precision and
+  notation expected on the written sections.
+- Past exam questions tend to use Berk & DeMarzo notation directly, so
+  any practice questions and worked examples should follow suit.

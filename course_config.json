@@ -77,9 +77,12 @@
     "allowed_aids": "See context/exam_info.txt"
   },
   "llm": {
-    "provider": "openrouter",
+    "provider": "anthropic",
     "openrouter_model": "google/gemma-4-26b-a4b-it:free",
     "anthropic_model": "claude-sonnet-4-6"
+  },
+  "generation": {
+    "source_max_chars": 500000
   },
   "reducto": {
     "documents": [

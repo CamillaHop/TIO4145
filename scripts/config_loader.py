@@ -13,6 +13,15 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+# Load .env from the repo root if python-dotenv is available, so API keys
+# (ANTHROPIC_API_KEY, OPENROUTER_API_KEY, REDUCTO_API_KEY, …) don't need to
+# be exported manually in every shell.
+try:
+    from dotenv import load_dotenv
+    load_dotenv(REPO_ROOT / ".env")
+except ImportError:
+    pass
+
 
 def load_config() -> dict:
     p = REPO_ROOT / "course_config.json"
@@ -140,9 +149,24 @@ def call_llm_json(prompt: str, *, max_tokens: int = 8000):
         return json.loads(retry_raw)
 
 
-def gather_source_text(section_id: str, *, max_chars: int = 80_000) -> str:
+def gather_source_text(section_id: str, *, max_chars: int | None = None) -> str:
     """Concatenate text from all parsed.json / *.parsed.json files in a section's
-    resource folder. Returns empty string if nothing usable is found."""
+    resource folder. Returns empty string if nothing usable is found.
+
+    Truncation cap resolution (first hit wins):
+        1. `max_chars` argument passed by the caller
+        2. SOURCE_MAX_CHARS env var
+        3. `generation.source_max_chars` in course_config.json
+        4. 80_000 fallback (safe for 8K-context free models)
+    """
+    if max_chars is None:
+        env_val = os.environ.get("SOURCE_MAX_CHARS")
+        if env_val:
+            max_chars = int(env_val)
+        else:
+            gen = load_config().get("generation") or {}
+            max_chars = int(gen.get("source_max_chars", 80_000))
+
     folder = REPO_ROOT / "resources" / section_id
     if not folder.exists():
         return ""

@@ -132,36 +132,602 @@ li { margin-bottom: 0.4rem; }
 .section-card .sc-desc { font-size: 0.92rem; color: var(--ink-faded); margin: 0; line-height: 1.45; }
 
 /* ─────────────── Section page ─────────────── */
-.section-content { padding: 2rem 0 4rem; }
-.section-content .summary { font-size: 1.15rem; font-style: italic; color: var(--ink-soft); margin: 0 0 2rem; max-width: 38em; }
 
-.kc-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 0.9rem;
-  margin: 1rem 0 2rem;
+/* Hero — eyebrow + italic-accent title + lede + auto TOC. */
+.section-hero { padding: 3.2rem 0 1.8rem; border-bottom: 1px solid var(--line-soft); margin-bottom: 2rem; }
+.section-hero .eyebrow {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+  margin-bottom: 0.9rem;
 }
-.kc-card {
+.section-hero h1 {
+  font-size: 3.2rem;
+  line-height: 1.04;
+  margin: 0 0 1.1rem;
+  font-weight: 500;
+}
+.section-hero h1 em { font-style: italic; color: var(--accent); font-weight: 400; }
+.section-hero .lede {
+  font-family: var(--serif);
+  font-size: 1.22rem;
+  line-height: 1.6;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0 0 1.4rem;
+  max-width: 42em;
+}
+.section-hero .lede p { margin: 0; }
+
+/* Auto-generated TOC — subsections grouped under their chapter when the
+   section spans multiple textbook chapters. The LLM's "9.1", "10.2" etc.
+   show as a monospace number prefix on the left. */
+.toc {
+  margin-top: 1.4rem;
+  padding: 1rem 0 0;
+  border-top: 1px dashed var(--line-soft);
+}
+.toc .toc-chapter { margin-bottom: 0.9rem; }
+.toc .toc-chapter:last-child { margin-bottom: 0; }
+.toc-chapter-title {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  font-weight: 600;
+  margin: 0.4rem 0 0.55rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--line-soft);
+  border: none;
+  text-decoration: none;
+}
+.toc-chapter-title:hover { color: var(--accent-dark); }
+.toc-chapter-title .toc-num { margin-right: 0.5rem; }
+.toc-chapter > .toc-sub,
+.toc > .toc-sub {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.18rem 0 0.18rem 0.4rem;
+  border: none;
+  font-family: var(--serif);
+  font-size: 0.97rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.toc-chapter > .toc-sub { margin-left: 0.2rem; }
+.toc .toc-sub:hover { color: var(--accent); }
+.toc .toc-num {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  font-weight: 600;
+  min-width: 2.5em;
+}
+.toc .toc-text { flex: 1; }
+/* Layout the sublinks of a chapter as two columns on wider screens */
+.toc-chapter {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .toc-chapter {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.6rem;
+  }
+  .toc-chapter > .toc-chapter-title { grid-column: 1 / -1; }
+}
+/* When there's no chapter divider (single-chapter section), lay out the
+   flat list of subsections in two columns directly. */
+.toc:not(:has(.toc-chapter)) {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.1rem 1.6rem;
+}
+@media (min-width: 720px) {
+  .toc:not(:has(.toc-chapter)) { grid-template-columns: 1fr 1fr; }
+}
+
+.section-content { padding: 0 0 4rem; }
+
+/* ─────────────── Book coverage panel ─────────────── */
+/* At the very top of the section page: a curated reading list mapping
+   this page to specific textbook subsections. Only the subsections the
+   lecture slides cover are listed — anything missing is outside the
+   syllabus. Each subsection links to its corresponding `## X.Y …`
+   heading in the body. */
+.coverage {
+  background: var(--paper-dark);
+  border: 1px solid var(--line-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  padding: 1.4rem 1.6rem 1.5rem;
+  margin: 0 0 2.5rem;
+}
+.coverage > h2 {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+}
+.coverage > h2::before { content: none; }
+.coverage .coverage-sub {
+  margin: 0.25rem 0 1.1rem;
+  font-family: var(--serif);
+  font-size: 0.92rem;
+  font-style: italic;
+  color: var(--ink-faded);
+}
+.cov-chapter { margin-bottom: 1.1rem; }
+.cov-chapter:last-child { margin-bottom: 0; }
+.cov-chapter-title {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+.cov-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.15rem 1.5rem;
+}
+@media (min-width: 720px) {
+  .cov-list { grid-template-columns: 1fr 1fr; }
+}
+.cov-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  padding: 0.28rem 0.2rem;
+  border: none;
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  font-size: 0.98rem;
+  line-height: 1.45;
+  border-radius: 3px;
+  transition: background .12s, color .12s;
+}
+a.cov-item:hover {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: var(--accent);
+}
+.cov-num {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  min-width: 2.6em;
+}
+.cov-text { flex: 1; }
+
+/* Detailed notes — the main flowing body of the page. The LLM provides
+   subsection numbers in headings (e.g. "## 9.1 …"), so we don't auto-
+   number h2 anymore. h1 inside notes is a chapter divider — a strong
+   horizontal band that makes the "Chapter 9 → Chapter 10" transition
+   unmistakable. */
+.notes { margin: 0 0 3rem; }
+
+/* Chapter divider — only appears when a section spans multiple textbook
+   chapters. */
+.notes h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin: 4rem 0 2.4rem;
+  padding: 1.4rem 0 1.2rem;
+  border-top: 3px solid var(--accent);
+  border-bottom: 1px solid var(--line-soft);
+  color: var(--ink);
+  position: relative;
+}
+.notes h1::before {
+  content: 'chapter';
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+.notes h1:first-child { margin-top: 0; }
+
+/* Subsection heading — the LLM writes the textbook number into the
+   heading text (e.g. "9.1 The Dividend-Discount Model"), so no auto
+   badge is needed. */
+.notes h2 {
+  font-size: 1.55rem;
+  font-weight: 500;
+  margin: 2.8rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+.notes h2:first-child { margin-top: 0; }
+.notes h3 { font-size: 1.22rem; margin: 1.9rem 0 0.6rem; color: var(--accent); font-weight: 600; }
+.notes h4 { font-size: 1rem; margin: 1.3rem 0 0.4rem; text-transform: none; letter-spacing: 0; font-family: var(--serif); font-weight: 600; color: var(--ink); }
+.notes p { margin: 0 0 1.05rem; }
+.notes ul, .notes ol { margin: 0.7rem 0 1.3rem; }
+.notes ul li { margin-bottom: 0.55rem; }
+
+/* Circle-numbered ordered lists (textbook step-by-step). */
+.notes ol {
+  counter-reset: nb;
+  list-style: none;
+  padding-left: 0;
+}
+.notes ol > li {
+  counter-increment: nb;
+  position: relative;
+  padding: 0.15rem 0 0.15rem 2.6rem;
+  margin-bottom: 0.8rem;
+  min-height: 1.6rem;
+}
+.notes ol > li::before {
+  content: counter(nb);
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--paper);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+}
+
+/* Drop-cap on the first paragraph of each <h2> section. The JS adds
+   .first-prose; CSS does the rest. */
+.notes p.first-prose::first-letter {
+  float: left;
+  font-family: var(--serif);
+  font-size: 3.6rem;
+  line-height: 0.85;
+  margin: 0.35rem 0.55rem 0 0;
+  color: var(--accent-alt);
+  font-weight: 500;
+}
+
+.notes blockquote {
+  margin: 1.3rem 0;
+  padding: 0.2rem 0 0.2rem 1.2rem;
+  border-left: 3px solid var(--ochre);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.notes table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.4rem 0;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+}
+.notes th { font-family: var(--mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faded); border-bottom: 1px solid var(--line); padding: 0.55rem 0.8rem; text-align: left; background: var(--paper-dark); }
+.notes td { padding: 0.55rem 0.8rem; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+.notes hr { margin: 2.6rem 0; border-top: 1px solid var(--line-soft); }
+
+/* Plain-text formula box — when the LLM wraps a quick aside formula in
+   a <pre> or wants a mono-font equation outside KaTeX. */
+.notes .formula,
+.notes pre.formula {
+  font-family: var(--mono);
+  background: var(--paper-dark);
+  border: 1px solid var(--line-soft);
+  padding: 0.85rem 1.1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  line-height: 1.65;
+  font-size: 0.92rem;
+}
+
+/* Pill row — used in the hero or anywhere we want labelled chips. */
+.pill-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.6rem 0 1rem; }
+.pill {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+
+/* Two-column comparison grid (for embedded comparison cards inside notes). */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin: 1.4rem 0;
+}
+@media (max-width: 720px) { .two-col { grid-template-columns: 1fr; } }
+.two-col > div {
   background: var(--paper-dark);
   border: 1px solid var(--line-soft);
   border-radius: 6px;
   padding: 1rem 1.2rem;
 }
-.kc-card h3 {
-  margin: 0 0 0.4rem;
-  font-size: 1rem;
-  font-family: var(--mono);
-  color: var(--accent);
-  letter-spacing: 0.02em;
+
+/* Glossary section header gets the same band as <h2> in notes for
+   continuity. */
+.glossary { margin-top: 3.5rem; counter-reset: none; }
+.glossary > h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 0 0 1.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--line-soft);
+  position: relative;
 }
-.kc-card p { margin: 0; font-size: 0.94rem; line-height: 1.5; color: var(--ink-soft); }
+.glossary > h2::before {
+  content: 'glossary';
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 0.55rem;
+  text-transform: uppercase;
+}
 
-.notes { background: var(--paper-dark); border-left: 3px solid var(--accent); padding: 1.4rem 1.8rem; border-radius: 0 6px 6px 0; margin: 1rem 0 2rem; }
-.notes h2 { margin-top: 0; }
+/* Key concepts — textbook glossary entries. Stacked single-column for full
+   reading width, with the term acting as a small heading and the definition
+   flowing beneath. Bolded sub-terms inside the definition (the LLM uses **X**
+   when introducing a contrasted concept) get a subtle accent treatment so
+   you immediately spot the *thing being defined* — exactly how a textbook
+   typesets newly introduced vocabulary. */
+.kc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  margin: 1rem 0 2.5rem;
+}
+.kc-card {
+  background: var(--paper-dark);
+  border: 1px solid var(--line-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  padding: 1.1rem 1.5rem 1.25rem;
+}
+.kc-card h3 {
+  margin: 0 0 0.65rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line-soft);
+  font-family: var(--serif);
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+.kc-card h3 .katex { font-size: 1em; }
+.kc-card p {
+  margin: 0 0 0.65rem;
+  font-family: var(--serif);
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: var(--ink-soft);
+}
+.kc-card p:last-child { margin-bottom: 0; }
 
-.mistakes { background: color-mix(in srgb, var(--ochre) 8%, transparent); border-left: 3px solid var(--ochre); padding: 1.2rem 1.6rem; border-radius: 0 6px 6px 0; margin: 1rem 0 2rem; }
-.mistakes h2 { margin-top: 0; color: var(--ink); }
-.mistakes ul { margin: 0.6rem 0 0; }
+/* Defined sub-terms (e.g. "**Idiosyncratic** ... **Systematic** ...") sit
+   between regular prose, so we make them feel like textbook glossary
+   keywords: full ink colour, slightly heavier weight, and a thin accent
+   underline that marks them as defined-here rather than just emphasized. */
+.kc-card strong {
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
+/* Lists inside a KC card — each item gets its own clear block, so a
+   comparison like "Idiosyncratic vs. Systematic risk" splits visibly into
+   two parallel definitions instead of merging into one wall of prose. */
+.kc-card ul,
+.kc-card ol {
+  margin: 0.5rem 0 0.5rem;
+  padding-left: 0;
+  list-style: none;
+}
+.kc-card li {
+  position: relative;
+  margin: 0.45rem 0;
+  padding: 0.55rem 0 0.55rem 1.4rem;
+  border-top: 1px solid var(--line-soft);
+  line-height: 1.7;
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+}
+.kc-card li:first-child { border-top: none; padding-top: 0.1rem; }
+.kc-card li:last-child  { padding-bottom: 0.1rem; }
+.kc-card li::before {
+  content: '';
+  position: absolute;
+  left: 0.35rem;
+  top: 1em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.kc-card li:first-child::before { top: 0.55em; }
+.kc-card li > strong:first-child {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+/* Definition-list variant — if the prompt ever emits <dl><dt>term</dt>
+   <dd>definition</dd>, render it as a side-by-side glossary entry on
+   wide screens, stacked on narrow ones. */
+.kc-card dl {
+  display: grid;
+  grid-template-columns: minmax(6rem, 11rem) 1fr;
+  gap: 0.4rem 1rem;
+  margin: 0.5rem 0;
+}
+.kc-card dt {
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+.kc-card dd { margin: 0; color: var(--ink-soft); line-height: 1.7; }
+@media (max-width: 560px) {
+  .kc-card dl { grid-template-columns: 1fr; gap: 0.1rem 0; }
+  .kc-card dd { margin-bottom: 0.6rem; }
+}
+
+/* Inline math: a hair of side-padding so it doesn't fuse into adjacent words. */
+.kc-card .katex { padding: 0 0.08em; }
+/* Display math inside a card gets its own pulled-out block. */
+.kc-card .katex-display {
+  margin: 0.9rem 0;
+  padding: 0.7rem 1rem;
+  background: var(--paper);
+  border-left-width: 2px;
+}
+.kc-card .katex-display:first-child { margin-top: 0.2rem; }
+.kc-card .katex-display:last-child  { margin-bottom: 0.2rem; }
+
+.mistakes {
+  margin: 3rem 0 2rem;
+}
+.mistakes h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 0 0 1.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--line-soft);
+  color: var(--ink);
+  position: relative;
+}
+.mistakes h2::before {
+  content: 'common pitfalls';
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--ochre);
+  margin-bottom: 0.55rem;
+  text-transform: uppercase;
+}
+.mistakes ul { margin: 0; padding-left: 0; list-style: none; }
+.mistakes li {
+  position: relative;
+  padding: 0.85rem 1.1rem 0.85rem 2.6rem;
+  margin-bottom: 0.5rem;
+  background: color-mix(in srgb, var(--ochre) 6%, transparent);
+  border-left: 3px solid var(--ochre);
+  border-radius: 0 4px 4px 0;
+  color: var(--ink);
+  line-height: 1.7;
+}
+.mistakes li::before {
+  content: '!';
+  position: absolute;
+  left: 0.85rem;
+  top: 0.95rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: var(--ochre);
+  color: var(--paper);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+/* ─────────────── KaTeX overrides ─────────────── */
+.katex { font-size: 1em; }
+.katex-display {
+  margin: 1.4rem 0;
+  padding: 1rem 1.2rem;
+  background: color-mix(in srgb, var(--accent) 4%, transparent);
+  border-left: 3px solid color-mix(in srgb, var(--accent) 50%, transparent);
+  border-radius: 0 4px 4px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.katex-display > .katex { font-size: 1.1em; }
+/* Numbered equation tag — push it flush right and dim slightly */
+.katex-display .tag { color: var(--ink-faded); font-family: var(--mono); font-size: 0.92em; }
+/* Use --ink so math inherits the page text colour in both light & dark modes */
+.katex, .katex .mord, .katex .mop, .katex .mbin, .katex .mrel,
+.katex .mopen, .katex .mclose, .katex .mpunct { color: var(--ink); }
+/* When a paragraph immediately follows display math, tighten the gap so
+   the prose feels like it's continuing the equation, not starting fresh. */
+.katex-display + p { margin-top: 0.4rem; }
+
+/* Literal $ outside math (e.g. "\$36.00" currency) — wrapped in a span by
+   renderMarkdown so KaTeX can't confuse it with a math delimiter. */
+.lit-dollar { font-family: inherit; }
+
+/* ─────────────── Textbook callouts ─────────────── */
+.callout {
+  margin: 1.4rem 0;
+  padding: 0.9rem 1.2rem 1rem;
+  border-radius: 4px;
+  border-left: 3px solid var(--line);
+  background: var(--paper-dark);
+}
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-faded);
+  margin-bottom: 0.55rem;
+}
+.callout-body { font-size: 0.97rem; line-height: 1.6; }
+.callout-body p:last-child,
+.callout-body ul:last-child,
+.callout-body ol:last-child { margin-bottom: 0; }
+.callout-body .katex-display { margin: 0.8rem 0; }
+.callout-body .katex-display:first-child { margin-top: 0; }
+.callout-body .katex-display:last-child  { margin-bottom: 0; }
+
+.callout-example    { border-left-color: var(--accent);     background: color-mix(in srgb, var(--accent) 5%, var(--paper-dark)); }
+.callout-example    .callout-label { color: var(--accent); }
+.callout-definition { border-left-color: var(--green);      background: color-mix(in srgb, var(--green) 6%, var(--paper-dark)); }
+.callout-definition .callout-label { color: var(--green); }
+.callout-theorem    { border-left-color: var(--accent-alt); background: color-mix(in srgb, var(--accent-alt) 6%, var(--paper-dark)); }
+.callout-theorem    .callout-label { color: var(--accent-alt); }
+.callout-proof      { border-left-color: var(--ink-faded);  background: var(--paper-dark); }
+.callout-proof      .callout-label { color: var(--ink-faded); }
+.callout-rule       { border-left-color: var(--accent-dark); }
+.callout-rule       .callout-label { color: var(--accent-dark); }
+.callout-insight    { border-left-color: var(--ochre);      background: color-mix(in srgb, var(--ochre) 7%, var(--paper-dark)); }
+.callout-insight    .callout-label { color: var(--ochre); }
+.callout-warning    { border-left-color: var(--accent-alt); background: color-mix(in srgb, var(--accent-alt) 8%, transparent); }
+.callout-warning    .callout-label { color: var(--accent-alt); }
+.callout-note       { border-left-color: var(--line); }
 
 /* ─────────────── Flashcards (refactored, no MCQ) ─────────────── */
 .fc-toolbar {

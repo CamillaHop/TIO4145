@@ -20,19 +20,30 @@
   </div>
 </nav>
 
-<main class="container section-content" id="main">
-  <p class="eyebrow" id="section-id">…</p>
-  <h1 id="section-title">Loading…</h1>
-  <p class="summary" id="section-summary"></p>
+<header class="hero section-hero">
+  <div class="container">
+    <p class="eyebrow" id="section-id">…</p>
+    <h1 id="section-title">Loading…</h1>
+    <p class="lede" id="section-summary"></p>
+    <nav class="toc" id="section-toc" hidden></nav>
+  </div>
+</header>
 
-  <section id="key-concepts-wrap" hidden>
-    <h2>Key concepts</h2>
-    <div class="kc-grid" id="kc-grid"></div>
+<main class="container section-content" id="main">
+
+  <section class="coverage" id="coverage-wrap" hidden>
+    <h2>From the textbook</h2>
+    <p class="coverage-sub">Subsections the lecture slides cover. Anything not listed is outside the syllabus.</p>
+    <div id="coverage-body"></div>
   </section>
 
   <section class="notes" id="notes-wrap" hidden>
-    <h2>Detailed notes</h2>
     <div id="notes-body"></div>
+  </section>
+
+  <section class="glossary" id="key-concepts-wrap" hidden>
+    <h2>Key concepts</h2>
+    <div class="kc-grid" id="kc-grid"></div>
   </section>
 
   <section class="mistakes" id="mistakes-wrap" hidden>
@@ -49,6 +60,82 @@
 
 <script>
 (function () {
+  // Build a table-of-contents from h1 (chapter divider) and h2 (subsection)
+  // headings inside notes-body. Subsections are listed under their chapter.
+  // The LLM provides the subsection numbers in the h2 text itself (e.g.
+  // "9.1 The Dividend-Discount Model"), so we split that off to display
+  // it in a colored monospace prefix.
+  function buildTOC() {
+    var body = document.getElementById('notes-body');
+    var toc  = document.getElementById('section-toc');
+    if (!body || !toc) return;
+    var nodes = body.querySelectorAll('h1, h2');
+    if (!nodes.length) return;
+
+    function slugify(text, fallback) {
+      return (text || '').toLowerCase()
+        .replace(/[^a-z0-9.]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .slice(0, 60) || fallback;
+    }
+    // Pull off a leading "9.1 ", "10.2.1 " or "Chapter 9 — " prefix.
+    function splitPrefix(text) {
+      var t = (text || '').trim();
+      var m = t.match(/^([0-9]+(?:\.[0-9]+)+)\s+(.+)$/);
+      if (m) return { num: m[1], rest: m[2] };
+      var c = t.match(/^Chapter\s+\d+\s*[—–-]\s*(.+)$/i);
+      if (c) return { num: t.match(/^Chapter\s+\d+/i)[0], rest: c[1] };
+      return { num: '', rest: t };
+    }
+
+    var html = '';
+    var inChapter = false;
+    var idx = 0;
+
+    nodes.forEach(function (h) {
+      idx++;
+      var parts = splitPrefix(h.textContent || '');
+      var id = (h.tagName === 'H1' ? 'ch-' : 'sec-') +
+               slugify(h.textContent, 'topic-' + idx) + '-' + idx;
+      h.id = id;
+
+      if (h.tagName === 'H1') {
+        if (inChapter) html += '</div>';
+        html +=
+          '<div class="toc-chapter">' +
+            '<a class="toc-chapter-title" href="#' + id + '">' +
+              (parts.num ? '<span class="toc-num">' + StudySite.escapeHtml(parts.num) + '</span>' : '') +
+              '<span class="toc-text">' + StudySite.escapeHtml(parts.rest) + '</span>' +
+            '</a>';
+        inChapter = true;
+      } else {
+        // h2 subsection
+        html +=
+          '<a class="toc-sub" href="#' + id + '">' +
+            (parts.num ? '<span class="toc-num">' + StudySite.escapeHtml(parts.num) + '</span>' : '') +
+            '<span class="toc-text">' + StudySite.escapeHtml(parts.rest) + '</span>' +
+          '</a>';
+      }
+    });
+    if (inChapter) html += '</div>';
+    toc.innerHTML = html;
+    toc.hidden = false;
+  }
+
+  // Add a .first-prose class to the first <p> following each <h2> that isn't
+  // a callout. Used by CSS to apply a drop-cap.
+  function markDropcaps() {
+    var body = document.getElementById('notes-body');
+    if (!body) return;
+    body.querySelectorAll('h2').forEach(function (h2) {
+      var n = h2.nextElementSibling;
+      // Walk forward through h3/h4 stacks if the LLM nests sub-headings
+      // before reaching prose.
+      while (n && /^H[3-6]$/.test(n.tagName)) { n = n.nextElementSibling; }
+      if (n && n.tagName === 'P') n.classList.add('first-prose');
+    });
+  }
+
   function init() {
     StudySite.loadConfig().then(function (cfg) {
       StudySite.applyCourseChrome(cfg);
@@ -58,11 +145,17 @@
         showError('No section id in URL. Use <code>?id=section_01</code>.');
         return;
       }
-      document.getElementById('section-id').textContent = id;
+      document.getElementById('section-id').textContent = id.replace('_', ' · ');
       return StudySite.ensureMarkdown().then(function () {
         return StudySite.loadSection(id);
       }).then(function (data) {
         render(data);
+        buildTOC();
+        renderBookCoverage(data.book_coverage);
+        markDropcaps();
+        StudySite.ensureKatex().then(function () {
+          StudySite.renderMath(document.body);
+        });
       }).catch(function (err) {
         showError('No content generated for <code>' + StudySite.escapeHtml(id) + '</code> yet. Run <code>bash scripts/generate_all.sh</code>.<br><br><em>' + StudySite.escapeHtml(err.message) + '</em>');
       });
@@ -70,38 +163,100 @@
   }
 
   function render(data) {
-    document.getElementById('section-title').textContent = data.title || '';
-    document.getElementById('section-summary').textContent = data.summary || '';
+    // Title — render inline markdown so the prompt can italicise one word
+    // for the "hero accent" effect (e.g. "Valuing _Stocks_ and CAPM").
+    document.getElementById('section-title').innerHTML =
+      StudySite.renderInline(data.title || '');
+
+    if (data.summary) {
+      document.getElementById('section-summary').innerHTML =
+        StudySite.renderInline(data.summary);
+    }
+
+    if (data.detailed_notes) {
+      document.getElementById('notes-body').innerHTML =
+        StudySite.renderMarkdown(data.detailed_notes);
+      document.getElementById('notes-wrap').hidden = false;
+    }
 
     var kcs = Array.isArray(data.key_concepts) ? data.key_concepts : [];
     if (kcs.length) {
       var grid = document.getElementById('kc-grid');
       grid.innerHTML = kcs.map(function (k) {
         if (typeof k === 'string') {
-          return '<div class="kc-card"><p>' + StudySite.escapeHtml(k) + '</p></div>';
+          return '<div class="kc-card"><p>' + StudySite.renderInline(k) + '</p></div>';
         }
         return (
           '<div class="kc-card">' +
-            '<h3>' + StudySite.escapeHtml(k.concept || '') + '</h3>' +
-            '<p>' + StudySite.escapeHtml(k.explanation || '') + '</p>' +
+            '<h3>' + StudySite.renderInline(k.concept || '') + '</h3>' +
+            // Use full markdown rendering so the LLM can put bullets,
+            // display math, etc. inside the explanation.
+            StudySite.renderMarkdown(k.explanation || '') +
           '</div>'
         );
       }).join('');
       document.getElementById('key-concepts-wrap').hidden = false;
     }
 
-    if (data.detailed_notes) {
-      document.getElementById('notes-body').innerHTML = StudySite.renderMarkdown(data.detailed_notes);
-      document.getElementById('notes-wrap').hidden = false;
-    }
-
     var mistakes = Array.isArray(data.common_mistakes) ? data.common_mistakes : [];
     if (mistakes.length) {
       document.getElementById('mistakes-list').innerHTML = mistakes.map(function (m) {
-        return '<li>' + StudySite.escapeHtml(m) + '</li>';
+        return '<li>' + StudySite.renderInline(m) + '</li>';
       }).join('');
       document.getElementById('mistakes-wrap').hidden = false;
     }
+  }
+
+  // Render the "From the textbook" panel at the top. Each subsection entry
+  // is a link, resolved against the h2 elements that buildTOC has already
+  // tagged with stable ids. We resolve by matching the leading "X.Y" of
+  // the h2 text against the subsection.number.
+  function renderBookCoverage(coverage) {
+    if (!Array.isArray(coverage) || !coverage.length) return;
+    var wrap = document.getElementById('coverage-wrap');
+    var body = document.getElementById('coverage-body');
+    if (!wrap || !body) return;
+
+    // Build a lookup from "9.1" → h2 id, scanning notes-body.
+    var anchors = {};
+    var notes = document.getElementById('notes-body');
+    if (notes) {
+      notes.querySelectorAll('h2[id]').forEach(function (h) {
+        var m = (h.textContent || '').trim().match(/^([0-9]+(?:\.[0-9]+)+)\b/);
+        if (m) anchors[m[1]] = h.id;
+      });
+    }
+
+    var html = coverage.map(function (ch) {
+      var subs = Array.isArray(ch.subsections) ? ch.subsections : [];
+      var entries = subs.map(function (s) {
+        var num   = StudySite.escapeHtml(s.number || '');
+        var title = StudySite.renderInline(s.title || '');
+        var aid   = s.number && anchors[s.number];
+        var inner =
+          '<span class="cov-num">' + num + '</span>' +
+          '<span class="cov-text">' + title + '</span>';
+        return aid
+          ? '<a class="cov-item" href="#' + aid + '">' + inner + '</a>'
+          : '<div class="cov-item">' + inner + '</div>';
+      }).join('');
+      return (
+        '<div class="cov-chapter">' +
+          '<div class="cov-chapter-title">' +
+            StudySite.escapeHtml(ch.chapter || '') +
+          '</div>' +
+          '<div class="cov-list">' + entries + '</div>' +
+        '</div>'
+      );
+    }).join('');
+
+    body.innerHTML = html;
+    wrap.hidden = false;
+
+    // The hero auto-TOC duplicates the coverage panel — hide it when
+    // book_coverage is doing the job.
+    var heroToc = document.getElementById('section-toc');
+    if (heroToc) heroToc.hidden = true;
   }
 
   function showError(html) {
