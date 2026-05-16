@@ -98,7 +98,11 @@ def call_llm(
     Returns the model's text response with markdown fences stripped.
     """
     cfg = load_config().get("llm", {})
-    provider = provider or cfg.get("provider", "openrouter")
+    # Provider resolution priority: explicit kwarg → PROVIDER env var → config.
+    # The env var path is the one-shot escape hatch when a single section needs
+    # a different provider (e.g. a >200k-context model via OpenRouter while
+    # everything else stays on Anthropic).
+    provider = provider or os.environ.get("PROVIDER") or cfg.get("provider", "openrouter")
     model_override = model or os.environ.get("MODEL")
 
     if provider == "openrouter":
@@ -172,10 +176,17 @@ def call_llm(
         except ImportError:
             sys.exit("ERROR: anthropic package not installed. Run: pip install anthropic")
         model = model_override or cfg.get("anthropic_model", "claude-sonnet-4-6")
+        # Always send the 1M-context beta header. Requests under 200k input
+        # tokens are billed at standard rates regardless; the header only
+        # changes pricing for the slice ABOVE 200k. This lets oversized
+        # sections (like section_01 ≈ 240k tokens) succeed without any
+        # per-section configuration, while keeping every smaller section
+        # on the standard pricing tier.
         resp = anthropic.Anthropic(api_key=key).messages.create(
             model=model,
             max_tokens=max_tokens,
             messages=[{"role": "user", "content": prompt}],
+            extra_headers={"anthropic-beta": "context-1m-2025-08-07"},
         )
         return _strip_fences(resp.content[0].text)
 

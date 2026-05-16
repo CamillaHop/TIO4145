@@ -63,12 +63,22 @@
       grid.innerHTML = '<div class="empty-state"><p>No sections defined yet. Edit <code>course_config.json</code>.</p></div>';
       return;
     }
-    grid.innerHTML = sections.map(function (s) {
+    grid.innerHTML = sections.map(function (s, i) {
+      // Pull a numeric prefix off the section id when present
+      // ("section_03" → "03"); fall back to the running index.
+      var num = (String(s.id || '').match(/(\d+)$/) || [, String(i + 1).padStart(2, '0')])[1];
       return (
         '<a class="section-card" href="section.html?id=' + encodeURIComponent(s.id) + '">' +
-          '<span class="sc-id">' + StudySite.escapeHtml(s.id) + '</span>' +
-          '<div class="sc-title">' + StudySite.escapeHtml(s.title || s.id) + '</div>' +
-          '<p class="sc-desc">' + StudySite.escapeHtml(s.description || '') + '</p>' +
+          '<span class="sc-num" aria-hidden="true">' +
+            '<svg viewBox="0 0 60 100" preserveAspectRatio="xMidYMid meet">' +
+              '<text x="50%" y="92" text-anchor="middle">' + StudySite.escapeHtml(num) + '</text>' +
+            '</svg>' +
+          '</span>' +
+          '<div class="sc-body">' +
+            '<div class="sc-title">' + StudySite.escapeHtml(s.title || s.id) + '</div>' +
+            '<p class="sc-desc">' + StudySite.escapeHtml(s.description || '') + '</p>' +
+          '</div>' +
+          '<svg class="sc-arrow" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>' +
         '</a>'
       );
     }).join('');

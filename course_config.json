@@ -83,7 +83,7 @@
     "anthropic_model": "claude-sonnet-4-6"
   },
   "generation": {
-    "source_max_chars": 500000
+    "source_max_chars": 1000000
   },
   "reducto": {
     "documents": [

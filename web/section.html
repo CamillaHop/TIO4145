@@ -122,20 +122,6 @@
     toc.hidden = false;
   }
 
-  // Add a .first-prose class to the first <p> following each <h2> that isn't
-  // a callout. Used by CSS to apply a drop-cap.
-  function markDropcaps() {
-    var body = document.getElementById('notes-body');
-    if (!body) return;
-    body.querySelectorAll('h2').forEach(function (h2) {
-      var n = h2.nextElementSibling;
-      // Walk forward through h3/h4 stacks if the LLM nests sub-headings
-      // before reaching prose.
-      while (n && /^H[3-6]$/.test(n.tagName)) { n = n.nextElementSibling; }
-      if (n && n.tagName === 'P') n.classList.add('first-prose');
-    });
-  }
-
   function init() {
     StudySite.loadConfig().then(function (cfg) {
       StudySite.applyCourseChrome(cfg);
@@ -152,7 +138,6 @@
         render(data);
         buildTOC();
         renderBookCoverage(data.book_coverage);
-        markDropcaps();
         StudySite.ensureKatex().then(function () {
           StudySite.renderMath(document.body);
         });
