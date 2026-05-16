@@ -1,6 +1,6 @@
 {
-  "buildCommand": "",
-  "outputDirectory": ".",
+  "buildCommand": "node scripts/vercel_build.mjs",
+  "outputDirectory": "dist",
   "functions": {
     "api/chat.js": { "maxDuration": 120 }
   }

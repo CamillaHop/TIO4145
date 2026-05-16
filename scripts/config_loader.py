@@ -197,70 +197,130 @@ _VALID_HEX = frozenset("0123456789abcdefABCDEF")
 
 def _repair_latex_escapes(raw: str) -> str:
     r"""Walk left-to-right through JSON source and fix unpaired backslashes
-    that would otherwise break or silently corrupt json.loads.
+    that would otherwise break or silently corrupt json.loads, while
+    leaving genuine JSON escapes — \\n, \\t, \\b, \\f, \\r — intact when
+    they're used for actual newlines/tabs/etc.
 
-    The hard cases this has to handle:
-      \\sum   — already-correct: a literal-backslash escape followed by "sum".
-                Must NOT be touched. Regex-based approaches break here.
-      \sum    — bare LaTeX, the \s escape is invalid JSON → hard error.
-                Repair to \\sum.
-      \frac   — bare LaTeX. \f IS a valid JSON escape (form feed) so json.loads
-                won't error, but it silently corrupts content. Repair anyway
-                whenever \b\f\n\r\t is followed by a letter — those letters
-                always start LaTeX commands in this codebase, never genuine
-                control chars.
-      \n      — at end-of-string or before punctuation: keep as newline escape.
-      \uXXXX  — keep as unicode escape.
+    The function tracks whether we are currently INSIDE a `$...$` /
+    `$$...$$` math block. Different rules apply:
 
-    The state machine consumes valid escape sequences as units (so the
-    second \\ of a properly-escaped pair is never independently inspected),
-    and repairs the rest. Safe on already-valid JSON: the only paths that
-    mutate the string are reached only when an unpaired \\X is encountered."""
+      INSIDE math:
+        - \\b \\f \\n \\r \\t  → LaTeX commands (\\beta, \\frac, \\nabla,
+                                 \\rho, \\text). Repair the backslash so
+                                 json.loads doesn't silently consume it.
+        - Any other letter      → LaTeX, repair.
+
+      OUTSIDE math:
+        - \\b \\f \\n \\r \\t  → JSON escape sequences (newline, tab, etc.).
+                                 PRESERVE as-is. This is the critical
+                                 case — repairing these would corrupt
+                                 real newlines into literal "\\n" text.
+        - Other invalid letters → \\s, \\D, \\R etc. aren't valid JSON
+                                 escapes → must repair to avoid parse error.
+
+      ANYWHERE:
+        - \\" \\\\ \\/  → valid JSON escapes, preserve.
+        - \\uXXXX        → unicode escape, preserve.
+        - \\$            → escaped dollar (currency). Preserve; do NOT
+                          toggle math state (so currency in prose like
+                          "\\$36.00" can't accidentally open a math block).
+
+    The state machine consumes valid pair-escapes as units, so the second
+    \\ of a properly-escaped `\\\\sum` is never independently inspected."""
     out: list[str] = []
     i = 0
     n = len(raw)
+    in_math = False
+    math_open_len = 0   # 1 for $...$, 2 for $$...$$
     while i < n:
         c = raw[i]
-        if c != "\\":
-            out.append(c)
-            i += 1
-            continue
-        # Lone trailing backslash → double it so JSON doesn't choke.
-        if i + 1 >= n:
+        if c == "\\":
+            # Lone trailing backslash → double it so JSON doesn't choke.
+            if i + 1 >= n:
+                out.append("\\\\")
+                i += 1
+                continue
+            nxt = raw[i + 1]
+            # Valid pair-consume escapes: \" \\ \/ — emit both, skip past them.
+            if nxt in '"\\/':
+                out.append(c)
+                out.append(nxt)
+                i += 2
+                continue
+            # \uXXXX — emit all 6, skip past them.
+            if (
+                nxt == "u"
+                and i + 5 < n
+                and all(ch in _VALID_HEX for ch in raw[i + 2 : i + 6])
+            ):
+                out.append(raw[i : i + 6])
+                i += 6
+                continue
+            # \$ — escaped dollar (currency in prose). \$ isn't a valid
+            # JSON escape, so we repair to \\$ which json.loads decodes to
+            # the literal "\$" — that lets the JS renderer wrap it in a
+            # <span>$</span> later so KaTeX doesn't mistake it for a math
+            # delimiter. Also: we consume both chars here so the $ never
+            # enters the math-state-tracking branch below.
+            if nxt == "$":
+                out.append("\\\\")
+                out.append(nxt)
+                i += 2
+                continue
+            # \b \f \n \r \t — context-sensitive.
+            if nxt in "bfnrt":
+                if in_math:
+                    # Inside math, this starts a LaTeX command — repair.
+                    out.append("\\\\")
+                    out.append(nxt)
+                else:
+                    # Outside math, it's a real JSON escape — preserve.
+                    out.append(c)
+                    out.append(nxt)
+                i += 2
+                continue
+            # Anything else: \X with X not in the valid-escape set.
+            # Always repair (\s, \D, \R, \! etc.) so json.loads doesn't
+            # error, AND so LaTeX commands inside math survive.
             out.append("\\\\")
+            out.append(nxt)
+            i += 2
+            continue
+
+        # Track math state on unescaped $.
+        if c == "$":
+            if not in_math:
+                if i + 1 < n and raw[i + 1] == "$":
+                    in_math = True
+                    math_open_len = 2
+                    out.append("$$")
+                    i += 2
+                    continue
+                in_math = True
+                math_open_len = 1
+                out.append("$")
+                i += 1
+                continue
+            # Closing — match the opening delimiter length.
+            if math_open_len == 2 and i + 1 < n and raw[i + 1] == "$":
+                in_math = False
+                math_open_len = 0
+                out.append("$$")
+                i += 2
+                continue
+            if math_open_len == 1:
+                in_math = False
+                math_open_len = 0
+                out.append("$")
+                i += 1
+                continue
+            # Mismatched (e.g. single $ inside a $$ block): treat as content.
+            out.append("$")
             i += 1
             continue
-        nxt = raw[i + 1]
-        # Valid pair-consume escapes: \\ \" \/ — emit both, skip past them.
-        if nxt in '"\\/':
-            out.append(c)
-            out.append(nxt)
-            i += 2
-            continue
-        # \uXXXX — emit all 6, skip past them.
-        if (
-            nxt == "u"
-            and i + 5 < n
-            and all(ch in _VALID_HEX for ch in raw[i + 2 : i + 6])
-        ):
-            out.append(raw[i : i + 6])
-            i += 6
-            continue
-        # \b \f \n \r \t — control-char escapes. Keep ONLY if not followed
-        # by a letter (which would mean it's actually LaTeX: \beta \frac
-        # \nabla \rho \text). Genuine control-char escapes are followed by
-        # end-of-string, whitespace, punctuation, etc.
-        if nxt in "bfnrt" and not (i + 2 < n and raw[i + 2].isalpha()):
-            out.append(c)
-            out.append(nxt)
-            i += 2
-            continue
-        # Anything else: this backslash starts an invalid (or LaTeX-style)
-        # escape. Repair by emitting "\\" + nxt so json.loads sees a valid
-        # \\ + literal char.
-        out.append("\\\\")
-        out.append(nxt)
-        i += 2
+
+        out.append(c)
+        i += 1
     return "".join(out)
 
 

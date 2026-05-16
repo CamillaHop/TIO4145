@@ -1,0 +1,92 @@
+[
+  {
+    "front": "What are the three conditions that define perfect capital markets?",
+    "back": "(1) All securities trade at competitive prices equal to the present value of their cash flows; (2) No taxes, transaction costs, or issuance costs; (3) Financing decisions do not alter investment cash flows or reveal new information.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "State Modigliani-Miller Proposition I (no taxes) in equation form.",
+    "back": "$V_L = V_U$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "According to MM Proposition II (no taxes), how does the cost of levered equity depend on leverage?",
+    "back": "$r_E = r_U + (D/E)(r_U - r_D)$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the after-tax WACC formula when corporate taxes are present?",
+    "back": "$r_{wacc} = (E/(E+D)) r_E + (D/(E+D)) r_D (1 - \\tau_c)$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Define the interest tax shield.",
+    "back": "The reduction in corporate taxes resulting from the deductibility of interest expense: Interest Tax Shield = $\\tau_c \\times  Interest Payments.$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What does MM Proposition I with taxes state about firm value?",
+    "back": "$V_L = V_U + PV(Interest Tax Shield)$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "For permanent debt with a constant corporate tax rate, what is the present value of the interest tax shield?",
+    "back": "PV(Tax Shield) = $\\tau_c \\cdot  D$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Give the two alternative forms of MM Proposition II with taxes, depending on the assumed risk of the tax shield.",
+    "back": "Case 1 (target D/E, tax shield as risky as unlevered firm): $r_E = r_U + (D/E)(r_U - r_D)$. Case 2 (permanent debt, tax shield as risky as debt): $r_E = r_U + (D/E)(r_U - r_D)(1 - \\tau_c).$",
+    "difficulty": "hard"
+  },
+  {
+    "front": "What is the effective tax advantage of debt $\\tau^*$ when personal taxes are considered?",
+    "back": "$\\tau * = 1 - [(1 - \\tau_c)(1 - \\tau_e)] / (1 - \\tau_i)$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Explain the concept of homemade leverage and its relevance to MM Proposition I.",
+    "back": "Individual investors can replicate any firm's capital structure by personal borrowing or lending; if homemade leverage is a perfect substitute, investors will not pay a premium for a particular capital structure, supporting the irrelevance result of MM Proposition I.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "In a leveraged recapitalization with fairly priced securities, who captures the full present value of the interest tax shield?",
+    "back": "The original shareholders capture the full PV of the interest tax shield, either as a higher repurchase price if they sell or as a capital gain if they hold their shares.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How do you compute unlevered beta ($\\beta_U$) from equity beta ($\\beta_E$), debt beta ($\\beta_D$), and the market values of equity and debt?",
+    "back": "$\\beta_U = (E/(E+D)) \\beta_E + (D/(E+D)) \\beta_D$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "If debt is approximately risk-free ($\\beta_D$ ≈ 0), what is the simplified relationship between levered and unlevered beta?",
+    "back": "$\\beta_E = \\beta_U (1 + D/E)$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Briefly describe the low leverage puzzle and one explanation for it.",
+    "back": "Empirically, firms carry far less debt than a pure tax-shield model predicts; one explanation is the cost of financial distress, which offsets the tax benefit of debt and leads to the trade-off theory.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Using MM Proposition II (no taxes), calculate $r_E given r_U = 12$%, $r_D = 6$%, D/E = 0.5.",
+    "back": "$r_E = 12$% + 0.5$\\times (12$% - 6%) = 12% + 3% = 15%",
+    "difficulty": "easy"
+  },
+  {
+    "front": "A firm has perpetual debt $D = \\$200$ million and a corporate tax rate $\\tau_c = 25\\%$. What is the present value of its interest tax shield?",
+    "back": "$\\text{PV(Tax Shield)} = \\tau_c \\cdot D = 0.25 \\times \\$200 \\text{ million} = \\$50 \\text{ million}$.",
+    "difficulty": "easy"
+  },
+  {
+    "difficulty": "hard",
+    "front": "Derive the MM Proposition II (no taxes) formula $r_E = r_U + (D/E)(r_U - r_D)$ starting from $V_L = V_U$ and the WACC identity.",
+    "back": "Without taxes, MM I gives $V_L = V_U$, so the pre-tax WACC equals the unlevered cost of capital: $\\dfrac{E}{E+D} r_E + \\dfrac{D}{E+D} r_D = r_U$. Multiply through by $(E+D)/E$: $r_E + \\dfrac{D}{E} r_D = \\dfrac{E+D}{E} r_U = r_U + \\dfrac{D}{E} r_U$. Rearranging: $r_E = r_U + \\dfrac{D}{E}(r_U - r_D)$. Cost of equity rises linearly in $D/E$ because shareholders bear more financial risk as leverage grows."
+  },
+  {
+    "difficulty": "hard",
+    "front": "Under the Miller (1977) framework with personal taxes, when does the corporate tax advantage of debt $\\tau^*$ collapse to zero?",
+    "back": "$\\tau^* = 1 - \\dfrac{(1 - \\tau_c)(1 - \\tau_e)}{1 - \\tau_i}$. It equals zero when $(1 - \\tau_c)(1 - \\tau_e) = (1 - \\tau_i)$, i.e. when personal taxes on interest income exactly offset the corporate tax savings from interest deductibility. In that case the marginal investor is indifferent between debt and equity, eliminating the firm-level incentive to lever up. Miller argued aggregate capital structure adjusts until the marginal investor faces this equality."
+  }
+]

@@ -9,8 +9,10 @@
 // Auth: requires OPENROUTER_API_KEY in the environment. Course-specific
 // knobs (models, embedding model) come from course_config.features.chat.
 
-import { readFileSync } from "fs";
-import { join } from "path";
+// NOTE: When deploying from a separate outputDirectory (like dist/), the
+// serverless function bundle should not assume the static assets exist on the
+// runtime filesystem. We therefore load JSON via fetch() from the deployment
+// origin.
 
 const DEFAULT_PRESET = "balanced";
 const TOP_K = 3;
@@ -26,20 +28,24 @@ const NDJSON_HEADERS = {
 // ─────────────────────── Config (cached) ───────────────────────
 
 let _configCache = null;
-function loadConfig() {
+async function loadConfig(origin) {
   if (_configCache) return _configCache;
-  const path = join(process.cwd(), "course_config.json");
-  _configCache = JSON.parse(readFileSync(path, "utf-8"));
+  const url = new URL("/course_config.json", origin).toString();
+  const resp = await fetch(url, { cache: "no-store" });
+  if (!resp.ok) {
+    const body = await resp.text();
+    throw new Error(`Could not load course_config.json (${resp.status}): ${body}`);
+  }
+  _configCache = await resp.json();
   return _configCache;
 }
 
-function chatConfig() {
-  const cfg = loadConfig();
+function chatConfig(cfg) {
   return (cfg.features && cfg.features.chat) || {};
 }
 
-function presetModels(preset) {
-  const cc = chatConfig();
+function presetModels(preset, cfg) {
+  const cc = chatConfig(cfg);
   const models = cc.chat_models || {};
   const primary = models[preset];
   if (!primary) return [];
@@ -53,11 +59,15 @@ function presetModels(preset) {
 // ─────────────────────── Chunks loader (cached) ───────────────────────
 
 let _chunksCache = null;
-function loadChunks() {
+async function loadChunks(origin) {
   if (_chunksCache) return _chunksCache;
-  const path = join(process.cwd(), "generated", "chat", "chunks.json");
-  const raw = readFileSync(path, "utf-8");
-  _chunksCache = JSON.parse(raw);
+  const url = new URL("/generated/chat/chunks.json", origin).toString();
+  const resp = await fetch(url, { cache: "no-store" });
+  if (!resp.ok) {
+    const body = await resp.text();
+    throw new Error(`Could not load generated/chat/chunks.json (${resp.status}): ${body}`);
+  }
+  _chunksCache = await resp.json();
   return _chunksCache;
 }
 
@@ -106,8 +116,7 @@ function topKChunks(queryVec, chunks, sectionHint, k) {
 
 // ─────────────────────── System prompt (course-agnostic) ───────────────────────
 
-function buildSystemPrompt({ pageContext, bookContext }) {
-  const cfg = loadConfig();
+function buildSystemPrompt({ pageContext, bookContext, cfg }) {
   const courseName = cfg.course_name || "this course";
   const courseCode = cfg.course_code || "";
   const university = cfg.university || "";
@@ -216,12 +225,20 @@ function openRouterSseToNdjsonStream(upstreamBody) {
 // ─────────────────────── POST handler ───────────────────────
 
 export async function POST(request) {
+  const origin = new URL(request.url).origin;
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) {
     return Response.json({ error: "OPENROUTER_API_KEY not set in environment." }, { status: 500 });
   }
 
-  const cc = chatConfig();
+  let cfg;
+  try {
+    cfg = await loadConfig(origin);
+  } catch (err) {
+    return Response.json({ error: err.message || String(err) }, { status: 500 });
+  }
+
+  const cc = chatConfig(cfg);
   if (!cc.enabled) {
     return Response.json({ error: "Chat is disabled in course_config.json." }, { status: 503 });
   }
@@ -255,7 +272,7 @@ export async function POST(request) {
     const embedModel = cc.embed_model || "nvidia/llama-nemotron-embed-vl-1b-v2:free";
     const embedPromise = getEmbedding(searchQuery, apiKey, embedModel);
     let chunks = [];
-    try { chunks = loadChunks(); }
+    try { chunks = await loadChunks(origin); }
     catch (err) { console.warn("[chat] could not load chunks.json:", err.message); }
     const queryVec = await embedPromise;
     if (chunks.length > 0) {
@@ -269,14 +286,14 @@ export async function POST(request) {
     console.warn("[chat] retrieval failed:", err.message);
   }
 
-  const systemPrompt = buildSystemPrompt({ pageContext, bookContext });
+  const systemPrompt = buildSystemPrompt({ pageContext, bookContext, cfg });
   const messages = [
     { role: "system", content: systemPrompt },
     ...history.slice(-10),
     { role: "user", content: question },
   ];
 
-  const candidates = presetModels(preset);
+  const candidates = presetModels(preset, cfg);
   if (!candidates.length) {
     return Response.json({ error: "No chat models configured." }, { status: 500 });
   }
@@ -327,10 +344,12 @@ export async function POST(request) {
   );
 }
 
-export async function GET() {
+export async function GET(request) {
   try {
-    const cc = chatConfig();
-    const chunks = loadChunks();
+    const origin = new URL(request.url).origin;
+    const cfg = await loadConfig(origin);
+    const cc = chatConfig(cfg);
+    const chunks = await loadChunks(origin);
     return Response.json({
       status: "ok",
       enabled: !!cc.enabled,

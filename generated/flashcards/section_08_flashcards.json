@@ -1,0 +1,87 @@
+[
+  {
+    "front": "What is payout policy in corporate finance?",
+    "back": "Payout policy is how a firm decides between retaining free cash flow (for new investments or cash reserves) and distributing it to shareholders via cash dividends or share repurchases.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "State the Modigliani-Miller dividend irrelevance proposition.",
+    "back": "In perfect capital markets, holding investment policy fixed, the choice of dividend policy does not affect the firm's share price; shareholders can replicate any desired payout pattern through homemade dividends.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is a homemade dividend and how does it support MM irrelevance?",
+    "back": "A homemade dividend is cash created by an investor selling shares (if the firm repurchases) or reinvesting dividends (if the firm pays dividends). It shows investors can undo the firm's payout choice, making dividends and repurchases equivalent in perfect markets.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Give the formula for the ex-dividend stock price in a perfect market and explain its intuition.",
+    "back": "$P_ex = P_cum - Div$. On the ex-dividend date the stock price drops by exactly the dividend amount because the buyer does not receive the upcoming dividend.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Define the effective dividend tax rate $\\tau_d^*$ and its interpretation.",
+    "back": "$\\tau_d^* = (\\tau_d - \\tau_g) / (1 - \\tau_g)$. It measures the additional tax cost (over capital gains) of receiving \\$1 as a dividend. $\\tau_d^* > 0$ means dividends are tax-disadvantaged; $\\tau_d^* < 0$ means they are tax-advantaged.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What are clientele effects in the context of dividend policy?",
+    "back": "Clientele effects arise when firms attract investors whose tax preferences match the firm's payout policy (e.g., high-tax individuals prefer low-dividend stocks; tax-exempt institutions and corporations prefer high-dividend stocks).",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Explain the dividend puzzle.",
+    "back": "The dividend puzzle is the empirical observation that many firms pay substantial dividends even when dividends are taxed more heavily than capital gains, contrary to the tax-based prediction of zero dividends. It is partially explained by signaling, clientele effects, and agency considerations.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "What is the tax disadvantage of retaining cash ($\\tau_{\\text{retain}}^*$) and its simplification for institutional investors?",
+    "back": "$\\tau_retain* = 1 - [(1-\\tau_c)(1-\\tau_g)]/(1-\\tau_i)$. For institutional investors with $\\tau_g = \\tau_i = 0, \\tau_retain* = \\tau_c, i.e., the full corporate tax rate is a cost of retention.$",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Describe dividend smoothing and why it makes dividend changes informative.",
+    "back": "Dividend smoothing is the practice of keeping dividends stable and changing them infrequently relative to volatile earnings. Because changes are rare, a dividend increase or cut is seen as a strong signal about management's confidence in future earnings.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "According to empirical evidence, what are the average abnormal returns around dividend announcements?",
+    "back": "A 10%+ dividend increase generates about +1.34% abnormal return; a 10%+ dividend cut generates about -3.71% abnormal return.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Why is a share repurchase considered a credible signal that a stock is undervalued?",
+    "back": "Repurchasing overvalued shares destroys value for remaining shareholders; a manager acting in long-term shareholders' interest will repurchase only when shares appear cheap, making the announcement a credible undervaluation signal.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the typical market reaction to an open-market repurchase announcement versus a tender offer?",
+    "back": "Open-market repurchase announcements raise the stock price by about +3% on average; tender offers generate about +12% average reaction.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Distinguish between a stock dividend and a stock split.",
+    "back": "A stock dividend distributes additional shares (usually <50%); a stock split is a large stock dividend ($\\geq 50$%, e.g., 2:1). Both increase shares and reduce price proportionally, leaving total equity value unchanged.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is a spin-off and what tax advantage does it provide compared with a cash distribution of a subsidiary?",
+    "back": "A spin-off is a non-cash special dividend where a parent distributes shares of a subsidiary to shareholders, creating an independent public company. Shareholders defer capital gains tax until they eventually sell the subsidiary shares, making it more tax-efficient than a cash payout.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "In the Genron Corporation example, what is the share price after a \\$2 per share special dividend is paid, assuming a perfect market?",
+    "back": "The ex-dividend price is \\$40; the cum-dividend price before the dividend is \\$42.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "List the four important dates in the dividend payment process and their significance.",
+    "back": "Declaration date - board authorizes dividend; Record date - shareholders on record receive dividend; Ex-dividend date - two business days before record date; buyers on or after this date do not get the dividend; Payable date - dividend is actually distributed.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What are the three main types of share repurchase transactions?",
+    "back": "Open-market repurchase, tender offer (including Dutch auction), and targeted repurchase (negotiated with a major shareholder).",
+    "difficulty": "easy"
+  }
+]

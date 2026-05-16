@@ -1,0 +1,92 @@
+[
+  {
+    "front": "What is the payoff at expiration for a long call option with strike price K and stock price S?",
+    "back": "C = max(S - K, 0)",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the payoff at expiration for a long put option with strike price K and stock price S?",
+    "back": "P = max(K - S, 0)",
+    "difficulty": "easy"
+  },
+  {
+    "front": "State the put-call parity relation for European options on a non-dividend-paying stock.",
+    "back": "C = P + S - PV(K)",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How does the put-call parity formula adjust when the stock pays dividends with present value PV(Div)?",
+    "back": "C = P + S - PV(Div) - PV(K)",
+    "difficulty": "medium"
+  },
+  {
+    "front": "In the binomial option pricing model, what are the formulas for the replicating portfolio's $\\Delta$ (shares) and $B$ (bond amount)?",
+    "back": "$\\Delta  = (C_u - C_d) / (S_u - S_d); B = (C_d - S_d\\cdot \\Delta) / (1 + r_f)$",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Write the Black-Scholes formula for a European call on a non-dividend-paying stock and define $d_1 and d_2.$",
+    "back": "$C = S \\cdot N(d_1) - \\text{PV}(K) \\cdot N(d_2)$, where $d_1 = \\frac{\\ln(S/\\text{PV}(K))}{\\sigma\\sqrt{T}} + \\frac{\\sigma\\sqrt{T}}{2}$ and $d_2 = d_1 - \\sigma\\sqrt{T}$. Assumes a non-dividend-paying stock, constant volatility $\\sigma$, constant risk-free rate, and lognormal stock-price distribution.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "What is implied volatility and how is it obtained from the Black-Scholes model?",
+    "back": "Implied volatility is the $\\sigma  that makes the Black-Scholes formula reproduce the observed market price of an option; it is found by solving the formula numerically for \\sigma.$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Give the risk-neutral probability $p$ in a one-step binomial tree with up state $S_u$, down state $S_d$, current price $S$, and risk-free rate $r_f$.",
+    "back": "p = [(1 + $r_f)S - S_d] / (S_u - S_d)$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How is the option delta ($\\Delta$) interpreted in the Black-Scholes model for a call and a put?",
+    "back": "For a call, $\\Delta = N(d_1) \\in (0, 1)$; for a put, $\\Delta = -(1 - N(d_1)) \\in (-1, 0)$. $\\Delta$ equals the number of shares in the replicating portfolio and the sensitivity of the option price to a \\$1 change in the stock price.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "According to the option-based view of capital structure, what is equity equivalent to in a levered firm with debt face value D and asset value A?",
+    "back": "Equity is a call option on the firm's assets with strike D: E = max(A - D, 0).",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the failure cost index used for in staging investments, and how should stages be ordered?",
+    "back": "Failure Cost Index = [1 - PV(success)] / PV(investment). Stages should be undertaken from highest to lowest index to resolve the most uncertainty per dollar first.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Explain why an American call on a non-dividend-paying stock is never exercised early.",
+    "back": "Early exercise would sacrifice the positive time value (dis(K) + P) inherent in the call; thus holding the option dominates immediate exercise.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "When can early exercise be optimal for an American put on a non-dividend-paying stock?",
+    "back": "Early exercise can be optimal for deep in-the-money puts when the time value becomes negative due to the opportunity cost of not receiving K today.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What does the option to delay an irreversible investment correspond to in financial option terminology?",
+    "back": "The option to delay is equivalent to a call option where the investment cost I is the strike price and the project's current value V is the underlying stock price.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "State the formula for the beta of a call option in terms of the stock beta $\\beta_S$, stock price $S$, option delta $\\Delta$, and option value $C$.",
+    "back": "$\\beta_call = (S\\cdot \\Delta  / C) \\cdot  \\beta_S$",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Define intrinsic value and time value of an option.",
+    "back": "Intrinsic value is the payoff from exercising immediately (amount in-the-money, or zero). Time value is the difference between the current option price and its intrinsic value.",
+    "difficulty": "easy"
+  },
+  {
+    "difficulty": "easy",
+    "front": "What is the difference between a European and an American option?",
+    "back": "A **European** option can be exercised only at expiration. An **American** option can be exercised at any time up to and including expiration. American options are therefore worth at least as much as otherwise-identical European options; the difference is the early-exercise premium."
+  },
+  {
+    "difficulty": "easy",
+    "front": "What does it mean for a call option to be in-the-money, at-the-money, or out-of-the-money?",
+    "back": "For a call with strike $K$ and current stock price $S$: **in-the-money** if $S > K$ (immediate exercise would yield positive intrinsic value); **at-the-money** if $S \\approx K$; **out-of-the-money** if $S < K$ (immediate exercise yields zero — intrinsic value is $\\max(S - K, 0)$)."
+  }
+]

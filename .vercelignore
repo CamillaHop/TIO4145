@@ -1,0 +1,19 @@
+# Keep deployments small and deterministic.
+# This repo contains large raw course materials; they are NOT needed at runtime.
+
+.git/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+
+# Raw materials + prompt templates are not needed on the deployed site.
+resources/
+context/
+prompts/
+
+# IMPORTANT:
+# Do NOT ignore generated/ or web/ — the deployed site fetches JSON from generated/.

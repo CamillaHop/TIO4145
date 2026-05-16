@@ -1,0 +1,92 @@
+[
+  {
+    "front": "What are the four major types of firms in the United States?",
+    "back": "Sole proprietorships, partnerships, limited liability companies (LLCs), and corporations.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the key distinguishing feature of a corporation?",
+    "back": "A corporation is a legally defined, artificial being (judicial person or legal entity) separate from its owners, which enjoys protection under the U.S. Constitution against seizure of its property.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What are the three main tasks of a financial manager within a corporation?",
+    "back": "Making investment decisions, making financing decisions, and managing the firm's cash flows.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the difference between primary and secondary stock markets?",
+    "back": "In the primary market, corporations issue new shares and sell them to investors. In the secondary market, existing shares trade between investors without the corporation's involvement.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What are the four required financial statements that all public companies must produce?",
+    "back": "Balance sheet, income statement, statement of cash flows, and statement of stockholders' equity.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the formula for the market-to-book ratio?",
+    "back": "Market-to-Book Ratio = Market Value of Equity / Book Value of Equity",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What does Net Present Value (NPV) represent in investment decision making?",
+    "back": "NPV represents the difference between the present value of cash inflows (benefits) and the present value of cash outflows (costs). A positive NPV indicates the investment increases firm value.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the formula for the present value of a perpetuity?",
+    "back": "PV = C / r, where C is the constant cash flow and r is the interest rate.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the formula for the present value of an annuity?",
+    "back": "$PV = C \\times [1 - (1 + r)^{-n}] / r$, where $C$ is the constant cash flow, $r$ is the interest rate, and $n$ is the number of periods.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How is the Internal Rate of Return (IRR) defined?",
+    "back": "IRR is the interest rate that sets the net present value of the cash flows equal to zero.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the Law of One Price in finance?",
+    "back": "If equivalent investment opportunities trade simultaneously in different competitive markets, they must trade for the same price in all markets.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What does the Separation Principle state in corporate finance?",
+    "back": "Security transactions in a normal market neither create nor destroy value on their own, so we can evaluate the NPV of an investment decision separately from the firm's financing decision.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How is the risk-free interest rate defined?",
+    "back": "The risk-free interest rate is the rate at which money can be borrowed or lent without risk over a given period.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the Opportunity Cost of Capital?",
+    "back": "The best available expected return offered in the market on an investment of comparable risk and term to the cash flow being discounted.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "When is the IRR rule valid for investment decisions?",
+    "back": "The IRR rule is valid only if the project has a positive NPV for every discount rate below the IRR, which occurs when all negative cash flows precede positive cash flows.",
+    "difficulty": "hard"
+  },
+  {
+    "difficulty": "hard",
+    "front": "Write the formula for the present value of a growing perpetuity and state the condition under which it is finite.",
+    "back": "$PV = \\dfrac{C_1}{r - g}$, where $C_1$ is the first period cash flow, $r$ is the discount rate, and $g$ is the constant growth rate. The formula requires $r > g$; otherwise the present value is infinite."
+  },
+  {
+    "difficulty": "medium",
+    "front": "How do you convert a nominal interest rate $r_{\\text{nom}}$ to a real interest rate $r_{\\text{real}}$ given inflation $i$?",
+    "back": "The exact Fisher relation is $1 + r_{\\text{real}} = \\dfrac{1 + r_{\\text{nom}}}{1 + i}$, i.e. $r_{\\text{real}} = \\dfrac{r_{\\text{nom}} - i}{1 + i}$. For small rates the approximation $r_{\\text{real}} \\approx r_{\\text{nom}} - i$ is often used."
+  },
+  {
+    "difficulty": "hard",
+    "front": "Under what circumstances can the NPV and IRR investment rules give conflicting recommendations?",
+    "back": "Conflicts can arise (1) when cash flows are non-conventional (multiple sign changes → multiple IRRs or no real IRR); (2) when comparing mutually exclusive projects of different scale or timing — IRR is a rate and ignores project size, so it can favour a small high-IRR project over a large positive-NPV project; (3) when borrowing vs. lending interpretations flip the sign convention. In conflicts, follow NPV — it directly measures wealth created."
+  }
+]

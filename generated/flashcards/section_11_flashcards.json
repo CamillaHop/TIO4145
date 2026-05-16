@@ -1,0 +1,87 @@
+[
+  {
+    "front": "What is a real option and how does it relate to the financial option analogy?",
+    "back": "A real option is the right, but not the obligation, to make a specific business decision (invest, expand, defer, abandon) at a given cost (exercise price) on a real asset whose value is uncertain. It applies financial option-pricing logic to non-financial assets, treating the underlying asset value as the stock price and the investment outlay as the strike price.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "In a decision tree, what distinguishes a decision node (□) from an information node (○)?",
+    "back": "A decision node (□) is a point where the manager actively chooses among alternatives; every decision node corresponds to a real option. An information node (○) is a point where an uncertain outcome is revealed, which the manager cannot control but can only respond to.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Write the formula that decomposes the true value of a project into its static NPV and option value of flexibility.",
+    "back": "Project Value = Static NPV + Option Value of Flexibility",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the payoff structure of the option to delay (timing option) and how does it map to a financial call option?",
+    "back": "The option to delay yields a payoff of $\\max(V_T - I, 0)$ at the investment deadline $T$, where $V_T$ is the project value then and $I$ is the required investment. This is the payoff of a European call option with underlying asset value $V_T$ and strike price $I$.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "In the Black-Scholes analogy for a timing option, what real-world quantities correspond to the financial call-option inputs $S$, $K$, $T$, $r_f$, $\\sigma$, and dividend yield?",
+    "back": "S* (ex-dividend project value) = current project asset value minus PV of foregone cash flows; K = required investment (CAPEX); T = investment deadline; $r_f = risk-free rate; \\sigma  = volatility of project value; dividend yield = foregone cash flows from delaying.$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "State the investment rule that determines whether a firm should invest today or wait, using static NPV and the value of the waiting option.",
+    "back": "Invest today iff $\\text{NPV}_{\\text{today}} > C_{\\text{wait}}$, where $C_{\\text{wait}}$ is the Black-Scholes value of the option to delay. If the static NPV exceeds the value of waiting, exercise immediately; otherwise wait.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How does volatility affect the value of the option to wait, and why?",
+    "back": "Higher volatility $\\sigma  increases the option value of waiting because it raises the upside potential while the downside remains capped at zero, just like a financial call option$. The option to wait is most valuable in highly uncertain environments.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What role do foregone cash flows play in the real-options analogy, and how do they influence the timing decision?",
+    "back": "Foregone cash flows from delaying act like dividends on the underlying asset. They reduce the ex-dividend project value S* and erode the value of the waiting option; larger foregone cash flows make immediate investment more attractive.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Define a growth option and explain why it can give a firm value beyond its assets in place.",
+    "back": "A growth option is a real call option on a future investment opportunity created by an initial investment (e.g., R&D, market entry). It has positive value even if the follow-on project is currently unprofitable, because future conditions may improve, adding option value to the firm beyond static DCF of assets in place.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is an abandonment option and how does its payoff resemble a financial put option?",
+    "back": "An abandonment option is a real put option giving the right to shut down or sell a project and recover its salvage value A. Its payoff is max(A - V, 0), where V is the continuation value, analogous to a put with strike A and underlying V.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How does incorporating real options change the expected outcome distribution compared with static DCF or Monte Carlo simulation?",
+    "back": "Real options allow managers to exploit the upside (invest more when conditions are good) and mitigate the downside (scale back or abandon when conditions are bad). This truncates the lower tail and preserves or enhances the upper tail, shifting the effective distribution to the right and raising the expected value above the static DCF or unadjusted Monte Carlo estimate.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "What is an out-of-the-money real option, and why should it not be discarded solely because its static NPV is negative?",
+    "back": "An out-of-the-money real option occurs when the current project value V is less than the required investment I (NPV < 0). It still has positive value as long as there is a non-zero probability that V will exceed I before expiration, so discarding it destroys potential option value.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "In the ANEO wind-park example, what was the calculated value of the option to wait, and how did it compare to the static NPV of investing today?",
+    "back": "The Black-Scholes value of the option to wait was 126.7 MNOK, which far exceeded the static NPV of investing today (25 MNOK). Hence the optimal decision was to wait one year before investing.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Using Megan's swap-meet decision tree, compute the value of the real option to wait (i.e., to decide after seeing the weather).",
+    "back": "Without flexibility: Expected profit = 0.75$\\times 1500 + 0.25\\times ($−100) − 500 = 600. With the option to wait (avoid loss in rain): Expected profit = 0.75$\\times 1500 + 0.25\\times 0$ − 500 = 625. Option value = 625 − 600 = 25.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Explain why static NPV is inappropriate when investments are irreversible and outcomes uncertain.",
+    "back": "Static NPV treats the investment as a now-or-never commitment and ignores managerial flexibility, thus understating project value when sunk costs are irreversible and uncertainty is significant. In such cases, expanded NPV (static NPV + option value) is the correct measure.",
+    "difficulty": "hard"
+  },
+  {
+    "difficulty": "medium",
+    "front": "In the real-options analogy, which financial-option Greek corresponds to the sensitivity of project value to project volatility, and is its sign positive or negative for a typical investment option?",
+    "back": "**Vega** ($\\nu = \\partial C / \\partial \\sigma$). For a typical timing or growth option (call-style), vega is **positive**: higher uncertainty in project value raises the option value, because the option holder benefits asymmetrically from upside outcomes while limiting downside via the option not to invest. This is why high-uncertainty projects can be valuable even when their static NPV is negative."
+  },
+  {
+    "difficulty": "medium",
+    "front": "Why does the \"static NPV\" rule undervalue a project with significant managerial flexibility, even when the static NPV is positive?",
+    "back": "Static NPV assumes all decisions are made now and follows a single expected cash-flow path. Real options let management adapt to information as it arrives — waiting for resolution of uncertainty, expanding if outcomes are good, abandoning if bad. Each option adds value: $\\text{true value} = \\text{static NPV} + \\text{option value}$. Ignoring options understates the project value and can lead to suboptimal \"invest now or never\" decisions when waiting is more valuable."
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "front": "What is the Brundtland definition of sustainable development that anchors sustainable finance?",
+    "back": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Name the three ESG pillars and give one example factor for each.",
+    "back": "Environmental (e.g., GHG emissions), Social (e.g., fair pay), Governance (e.g., board independence).",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Explain the difference between ESG as an input and ESG as an output in financial decision-making.",
+    "back": "ESG as an input treats ESG factors as drivers of risk-adjusted return; ESG as an output treats positive ESG outcomes as goals in themselves, even if financial return is lower.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is a negative externality and why does it cause market failure?",
+    "back": "A negative externality is a cost imposed on third parties not reflected in market prices; it leads firms to over-produce relative to the social optimum, creating market failure because private costs are lower than social costs.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Define double materiality and its two dimensions under the CSRD.",
+    "back": "Double materiality requires assessing (1) financial materiality - how ESG/climate factors affect the company’s cash flows and financial position, and (2) impact materiality - how the company’s activities affect people and the planet.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Distinguish physical climate risk from transition risk, and give an example of each.",
+    "back": "Physical risk: damage from climate events (e.g., wildfires causing PG&E liabilities). Transition risk: asset value changes from shifting to a low-carbon economy (e.g., stranded fossil-fuel assets due to carbon pricing or tech disruption).",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is a stranded asset and how can it arise?",
+    "back": "A stranded asset loses economic value before the end of its useful life due to regulation, technology shifts, or market sentiment (e.g., fossil-fuel reserves becoming unburnable under carbon pricing).",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How is a shadow price used to monetise an environmental impact? Provide the formula.",
+    "back": "Shadow price monetises an environmental impact via $\\text{IPV}_t = \\text{Quantity}_t^E \\times \\text{Shadow Price}^E$, converting tonnes of $\\text{CO}_2$ (or other units) into a monetary value using a welfare-based price derived from policy or social willingness-to-pay.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Write the Ramsey formula for the social discount rate and define each term.",
+    "back": "$r_s = \\delta + \\eta \\cdot g$, where $\\delta$ is the pure rate of time preference, $\\eta$ is the elasticity of marginal utility of consumption, and $g$ is the expected growth rate of per-capita consumption.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "What is Integrated Present Value (IPV) and how does it extend NPV?",
+    "back": "$\\text{IPV} = \\sum_t \\frac{1}{(1+r)^t} \\cdot \\text{FV}_t + b \\cdot \\text{SV} + c \\cdot \\text{EV}$, adding discounted social (SV) and environmental (EV) value flows to standard financial NPV (FV) with weights $b, c \\geq 0$ chosen by the decision maker. Extends NPV by pricing impacts beyond purely financial cash flows.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Explain the key difference between scenario analysis and risk analysis in climate finance.",
+    "back": "Scenario analysis describes possible futures without probabilities (stress-test); risk analysis attaches probabilities and loss distributions to outcomes.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "List the three scopes of greenhouse gas emissions under ESRS E1 and indicate which is typically largest.",
+    "back": "Scope 1: direct emissions; Scope 2: indirect from purchased electricity/heat; Scope 3: all other value-chain emissions. Scope 3 is typically the largest and most complex.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What are the three criteria for an economic activity to be EU Taxonomy-aligned?",
+    "back": "(1) Substantially contributes to at least one of six environmental objectives; (2) Does no significant harm to the other five; (3) Complies with minimum social safeguards.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How does a sustainability-linked bond (SLB) differ from a green bond?",
+    "back": "An SLB’s financial terms (e.g., coupon) step up if the issuer misses pre-agreed ESG targets, incentivising issuer-level performance; a green bond restricts use of proceeds to environmental projects but does not tie terms to ESG performance.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Under the CSRD, which companies are in scope? Give at least two criteria.",
+    "back": "Companies meeting at least two of: >250 employees, >€40 m revenue, >€20 m total assets, or listed entities with >10 employees or >€20 m revenue, or non-EU firms with >€150 m EU revenue and an EU subsidiary/branch.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What does the acronym ESRS stand for and what is its role in the CSRD?",
+    "back": "European Sustainability Reporting Standards; they are the technical standards that companies must follow to produce the sustainability statement required by the CSRD.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Give one limitation of the Integrated Present Value framework mentioned in the material.",
+    "back": "Shadow prices are uncertain and methodology-dependent; company-level social/environmental data is often unavailable or unaudited; the weights b and c are value-laden.",
+    "difficulty": "hard"
+  }
+]

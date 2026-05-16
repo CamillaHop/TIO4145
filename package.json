@@ -2,6 +2,9 @@
   "name": "course-study-skeleton",
   "private": true,
   "type": "module",
+  "scripts": {
+    "vercel-build": "node scripts/vercel_build.mjs"
+  },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0"

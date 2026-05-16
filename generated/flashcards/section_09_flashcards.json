@@ -1,0 +1,87 @@
+[
+  {
+    "front": "What is the formula for the Weighted Average Cost of Capital (WACC) incorporating the interest tax shield?",
+    "back": "$r_{wacc} = \\frac{E}{E+D}\\,r_E + \\frac{D}{E+D}\\,r_D(1-\\tau_c)$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How is the unlevered cost of capital ($r_U$) defined and what relationship does it satisfy for a tax-paying levered firm?",
+    "back": "$r_U = \\frac{E}{E+D}\\,r_E + \\frac{D}{E+D}\\,r_D$ (pre-tax WACC) and satisfies $r_D < r_{\\text{wacc}} < r_U < r_E$.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Write the Adjusted Present Value (APV) valuation equation and explain when it is preferred over WACC.",
+    "back": "$V^L = V^U + \\text{PV(Interest Tax Shield)}$. APV is preferred when the debt-to-value ratio varies over time or when the tax shield's risk differs from the asset risk — it explicitly separates the unlevered value from the financing side-effect.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the Free Cash Flow to Equity (FCFE) formula and how is it used in the Flow-to-Equity (FTE) method?",
+    "back": "FCFE = FCF - (1-$\\tau_c)\\times\\text{Interest} + \\text{Net Borrowing}; discount FCFE at the equity cost of capital r_E to obtain equity value.$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Define debt capacity $D_t$ under a constant leverage policy and give its formula.",
+    "back": "Debt capacity is the level of debt a project supports at date t consistent with the target debt-to-value ratio d: $D_t = d \\times V^L_t.$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How is the interest tax shield in period t calculated, and what determines the appropriate discount rate for the shield?",
+    "back": "Tax Shiel$d_t = \\tau_c \\times r_D \\times D_{t-1}; discount at r_U if leverage is proportional to firm value (target leverage), otherwise at r_D for a predetermined debt schedule.$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "When is the WACC method the simplest choice for valuation?",
+    "back": "When the firm maintains a constant debt-to-value ratio over the life of the investment.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "When is the APV method preferred over WACC and FTE?",
+    "back": "When leverage varies over time (e.g., LBO debt paydown) or when an explicit value of the tax shield is needed.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "In what situation is the Flow-to-Equity (FTE) method most useful?",
+    "back": "When the equity value is the direct object of valuation and other securities’ values are hard to observe.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Give the project-based WACC formula that avoids separately computing $r_E.$",
+    "back": "$r_{wacc} = r_U - d\\,\\tau_c\\,r_D$",
+    "difficulty": "hard"
+  },
+  {
+    "front": "How do you calculate continuation (terminal) value using the EBITDA multiple approach?",
+    "back": "Continuation EV = EBITD$A_T \\times (EBITDA Multiple)$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How do you calculate continuation value using the Gordon growth DCF approach?",
+    "back": "C$V_T = FCF_{T+1} / (r_{wacc} - g)$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the purpose of sensitivity analysis in a valuation model?",
+    "back": "To examine how estimated firm value changes as key assumptions vary, identifying which inputs drive value and assessing robustness to uncertainty.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Write the Cash Multiple formula and state its main limitation.",
+    "back": "Cash Multiple = Total Cash Received / Total Cash Invested; it ignores the time value of money and investment risk.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "In the Ideko case study, what were the two most important sensitivity parameters and their approximate impact on equity value?",
+    "back": "Exit EBITDA multiplier (each 1.0$\\times  adds$ ≈\\$20M) and unlevered cost of capital $r_U; at r_U = 14$% equity value still exceeds investment but implied growth becomes unrealistic.",
+    "difficulty": "hard"
+  },
+  {
+    "difficulty": "easy",
+    "front": "Name the three discounted-cash-flow valuation methods that incorporate leverage and the cash flow each discounts.",
+    "back": "(1) **WACC** discounts free cash flow (FCF) at $r_{\\text{wacc}}$. (2) **APV** discounts FCF at $r_U$ and adds $PV$ of the interest tax shield separately. (3) **FTE (Flow-to-Equity)** discounts free cash flow to equity (FCFE) at $r_E$. All three give the same value when consistently applied."
+  },
+  {
+    "difficulty": "hard",
+    "front": "A project with constant debt-to-value ratio $d = 0.4$ and perpetual unlevered cash flow $FCF = 10$ million has $r_U = 12\\%$, $r_D = 5\\%$, and $\\tau_c = 25\\%$. Compute the levered project value using the WACC method.",
+    "back": "Project WACC (avoiding $r_E$): $r_{\\text{wacc}} = r_U - d \\cdot \\tau_c \\cdot r_D = 0.12 - 0.4 \\cdot 0.25 \\cdot 0.05 = 0.115 = 11.5\\%$. For a perpetuity, $V^L = FCF / r_{\\text{wacc}} = 10 / 0.115 \\approx 86.96$ million. The tax shield raises value from $V^U = 10/0.12 \\approx 83.33$ million by about \\$3.6 million."
+  }
+]

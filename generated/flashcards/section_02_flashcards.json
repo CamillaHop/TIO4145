@@ -1,0 +1,87 @@
+[
+  {
+    "front": "What is the formula for yield to maturity (YTM) of a zero-coupon bond with face value FV, price P, and n periods to maturity?",
+    "back": "YT$M_n = (FV/P)^(1/n) - 1$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How is the YTM of a coupon bond defined, and why is it solved numerically?",
+    "back": "The YTM of a coupon bond is the single rate y that equates the bond's price to the present value of its promised cash flows: P = CPN * (1/y)*(1 - 1/(1+y)^N) + FV/(1+y)^N. There is no closed-form solution for y, so it must be solved numerically (trial-and-error, spreadsheet RATE, or IRR).",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Explain the pull-to-par effect for a premium bond and a discount bond when YTM remains constant.",
+    "back": "A premium bond's price drifts downward toward par as maturity approaches, while a discount bond's price drifts upward toward par; a bond selling at par stays at par. All bond prices converge to face value at maturity.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What does modified duration measure, and how can it be used to approximate the price change from a 1% yield increase?",
+    "back": "Modified duration measures the percentage price sensitivity of a bond to a 1-percentage-point change in its YTM. A 1 percentage-point rise in yield reduces the bond's price by approximately its modified duration (in percent).",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Define credit spread and state what it compensates investors for.",
+    "back": "Credit spread = YT$M_corporate - YTM_Treasury (same maturity)$. It compensates investors for expected default losses and the systematic risk of those losses.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Why is the YTM of a corporate bond always greater than its expected return when default risk exists?",
+    "back": "YTM uses promised cash flows; expected return uses expected cash flows, which are lower due to possible default. Default risk is also systematic, requiring a risk premium, so YTM overstates the true expected return.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Write the incremental unlevered net income formula used in capital budgeting and explain why interest expense is excluded.",
+    "back": "Unlevered Net Income = (Revenues - Costs - Depreciation) $\\times  (1 - \\tau_c)$. Interest expense is excluded to keep the investment decision separate from financing decisions; financing effects are captured later via cost of capital or APV.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Provide the two equivalent expressions for free cash flow (FCF) from a project.",
+    "back": "Two equivalent expressions: $\\text{FCF} = (\\text{Rev} - \\text{Costs} - \\text{Dep}) \\times (1 - \\tau_c) + \\text{Dep} - \\text{CapEx} - \\Delta\\text{NWC}$, or equivalently $\\text{FCF} = (\\text{Rev} - \\text{Costs}) \\times (1 - \\tau_c) - \\text{CapEx} - \\Delta\\text{NWC} + \\tau_c \\times \\text{Dep}$.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the depreciation tax shield, and why should firms use the most accelerated allowable depreciation schedule?",
+    "back": "Depreciation tax shield = $\\tau_c \\times  Depreciation$. It reduces taxable income, providing a tax saving. Accelerating depreciation brings forward the tax shield, increasing its present value because earlier cash flows are worth more.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How does an increase in net working capital ($\\Delta\\text{NWC} > 0$) affect free cash flow, and what happens to NWC at project termination?",
+    "back": "An increase in NWC ties up cash, reducing FCF. At project end, NWC is recovered (receivables collected, inventory liquidated, payables paid), generating a positive FCF contribution.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Distinguish sunk cost from opportunity cost, and state whether each should be included in incremental project analysis.",
+    "back": "Sunk cost: unrecoverable cost already incurred; must be excluded. Opportunity cost: value foregone by using a resource in the project instead of its next-best alternative; must be included.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What does break-even analysis determine in capital budgeting, and give one example of a break-even variable from the HomeNet case.",
+    "back": "Break-even analysis finds the parameter value at which NPV = 0, indicating the margin of safety. Example: HomeNet break-even units sold/yr = 77,121 (vs. initial 100,000).",
+    "difficulty": "medium"
+  },
+  {
+    "front": "In sensitivity analysis, what does varying one parameter at a time reveal about a project?",
+    "back": "It shows which inputs most affect NPV, highlighting the critical assumptions that deserve the most scrutiny during estimation and monitoring during execution.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "How is terminal (continuation) value calculated under constant growth, and how is it incorporated into NPV?",
+    "back": "Terminal value at year T = FC$F_{T+1}/(r - g) = FCF_T\\times (1+g)/(r - g)$. This value is discounted back to present and added to the sum of present values of explicitly forecasted FCFs.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "State the relationship between a bond's coupon rate, its YTM, and whether it trades at a premium, par, or discount.",
+    "back": "If coupon rate > YTM $\\to  premium (P > FV); coupon rate = YTM \\to  par (P = FV); coupon rate < YTM \\to  discount (P < FV).$",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What does the Law of One Price imply about the zero-coupon yield curve and pricing of default-free coupon bonds?",
+    "back": "By the Law of One Price, the risk-free rate for horizon n equals the YTM of a default-free zero-coupon bond of that maturity. The zero-coupon yield curve (spot rates) can price any default-free bond via P = $\\Sigma  CPN/(1+YTM_t)^t + FV/(1+YTM_N)^N.$",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Explain why a zero-coupon bond can have higher interest rate sensitivity (duration) than a coupon bond with longer maturity.",
+    "back": "All cash flows of a zero-coupon bond occur at maturity, giving it maximal weight on distant payments and thus higher duration. A coupon bond receives earlier cash flows, lowering its effective duration even if its maturity is longer.",
+    "difficulty": "hard"
+  }
+]

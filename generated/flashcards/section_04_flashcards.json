@@ -1,0 +1,92 @@
+[
+  {
+    "front": "What is the definition of portfolio weight $x_i$ and what constraint must the weights satisfy?",
+    "back": "Portfolio weight $x_i$ is the fraction of total portfolio value invested in security $i$: $x_i = \\frac{\\text{Value of investment } i}{\\text{Total portfolio value}}$. All weights must sum to one: $\\sum_i x_i = 1$.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How is covariance between two returns defined, and what does its sign indicate?",
+    "back": "Covariance is defined as $\\text{Cov}(R_i,R_j)=E[(R_i-E[R_i])(R_j-E[R_j])]$. A positive covariance means returns tend to move together; a negative covariance means they tend to move in opposite directions.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the formula for correlation and what is its range?",
+    "back": "Correlation is $\\text{Corr}(R_i,R_j)=\\frac{\\text{Cov}(R_i,R_j)}{SD(R_i)\\,SD(R_j)}$ and always lies between $-1$ and $+1$.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Write the variance formula for a two-stock portfolio with weights $x_1$, $x_2$ and explain the role of the cross-term.",
+    "back": "$\\text{Var}(R_p)=x_1^2\\text{Var}(R_1)+x_2^2\\text{Var}(R_2)+2x_1x_2\\text{Cov}(R_1,R_2)$. The cross-term shows how the co-movement of the stocks affects total risk; lower correlation reduces this term and thus portfolio variance.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Describe the efficient frontier and what it means for a portfolio to be inefficient.",
+    "back": "The efficient frontier is the set of portfolios offering the highest expected return for each level of volatility. A portfolio is inefficient if another portfolio exists with higher expected return and lower (or equal) volatility - i.e., it lies below or to the right of the frontier.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the Sharpe ratio and why is the tangent portfolio important?",
+    "back": "Sharpe ratio = $(E[R_P]-r_f)/SD(R_P)$, measuring excess return per unit of risk. The tangent (efficient) portfolio has the highest Sharpe ratio; combining the risk-free asset with this portfolio yields the best possible risk-return trade-off for any investor.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "State the equation of the Capital Market Line (CML) and what types of portfolios lie on it.",
+    "back": "$E[R_{xCML}]=r_f+x(E[R_{Mkt}]-r_f)$ and $SD(R_{xCML})=x\\,SD(R_{Mkt})$. Only the market portfolio and combinations of the market portfolio with the risk-free asset lie on the CML.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "List the three core assumptions of the CAPM.",
+    "back": "1. No frictions: competitive prices, same risk-free borrowing/lending rate. 2. Efficient portfolio holding: all investors hold efficient portfolios. 3. Homogeneous expectations: identical beliefs about returns, volatilities, and correlations.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Under the CAPM, why is the market portfolio considered the efficient portfolio?",
+    "back": "With homogeneous expectations all investors identify the same tangent (efficient) portfolio. Market clearing requires that the aggregate risky holdings (the market portfolio) equal this demanded efficient portfolio, so the market portfolio is efficient.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Define beta of a security with respect to the market and give two equivalent expressions.",
+    "back": "$\\beta_i = \\frac{\\text{Cov}(R_i,R_{Mkt})}{\\text{Var}(R_{Mkt})} = \\frac{SD(R_i)\\,\\text{Corr}(R_i,R_{Mkt})}{SD(R_{Mkt})}$. It measures the security’s systematic (undiversifiable) risk.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Write the CAPM (Security Market Line) equation and interpret its components.",
+    "back": "$E[R_i]=r_f+\\beta_i(E[R_{Mkt}]-r_f)$. The risk-free rate compensates for time value; the beta-scaled market risk premium compensates for systematic risk.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How does the beta of a portfolio relate to the betas of its individual securities?",
+    "back": "The portfolio beta is the weighted average of the constituent betas: $\\beta_P=\\sum_i x_i \\beta_i$.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Explain the difference between the CML and the SML in terms of the risk measure plotted on the x-axis and the set of assets to which each applies.",
+    "back": "The CML plots expected return against total volatility (SD) and applies only to efficient (fully diversified) portfolios. The SML plots expected return against beta (systematic risk) and applies to all securities and portfolios, including individual stocks.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What does it mean if a security plots above the SML? Below the SML?",
+    "back": "Above the SML: the security offers higher expected return than required for its beta (positive alpha), indicating it is underpriced. Below the SML: the security offers too little return for its beta (negative alpha), indicating it is overpriced.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "In the worked example of the Omega Fund, compute the beta of the real estate fund and its required return given $E[R_O]=15\\%$, $SD(R_O)=20\\%$, $r_f=3\\%$, $SD(R_{re})=35\\%$, and $\\text{Corr}(R_{re},R_O)=0.10$.",
+    "back": "$\\beta_{re}^O = \\frac{35\\% \\times 0.10}{20\\%}=0.175$. Required return $r_{re}=3\\%+0.175\\times(15\\%-3\\%)=3\\%+2.1\\%=5.1\\%$.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Why does diversification not eliminate all risk in a large portfolio, according to the text?",
+    "back": "As the number of stocks grows, idiosyncratic (firm-specific) variance is diversified away, but the average covariance (market-wide risk) remains, setting a floor on portfolio volatility.",
+    "difficulty": "medium"
+  },
+  {
+    "difficulty": "hard",
+    "front": "In a two-stock portfolio with weights $x_1, x_2$ and stock volatilities $\\sigma_1, \\sigma_2$, derive the portfolio volatility under perfect negative correlation ($\\rho = -1$) and find weights that drive portfolio variance to zero.",
+    "back": "With $\\rho = -1$, $\\sigma_p^2 = (x_1\\sigma_1 - x_2\\sigma_2)^2$, so $\\sigma_p = |x_1\\sigma_1 - x_2\\sigma_2|$. Setting $\\sigma_p = 0$ gives $x_1\\sigma_1 = x_2\\sigma_2$. Combined with $x_1 + x_2 = 1$: $x_1 = \\dfrac{\\sigma_2}{\\sigma_1 + \\sigma_2}$, $x_2 = \\dfrac{\\sigma_1}{\\sigma_1 + \\sigma_2}$. Perfect negative correlation thus allows a riskless portfolio of two risky assets — the only case where diversification can eliminate all risk."
+  },
+  {
+    "difficulty": "hard",
+    "front": "Why is the tangent portfolio the unique optimal portfolio of risky assets for all investors under the CAPM assumptions?",
+    "back": "Any investor combines risky assets with the risk-free asset. The set of efficient combinations forms a line from $r_f$ tangent to the efficient frontier. The tangent point is the portfolio with the highest Sharpe ratio — adding more of any other risky portfolio would shift the line below tangency. Since the tangent point depends only on expected returns and the covariance matrix (not on individual risk preferences), all investors with the same beliefs hold the same risky portfolio, just in different proportions with $r_f$. In equilibrium, this common portfolio equals the market portfolio."
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "front": "What does the Dividend-Discount Model (DDM) state about a stock's current price?",
+    "back": "The current stock price equals the present value of all expected future dividends.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Write the Gordon growth (constant-dividend growth) formula for a stock price.",
+    "back": "P0 = Div1 / (rE - g)",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is the sustainable growth rate g and how is it calculated?",
+    "back": "g = Retention Rate $\\times  Return on New Investment.$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "In the constant-growth DDM, what condition must hold for the formula to be economically meaningful?",
+    "back": "The growth rate g must be less than the equity cost of capital rE (g < rE).",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How is the equity cost of capital rE expressed using dividend yield and capital gain rate?",
+    "back": "rE = Div1/P0 + (P1 - P0)/P0 = Dividend Yield + Capital Gain Rate.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What does the Discounted Free Cash Flow (DCF) model value and at what discount rate?",
+    "back": "It values the firm's enterprise value (V0) as the present value of future free cash flow, discounted at the weighted average cost of capital (rwacc).",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Given enterprise value V0, cash, debt, and shares outstanding, how do you compute share price P0?",
+    "back": "P0 = (V0 + Cash0 - Debt0) / SharesOutstanding.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Name two common valuation multiples and indicate when each is preferred.",
+    "back": "Forward P/E (P0/EPS1) for growth/payout comparisons; EV/EBITDA is preferred when firms have different leverage.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "What is a key limitation of using valuation multiples for firm valuation?",
+    "back": "Multiples assume that comparable firms have the same risk, growth, and accounting policies as the target firm.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "State the three forms of the Efficient Markets Hypothesis (EMH) as defined by Fama.",
+    "back": "Weak form: past prices fully reflected; Semi-strong form: all public information reflected; Strong form: all information (including private) reflected.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Distinguish between idiosyncratic risk and systematic risk.",
+    "back": "Idiosyncratic risk is firm-specific, uncorrelated across firms, and diversifiable. Systematic risk is market-wide, correlated across all firms, and undiversifiable.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Why does diversifiable (idiosyncratic) risk earn no risk premium in equilibrium?",
+    "back": "Investors can eliminate idiosyncratic risk at no cost through diversification, so they require no extra return for bearing it.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Define beta ($\\beta i) and give its formula.$",
+    "back": "Beta measures a security's sensitivity to market returns: $\\beta i = Cov(Ri, RMkt) / Var(RMkt).$",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Write the Capital Asset Pricing Model (CAPM) equation and explain its components.",
+    "back": "E[Ri] = rf + $\\beta i \\times  (E[RMkt] - rf)$. The risk-free rate rf compensates for time value; the second term is the risk premium proportional to systematic risk (beta).",
+    "difficulty": "hard"
+  },
+  {
+    "front": "What is the market risk premium and what is its typical historical range for U.S. equities?",
+    "back": "Market risk premium = E[RMkt] - rf; historically it has averaged roughly 5-8% per year for U.S. equities.",
+    "difficulty": "medium"
+  },
+  {
+    "difficulty": "easy",
+    "front": "In one sentence, what is the central economic intuition behind the CAPM?",
+    "back": "In equilibrium, investors are only compensated for bearing risk that cannot be diversified away — i.e. systematic (market) risk, measured by $\\beta$ — because idiosyncratic risk can be eliminated at no cost by holding a diversified portfolio."
+  },
+  {
+    "difficulty": "hard",
+    "front": "Starting from the one-period valuation $P_0 = (Div_1 + P_1)/(1 + r_E)$, derive the multi-period DDM by iterating the relation for the future price $P_t$.",
+    "back": "Apply the one-period equation at time 1: $P_1 = (Div_2 + P_2)/(1 + r_E)$. Substitute back: $P_0 = \\dfrac{Div_1}{1+r_E} + \\dfrac{Div_2 + P_2}{(1+r_E)^2}$. Iterating $N$ times gives $P_0 = \\sum_{t=1}^{N} \\dfrac{Div_t}{(1+r_E)^t} + \\dfrac{P_N}{(1+r_E)^N}$. As $N \\to \\infty$, the terminal-price term vanishes in present value (assuming $P_N$ grows slower than $(1+r_E)^N$), giving $P_0 = \\sum_{t=1}^{\\infty} \\dfrac{Div_t}{(1+r_E)^t}$."
+  }
+]

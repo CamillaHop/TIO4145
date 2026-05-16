@@ -1,0 +1,82 @@
+[
+  {
+    "front": "What is the formula for the cost of equity under the CAPM, and what does each term represent?",
+    "back": "$r_i = r_f + \\beta_i (E[R_{\\text{Mkt}}] - r_f)$, where $r_f$ is the risk-free rate, $\\beta_i$ is the stock's beta with the market portfolio, and $(E[R_{\\text{Mkt}}] - r_f)$ is the market risk premium.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How is a value-weighted portfolio constructed, and why is it considered passive?",
+    "back": "Each security’s weight equals its market capitalisation divided by total market cap ($x_i = MV_i / \\Sigma  MV_j)$. It is passive because weights adjust automatically with price changes; no rebalancing is needed except when shares are issued or retired.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What are two common ways to estimate the market risk premium, and what typical range do practitioners use?",
+    "back": "Historical average excess returns (e.g., S&P 500 over T-bills ≈ 5% since 1965) or the fundamental approach using dividend yield plus growth (E[$R_Mkt] = Div1/P0 + g)$. Practitioners usually use a range of 4%-6% over T-bills.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Define alpha ($\\alpha_i$) in the CAPM regression and interpret its sign.",
+    "back": "$\\alpha_i$ is the intercept from regressing a stock's excess return on the market's excess return. $\\alpha_i > 0$ means the stock outperformed the CAPM prediction; $\\alpha_i < 0$ means it underperformed. Under the CAPM, $\\alpha_i = 0$ for all stocks.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "How do you compute the unlevered (asset) beta of a levered firm, and why is it useful?",
+    "back": "$\\beta_U = (E/(E+D)) \\beta_E + (D/(E+D)) \\beta_D$, where $E$ and $D$ are market values of equity and debt. It strips financial leverage to measure the risk of the underlying assets, allowing cost-of-capital estimation for projects with different financing.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Write the WACC formula and explain the role of the corporate tax rate.",
+    "back": "$r_wacc = (E/(E+D)) r_E + (D/(E+D)) r_D (1 - \\tau_C)$. The tax shield reduces the after-tax cost of debt, making WACC lower than the unlevered cost of capital.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "Why does yield to maturity (YTM) overstate the expected return on risky debt, and how is the true debt cost of capital adjusted?",
+    "back": "YTM assumes promised payments; it ignores default risk. The expected return is $r_D = YTM - Pr(default) \\times  Expected Loss Rate$. For speculative-grade bonds the adjustment can be several percentage points.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "When estimating a project’s cost of capital using comparable firms, what steps are taken if the comparable firm has debt?",
+    "back": "First, unlever the comparable's equity beta to get asset beta: $\\beta_U = (E/(E+D)) \\beta_E + (D/(E+D)) \\beta_D$ (or use market-value weights). Then re-lever using the project's target capital structure to get the project's $\\beta_E$ and discount rate. Alternatively, compute the unlevered cost of capital directly as $r_U = (E/(E+D)) r_E + (D/(E+D)) r_D$. Use net debt (debt minus excess cash) and adjust for differences in business risk.",
+    "difficulty": "hard"
+  },
+  {
+    "front": "What are the three forms of the Efficient Markets Hypothesis (EMH), and what type of information does each form say cannot be used to earn abnormal returns?",
+    "back": "Weak form: past prices (technical analysis). Semi-strong form: all public information (news, analyst reports). Strong form: even private (insider) information. EMH says exploitable mispricings are arbitraged away, not that prices are always correct.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Describe the disposition effect and its two main consequences for investors.",
+    "back": "Investors tend to sell winners and hold losers due to loss aversion. It is tax-inefficient (should defer gains, realise losses) and unprofitable, as losers tend to underperform winners by about 3.4% in the following year.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What did Barber and Odean (2000) find regarding turnover and returns for individual investors?",
+    "back": "The highest-turnover individual investors earned annual returns about 6.5 percentage points lower than the lowest-turnover investors, net of trading costs, showing overconfidence leads to excessive trading and underperformance.",
+    "difficulty": "easy"
+  },
+  {
+    "front": "List the four factors in the Fama-French-Carhart (FFC) model and what each captures.",
+    "back": "Mkt - $r_f (market risk), SMB (size premium$: small minus big), HML (value premium: high minus low book-to-market), PR1YR (momentum premium: prior 1-year winners minus losers).",
+    "difficulty": "medium"
+  },
+  {
+    "front": "Give an example of how to compute a stock’s expected monthly return using the FFC model with given factor betas and factor returns.",
+    "back": "E[$R_s] = r_f + \\beta_Mkt(E[R_Mkt]-r_f) + \\beta_SMB E[R_SMB] + \\beta_HML E[R_HML] + \\beta_PR1YR E[R_PR1YR]$. Example: $r_f=0.5$%, $\\beta_Mkt=0.171, E[R_Mkt]-r_f=0.61$%, $\\beta_SMB=0.432, E[R_SMB]=0.25$%, $\\beta_HML=0.419, E[R_HML]=0.38$%, $\\beta_PR1YR=0.121, E[R_PR1YR]=0.70$% $\\to  E[R]=0.956$% per month (~11.5% annual).",
+    "difficulty": "hard"
+  },
+  {
+    "front": "Why is the CAPM still the dominant model for cost-of-capital estimation despite known anomalies?",
+    "back": "CAPM errors are usually smaller than cash-flow forecasting errors; it is simple, theoretically grounded, hard to manipulate, and aligns with how investors assess risk. Surveys show ~73% of CFOs use CAPM always or almost always.",
+    "difficulty": "medium"
+  },
+  {
+    "front": "What is the key intuition behind why holding the market portfolio guarantees an alpha of zero for any investor, assuming rational expectations?",
+    "back": "The average portfolio of all investors equals the market portfolio. If no investor can earn a negative alpha (by holding the market), then no one can earn a positive alpha either; thus the market portfolio must be efficient and yields zero alpha.",
+    "difficulty": "hard"
+  },
+  {
+    "difficulty": "hard",
+    "front": "A firm has $\\beta_E = 1.5$, debt-to-value ratio of 30%, and $\\beta_D = 0.1$. The risk-free rate is 4%, market risk premium 5%, and corporate tax rate 25%. Compute the asset (unlevered) beta and the project WACC.",
+    "back": "Asset beta: $\\beta_U = (E/V)\\beta_E + (D/V)\\beta_D = 0.7 \\times 1.5 + 0.3 \\times 0.1 = 1.08$. Pre-tax WACC: $r_U = r_f + \\beta_U(E[R_{\\text{Mkt}}] - r_f) = 4\\% + 1.08 \\times 5\\% = 9.4\\%$. Cost of equity (re-levered): $r_E = r_f + \\beta_E \\times 5\\% = 11.5\\%$; cost of debt: $r_D = r_f + \\beta_D \\times 5\\% = 4.5\\%$. After-tax WACC: $r_{\\text{wacc}} = 0.7 \\times 11.5\\% + 0.3 \\times 4.5\\% \\times (1 - 0.25) = 8.05\\% + 1.0125\\% = 9.06\\%$."
+  }
+]
