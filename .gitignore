@@ -16,3 +16,9 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Claude Code — keep everything local, including project instructions.
+CLAUDE.md
+.claude/
+.claude.json
+.claude.json.backup

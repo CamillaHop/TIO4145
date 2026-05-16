@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -181,6 +182,104 @@ def call_llm(
     sys.exit(f"ERROR: unknown llm.provider '{provider}' in course_config.json")
 
 
+_VALID_HEX = frozenset("0123456789abcdefABCDEF")
+
+def _repair_latex_escapes(raw: str) -> str:
+    r"""Walk left-to-right through JSON source and fix unpaired backslashes
+    that would otherwise break or silently corrupt json.loads.
+
+    The hard cases this has to handle:
+      \\sum   — already-correct: a literal-backslash escape followed by "sum".
+                Must NOT be touched. Regex-based approaches break here.
+      \sum    — bare LaTeX, the \s escape is invalid JSON → hard error.
+                Repair to \\sum.
+      \frac   — bare LaTeX. \f IS a valid JSON escape (form feed) so json.loads
+                won't error, but it silently corrupts content. Repair anyway
+                whenever \b\f\n\r\t is followed by a letter — those letters
+                always start LaTeX commands in this codebase, never genuine
+                control chars.
+      \n      — at end-of-string or before punctuation: keep as newline escape.
+      \uXXXX  — keep as unicode escape.
+
+    The state machine consumes valid escape sequences as units (so the
+    second \\ of a properly-escaped pair is never independently inspected),
+    and repairs the rest. Safe on already-valid JSON: the only paths that
+    mutate the string are reached only when an unpaired \\X is encountered."""
+    out: list[str] = []
+    i = 0
+    n = len(raw)
+    while i < n:
+        c = raw[i]
+        if c != "\\":
+            out.append(c)
+            i += 1
+            continue
+        # Lone trailing backslash → double it so JSON doesn't choke.
+        if i + 1 >= n:
+            out.append("\\\\")
+            i += 1
+            continue
+        nxt = raw[i + 1]
+        # Valid pair-consume escapes: \\ \" \/ — emit both, skip past them.
+        if nxt in '"\\/':
+            out.append(c)
+            out.append(nxt)
+            i += 2
+            continue
+        # \uXXXX — emit all 6, skip past them.
+        if (
+            nxt == "u"
+            and i + 5 < n
+            and all(ch in _VALID_HEX for ch in raw[i + 2 : i + 6])
+        ):
+            out.append(raw[i : i + 6])
+            i += 6
+            continue
+        # \b \f \n \r \t — control-char escapes. Keep ONLY if not followed
+        # by a letter (which would mean it's actually LaTeX: \beta \frac
+        # \nabla \rho \text). Genuine control-char escapes are followed by
+        # end-of-string, whitespace, punctuation, etc.
+        if nxt in "bfnrt" and not (i + 2 < n and raw[i + 2].isalpha()):
+            out.append(c)
+            out.append(nxt)
+            i += 2
+            continue
+        # Anything else: this backslash starts an invalid (or LaTeX-style)
+        # escape. Repair by emitting "\\" + nxt so json.loads sees a valid
+        # \\ + literal char.
+        out.append("\\\\")
+        out.append(nxt)
+        i += 2
+    return "".join(out)
+
+
+def _extract_json_payload(raw: str) -> str:
+    """Strip whatever non-JSON the model may have wrapped around the payload.
+    Some free-tier models prepend "Here are the flashcards:" or wrap output
+    in stray text. We slice from the first `{` or `[` to the matching closer
+    found at the end."""
+    if not raw:
+        return raw
+    s = raw.strip()
+    # Already starts with JSON? Easy path.
+    if s and s[0] in "{[":
+        return s
+    # Find the first { or [ — whichever comes first.
+    first_obj = s.find("{")
+    first_arr = s.find("[")
+    starts = [p for p in (first_obj, first_arr) if p != -1]
+    if not starts:
+        return s  # nothing JSON-shaped; let json.loads fail with a useful message
+    start = min(starts)
+    # Walk back from the end to find the last } or ].
+    end_obj = s.rfind("}")
+    end_arr = s.rfind("]")
+    end = max(end_obj, end_arr)
+    if end <= start:
+        return s
+    return s[start : end + 1]
+
+
 def call_llm_json(
     prompt: str,
     *,
@@ -190,19 +289,42 @@ def call_llm_json(
 ):
     """call_llm + JSON parse with one retry on parse failure.
 
-    `provider` and `model` are forwarded to call_llm — see its docstring."""
+    Applies a LaTeX-friendly backslash-escape repair pass + a non-JSON
+    preamble stripper before each json.loads attempt. On final failure,
+    prints the raw response so the user can see what the model actually
+    returned. `provider` and `model` are forwarded to call_llm — see its
+    docstring."""
+
+    def _parse(raw):
+        cleaned = _repair_latex_escapes(_extract_json_payload(raw))
+        return json.loads(cleaned)
+
     raw = call_llm(prompt, max_tokens=max_tokens, provider=provider, model=model)
     try:
-        return json.loads(raw)
+        return _parse(raw)
     except json.JSONDecodeError as e:
+        print(
+            f"  WARN: first JSON parse failed ({e}). "
+            f"Raw response begins:\n    {raw[:400]!r}",
+            file=sys.stderr,
+        )
         retry_prompt = (
             prompt
             + "\n\nYour previous response was not valid JSON (parse error: "
             + str(e)
-            + "). Return ONLY the JSON object or array, no preamble, no markdown fences."
+            + "). Return ONLY the JSON object or array, no preamble, no markdown fences. "
+            + "Every backslash inside a string must be doubled (\\\\sum, \\\\frac, \\\\beta)."
         )
         retry_raw = call_llm(retry_prompt, max_tokens=max_tokens, provider=provider, model=model)
-        return json.loads(retry_raw)
+        try:
+            return _parse(retry_raw)
+        except json.JSONDecodeError as e2:
+            sys.exit(
+                f"ERROR: LLM returned non-JSON twice in a row.\n"
+                f"  Final parse error: {e2}\n"
+                f"  Raw response ({len(retry_raw)} chars):\n"
+                f"  ----- BEGIN -----\n{retry_raw[:2000]}\n  ----- END -----"
+            )
 
 
 def gather_source_text(section_id: str, *, max_chars: int | None = None) -> str:

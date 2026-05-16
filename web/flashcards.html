@@ -86,6 +86,10 @@
       sel.innerHTML = state.sections.map(function (s) {
         return '<option value="' + StudySite.escapeHtml(s.id) + '">' + StudySite.escapeHtml(s.title || s.id) + '</option>';
       }).join('');
+      // Make sure the markdown + KaTeX libs are loading before any cards
+      // get drawn so the first render typesets math correctly.
+      StudySite.ensureMarkdown();
+      StudySite.ensureKatex();
       if (state.sections.length) loadSection(state.sections[0].id);
       sel.addEventListener('change', function () { loadSection(sel.value); });
       bindControls();
@@ -125,11 +129,23 @@
     if (!total) {
       setFront('No cards match the current filter.');
       setBack('—', '');
+      typesetCard();
       return;
     }
     var c = state.cards[state.current];
-    setFront(StudySite.escapeHtml(c.front || ''), c.difficulty);
-    setBack(StudySite.escapeHtml(c.back || ''), c.difficulty);
+    // Render as inline markdown so $math$, *italic*, **bold** all work.
+    // KaTeX then walks the card and typesets math after the DOM update.
+    setFront(StudySite.renderInline(c.front || ''), c.difficulty);
+    setBack(StudySite.renderInline(c.back || ''), c.difficulty);
+    typesetCard();
+  }
+
+  // Run KaTeX on the live card DOM. Idempotent — auto-render skips nodes
+  // that are already typeset, so flipping/navigating is cheap.
+  function typesetCard() {
+    StudySite.ensureKatex().then(function () {
+      StudySite.renderMath(document.getElementById('card'));
+    });
   }
 
   function setFront(html, diff) {
