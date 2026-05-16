@@ -15,5 +15,13 @@ resources/
 context/
 prompts/
 
+# This repo contains Python tooling for generating content, but the deployed
+# website is static (dist/) + an optional Node serverless function (api/chat.js).
+# Excluding these prevents Vercel from trying to treat the project as a Python
+# web app.
+main.py
+pyproject.toml
+scripts/**/*.py
+
 # IMPORTANT:
 # Do NOT ignore generated/ or web/ — the deployed site fetches JSON from generated/.
